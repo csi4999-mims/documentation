@@ -7,16 +7,16 @@ $username = $_POST['FUsername'];
 $password = $_POST['FPassword'];
 $email = $_POST['FEmail']
 
-$sql = "INSERT INTO accounts VALUES ( NULL, '$username', '$password', '$email')";
+//$sql = "INSERT INTO profiles VALUES ( NULL, '$username', '$password', '$email')";
 
-$query = $conn->prepare ( $sql );
+//$query = $conn->prepare ( $sql );
 
 //This way may be safer
-$sql = "INSERT INTO users ( username, password, first_name, surname, address, email ) VALUES ( :username, :password, :first_name, :surname, :address, :email )";
+$sql = "INSERT INTO profiles ( :pEmail, :pPass, :fname, :lname, :pPhone, :pPhoneExt ) VALUES ( Email, pass, first-name, last-name, phone, ext )";
 
 $query = $conn->prepare( $sql );
 
-$result = $query->execute( array( ':username'=>$username, ':password'=>$password, ':first_name'=>$first_name, ':surname'=>$surname, ':address'=>$address, ':email'=>$email ) );
+$result = $query->execute( array( ':pEmail'=>$Email, ':pPass'=>$pass, ':fname'=>$firstname, ':lname'=>$lastname, ':pPhone'=>$phone, ':pPhoneExt'=>$ext ) );
 
 if ( $result ){
   echo "<p>Thank you. You have been registered</p>";
