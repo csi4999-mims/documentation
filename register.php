@@ -1,6 +1,9 @@
 <?php
 
-require_once'connection.php';
+
+$site_root = $_SERVER['connection.php'];
+require_once("$site_root");
+
 
 //"F" stands for "Form" because we are grabbing from a form
 $Email = $_POST['email'];
