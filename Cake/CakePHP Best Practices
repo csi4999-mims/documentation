@@ -1,0 +1,9 @@
+BEST PRACTICES FOR CAKEPHP
+
+File Structure:
+-Model
+  -Table
+  -Entity
+  -Behavior
+-Template (View)
+-Controller
