@@ -46,7 +46,7 @@ The view files go in Template/PLURAL CONTROLLER NAME
 Ex. "Template/Users"
   
 Views must have a function in the controller in order to be rendered
-  
+
 ## Controller ##
   
 The controllers use the "php" file extension
