@@ -1,12 +1,10 @@
-Local Development Environment
-=============================
+# Local Development Environment #
 
 This guide is for the creation of a local
 [CakePHP](https://cakephp.org/) development environment on Windows 10
 (though it should work fine for other modern versions of Windows).
 
-Components
-----------
+## Components ##
 
 The tools we will be using for local development are as follows:
 
@@ -14,8 +12,7 @@ The tools we will be using for local development are as follows:
 - [Git Bash](https://git-scm.com/download/win)
 - [Composer](https://getcomposer.org/)
 
-XAMPP Installation & Configuration
-----------------------------------
+## XAMPP Installation & Configuration ##
 
 Grab a copy of the [XAMPP](https://www.apachefriends.org) installer,
 and install it using the default options.  It should offer up a
@@ -46,8 +43,6 @@ To test that Apache's working properly, just point your browser to
 
 <!-- insert picture of XAMPP welcome page -->
 
-Git Bash
---------
 
 If you've been interacting with Git in Windows already, you probably
 already have this installed.  This utility can also be used to create
@@ -67,5 +62,6 @@ the [Git Bash](#git-bash) section ends up not working for you, this
 may be the culprit.  Just add an environment variable `HOME` which
 points to your `C:\Users\Username` directory (obviously replacing
 `Username` with your _actual username_).
+## Git Bash ##
 
 <!-- insert screenshot of the environment variables dialog window -->
