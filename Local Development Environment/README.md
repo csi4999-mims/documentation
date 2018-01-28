@@ -72,8 +72,21 @@ of the `htdocs` directory, just in case.
 
 Head down into `C:\xampp\htdocs\` and delete everything that's in
 there.  We'll need the directory to be empty for the next step.  Now,
-in Git Bash, run `cd /c/xampp/htdocs` to change directory to the
-`htdocs` subdirectory of XAMPP.
+in Git Bash, run the following commands:
+
+```bash
+cd /c/xampp
+git clone git@github.com:csi4999-mims/Website.git htdocs
+```
+
+This will clone the Website repository into the `C:\xampp\htdocs`
+directory.  If you want to use the https method instead of the git
+method, just replace `git@github.com:csi4999-mims/Website.git` with
+`https://github.com/csi4999-mims/Website.git`.
+
+_Troubleshooting_: Until the CakePHP files are merged with the master
+branch on GitHub, you may need to `git checkout` whatever branch has
+them available before running the next set of commands.
 
 ## Troubleshooting ##
 
