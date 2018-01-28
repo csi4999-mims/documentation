@@ -88,6 +88,14 @@ _Troubleshooting_: Until the CakePHP files are merged with the master
 branch on GitHub, you may need to `git checkout` whatever branch has
 them available before running the next set of commands.
 
+## Composer ##
+
+Though we have cloned the repo, not all the files necessary to run the
+CakePHP site are in version control.  They are intentionally left out
+because they contain site-specific configurations or sensitive data
+(like passwords).  To get all the necessary files that are not in
+version control, we will use `composer`.
+
 ## Troubleshooting ##
 
 Bash is a UNIX shell, and as such, is subject to most of the trappings
