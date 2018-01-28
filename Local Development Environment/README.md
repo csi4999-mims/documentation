@@ -37,12 +37,14 @@ wherever it makes sense to add it).
 Once that's done, head over to the XAMPP Control Panel and
 start/restart Apache for the changes to take effect.
 
-<!-- insert picture of XAMPP Control Panel here -->
+<!-- ![Screenshot of the XAMPP Control
+Panel](media/xampp-control-panel.png) -->
 
 To test that Apache's working properly, just point your browser to
 `localhost`.  You should see the default XAMPP welcome page.
 
-<!-- insert picture of XAMPP welcome page -->
+<!-- ![Screenshot of XAMPP's welcome
+page](media/xampp-welcome-page.png) -->
 
 ## Git Bash ##
 
@@ -85,4 +87,5 @@ you, this may be the culprit.  Just add an environment variable `HOME`
 which points to your `C:\Users\Username` directory (obviously
 replacing `Username` with your _actual username_).
 
-<!-- insert screenshot of the environment variables dialog window -->
+<!-- ![Windows' environment variables dialog with HOME set to
+C:\Users\User](media/home-environment-variable.png) -->
