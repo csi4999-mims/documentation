@@ -80,7 +80,7 @@ git clone git@github.com:csi4999-mims/Website.git htdocs
 ```
 
 This will clone the Website repository into the `C:\xampp\htdocs`
-directory.  If you want to use the https method instead of the git
+directory.  If you want to use the https method instead of the ssh
 method, just replace `git@github.com:csi4999-mims/Website.git` with
 `https://github.com/csi4999-mims/Website.git`.
 
