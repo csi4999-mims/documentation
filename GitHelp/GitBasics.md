@@ -1,30 +1,30 @@
-#This file contains some basic git commands for using the terminal  
+# This file contains some basic git commands for using the terminal #
   
-##Clone a repo  
+## Clone a repo ##
   
-git clone REPO NAME  
+git clone REPO NAME
   
-Ex. git clone https://github.com/csi4999-mims/documentation.git  
+Ex. git clone https://github.com/csi4999-mims/documentation.git
   
-##Get the latest from the repo  
+## Get the latest from the repo ##
   
-git pull  
+git pull
   
-##Check for unstaged changes  
+## Check for unstaged changes ##
   
-git status  
+git status
   
-##Stage changes  
+## Stage changes ##
   
-git add -A OR git add <file name>  
+git add -A OR git add &lt;file name&gt;
   
-##Commit changes  
+## Commit changes ##
   
-git commit -m "my commit message"  
+git commit -m "my commit message"
   
-##Push changes  
+## Push changes ##
   
-git push  
+git push
 
 
 
