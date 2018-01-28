@@ -77,9 +77,17 @@ instead of an ssh connection, just replace
 `https://github.com/csi4999-mims/Website.git`.
 
 ```bash
+# head down into the xampp directory
 cd /c/xampp
-cp -a htdocs htdocs.orig
+
+# make a backup of the current htdocs directory
+cp -a htdocs htdocs.bak
+
+# delete anything in the htdocs directory, including hidden files
+# (e.g. .git)
 find htdocs -mindepth 1 -delete
+
+# clone the repository from GitHub
 git clone git@github.com:csi4999-mims/Website.git htdocs
 ```
 
