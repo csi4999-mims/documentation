@@ -98,11 +98,43 @@ done before running Composer in the next section.
 
 ## Composer ##
 
+### Installation ###
+
 Though we have cloned the repo, not all the files necessary to run the
 CakePHP site are in version control.  They are intentionally left out
-because they contain site-specific configurations or sensitive data
-(like passwords).  To get all the necessary files that are not in
-version control, we will use `composer`.
+because they contain things like site-specific configurations or
+sensitive data (i.e. usernames and passwords).  To get all the
+necessary files that are not in version control, we will use Composer,
+then configure them for our local environment.
+
+You can download a Windows installer package from
+[getcomposer.org](https://getcomposer.org/Composer-Setup.exe).  Once
+you install the package, you should have the `composer` command
+available from cmd and from Git Bash.  To test whether Git Bash sees
+the new `composer` command, just type `which composer`, and it should
+show you something like `/c/ProgramData/ComposerSetup/bin/composer`.
+
+### Update project tree ###
+
+Run the following commands in Git Bash to "update" the project with
+the missing files.
+
+```bash
+cd /c/xampp/htdocs
+composer update
+```
+
+This should download and install a bunch of dependencies for the
+project, then give you a bunch of "suggestions".  You can safely
+ignore these suggestions, so long as you don't see any errors.
+
+![Screenshot of Git Bash running composer
+update](media/composer-update-1.png)
+
+![Screenshot of Git Bash completing composer
+update](media/composer-update-2.png)
+
+Next, we'll need to configure CakePHP for our local environment.
 
 ## Troubleshooting ##
 
