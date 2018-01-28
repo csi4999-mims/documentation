@@ -37,7 +37,8 @@ wherever it makes sense to add it).
 Once that's done, head over to the XAMPP Control Panel and
 start/restart Apache for the changes to take effect.
 
-![Screenshot of the XAMPP Control Panel](media/xampp-control-panel.png)
+![Screenshot of the XAMPP Control
+Panel](media/xampp-control-panel.png)
 
 To test that Apache's working properly, just point your browser to
 `localhost`.  You should see the default XAMPP welcome page.
@@ -108,4 +109,5 @@ you, this may be the culprit.  Just add an environment variable `HOME`
 which points to your `C:\Users\Username` directory (obviously
 replacing `Username` with your _actual username_).
 
-![Windows' environment variables dialog with HOME set to C:\Users\User](media/home-environment-variable.png)
+![Windows' environment variables dialog with HOME set to
+C:\Users\User](media/home-environment-variable.png)
