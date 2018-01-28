@@ -91,10 +91,10 @@ find htdocs -mindepth 1 -delete
 git clone git@github.com:csi4999-mims/Website.git htdocs
 ```
 
-_Troubleshooting_: Until the CakePHP files are merged with the master
-branch on GitHub, you may need to use `git checkout` to check out
-whatever branch has them available before running Composer in the next
-section.
+_Note_: Until the CakePHP files are merged with the master branch on
+GitHub, you may need to use `git checkout` in the `htdocs` directory
+to check out whatever branch has them available.  This will need to be
+done before running Composer in the next section.
 
 ## Composer ##
 
