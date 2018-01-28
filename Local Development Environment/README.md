@@ -79,12 +79,9 @@ instead of an ssh connection, just replace
 ```bash
 cd /c/xampp
 cp -a htdocs htdocs.orig
-rm -rf htdocs/*
+find htdocs -mindepth 1 -delete
 git clone git@github.com:csi4999-mims/Website.git htdocs
 ```
-
-![Screenshot of Git Bash running each of the above commands in
-sequence](media/htdocs-copy-clear-and-clone.png)
 
 _Troubleshooting_: Until the CakePHP files are merged with the master
 branch on GitHub, you may need to use `git checkout` to check out
