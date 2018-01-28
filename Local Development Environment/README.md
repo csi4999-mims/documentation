@@ -54,39 +54,41 @@ guide, however, will assume you are using Git Bash for Windows.  We'll
 use it to clone the [Website](https://github.com/csi4999-mims/Website)
 repository from GitHub.
 
-_Side Note_: If you have already been communicating with GitHub over
-ssh, great!  If you haven't, please make sure you've shared your
-public ssh key with GitHub, and that Git Bash knows to use that key.
-If you have no idea what any of this means, know that you can safely
-use the https method to clone the repository, but you may need to
-enter your GitHub username and password each time.  For more details
-on how to share an SSH key with GitHub, please check out [this
+If you have already been communicating with GitHub over ssh in Git
+Bash, great; you can skip this paragraph!  If you haven't, you can
+either share an ssh key that Git Bash knows about with GitHub or you
+can use an https connection.  Using an https connection is perfectly
+fine, it just may require you to enter your GitHub credentials each
+time you interact with GitHub.  For more details on how to share an
+SSH key with GitHub, please check out [this
 article](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
-<!-- How to set up your SSH key with GitHub and Git Bash may be part
-of a future article. For the time being, though, we'll just move
-on. -->
+<!-- We may need to create a tutorial on how to create an ssh key in
+Git Bash ond share it with GitHub.  For the time being, though, I'll
+just point them to some other resources. -->
 
-_Optional_: Open up `C:\xampp` in your file manager and make a backup
-of the `htdocs` directory, just in case.
-
-Head down into `C:\xampp\htdocs\` and delete everything that's in
-there.  We'll need the directory to be empty for the next step.  Now,
-in Git Bash, run the following commands:
+We'll need the `C:\xampp\htdocs` directory to be completely empty in
+order to clone our repository into it.  Here are the commands you can
+run in Git Bash to back up the current `htdocs` directory, clear it
+out, then clone the repo.  If you want to use an https connection
+instead of an ssh connection, just replace
+`git@github.com:csi4999-mims/Website.git` with
+`https://github.com/csi4999-mims/Website.git`.
 
 ```bash
 cd /c/xampp
+cp -a htdocs htdocs.orig
+rm -rf htdocs/*
 git clone git@github.com:csi4999-mims/Website.git htdocs
 ```
 
-This will clone the Website repository into the `C:\xampp\htdocs`
-directory.  If you want to use the https method instead of the ssh
-method, just replace `git@github.com:csi4999-mims/Website.git` with
-`https://github.com/csi4999-mims/Website.git`.
+![Screenshot of Git Bash running each of the above commands in
+sequence](media/htdocs-copy-clear-and-clone.png)
 
 _Troubleshooting_: Until the CakePHP files are merged with the master
-branch on GitHub, you may need to `git checkout` whatever branch has
-them available before running the next set of commands.
+branch on GitHub, you may need to use `git checkout` to check out
+whatever branch has them available before running Composer in the next
+section.
 
 ## Composer ##
 
