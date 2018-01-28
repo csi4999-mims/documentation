@@ -27,7 +27,7 @@ CakePHP, is _included_ in XAMPP, but not _enabled_ (see
 details).  To enable it, open up `C:\xampp\php\php.ini` in your
 favorite text editor, and uncomment the line with the following:
 
-```conf
+```ini
 extension=php_intl.dll
 ```
 
