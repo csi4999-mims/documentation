@@ -5,7 +5,7 @@ We are using version 3.x of CakePHP
 When looking up tips online make sure you are looking at version 3.x because it is vary different from 
 2.x  
   
-#File Structure for CakePHP  
+# File Structure for CakePHP  
   
 ## Model  
   
