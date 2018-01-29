@@ -65,7 +65,7 @@ SSH key with GitHub, please check out [this
 article](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
 <!-- We may need to create a tutorial on how to create an ssh key in
-Git Bash ond share it with GitHub.  For the time being, though, I'll
+Git Bash and share it with GitHub.  For the time being, though, I'll
 just point them to some other resources. -->
 
 We'll need the `C:\xampp\htdocs` directory to be completely empty in
