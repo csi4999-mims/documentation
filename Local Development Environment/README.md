@@ -102,8 +102,8 @@ done before running Composer in the next section.
 
 Though we have cloned the repo, not all the files necessary to run the
 CakePHP site are in version control.  They are intentionally left out
-because they contain things like site-specific configurations or
-sensitive data (i.e. usernames and passwords).  To get all the
+because they contain things like environment-specific configurations
+or sensitive data (i.e. usernames and passwords).  To get all the
 necessary files that are not in version control, we will use Composer,
 then configure them for our local environment.
 
