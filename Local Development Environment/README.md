@@ -136,7 +136,7 @@ update](media/composer-update-2.png)
 
 Next, we'll need to configure CakePHP for our local environment.
 
-## CakePHP Environment Configuration ##
+## CakePHP Environment Configuration (WIP) ##
 
 In the `htdocs` directory, there is a template file at
 `config/app.default.php` which we will use as a starting point for our
