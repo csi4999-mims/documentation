@@ -149,9 +149,9 @@ Control Panel:
 ![Screenshot of the phpMyAdmin landing page](media/phpmyadmin.png)
 
 In phpMyAdmin, click on the "User accounts" tab at the top of the
-page, and create a new user account and database for CakePHP.  **Check
-the box for "Create database with same name and grant all
-privileges"** to do this in one fell swoop.
+page, and create a new user account and database for CakePHP.  Check
+the box for "**Create database with same name and grant all
+privileges**" to do this in one fell swoop.
 
 | Field     | Recommended Value                    |
 | ---       | ---                                  |
