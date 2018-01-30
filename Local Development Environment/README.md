@@ -136,6 +136,32 @@ update](media/composer-update-2.png)
 
 Next, we'll need to configure CakePHP for our local environment.
 
+## Database setup ##
+
+We need to set up a database for CakePHP to connect to.  In the XAMPP
+Control Panel:
+
+1. Start Apache if it is not already running.
+2. Start MySQL if it is not already running.
+3. Click the "Config" button for MySQL to open phpMyAdmin in your
+   browser.
+
+![Screenshot of the phpMyAdmin landing page](media/phpmyadmin.png)
+
+In phpMyAdmin, click on the "User accounts" tab at the top of the
+page, and create a new user account and database for CakePHP.  **Check
+the box for "Create database with same name and grant all
+privileges"** to do this in one fell swoop.
+
+| Field     | Recommended Value                    |
+| ---       | ---                                  |
+| User name | cake                                 |
+| Host name | localhost                            |
+| Password  | someG00dPassword (whatever you want) |
+
+![Screenshot of phpMyAdmin with the creation of a cake
+user](media/phpmyadmin-create-new-user.png)
+
 ## CakePHP Environment Configuration (WIP) ##
 
 In the `htdocs` directory, there is a template file at
