@@ -134,8 +134,6 @@ update](media/composer-update-1.png)
 ![Screenshot of Git Bash completing composer
 update](media/composer-update-2.png)
 
-Next, we'll need to configure CakePHP for our local environment.
-
 ## Database setup ##
 
 We need to set up a database for CakePHP to connect to.  In the XAMPP
@@ -151,7 +149,7 @@ Control Panel:
 In phpMyAdmin, click on the "User accounts" tab at the top of the
 page, and create a new user account and database for CakePHP.  Check
 the box for "**Create database with same name and grant all
-privileges**" to do this in one fell swoop.
+privileges**" to do this in one step.
 
 | Field     | Recommended Value                    |
 | ---       | ---                                  |
@@ -170,17 +168,16 @@ own configuration file.  Just copy or rename this file to
 `config/app.php`.
 
 There is a section in that file for `Datasources`, which we will
-modify for our environment.
+modify for our environment using the database information from above.
+
+We need to add this database connection information twice: once for
+the "default" database, and once for the "testing" database.  Change
+the `username`, `password`, and `database` fields to match what you
+set up in the [Database setup](#database-setup) step.
+
+Here's the "default" connection:
 
 ```php
-/**
- * Connection information used by the ORM to connect
- * to your application's datastores.
- * Do not use periods in database name - it may lead to error.
- * See https://github.com/cakephp/cakephp/issues/6471 for details.
- * Drivers include Mysql Postgres Sqlite Sqlserver
- * See vendor\cakephp\cakephp\src\Database\Driver for complete list
- */
 'Datasources' => [
     'default' => [
         'className' => 'Cake\Database\Connection',
@@ -193,37 +190,20 @@ modify for our environment.
          * the following line and set the port accordingly
          */
         //'port' => 'non_standard_port_number',
-        'username' => 'my_app',
-        'password' => 'secret',
-        'database' => 'my_app',
+        'username' => 'my_app', // change these fields
+        'password' => 'secret', // change these fields
+        'database' => 'my_app',	// change these fields
         'encoding' => 'utf8',
         'timezone' => 'UTC',
         'flags' => [],
         'cacheMetadata' => true,
         'log' => false,
 
-        /**
-         * Set identifier quoting to true if you are using reserved words or
-         * special characters in your table or column names. Enabling this
-         * setting will result in queries built using the Query Builder having
-         * identifiers quoted when creating SQL. It should be noted that this
-         * decreases performance because each query needs to be traversed and
-         * manipulated before being executed.
-         */
-        'quoteIdentifiers' => false,
+```
 
-        /**
-         * During development, if using MySQL < 5.6, uncommenting the
-         * following line could boost the speed at which schema metadata is
-         * fetched from the database. It can also be set directly with the
-         * mysql configuration directive 'innodb_stats_on_metadata = 0'
-         * which is the recommended value in production environments
-         */
-        //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
+And, farther down, there's the "test" connection:
 
-        'url' => env('DATABASE_URL', null),
-    ],
-
+```php
     /**
      * The test connection is used during the test suite.
      */
@@ -233,9 +213,9 @@ modify for our environment.
         'persistent' => false,
         'host' => 'localhost',
         //'port' => 'non_standard_port_number',
-        'username' => 'my_app',
-        'password' => 'secret',
-        'database' => 'test_myapp',
+        'username' => 'my_app',     // change these fields
+        'password' => 'secret',		// change these fields
+        'database' => 'test_myapp',	// change these fields
         'encoding' => 'utf8',
         'timezone' => 'UTC',
         'cacheMetadata' => true,
@@ -246,6 +226,10 @@ modify for our environment.
     ],
 ],
 ```
+
+## See your environment in action ##
+
+Now just point your browser to `localhost` and see what happens!
 
 ## Troubleshooting ##
 
