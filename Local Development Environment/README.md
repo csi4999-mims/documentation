@@ -14,27 +14,34 @@ The tools we will be using for local development are as follows:
 
 ## XAMPP Installation & Configuration ##
 
+### Installation ###
+
 Grab a copy of the [XAMPP](https://www.apachefriends.org) installer,
 and install it using the default options.  It should offer up a
 suggested location of `C:\xampp`; if you change this location to
 somewhere else, just change it accordingly in the following
-instructions.
+instructions.  It may also ask you if you would like to allow traffic
+through the firewall over public and/or private networks for the
+services it is installing.  Just select all the networks available and
+click "Allow."
 
-After XAMPP is installed, we need to configure PHP in order for
-CakePHP to be happy.  The `intl` extension, which is needed by
-CakePHP, is _included_ in XAMPP, but not _enabled_ (see
+### Configuration ###
+
+After XAMPP is installed, we need to enable the `intl` extension,
+which is needed by CakePHP.  This extension is _included_ in XAMPP,
+but not _enabled_ (see
 [here](https://book.cakephp.org/3.0/en/installation.html) for more
-details).  To enable it, open up `C:\xampp\php\php.ini` in your
-favorite text editor, and uncomment the line with the following:
+details).
+
+To enable it, open `C:\xampp\php\php.ini` in your favorite text
+editor, and uncomment the following line if it exists, or add it if it
+does not exist.
 
 ```ini
 extension=php_intl.dll
 ```
 
-If this line doesn't exist, just add it to the bottom of the file (or
-wherever it makes sense to add it).
-
-Once that's done, head over to the XAMPP Control Panel and
+Once you've saved `php.ini`, head over to the XAMPP Control Panel and
 start/restart Apache for the changes to take effect.
 
 ![Screenshot of the XAMPP Control
@@ -51,13 +58,11 @@ If you've been using Git in Windows already, you probably already have
 [Git Bash](https://git-scm.com/download/win) installed.  If you don't,
 go ahead and install it, or use whatever [Git
 front-end](https://git-scm.com/download/gui/windows) you prefer.  This
-guide, however, will assume you are using Git Bash for Windows.  We'll
-use it to clone the [Website](https://github.com/csi4999-mims/Website)
-repository from GitHub.
+guide, however, will assume you are using Git Bash for Windows.
 
 If you have already been communicating with GitHub over ssh in Git
 Bash, great; you can skip this paragraph!  If you haven't, you can
-either share an ssh key that Git Bash knows about with GitHub or you
+either share with GitHub an ssh key that Git Bash knows about, or you
 can use an https connection.  Using an https connection is perfectly
 fine, it just may require you to enter your GitHub credentials each
 time you interact with GitHub.  For more details on how to share an
@@ -80,14 +85,14 @@ instead of an ssh connection, just replace
 # head down into the xampp directory
 cd /c/xampp
 
-# make a backup of the current htdocs directory
+# optional: make a backup of the current htdocs directory
 cp -a htdocs htdocs.bak
 
 # delete anything in the htdocs directory, including hidden files
 # (e.g. .git)
 find htdocs -mindepth 1 -delete
 
-# clone the repository from GitHub
+# clone the repository from GitHub into the htdocs directory
 git clone git@github.com:csi4999-mims/Website.git htdocs
 ```
 
@@ -108,11 +113,14 @@ necessary files that are not in version control, we will use Composer,
 then configure them for our local environment.
 
 You can download a Windows installer package from
-[getcomposer.org](https://getcomposer.org/Composer-Setup.exe).  Once
-you install the package, you should have the `composer` command
-available from cmd and from Git Bash.  To test whether Git Bash sees
-the new `composer` command, just type `which composer`, and it should
-show you something like `/c/ProgramData/ComposerSetup/bin/composer`.
+[getcomposer.org](https://getcomposer.org/Composer-Setup.exe).  You
+can accept all the defaults during installation.
+
+Once you've installed Composer, you'll need to close and re-open Git
+Bash in order for it to know about the `composer` command.  To test
+whether Git Bash sees the new `composer` command, just type `which
+composer`, and it should show you something like
+`/c/ProgramData/ComposerSetup/bin/composer`.
 
 ### Update project tree ###
 
@@ -136,8 +144,8 @@ update](media/composer-update-2.png)
 
 ## Database setup ##
 
-We need to set up a database for CakePHP to connect to.  In the XAMPP
-Control Panel:
+We need to set up a database for CakePHP to connect to.  To do this,
+in the XAMPP Control Panel:
 
 1. Start Apache if it is not already running.
 2. Start MySQL if it is not already running.
@@ -160,7 +168,7 @@ privileges**" to do this in one step.
 ![Screenshot of phpMyAdmin with the creation of a cake
 user](media/phpmyadmin-create-new-user.png)
 
-## CakePHP Environment Configuration (WIP) ##
+## CakePHP Environment Configuration ##
 
 In the `htdocs` directory, there is a template file at
 `config/app.default.php` which we will use as a starting point for our
@@ -171,9 +179,9 @@ There is a section in that file for `Datasources`, which we will
 modify for our environment using the database information from above.
 
 We need to add this database connection information twice: once for
-the "default" database, and once for the "testing" database.  Change
-the `username`, `password`, and `database` fields to match what you
-set up in the [Database setup](#database-setup) step.
+the "default" database, and once for the "test" database.  Change the
+`username`, `password`, and `database` fields to match what you set up
+in the [Database setup](#database-setup) step.
 
 Here's the "default" connection:
 
@@ -226,6 +234,8 @@ And, farther down, there's the "test" connection:
     ],
 ],
 ```
+
+Save and close the file when you're done.
 
 ## See your environment in action ##
 
