@@ -34,11 +34,11 @@ but not _enabled_ (see
 details).
 
 To enable it, open `C:\xampp\php\php.ini` in your favorite text
-editor, and uncomment the following line if it exists, or add it if it
-does not exist.
+editor, and uncomment the following line if it exists, or add it to
+the "Dynamic Extensions" list if it does not exist.
 
 ```ini
-extension=php_intl.dll
+extension=intl
 ```
 
 Once you've saved `php.ini`, head over to the XAMPP Control Panel and
