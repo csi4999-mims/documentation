@@ -171,8 +171,10 @@ user](media/phpmyadmin-create-new-user.png)
 
 - After selecting the database in phpMyAdmin, click on the "Import"
   tab on the top of the page.
-- Click the Browse button to select the database schema file found in
+- Download the database schema file found in this repository under
   [CakeDocumentation/users_table.sql](../CakeDocumentation/users_table.sql).
+- Click "Browse" in phpMyAdmin and provide it with the file you
+  downloaded above.
 - Scroll to the bottom of the page and click "Go".
 
 ![Screenshot of the Import page in phpMyAdmin with the users_table.sql
