@@ -139,6 +139,8 @@ update](media/composer-update-2.png)
 
 ## Database Setup ##
 
+### Database Creation ###
+
 We need to set up a database for CakePHP to connect to.  To do this,
 in the XAMPP Control Panel:
 
@@ -158,10 +160,23 @@ privileges**" to do this in one step.
 | ---       | ---                                  |
 | User name | cake                                 |
 | Host name | localhost                            |
-| Password  | someG00dPassword (whatever you want) |
+
+Set the password to whatever you want, so long as you remember what it
+is.
 
 ![Screenshot of phpMyAdmin with the creation of a cake
 user](media/phpmyadmin-create-new-user.png)
+
+### Database Schema Import ###
+
+After selecting the database in phpMyAdmin, click on the "Import" tab
+on the top of the page.  Click the Browse button to select the
+database schema file found in
+[CakeDocumentation/users_table.sql](../CakeDocumentation/users_table.sql).
+Scroll to the bottom of the page and click "Go".
+
+![Screenshot of the Import page in phpMyAdmin with the users_table.sql
+file loaded](media/phpmyadmin-sql-import.png)
 
 ## CakePHP Environment Configuration ##
 
