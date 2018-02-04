@@ -137,7 +137,7 @@ update](media/composer-update-1.png)
 ![Screenshot of Git Bash completing composer
 update](media/composer-update-2.png)
 
-## Database setup ##
+## Database Setup ##
 
 We need to set up a database for CakePHP to connect to.  To do this,
 in the XAMPP Control Panel:
