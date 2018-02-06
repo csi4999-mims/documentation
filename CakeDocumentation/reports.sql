@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `reports` (
-  `Report_ID` int(11) NOT NULL,
+  `Report_ID` int(11) NOT NULL AUTO_INCREMENT,
   `SubmitterEmail` varchar(50) NOT NULL,
   `FirstName` varchar(256) NOT NULL,
   `LastName` varchar(256) NOT NULL,
@@ -59,8 +59,9 @@ CREATE TABLE `reports` (
   `PlaceCity` varchar(256) NOT NULL,
   `PlaceState` varchar(256) NOT NULL,
   `PlaceZip` int(5) NOT NULL,
-  `PlaceMiscInfo` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `PlaceMiscInfo` text NOT NULL,
+  PRIMARY KEY(Report_ID)
+);
 
 --
 -- Dumping data for table `reports`
