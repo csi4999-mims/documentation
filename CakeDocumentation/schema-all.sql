@@ -103,6 +103,22 @@ CREATE TABLE `missing_relation` (
     `missing_id` INT NOT NULL,
     PRIMARY KEY (`friend_family_id`, `missing_id`));
 
+
+-- report
+
+DROP TABLE IF EXISTS `report`;
+
+CREATE TABLE `report` (
+    `report_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `user_id` INT NOT NULL,
+    `missing_id` INT NOT NULL,
+    `law_enforcement_id` INT,
+    `approved_datetime` DATETIME,
+    `submit_datetime` DATETIME NOT NULL,
+    `missing_status` ENUM('missing', 'found') NOT NULL,
+    `case_number` VARCHAR(255));
+
+
 ----------------------------
 -- DATABASE RELATIONSHIPS --
 ----------------------------
