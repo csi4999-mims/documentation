@@ -1,14 +1,16 @@
 -- -*- mode: sql -*-
 
 -- File: CakeDocumentation/schema-all.sql
--- 
+--
 -- This file will contain all the SQL required to create and link
 -- tables together for the MIMS system.  It's not done yet, though.
 -- --MR 2018-02-25
 
+
 ---------------------
 -- DATABASE TABLES --
 ---------------------
+
 
 -- user
 
@@ -21,6 +23,7 @@ CREATE TABLE `user` (
     `first_name` VARCHAR(50) NOT NULL,
     `last_name` VARCHAR(50) NOT NULL,
     `middle_name` VARCHAR(50) NOT NULL);
+
 
 -- law_enforcement
 
@@ -52,6 +55,7 @@ CREATE TABLE `missing` (
     `facebook_username` VARCHAR(255),
     `misc` VARCHAR(255));
 
+
 -- friend_family
 
 DROP TABLE IF EXISTS `friend_family`;
@@ -75,10 +79,11 @@ CREATE TABLE `friend_family` (
 -- DATABASE RELATIONSHIPS --
 ----------------------------
 
+
 -- law_enforcement.law_enforcement_id <--> user.user_id
 
 ALTER TABLE `law_enforcement`
-    ADD CONSTRAINT `fk_law_enforcement_id`
+    ADD CONSTRAINT 'fk_law_enforcement_id'
     FOREIGN KEY (`law_enforcement_id`)
     REFERENCES `user`.`user_id`
     ON UPDATE CASCADE
