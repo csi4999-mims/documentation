@@ -93,6 +93,16 @@ CREATE TABLE `friend_family` (
                      'pacific_islander', 'white', 'other'),
     `ethnicity_other` VARCHAR(255));
 
+
+-- missing_relation
+
+DROP TABLE IF EXISTS `missing_relation`;
+
+CREATE TABLE `missing_relation` (
+    `friend_family_id` INT NOT NULL,
+    `missing_id` INT NOT NULL,
+    PRIMARY KEY (`friend_family_id`, `missing_id`));
+
 ----------------------------
 -- DATABASE RELATIONSHIPS --
 ----------------------------
