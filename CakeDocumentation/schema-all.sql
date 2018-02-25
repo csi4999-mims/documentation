@@ -132,3 +132,12 @@ ALTER TABLE `law_enforcement`
     REFERENCES `user`.`user_id`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
+
+
+-- report.user_id <--> user.user_id
+
+ALTER TABLE `report`
+    ADD CONSTRAINT 'fk_report_user_id'
+    FOREIGN KEY (`user_id`)
+    REFERENCES `user`.`user_id`
+    ON UPDATE CASCADE;
