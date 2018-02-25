@@ -131,6 +131,10 @@ ALTER TABLE `law_enforcement`
     FOREIGN KEY (`law_enforcement_id`)
     REFERENCES `user`.`user_id`
     ON UPDATE CASCADE
+    -- If a law enforcement officer is deleted, they will need to
+    -- create a new account using whatever email address they wish to
+    -- use.  This will help keep the database clear of orphan
+    -- accounts.
     ON DELETE CASCADE;
 
 
