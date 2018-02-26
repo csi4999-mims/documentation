@@ -124,7 +124,7 @@ CREATE TABLE `report` (
 ----------------------------
 
 
--- law_enforcement.law_enforcement_id <--> user.user_id
+-- law_enforcement.id --> user.id
 
 ALTER TABLE `law_enforcement`
     ADD CONSTRAINT 'fk_law_enforcement_id'
@@ -134,7 +134,7 @@ ALTER TABLE `law_enforcement`
     ON DELETE CASCADE;
 
 
--- report.user_id <--> user.user_id
+-- report.submitter_id --> user.id
 
 ALTER TABLE `report`
     ADD CONSTRAINT 'fk_report_user_id'
