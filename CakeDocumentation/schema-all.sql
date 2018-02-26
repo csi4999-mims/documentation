@@ -17,7 +17,7 @@
 DROP TABLE IF EXISTS `user`;
 
 CREATE TABLE `user` (
-    `user_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `email_address` VARCHAR(100) NOT NULL,
     `user_password` VARCHAR(255) NOT NULL,
     `first_name` VARCHAR(50) NOT NULL,
@@ -30,7 +30,7 @@ CREATE TABLE `user` (
 DROP TABLE IF EXISTS `law_enforcement`;
 
 CREATE TABLE `law_enforcement` (
-    `law_enforcement_id` INT NOT NULL PRIMARY KEY,
+    `id` INT NOT NULL PRIMARY KEY,
     `badge_number` VARCHAR(100) NOT NULL,
     `department` VARCHAR(100) NOT NULL);
 
@@ -40,7 +40,7 @@ CREATE TABLE `law_enforcement` (
 DROP TABLE IF EXISTS `place`;
 
 CREATE TABLE `place` (
-    `place_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `place_name` VARCHAR(100),
     `address_country` VARCHAR(100),
     `address_state` VARCHAR(100),
@@ -57,7 +57,7 @@ CREATE TABLE `place` (
 DROP TABLE IF EXISTS `missing`;
 
 CREATE TABLE `missing` (
-    `missing_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `email_address` VARCHAR(100),
     `phone_number` VARCHAR(15),
     `eye_color` ENUM('amber', 'black', 'blue', 'brown', 'green',
@@ -79,7 +79,7 @@ CREATE TABLE `missing` (
 DROP TABLE IF EXISTS `friend_family`;
 
 CREATE TABLE `friend_family` (
-    `friend_family_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `first_name` VARCHAR(50),
     `last_name` VARCHAR(50),
     `middle_name` VARCHAR(50),
@@ -109,7 +109,7 @@ CREATE TABLE `missing_relation` (
 DROP TABLE IF EXISTS `report`;
 
 CREATE TABLE `report` (
-    `report_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `user_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
     `law_enforcement_id` INT,
@@ -128,8 +128,8 @@ CREATE TABLE `report` (
 
 ALTER TABLE `law_enforcement`
     ADD CONSTRAINT 'fk_law_enforcement_id'
-    FOREIGN KEY (`law_enforcement_id`)
-    REFERENCES `user`.`user_id`
+    FOREIGN KEY (`id`)
+    REFERENCES `user`.`id`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
@@ -138,6 +138,6 @@ ALTER TABLE `law_enforcement`
 
 ALTER TABLE `report`
     ADD CONSTRAINT 'fk_report_user_id'
-    FOREIGN KEY (`user_id`)
-    REFERENCES `user`.`user_id`
+    FOREIGN KEY (`id`)
+    REFERENCES `user`.`id`
     ON UPDATE CASCADE;
