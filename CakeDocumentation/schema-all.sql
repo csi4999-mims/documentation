@@ -55,8 +55,8 @@ CREATE TABLE `place` (
 -- missing
 CREATE TABLE `missing` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `email_address` VARCHAR(100),
-    `phone_number` VARCHAR(15),
+    `email` VARCHAR(100),
+    `phone` VARCHAR(15),
     `eye_color` ENUM('amber', 'black', 'blue', 'brown', 'green',
                      'grey', 'hazel', 'other'),
     `eye_color_other` VARCHAR(255),
