@@ -7,9 +7,9 @@
 --
 -- If you wish to keep your data, DO NOT RUN THIS SCRIPT!
 
------------------------
+-- --------------------
 -- REMOVE OLD TABLES --
------------------------
+-- --------------------
 
 DROP TABLE IF EXISTS `missing_relation`;
 DROP TABLE IF EXISTS `friend_family`;
@@ -19,9 +19,9 @@ DROP TABLE IF EXISTS `report`;
 DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
 
-----------------------------
+-- -------------------------
 -- CREATE DATABASE TABLES --
-----------------------------
+-- -------------------------
 
 -- user
 CREATE TABLE `user` (
@@ -102,9 +102,9 @@ CREATE TABLE `report` (
     `missing_status` ENUM('missing', 'found') NOT NULL,
     `case_number` VARCHAR(255));
 
-----------------------------
+-- -------------------------
 -- DATABASE RELATIONSHIPS --
-----------------------------
+-- -------------------------
 
 -- law_enforcement.id --> user.id
 ALTER TABLE `law_enforcement`
