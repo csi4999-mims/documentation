@@ -121,6 +121,13 @@ ALTER TABLE `report`
     REFERENCES `user` (`id`)
     ON UPDATE CASCADE;
 
+-- report.missing_id --> missing.id
+ALTER TABLE `report`
+    ADD CONSTRAINT `fk_missing_id`
+    FOREIGN KEY (`missing_id`)
+    REFERENCES `missing` (`id`)
+    ON UPDATE CASCADE;
+
 -- missing_relation.friend_family_id --> friend_family.id
 ALTER TABLE `missing_relation`
     ADD CONSTRAINT `fk_friend_family_id`
