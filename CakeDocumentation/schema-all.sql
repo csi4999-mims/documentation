@@ -3,15 +3,13 @@
 -- File: CakeDocumentation/schema-all.sql
 --
 -- This file will contain all the SQL required to create and link
--- tables together for the MIMS system.  It's not done yet, though.
--- --MR 2018-02-25
+-- tables together for the MIMS system.
+--
+-- If you wish to keep your data, DO NOT RUN THIS SCRIPT!
 
 -----------------------
 -- REMOVE OLD TABLES --
 -----------------------
-
--- If you wish to keep your data, DO NOT LET THESE RUN.  Instead,
--- comment them out.  The order here (somewhat) matters.
 
 DROP TABLE IF EXISTS `missing_relation`;
 DROP TABLE IF EXISTS `friend_family`;
