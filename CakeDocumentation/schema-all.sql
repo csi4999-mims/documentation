@@ -71,6 +71,9 @@ CREATE TABLE `missing` (
     `height_inches` SMALLINT,
     `date_of_birth` DATE,
     `facebook_username` VARCHAR(255),
+    `twitter_username` VARCHAR(255),
+    `instagram_username` VARCHAR(255),
+    `snapchat_username` VARCHAR(255),
     `misc` VARCHAR(255));
 
 -- friend_family
