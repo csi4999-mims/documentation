@@ -6,16 +6,26 @@
 -- tables together for the MIMS system.  It's not done yet, though.
 -- --MR 2018-02-25
 
+-----------------------
+-- REMOVE OLD TABLES --
+-----------------------
 
----------------------
--- DATABASE TABLES --
----------------------
+-- If you wish to keep your data, DO NOT LET THESE RUN.  Instead,
+-- comment them out.  The order here (somewhat) matters.
 
-
--- user
-
+DROP TABLE IF EXISTS `missing_relation`;
+DROP TABLE IF EXISTS `friend_family`;
+DROP TABLE IF EXISTS `missing`;
+DROP TABLE IF EXISTS `place`;
+DROP TABLE IF EXISTS `law_enforcement`;
+DROP TABLE IF EXISTS `report`;
 DROP TABLE IF EXISTS `user`;
 
+----------------------------
+-- CREATE DATABASE TABLES --
+----------------------------
+
+-- user
 CREATE TABLE `user` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `email_address` VARCHAR(100) NOT NULL,
@@ -24,21 +34,13 @@ CREATE TABLE `user` (
     `last_name` VARCHAR(50) NOT NULL,
     `middle_name` VARCHAR(50));
 
-
 -- law_enforcement
-
-DROP TABLE IF EXISTS `law_enforcement`;
-
 CREATE TABLE `law_enforcement` (
     `id` INT NOT NULL PRIMARY KEY,
     `badge_number` VARCHAR(100) NOT NULL,
     `department` VARCHAR(100) NOT NULL);
 
-
 -- place
-
-DROP TABLE IF EXISTS `place`;
-
 CREATE TABLE `place` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `place_name` VARCHAR(100),
@@ -51,11 +53,7 @@ CREATE TABLE `place` (
     -- can change frequently and without notice.
     `address_zip` CHAR(5));
 
-
 -- missing
-
-DROP TABLE IF EXISTS `missing`;
-
 CREATE TABLE `missing` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `email_address` VARCHAR(100),
@@ -73,11 +71,7 @@ CREATE TABLE `missing` (
     `facebook_username` VARCHAR(255),
     `misc` VARCHAR(255));
 
-
 -- friend_family
-
-DROP TABLE IF EXISTS `friend_family`;
-
 CREATE TABLE `friend_family` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `first_name` VARCHAR(50),
@@ -93,21 +87,13 @@ CREATE TABLE `friend_family` (
                      'pacific_islander', 'white', 'other'),
     `ethnicity_other` VARCHAR(255));
 
-
 -- missing_relation
-
-DROP TABLE IF EXISTS `missing_relation`;
-
 CREATE TABLE `missing_relation` (
     `friend_family_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
     PRIMARY KEY (`friend_family_id`, `missing_id`));
 
-
 -- report
-
-DROP TABLE IF EXISTS `report`;
-
 CREATE TABLE `report` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `submitter_id` INT NOT NULL,
@@ -118,26 +104,37 @@ CREATE TABLE `report` (
     `missing_status` ENUM('missing', 'found') NOT NULL,
     `case_number` VARCHAR(255));
 
-
 ----------------------------
 -- DATABASE RELATIONSHIPS --
 ----------------------------
 
-
 -- law_enforcement.id --> user.id
-
 ALTER TABLE `law_enforcement`
-    ADD CONSTRAINT `fk_law_enforcement_id`
+    ADD CONSTRAINT `fk_id`
     FOREIGN KEY (`id`)
     REFERENCES `user` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
-
 -- report.submitter_id --> user.id
-
 ALTER TABLE `report`
     ADD CONSTRAINT `fk_submitter_id`
     FOREIGN KEY (`submitter_id`)
     REFERENCES `user` (`id`)
     ON UPDATE CASCADE;
+
+-- missing_relation.friend_family_id --> friend_family.id
+ALTER TABLE `missing_relation`
+    ADD CONSTRAINT `fk_friend_family_id`
+    FOREIGN KEY (`friend_family_id`)
+    REFERENCES `friend_family` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+-- missing_relation.missing_id --> missing.id
+ALTER TABLE `missing_relation`
+    ADD CONSTRAINT `fk_missing_id`
+    FOREIGN KEY (`missing_id`)
+    REFERENCES `missing` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
