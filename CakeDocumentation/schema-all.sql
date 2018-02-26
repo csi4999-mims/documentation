@@ -11,6 +11,7 @@
 -- REMOVE OLD TABLES --
 -- --------------------
 
+DROP TABLE IF EXISTS `last_seen`;
 DROP TABLE IF EXISTS `missing_relation`;
 DROP TABLE IF EXISTS `friend_family`;
 DROP TABLE IF EXISTS `place`;
@@ -86,6 +87,13 @@ CREATE TABLE `friend_family` (
                      'pacific_islander', 'white', 'other'),
     `ethnicity_other` VARCHAR(255));
 
+-- last_seen
+CREATE TABLE `last_seen` (
+    `report_id` INT NOT NULL,
+    `place_id` INT NOT NULL,
+    `when` DATETIME,
+    PRIMARY KEY (`report_id`, `place_id`));
+
 -- missing_relation
 CREATE TABLE `missing_relation` (
     `friend_family_id` INT NOT NULL,
@@ -142,5 +150,21 @@ ALTER TABLE `missing_relation`
     ADD CONSTRAINT `fk_missing_relation_missing_id`
     FOREIGN KEY (`missing_id`)
     REFERENCES `missing` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+-- last_seen.report_id --> report.id
+ALTER TABLE `last_seen`
+    ADD CONSTRAINT `fk_last_seen_report_id`
+    FOREIGN KEY (`report_id`)
+    REFERENCES `report` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+-- last_seen.place_id --> place.id
+ALTER TABLE `last_seen`
+    ADD CONSTRAINT `fk_last_seen_place_id`
+    FOREIGN KEY (`place_id`)
+    REFERENCES `place` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
