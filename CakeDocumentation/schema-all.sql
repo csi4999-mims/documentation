@@ -42,15 +42,15 @@ CREATE TABLE `law_enforcement` (
 -- place
 CREATE TABLE `place` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `place_name` VARCHAR(100),
-    `address_country` VARCHAR(100),
-    `address_state` VARCHAR(100),
-    `address_city` VARCHAR(100),
-    `address_street` VARCHAR(100),
-    `address_number` VARCHAR(20),
+    `name` VARCHAR(100),
+    `country` VARCHAR(100),
+    `state` VARCHAR(100),
+    `city` VARCHAR(100),
+    `street` VARCHAR(100),
+    `number` VARCHAR(20),
     -- Ruled out the use of ZIP+4 due to the fact that the +4 portion
     -- can change frequently and without notice.
-    `address_zip` CHAR(5));
+    `zip` CHAR(5));
 
 -- missing
 CREATE TABLE `missing` (
