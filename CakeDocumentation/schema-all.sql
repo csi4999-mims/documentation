@@ -26,11 +26,12 @@ DROP TABLE IF EXISTS `user`;
 -- user
 CREATE TABLE `user` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `email_address` VARCHAR(100) NOT NULL,
-    `password` VARCHAR(255) NOT NULL,
     `first_name` VARCHAR(50) NOT NULL,
+    `middle_name` VARCHAR(50),
     `last_name` VARCHAR(50) NOT NULL,
-    `middle_name` VARCHAR(50));
+    `phone` CHAR(10),
+    `email` VARCHAR(100) NOT NULL,
+    `password` VARCHAR(255) NOT NULL);
 
 -- law_enforcement
 CREATE TABLE `law_enforcement` (
