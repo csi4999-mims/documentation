@@ -12,6 +12,7 @@
 -- --------------------
 
 DROP TABLE IF EXISTS `last_seen`;
+DROP TABLE IF EXISTS `workplace`;
 DROP TABLE IF EXISTS `missing_relation`;
 DROP TABLE IF EXISTS `friend_family`;
 DROP TABLE IF EXISTS `place`;
@@ -94,6 +95,13 @@ CREATE TABLE `last_seen` (
     `when` DATETIME,
     PRIMARY KEY (`report_id`, `place_id`));
 
+-- workplace
+CREATE TABLE `workplace` (
+    `report_id` INT NOT NULL,
+    `place_id` INT NOT NULL,
+    `start_date` DATE,
+    `end_date` DATE);
+
 -- missing_relation
 CREATE TABLE `missing_relation` (
     `friend_family_id` INT NOT NULL,
@@ -164,6 +172,22 @@ ALTER TABLE `last_seen`
 -- last_seen.place_id --> place.id
 ALTER TABLE `last_seen`
     ADD CONSTRAINT `fk_last_seen_place_id`
+    FOREIGN KEY (`place_id`)
+    REFERENCES `place` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+-- workplace.report_id --> report.id
+ALTER TABLE `workplace`
+    ADD CONSTRAINT `fk_workplace_report_id`
+    FOREIGN KEY (`report_id`)
+    REFERENCES `report` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+-- workplace.place_id --> place.id
+ALTER TABLE `workplace`
+    ADD CONSTRAINT `fk_workplace_place_id`
     FOREIGN KEY (`place_id`)
     REFERENCES `place` (`id`)
     ON UPDATE CASCADE
