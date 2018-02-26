@@ -127,9 +127,9 @@ CREATE TABLE `report` (
 -- law_enforcement.id --> user.id
 
 ALTER TABLE `law_enforcement`
-    ADD CONSTRAINT 'fk_law_enforcement_id'
+    ADD CONSTRAINT `fk_law_enforcement_id`
     FOREIGN KEY (`id`)
-    REFERENCES `user`.`id`
+    REFERENCES `user` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
