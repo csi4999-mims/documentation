@@ -13,10 +13,10 @@
 
 DROP TABLE IF EXISTS `missing_relation`;
 DROP TABLE IF EXISTS `friend_family`;
-DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `place`;
 DROP TABLE IF EXISTS `law_enforcement`;
 DROP TABLE IF EXISTS `report`;
+DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
 
 ----------------------------
