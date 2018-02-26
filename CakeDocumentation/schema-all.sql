@@ -110,7 +110,7 @@ DROP TABLE IF EXISTS `report`;
 
 CREATE TABLE `report` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `user_id` INT NOT NULL,
+    `submitter_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
     `law_enforcement_id` INT,
     `approved_datetime` DATETIME,
@@ -137,7 +137,7 @@ ALTER TABLE `law_enforcement`
 -- report.submitter_id --> user.id
 
 ALTER TABLE `report`
-    ADD CONSTRAINT 'fk_report_user_id'
-    FOREIGN KEY (`id`)
-    REFERENCES `user`.`id`
+    ADD CONSTRAINT `fk_submitter_id`
+    FOREIGN KEY (`submitter_id`)
+    REFERENCES `user` (`id`)
     ON UPDATE CASCADE;
