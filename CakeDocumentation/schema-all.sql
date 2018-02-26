@@ -108,7 +108,7 @@ CREATE TABLE `report` (
 
 -- law_enforcement.id --> user.id
 ALTER TABLE `law_enforcement`
-    ADD CONSTRAINT `fk_id`
+    ADD CONSTRAINT `fk_law_enforcement_id`
     FOREIGN KEY (`id`)
     REFERENCES `user` (`id`)
     ON UPDATE CASCADE
@@ -116,21 +116,21 @@ ALTER TABLE `law_enforcement`
 
 -- report.submitter_id --> user.id
 ALTER TABLE `report`
-    ADD CONSTRAINT `fk_submitter_id`
+    ADD CONSTRAINT `fk_report_submitter_id`
     FOREIGN KEY (`submitter_id`)
     REFERENCES `user` (`id`)
     ON UPDATE CASCADE;
 
 -- report.missing_id --> missing.id
 ALTER TABLE `report`
-    ADD CONSTRAINT `fk_missing_id`
+    ADD CONSTRAINT `fk_report_missing_id`
     FOREIGN KEY (`missing_id`)
     REFERENCES `missing` (`id`)
     ON UPDATE CASCADE;
 
 -- missing_relation.friend_family_id --> friend_family.id
 ALTER TABLE `missing_relation`
-    ADD CONSTRAINT `fk_friend_family_id`
+    ADD CONSTRAINT `fk_missing_relation_friend_family_id`
     FOREIGN KEY (`friend_family_id`)
     REFERENCES `friend_family` (`id`)
     ON UPDATE CASCADE
@@ -138,7 +138,7 @@ ALTER TABLE `missing_relation`
 
 -- missing_relation.missing_id --> missing.id
 ALTER TABLE `missing_relation`
-    ADD CONSTRAINT `fk_missing_id`
+    ADD CONSTRAINT `fk_missing_relation_missing_id`
     FOREIGN KEY (`missing_id`)
     REFERENCES `missing` (`id`)
     ON UPDATE CASCADE
