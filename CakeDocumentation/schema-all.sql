@@ -7,9 +7,9 @@
 --
 -- If you wish to keep your data, DO NOT RUN THIS SCRIPT!
 
--- --------------------
--- REMOVE OLD TABLES --
--- --------------------
+-- -----------------
+-- REMOVE OLD TABLES
+-- -----------------
 
 DROP TABLE IF EXISTS `last_seen`;
 DROP TABLE IF EXISTS `workplace`;
@@ -22,9 +22,9 @@ DROP TABLE IF EXISTS `report`;
 DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
 
--- -------------------------
--- CREATE DATABASE TABLES --
--- -------------------------
+-- ----------------------
+-- CREATE DATABASE TABLES
+-- ----------------------
 
 -- user
 CREATE TABLE `user` (
@@ -128,9 +128,9 @@ CREATE TABLE `comment` (
     `timestamp` TIMESTAMP,
     `text` VARCHAR(500));
 
--- -------------------------
--- DATABASE RELATIONSHIPS --
--- -------------------------
+-- ----------------------
+-- DATABASE RELATIONSHIPS
+-- ----------------------
 
 -- law_enforcement.id --> user.id
 ALTER TABLE `law_enforcement`
