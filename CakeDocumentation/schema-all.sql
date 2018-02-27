@@ -107,6 +107,7 @@ CREATE TABLE `last_seen` (
     `report_id` INT NOT NULL,
     `place_id` INT NOT NULL,
     `when` DATETIME,
+    `notes` VARCHAR(255),
     PRIMARY KEY (`report_id`, `place_id`));
 
 -- workplace
