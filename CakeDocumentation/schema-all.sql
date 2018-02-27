@@ -13,6 +13,7 @@
 
 DROP TABLE IF EXISTS `last_seen`;
 DROP TABLE IF EXISTS `workplace`;
+DROP TABLE IF EXISTS `comment`;
 DROP TABLE IF EXISTS `missing_relation`;
 DROP TABLE IF EXISTS `friend_family`;
 DROP TABLE IF EXISTS `place`;
@@ -119,6 +120,14 @@ CREATE TABLE `report` (
     `missing_status` ENUM('missing', 'found') NOT NULL,
     `case_number` VARCHAR(255));
 
+-- comment
+CREATE TABLE `comment` (
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `report_id` INT NOT NULL,
+    `user_id` INT NOT NULL,
+    `timestamp` TIMESTAMP,
+    `text` VARCHAR(500));
+
 -- -------------------------
 -- DATABASE RELATIONSHIPS --
 -- -------------------------
@@ -144,6 +153,22 @@ ALTER TABLE `report`
     FOREIGN KEY (`missing_id`)
     REFERENCES `missing` (`id`)
     ON UPDATE CASCADE;
+
+-- comment.report_id --> report.id
+ALTER TABLE `comment`
+    ADD CONSTRAINT `fk_comment_report_id`
+    FOREIGN KEY (`report_id`)
+    REFERENCES `report` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+-- comment.user_id --> user.id
+ALTER TABLE `comment`
+    ADD CONSTRAINT `fk_comment_user_id`
+    FOREIGN KEY (`user_id`)
+    REFERENCES `user` (`id`)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
 
 -- missing_relation.friend_family_id --> friend_family.id
 ALTER TABLE `missing_relation`
