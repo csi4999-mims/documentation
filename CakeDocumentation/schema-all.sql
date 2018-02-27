@@ -64,6 +64,10 @@ CREATE TABLE `place` (
 -- missing
 CREATE TABLE `missing` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `first_name` VARCHAR(100),
+    `middle_name` VARCHAR(100),
+    `last_name` VARCHAR(100),
+    `alias` VARCHAR(100),
     `email` VARCHAR(100),
     `phone` VARCHAR(15),
     `eye_color` ENUM('amber', 'black', 'blue', 'brown', 'green',
