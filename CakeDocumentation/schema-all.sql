@@ -1,4 +1,4 @@
--- -*- mode: sql -*-
+-- -*- mode: sql; eval: (sql-highlight-mysql-keywords); -*-
 
 -- File: CakeDocumentation/schema-all.sql
 --
