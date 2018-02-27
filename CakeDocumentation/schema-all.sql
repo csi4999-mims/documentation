@@ -38,7 +38,13 @@ CREATE TABLE `user` (
 
 -- law_enforcement
 CREATE TABLE `law_enforcement` (
-    `id` INT NOT NULL PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `first_name` VARCHAR(50) NOT NULL,
+    `middle_name` VARCHAR(50),
+    `last_name` VARCHAR(50) NOT NULL,
+    `phone` CHAR(10),
+    `email` VARCHAR(100) NOT NULL,
+    `password` VARCHAR(255) NOT NULL,
     `badge_number` VARCHAR(100) NOT NULL,
     `department` VARCHAR(100) NOT NULL);
 
@@ -134,14 +140,6 @@ CREATE TABLE `comment` (
 -- ----------------------
 -- DATABASE RELATIONSHIPS
 -- ----------------------
-
--- law_enforcement.id --> user.id
-ALTER TABLE `law_enforcement`
-    ADD CONSTRAINT `fk_law_enforcement_id`
-    FOREIGN KEY (`id`)
-    REFERENCES `user` (`id`)
-    ON UPDATE CASCADE
-    ON DELETE CASCADE;
 
 -- report.submitter_id --> user.id
 ALTER TABLE `report`
