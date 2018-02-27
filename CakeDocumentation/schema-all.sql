@@ -138,7 +138,7 @@ CREATE TABLE `report` (
 CREATE TABLE `comment` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `report_id` INT NOT NULL,
-    `user_id` INT NOT NULL,
+    `user_id` INT,
     `timestamp` TIMESTAMP,
     `text` VARCHAR(500));
 
