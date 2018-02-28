@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `law_enforcement`;
 DROP TABLE IF EXISTS `report`;
 DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
-DROP TABLE IF EXISTS 'users';
+DROP TABLE IF EXISTS `users`;
 
 -- ----------------------
 -- CREATE DATABASE TABLES
