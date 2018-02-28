@@ -73,7 +73,7 @@ CREATE TABLE `missing` (
     `ethnicity` ENUM('american_indian', 'asian', 'african_american',
                      'hispanic_latino', 'middle_eastern',
                      'pacific_islander', 'white', 'other'),
-    `ethnicity_other` VARCHAR(255)),
+    `ethnicity_other` VARCHAR(255),
     `eye_color` ENUM('amber', 'black', 'blue', 'brown', 'green',
                      'grey', 'hazel', 'other'),
     `eye_color_other` VARCHAR(255),
@@ -104,7 +104,7 @@ CREATE TABLE `friend_family` (
     `ethnicity` ENUM('american_indian', 'asian', 'african_american',
                      'hispanic_latino', 'middle_eastern',
                      'pacific_islander', 'white', 'other'),
-    `ethnicity_other` VARCHAR(255);
+    `ethnicity_other` VARCHAR(255));
 
 -- last_seen
 CREATE TABLE `last_seen` (
