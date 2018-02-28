@@ -21,13 +21,14 @@ DROP TABLE IF EXISTS `law_enforcement`;
 DROP TABLE IF EXISTS `report`;
 DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
+DROP TABLE IF EXISTS 'users';
 
 -- ----------------------
 -- CREATE DATABASE TABLES
 -- ----------------------
 
 -- user
-CREATE TABLE `user` (
+CREATE TABLE `users` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `first_name` VARCHAR(50) NOT NULL,
     `middle_name` VARCHAR(50),
@@ -154,7 +155,7 @@ CREATE TABLE `comment` (
 ALTER TABLE `report`
     ADD CONSTRAINT `fk_report_submitter_id`
     FOREIGN KEY (`submitter_id`)
-    REFERENCES `user` (`id`)
+    REFERENCES `users` (`id`)
     ON UPDATE CASCADE;
 
 -- report.missing_id --> missing.id
@@ -176,7 +177,7 @@ ALTER TABLE `comment`
 ALTER TABLE `comment`
     ADD CONSTRAINT `fk_comment_user_id`
     FOREIGN KEY (`user_id`)
-    REFERENCES `user` (`id`)
+    REFERENCES `users` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
