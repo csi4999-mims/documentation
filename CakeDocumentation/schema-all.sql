@@ -126,6 +126,10 @@ CREATE TABLE `workplace` (
 CREATE TABLE `missing_relation` (
     `friend_family_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
+    `relation_type` ENUM('mother', 'father', 'son', 'daughter', 'aunt',
+                         'uncle', 'niece', 'nephew', 'cousin',
+                         'friend', 'other'),
+    `relation_type_other` VARCHAR(255),
     PRIMARY KEY (`friend_family_id`, `missing_id`));
 
 -- report
