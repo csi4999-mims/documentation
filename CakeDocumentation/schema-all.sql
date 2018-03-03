@@ -117,7 +117,7 @@ CREATE TABLE `last_seen` (
 
 -- workplace
 CREATE TABLE `workplace` (
-    `report_id` INT NOT NULL,
+    `missing_id` INT NOT NULL,
     `place_id` INT NOT NULL,
     `start_date` DATE,
     `end_date` DATE);
@@ -213,11 +213,11 @@ ALTER TABLE `last_seen`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
--- workplace.report_id --> report.id
+-- workplace.missing_id --> missing.id
 ALTER TABLE `workplace`
-    ADD CONSTRAINT `fk_workplace_report_id`
-    FOREIGN KEY (`report_id`)
-    REFERENCES `report` (`id`)
+    ADD CONSTRAINT `fk_workplace_missing_id`
+    FOREIGN KEY (`missing_id`)
+    REFERENCES `missing` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
