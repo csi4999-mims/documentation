@@ -71,6 +71,7 @@ CREATE TABLE `missing` (
     `alias` VARCHAR(100),
     `email` VARCHAR(100),
     `phone` VARCHAR(15),
+    `gender` ENUM('androgynous', 'female', 'male'),
     `ethnicity` ENUM('american_indian', 'asian', 'african_american',
                      'hispanic_latino', 'middle_eastern',
                      'pacific_islander', 'white', 'other'),
