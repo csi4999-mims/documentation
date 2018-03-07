@@ -32,5 +32,6 @@ CREATE TABLE `reports` (
   `PlaceCity` varchar(256) NOT NULL,
   `PlaceState` varchar(256) NOT NULL,
   `PlaceZip` int(5) NOT NULL,
-  `PlaceMiscInfo` text NOT NULL
+  `PlaceMiscInfo` text NOT NULL,
+  `photo` varchar(255) DEFAULT NULL
 )
