@@ -186,6 +186,13 @@ ALTER TABLE `comment`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
+-- friend_family.home_id --> place.id
+ALTER TABLE `friend_family`
+    ADD CONSTRAINT `fk_friend_family_home_id`
+    FOREIGN KEY (`home_id`)
+    REFERENCES `place` (`id`)
+    ON UPDATE CASCADE;
+
 -- missing_relation.friend_family_id --> friend_family.id
 ALTER TABLE `missing_relation`
     ADD CONSTRAINT `fk_missing_relation_friend_family_id`
