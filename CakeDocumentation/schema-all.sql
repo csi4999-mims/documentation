@@ -57,7 +57,6 @@ CREATE TABLE `place` (
     `state` VARCHAR(100),
     `city` VARCHAR(100),
     `street` VARCHAR(100),
-    `number` VARCHAR(20),
     -- Ruled out the use of ZIP+4 due to the fact that the +4 portion
     -- can change frequently and without notice.
     `zip` CHAR(5));
