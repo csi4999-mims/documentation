@@ -240,3 +240,9 @@ ALTER TABLE `workplace`
     REFERENCES `place` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
+    
+ -- lawenforcement inserting data --
+ Insert into law_enforcement
+       (first_name, middle_name, last_name, phone, email, password, badge_number, department)
+       Values
+       ('John', 'Joseph', 'Smith', '1234567890', 'jjsmith@gmail.com', 'password', '1', 'home');
