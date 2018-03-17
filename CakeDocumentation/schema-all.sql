@@ -19,6 +19,7 @@ DROP TABLE IF EXISTS `friend_family`;
 DROP TABLE IF EXISTS `place`;
 DROP TABLE IF EXISTS `law_enforcement`;
 DROP TABLE IF EXISTS `report`;
+DROP TABLE IF EXISTS `reports`;
 DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
 DROP TABLE IF EXISTS `users`;
@@ -109,11 +110,11 @@ CREATE TABLE `friend_family` (
 
 -- last_seen
 CREATE TABLE `last_seen` (
-    `report_id` INT NOT NULL,
+    `reports_id` INT NOT NULL,
     `place_id` INT NOT NULL,
     `when` DATETIME,
     `notes` VARCHAR(255),
-    PRIMARY KEY (`report_id`, `place_id`));
+    PRIMARY KEY (`reports_id`, `place_id`));
 
 -- workplace
 CREATE TABLE `workplace` (
@@ -133,21 +134,21 @@ CREATE TABLE `missing_relation` (
     `notes` VARCHAR(255),
     PRIMARY KEY (`friend_family_id`, `missing_id`));
 
--- report
-CREATE TABLE `report` (
+-- reports
+CREATE TABLE `reports` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `submitter_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
     `law_enforcement_id` INT,
     `approved_datetime` DATETIME,
     `submit_datetime` DATETIME NOT NULL,
-    `missing_status` ENUM('missing', 'found') NOT NULL,
+    `missing_status` ENUM('missing', 'found', 'on hold') NOT NULL,
     `case_number` VARCHAR(255));
 
 -- comment
 CREATE TABLE `comment` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `report_id` INT NOT NULL,
+    `reports_id` INT NOT NULL,
     `user_id` INT,
     `timestamp` TIMESTAMP,
     `text` VARCHAR(500));
@@ -156,25 +157,25 @@ CREATE TABLE `comment` (
 -- DATABASE RELATIONSHIPS
 -- ----------------------
 
--- report.submitter_id --> user.id
-ALTER TABLE `report`
-    ADD CONSTRAINT `fk_report_submitter_id`
+-- reports.submitter_id --> user.id
+ALTER TABLE `reports`
+    ADD CONSTRAINT `fk_reports_submitter_id`
     FOREIGN KEY (`submitter_id`)
     REFERENCES `users` (`id`)
     ON UPDATE CASCADE;
 
--- report.missing_id --> missing.id
-ALTER TABLE `report`
-    ADD CONSTRAINT `fk_report_missing_id`
+-- reports.missing_id --> missing.id
+ALTER TABLE `reports`
+    ADD CONSTRAINT `fk_reports_missing_id`
     FOREIGN KEY (`missing_id`)
     REFERENCES `missing` (`id`)
     ON UPDATE CASCADE;
 
--- comment.report_id --> report.id
+-- comment.reports_id --> reports.id
 ALTER TABLE `comment`
-    ADD CONSTRAINT `fk_comment_report_id`
-    FOREIGN KEY (`report_id`)
-    REFERENCES `report` (`id`)
+    ADD CONSTRAINT `fk_comment_reports_id`
+    FOREIGN KEY (`reports_id`)
+    REFERENCES `reports` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
@@ -209,11 +210,11 @@ ALTER TABLE `missing_relation`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
--- last_seen.report_id --> report.id
+-- last_seen.reports_id --> reports.id
 ALTER TABLE `last_seen`
-    ADD CONSTRAINT `fk_last_seen_report_id`
-    FOREIGN KEY (`report_id`)
-    REFERENCES `report` (`id`)
+    ADD CONSTRAINT `fk_last_seen_reports_id`
+    FOREIGN KEY (`reports_id`)
+    REFERENCES `reports` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
@@ -240,7 +241,7 @@ ALTER TABLE `workplace`
     REFERENCES `place` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
-    
+
  -- lawenforcement inserting data --
  Insert into law_enforcement
        (first_name, middle_name, last_name, phone, email, password, badge_number, department)
