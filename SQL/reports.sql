@@ -1,0 +1,41 @@
+--
+-- Table structure for table `reports`
+--
+
+CREATE TABLE `reports` (
+  `Report_ID` int(11) NOT NULL,
+  `CaseNumber` int(15) NOT NULL,
+  `status` varchar(25) NOT NULL DEFAULT 'On Hold',
+  `LastSeen` varchar(255) NOT NULL,
+  `SubmitterEmail` varchar(50) NOT NULL,
+  `FirstName` varchar(256) NOT NULL,
+  `LastName` varchar(256) NOT NULL,
+  `Gender` varchar(256) NOT NULL,
+  `Ethnicity` varchar(256) NOT NULL,
+  `EyeColor` varchar(256) NOT NULL,
+  `HairColor` varchar(256) NOT NULL,
+  `MarksTattoos` varchar(256) NOT NULL,
+  `Weight` int(11) NOT NULL,
+  `Height` text NOT NULL,
+  `DoB` date NOT NULL,
+  `Phone` int(11) NOT NULL,
+  `SocialMediaAccount` varchar(256) NOT NULL,
+  `ReportMiscInfo` text NOT NULL,
+  `FamilyFirstName` varchar(256) NOT NULL,
+  `FamilyLastName` varchar(256) NOT NULL,
+  `FamilyGender` varchar(256) NOT NULL,
+  `Relation` varchar(256) NOT NULL,
+  `FamilyStreet` varchar(256) NOT NULL,
+  `FamilyCity` varchar(256) NOT NULL,
+  `FamilyState` varchar(256) NOT NULL,
+  `FamilyZip` int(5) NOT NULL,
+  `FamilyPhone` int(11) NOT NULL,
+  `FamilyEmail` text NOT NULL,
+  `PlaceName` varchar(256) NOT NULL,
+  `PlaceStreet` varchar(256) NOT NULL,
+  `PlaceCity` varchar(256) NOT NULL,
+  `PlaceState` varchar(256) NOT NULL,
+  `PlaceZip` int(5) NOT NULL,
+  `PlaceMiscInfo` text NOT NULL,
+  `photo` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
