@@ -206,7 +206,9 @@ instructions.
 - Mitchell Roe
 - Tyler Watling
 
-## Background
+## Section 1
+
+### 1.1 Background
 
 Missing Persons is a section of Law Enforcement that handles cases
 involving people who have gone missing for a variety of reasons
@@ -224,22 +226,43 @@ missing persons. Unfortunately, there is no existing method that would
 allow the public to contribute in the search for missing persons in a
 quick, easy and convenient manner.
 
-## Socioeconomic Impact, Business Objectives, and Gap Analysis
+### 1.2 Socioeconomic Impact, Business Objectives, and Gap Analysis
 
-### Socioeconomic Impact
+#### 1.2.1 Socioeconomic Impact
 
-People of all social and economical backgrounds and characteristics will be able to fully utilize the MIMS software to find their missing friends and loved ones. MIMS will also change the beliefs and attitudes towards the process on how to recover a missing person, allowing for the concerned personnel to feel more comfortable that their missing are in good hands.
+People of all social and economical backgrounds and characteristics
+will be able to fully utilize the MIMS software to find their missing
+friends and loved ones. MIMS will also change the beliefs and
+attitudes towards the process on how to recover a missing person,
+allowing for the concerned personnel to feel more comfortable that
+their missing are in good hands.
 
-### Business Objectives
+#### 1.2.2 Business Objectives
 
-The business objectives of the MIMS application are to provide a platform that can contribute to the ongoing process of reporting and locating missing people. The purpose is to provide a platform that can allow law enforcement and the concerned public to interact and engage in the process of tracking down people who were reported as missing. The application needs to also provide law enforcement with a way to easily manage and analyze data at a quick glance through the use of tables and charts.
+The business objectives of the MIMS application are to provide a
+platform that can contribute to the ongoing process of reporting and
+locating missing people. The purpose is to provide a platform that can
+allow law enforcement and the concerned public to interact and engage
+in the process of tracking down people who were reported as
+missing. The application needs to also provide law enforcement with a
+way to easily manage and analyze data at a quick glance through the
+use of tables and charts.
 
+#### 1.2.3 Gap Analysis
 
-### Gap Analysis
+The current process of locating missing people does not involve the
+active use of the knowledge of the concerned public in a useful
+way. Law enforcement is often tasked with finding missing people with
+limited resources and without an easy way to use the concerned
+public's knowledge about where a missing person might be or have
+been. With the use of MIMS, law enforcement and the concerned public
+can have a platform to view missing people, provide comments about
+different cases, and interact more proactively when trying to locate
+missing people. The platform will also aim to provide the friends and
+family of to feel more involved in the process and more comforted in
+their time of trouble.
 
-The current process of locating missing people does not involve the active use of the knowledge of the concerned public in a useful way. Law enforcement is often tasked with finding missing people with limited resources and without an easy way to use the concerned public's knowledge about where a missing person might be or have been. With the use of MIMS, law enforcement and the concerned public can have a platform to view missing people, provide comments about different cases, and interact more proactively when trying to locate missing people. The platform will also aim to provide the friends and family of to feel more involved in the process and more comforted in their time of trouble.
-
-## Security and Ethical Concerns
+## 1.3 Security and Ethical Concerns
 
 The data that is collected and analyzed in a missing person's case is
 extremely sensitive and needs to be restricted to only certain users.
@@ -260,20 +283,22 @@ the use of social media mining for any person they report missing. Users
 of social media also already agree to have their data publicized to a
 certain extent on platforms such as Facebook and Twitter.
 
-## Glossary of Terms
+## 1.4 Glossary of Terms
 
 **Missing Person:** an individual who has gone missing
 
-**Runaway:** an individual who has chosen to run away for various reasons
+**Runaway:** an individual who has chosen to run away for various
+reasons
 
-**Human Trafficking:** organized criminal activity in which human beings are
-treated as possessions to be controlled and exploited
+**Human Trafficking:** organized criminal activity in which human
+beings are treated as possessions to be controlled and exploited
 
 **Criminal Activity:** an activity that is defined as illegal by law
 
 **Drug Use:** the use of illegal or prescription substances
 
-**Romeo & Juliet:** a scenario where two individuals run away with the intended purpose of being together in a relationship
+**Romeo & Juliet:** a scenario where two individuals run away with the
+intended purpose of being together in a relationship
 
 **Police Report:** an official report filed at a police station
 
@@ -283,24 +308,32 @@ treated as possessions to be controlled and exploited
 
 **Search Warrant:** a warrant authorizing a search
 
-**LEIN:** Law Enforcement Information Network, is used by police to manage information including traffic stops, crimes, missing people, etc.
+**LEIN:** Law Enforcement Information Network, is used by police to
+manage information including traffic stops, crimes, missing people,
+etc.
 
 **Facebook:** social media network
 
 **Twitter:** social media network
 
-**Social Media Mining:** the process of using social media information to analyze and develop patterns
+**Social Media Mining:** the process of using social media information
+to analyze and develop patterns
 
-**Victim:** one that is subjected to oppression, hardship, or mistreatment
+**Victim:** one that is subjected to oppression, hardship, or
+mistreatment
 
 **Law Enforcement:** the department of people who enforce the law,
 investigate crimes, and make arrests
 
-**Concerned Public:** The general public who is interested in helping Law Enforcement
+**Concerned Public:** The general public who is interested in helping
+Law Enforcement
 
-## Team Information
+## Section 2
 
-Nicole Cox: Project Management, Website UI Development, Website Functionality Development, Documentation
+## 2.1 Team Information
+
+Nicole Cox: Project Management, Website UI Development, Website
+Functionality Development, Documentation
 
 Bryan Derr: Mobile Application Development and Research, Documentation
 
@@ -312,24 +345,24 @@ Mitchell Roe: Systems Administration, DevOps, Documentation
 
 Tyler Watling: Database, Website Functionality, Documentation
 
-## Tools and Technology
+## 2.2 Tools and Technology
 
-### 2.2a Project Management & Revision Management
+### 2.2.1 Project Management & Revision Management
 
 For project management our team is using Microsoft Project 2013, Slack,
 Google Drive, and Github.
 
-### 2.2b Front End Development
+### 2.2.2 Front End Development
 
 For Front End Development our team is using Bootstrap, HTML, CSS, and
 JavaScript.
 
-### 2.2c Back End Development
+### 2.2.3 Back End Development
 
 For Back End Development our team is using the [CakePHP
 Framework](https://cakephp.org/).
 
-### 2.2d Server
+### 2.2.4 Server
 
 The MIMS server is a Debian 9 (codename "stretch") 64-bit server
 hosted by Linode.  It has the following software installed to support
@@ -340,15 +373,15 @@ the MIMS system:
 - MariaDB 15.1
 - PHPUnit 5.4.6
 
-## Project Plan
+## 2.3 Project Plan
 
-### Gantt Chart
+### 2.3.1 Gantt Chart
 
 See included PDF in *media/MIMS_Project_Plan_FINAL_Gantt*
 
 ![](media/MIMS_Project_Plan_FINAL_Gantt.pdf)
 
-### Task Breakdown
+### 2.3.2 Task Breakdown
 
 See included PDF in *media/MIMS_Project_Plan_FINAL_Tasks*
 
@@ -356,7 +389,7 @@ See included PDF in *media/MIMS_Project_Plan_FINAL_Tasks*
 
 ## 2.4 Best Standards and Practices
 
-### CakePHP Basics
+### 2.4.1 CakePHP Basics
 
 We are using CakePHP version 3.x, which is significantly different
 from the 2.x version of CakePHP.  As such, please make sure when
@@ -413,9 +446,9 @@ The `AppController.php` file comes with the install of CakePHP.
 
 The Controller is plural (e.g. `UsersController.php`).
 
-## Git Basic Commands
+### 2.4.2 Git Basic Commands
 
-#### Clone a repo
+##### Clone a repo
 
     git clone <repo name> [destination]
 
@@ -425,15 +458,15 @@ For example:
 
 (The `[destination]` is optional.)
 
-#### Get the latest from the repo
+##### Get the latest from the repo
 
     git pull
 
-#### Check for unstaged changes
+##### Check for unstaged changes
 
     git status
 
-#### Stage changes
+##### Stage changes
 
     git add -A
 
@@ -441,19 +474,19 @@ OR
 
     git add
 
-#### Commit changes
+##### Commit changes
 
     git commit -m "my commit message"
 
-#### Push changes
+##### Push changes
 
     git push
 
-## Bootstrap Helper Documentation
+### 2.4.3 Bootstrap Helper Documentation
 
-    https://holt59.github.io/cakephp3-bootstrap-helpers/
+https://holt59.github.io/cakephp3-bootstrap-helpers/
 
-### Installation
+#### Installation
 
     To install the Bootstrap Helper for CakePHP you need to run the following
     commands or add the following code:
@@ -505,14 +538,14 @@ Add these lines to `Layout/default.ctp`:
     ?>
     ~~~
 
-### Using the Helpers
+#### Using the Helpers
 
-#### Modal Helper
+##### Modal Helper
 
     A modal is a window that can dynamically pop up when you specify it to. For
     example when someone presses a button on the screen a modal can pop up.
 
-##### Modal using CakePHP Syntax
+###### Modal using CakePHP Syntax
 
     https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/
 
@@ -534,7 +567,7 @@ Add these lines to `Layout/default.ctp`:
     ?>
     ~~~
 
-##### Modal using standard HTML Syntax
+###### Modal using standard HTML Syntax
 
     ~~~
     <!-- Example Button trigger modal -->
@@ -569,11 +602,11 @@ Add these lines to `Layout/default.ctp`:
     </div>
     ~~~~
 
-## Google Maps API Helper Documentation
+### 2.4.4 Google Maps API Helper Documentation
 
     https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3
 
-### Installation
+#### Installation
 
 1) Download the files from Github
 
@@ -625,11 +658,11 @@ Add these lines to `Layout/default.ctp`:
         $report->get('FamilyStreet')); ?>
     <?php endforeach; ?>`
 
-## Android Studio with Database Integration
+### 2.4.5 Android Studio with Database Integration
 
-### Connecting to a MySQL database using PHP/MySQL Workbench
+#### Connecting to a MySQL database using PHP/MySQL Workbench
 
-#### JDBC Package
+##### JDBC Package
 
 https://www.tutorialspoint.com/android/android_php_mysql.htm
 
@@ -637,39 +670,41 @@ A SQL database can be connected to by the android app utilizing the JDBC package
 Having the android device/application access the database directly is not recommended, Android applications can be decompiled, giving a client the credentials to access the database, which is a security risk.
 Having the client open a physical database connection will take a considerable amount of time, especially if the user is located far from the server.
 
-#### Provider Service
+##### Provider Service
 
 https://developer.android.com/reference/java/security/Provider.Service.html
 
 In order to solve the problems with this method, it will be necessary to have a Service Provider Application, which will create and distribute the web services to the client. With this method authentication and authorization can be controlled better.
 
-#### SSL with mySQL Workbench
+##### SSL with mySQL Workbench
 
 https://developer.android.com/training/articles/security-ssl.html
 
 Currently in our project we are using Putty to create an SSH tunnel with MySQL workbench to access the database. Ideally in the Secure Sockets Layer (SSL), we will want to make use of key rotation to strengthen the security involved with public and private key exchanges.
 
-### Website Integration with Mobile Applications
+#### Website Integration with Mobile Applications
 
-#### Web Views
+##### Web Views
 
 https://github.com/futurice/android-best-practices#webviews
 
 Now that the mobile application will require connectivity to the website, the app must utilize webViews in order to pull information from the site, and database. The pitfall to be aware of with this approach is not to handle the html processing client-side, which can result in the webViews leaking memory. The implementation for these functions are best handled with the back-end html, or making better use of the platform’s widgets.
 
-#### Continuous Integration
+##### Continuous Integration
 
 https://github.com/futurice/android-best-practices#use-continuous-integration-1
 
 Considering the web application side is still under construction, and will likely have updates as time goes on, the mobile application must be able to reflect those changes, and ensure it is running the same framework. Continuous integration of the mobile application can provide a variety of useful functions, such as running static code, providing code analysis tools, and handling the generation and distribution of APK files.
 
-#### Proguard
+##### Proguard
 
 https://github.com/futurice/android-best-practices#proguard-configuration
 
 Lastly, we might consider implementing utilities such as proguard or dexguard, for the purpose of obfuscating our code, and shrinking the overall package size. The main purpose of this would to be to better optimize the application for use on a mobile device.
 
-## 3.1 Functional Requirements
+## Section 3
+
+### 3.1 Functional Requirements
 
 | Requirement # | Description                                                                                                                                                                                                                                                                                                                |
 | ---           | ---                                                                                                                                                                                                                                                                                                                        |
@@ -699,7 +734,7 @@ Lastly, we might consider implementing utilities such as proguard or dexguard, f
 | REQ 27        | "Found" people will remain in the application to notify the Concerned Public that they are no longer missing                                                                                                                                                                                                               |
 | REQ 28        | The database should cycle out reports that are on "hold" every 24 hours                                                                                                                                                                                                                                                    |
 
-## 3.2 Non-Functional Requirements
+### 3.2 Non-Functional Requirements
 
 | Requirement # | Description                                                                  |
 | ---           | ---                                                                          |
@@ -714,20 +749,20 @@ Lastly, we might consider implementing utilities such as proguard or dexguard, f
 | REQ 34        | Reports should be "marked as found" instantaneously when clicked.            |
 | REQ 35        | Reports should be created instantaneously on submit.                         |
 
-## On-Screen Appearance of Pages Requirements
+### 3.3 On-Screen Appearance of Pages Requirements
 
 The following are the on screen appearance requirements for various pages:
 
-### Home Page
+#### 3.3.1 Home Page
 
 * There should be a home page that gives users a brief description of the purpose of the application
 * Users should be able to navigate to the register and login pages
 
-### Login Page
+#### 3.3.2 Login Page
 
 * There should be fields for username and password
 
-### Dashboards
+#### 3.3.3 Dashboards
 
 * There should be separate dashboards for Law Enforcement and the Public
 * The Law Enforcement dashboard should have a table that displays reports
@@ -738,60 +773,62 @@ The following are the on screen appearance requirements for various pages:
 * The Public dashboard should display on "In Progress" and "Found" missing people
 * The Public dashboard should allow users to comment on missing people reports
 
-### Register Page
+#### 3.3.4 Register Page
 
 * The register page should have fields for people to enter basic information and create an account
 
-### Account Page
+#### 3.3.5 Account Page
 
 * The account page should have the user's account information
 * The fields should be able to be edited
 
-### Submit Report Page
+#### 3.3.6 Submit Report Page
 
 * The submit report page should have fields for each part of the missing person report
 * The form should be organized in a way that is easy to understand
 
-### View Reports
+#### 3.3.7 View Reports
 
 * There should be a place for Law Enforcement and the Public to view the details of each report
 * The public view should not be able to be edited
 * The public view should be organized in an easy to understand way
 * The Law Enforcement view should be abled to e edited
 
-## Website Wireframes
+### 3.4 Wireframes
 
-### Login Page
+#### 3.4.1 Website Wireframes
+
+##### Login Page
 
 ![](media/3.4.%20Wireframe%20designs__html_bfe0bb563935fd19.png)
 
-### Register Page
+##### Register Page
 
 ![](media/3.4.%20Wireframe%20designs__html_70c665f8c477b034.png)
 
-### Forgot Password Page
+##### Forgot Password Page
 
 ![](media/3.4.%20Wireframe%20designs__html_24033289734daa50.png)
 
-### Home Page (Multiple Options)
+##### Home Page (Multiple Options)
 
 ![](media/3.4.%20Wireframe%20designs__html_99ba2f362c11bab1.png)
 
 ![](media/3.4.%20Wireframe%20designs__html_e2a9390e12a7af25.png)
 
-### Submit Report Page
+##### Submit Report Page
 
 ![](media/3.4.%20Wireframe%20designs__html_fdcb8264f7342518.png)
 
-### Law Enforcement Home
+##### Law Enforcement Home
 
 ![](media/3.4.%20Wireframe%20designs__html_2c9ae69237a4b877.png)
 
-### Law Enforcement Report Page
+##### Law Enforcement Report Page
 
 ![](media/3.4.%20Wireframe%20designs__html_e74ea7d6483d12c4.png)
 
-## Mobile App Wireframes
+#### 3.4.2 Mobile App Wireframes
 
 ![](media/3.4.%20Wireframe%20designs__html_740269f7c3814968.png)
 
@@ -817,7 +854,9 @@ The following are the on screen appearance requirements for various pages:
 
 ![](media/3.4.%20Wireframe%20designs__html_75985fadc1200e41.png)
 
-## Stakeholders, Actors, and Goals
+## Section 4
+
+### 4.1 – 4.2 Stakeholders, Actors, and Goals
 
 **Stakeholders**
 
@@ -871,9 +910,9 @@ The following are the on screen appearance requirements for various pages:
 
     -   Manage email verification service
 
-## User Stories, Scenarios, and Use Cases
+### 4.3 User Stories, Scenarios, and Use Cases
 
-### 4.3a User Stories
+#### 4.3.1 User Stories
 
 | #   | User Stories                                                                                                                                                                                                                                                                                                                                        | Requirements Covered |
 | --- | ---                                                                                                                                                                                                                                                                                                                                                 | ---                  |
@@ -907,9 +946,9 @@ The following are the on screen appearance requirements for various pages:
 | 28  | As an Application Administrator I want the application to cycle out reports that are \"on hold\" after they have been in the system for 24 hours                                                                                                                                                                                                    | REQ 28               |
 | 29  | As Law Enforcement I want to use missing people\'s social media accounts to track where they might be or be going                                                                                                                                                                                                                                   | REQ 29               |
 
-### 4.3b Scenarios & Use Cases
+#### 4.3.2 Scenarios & Use Cases
 
-### Use Case UC-#1: Create Account
+##### Use Case UC-#1: Create Account
 
 |                       |                                                                                      |
 | ---                   | ---                                                                                  |
@@ -920,7 +959,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:        | The application is opened and the Concerned Citizen has chosen to create and account |
 | Postconditions:       | The account is created and the Concerned Citizen can now login to the application    |
 
-#### Flow of Events for Main Success Scenario
+###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                                    |
 | ---       | ---    | ---                                                                                                                            |
@@ -931,7 +970,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 5.     | The information entered is verified                                                                                            |
 | ←         | 6.     | The Concerned Citizens account is added to the Database                                                                        |
 
-#### Flow of Events for Alternate Scenario
+###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                                                    |
 | ---       | ---    | ---                                                                                                                            |
@@ -942,7 +981,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 5.     | The application notifies the Concerned Citizen information already exists                                                      |
 | ←         | 6.     | The Concerned Citizen is directed to the reset password page                                                                   |
 
-#### Responsibility Matrix
+###### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name    |
 | ---                        | ---  | ---             |
@@ -950,7 +989,7 @@ The following are the on screen appearance requirements for various pages:
 | Container of All Users     | K    | UserStorage     |
 | Email Service              | D    | EmailController |
 
-### Use Case UC-#2: Login
+#### Use Case UC-#2: Login
 
 |                       |                                                                                          |
 | ---                   | ---                                                                                      |
@@ -961,7 +1000,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:        | Concerned Citizen has opened the app, has an account created, and is on the login screen |
 | Postconditions:       | The Concerned Citizen is logged in and is on the landing page                            |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                             |
 | ---       | ---    | ---                                                                                     |
@@ -972,7 +1011,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 5.     | The Database returns confirmation of the login information                              |
 | ←         | 6.     | The application displays the landing page                                               |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                             |
 | ---       | ---    | ---                                                                                     |
@@ -982,14 +1021,14 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 4.     | The entered information is validated based on the information in the Database           |
 | ←         | 5.     | The Database returns the login information as invalid                                   |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name |
 | ---                        | ---  | ---          |
 | Access User Storage        | D    | Controller   |
 | Container of All Users     | K    | UserStorage  |
 
-### Use Case UC-#3: Update Account Info
+#### Use Case UC-#3: Update Account Info
 
 |                       |                                                                                                            |
 | ---                   | ---                                                                                                        |
@@ -1000,7 +1039,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:        | The Concerned Citizen has an account created, they are signed in, they are on the update account info page |
 | Postconditions:       | The Concerned Citizen's account information is updated                                                     |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                            |
 | ---       | ---    | ---                                                                                                                    |
@@ -1009,7 +1048,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 2.     | The Database updates the entered information                                                                           |
 | ←         | 3.     | The application returns a success message to the Concerned Citizen                                                     |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                            |
 | ---       | ---    | ---                                                                                    |
@@ -1018,7 +1057,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 3.     | The form returns an error saying the input is not valid                                |
 | ←         | 4.     | The Database does not update the account information                                   |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name     |
 | ---                        | --   | ---              |
@@ -1026,7 +1065,7 @@ The following are the on screen appearance requirements for various pages:
 | Container of All Users     | K    | UserStorage      |
 | Email Service              | D    | Email Controller |
 
-### Use Case UC-#4A: Forgot Password
+#### Use Case UC-#4A: Forgot Password
 
 |                       |                                                                                                        |
 | ---                   | ---                                                                                                    |
@@ -1037,7 +1076,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:        | The Concerned Citizen has an account, they forgot their password, they are on the forgot password page |
 | Postconditions:       | The Concerned Citizen regains access to their account with a new password                              |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                        |
 | ---       | ---    | ---                                                                                                |
@@ -1050,7 +1089,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 7.     | The Database updates the Concerned Citizen's password                                              |
 | ←         | 8.     | The application displays a success message to the Concerned Citizen                                |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                        |
 | ---       | ---    | ---                                                                                                |
@@ -1062,14 +1101,14 @@ The following are the on screen appearance requirements for various pages:
 | →         | 6.     | The Concerned Citizen enters their new password in the first textbox and confirms it in the second |
 | ←         | 7.     | The Database returns an error and does not update the password                                     |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name |
 | ---                        | ---  | ---          |
 | Access User Storage        | D    | Controller   |
 | Container of All Users     | K    | UserStorage  |
 
-### Use Case UC-#4B: Update Password
+#### Use Case UC-#4B: Update Password
 
 |                       |                                                                                                        |
 | ---                   | ---                                                                                                    |
@@ -1080,7 +1119,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:        | TThe Concerned Citizen has an account and they want to change their password |
 | Postconditions:       | The Concerned Citizen has a new updated account password                              |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                        |
 | ---       | ---    | ---                                                                                                |
@@ -1092,7 +1131,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 6.     | The Database updates the Concerned Citizen’s password |
 | ←         | 7.     | The application displays a success message to the Concerned Citizen                                             |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                        |
 | ---       | ---    | ---                                                                                                |
@@ -1104,7 +1143,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 6.     | The application notifies the Concerned Citizen that the passwords do not match |
 | ←         | 7.     | The application fails to update the Concerned Citizen’s password                                     |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name |
 | ---                        | ---  | ---          |
@@ -1112,7 +1151,7 @@ The following are the on screen appearance requirements for various pages:
 | Container of All Users     | K    | UserStorage  |
 
 
-### Use Case UC-#5: Verify Email Address
+#### Use Case UC-#5: Verify Email Address
 
 |                       |                                                                                                                                                                            |
 | ---                   | ---                                                                                                                                                                        |
@@ -1123,7 +1162,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:        | The Concerned Citizen is creating an account OR is updating their email address if they have a pre-existing account AND has entered their email in the appropriate textbox |
 | Postconditions:       | The Concerned Citizens email is validated                                                                                                                                  |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                                            |
 | ---       | ---    | ---                                                                                                                                    |
@@ -1132,7 +1171,7 @@ The following are the on screen appearance requirements for various pages:
 | →         | 3.     | The Concerned Citizen clicks the verify link in email                                                                                  |
 | ←         | 4.     | The application successfully creates the account OR updates the email of an existing account AND allows the Concerned Citizen to login |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                         |
 | ---       | ---    | ---                                                                                                 |
@@ -1140,7 +1179,7 @@ The following are the on screen appearance requirements for various pages:
 | ←         | 2.     | The email fails to send due to an invalid email                                                     |
 | →         | 3.     | The Concerned Citizen cannot continue with successful account creation OR updating of their account |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name    |
 | ---                        | ---  | ---             |
@@ -1148,7 +1187,7 @@ The following are the on screen appearance requirements for various pages:
 | Container of All Users     | K    | UserStorage     |
 | Email Service              | D    | EmailController |
 
-### Use Case UC-#6: View as Citizen
+#### Use Case UC-#6: View as Citizen
 
 |                       |									|
 | ---                   | ---									|
@@ -1158,7 +1197,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| The Concerned Citizen has an account created				|
 | Postconditions:	| The Concerned Citizen views a landing page specific to their user type |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description														|
 | ---	    | ---    | ---															|
@@ -1168,7 +1207,7 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 4.     | The database verifies the Concerned Citizen's credentials and identifies their user type based on the entered credentials |
 | <- 	    | 5.     | The Concerned Citizen is directed to the landing (home) page								|
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description										   |
 | ---	    | ---    | ---											   |
@@ -1178,14 +1217,14 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 4.     | The database verifies the Concerned Citizen's credentials, but cannot verify their user type |
 | <-	    | 5.     | The application displays and error to the Concerned Citizen				   |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name |
 | ---			     | ---  | ---	   |
 | Access User Storage	     | D    | Controller   |
 | Container of All Users     | K    | UserStorage  |
 
-### User Story UC-#7: View as Law Enforcement
+#### User Story UC-#7: View as Law Enforcement
 
 |			|								   |
 | ---			| ---								   |
@@ -1196,7 +1235,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| Law Enforcement has an account created			   |
 | Postconditions:	| Law Enforcement views a landing page specific to their user type |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description													 |
 | --	    | ---    | ---														 |
@@ -1206,7 +1245,7 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 4.     | The database verfies Law Enforcement's credentials and identifies ther user type based on the entered credentials |
 | <-	    | 5.     | Law Enforcement is directed to the ladning (home) page								 |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description										|
 | ---	    | ---    | ---											|
@@ -1216,14 +1255,14 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 4.     | The database verifies Law Enforcement's credentials, but cannot identify their user type |
 | <-	    | 5.     | The application displays an error to Law Enforcement
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description | Type | Concept Name |
 | --			     | ---  | ---	   |
 | Access User Storage	     | D    | Controller   |
 | Container of All Users     | K    | UserStorage  |
 
-### User Story UC-#8: Submit New Report
+#### User Story UC-#8: Submit New Report
 
 |			|										      |
 | ---			| ---										      |
@@ -1234,7 +1273,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| The Concerned Citizen has an account, is logged in, and is on the Submit Report page |
 | Postconditions:	| A new missing person report has been submitted and is "on hold" 		      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1244,7 +1283,7 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 4.     | The database flags the submitted report as "on hold"							 |
 | <-	    | 5.     | The application notifies the Concerned Citizen to visit the nearest police station to complete the process |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1253,7 +1292,7 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 3.     | The form is not properly submitted because the Concerned Citizen missed filling in one of the Required(*) fields |
 | <-	    | 4.     | The application displays an error message to the Concerned Citizen to fill in all required fields		       |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
@@ -1261,7 +1300,7 @@ The following are the on screen appearance requirements for various pages:
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### User Story UC-#9: Send Report
+#### User Story UC-#9: Send Report
 
 |			|										      |
 | ---			| ---										      |
@@ -1272,7 +1311,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| The Submit Report form is filled out |
 | Postconditions:	| Law Enforcement can view submitted missing person reports	      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1282,7 +1321,7 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 4.     | The Database returns all rows in the reports table							 |
 | <-	    | 5.     | The application displays the reports in a table format on the Law Enforcement home page for Law Enforcement to view |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1292,7 +1331,7 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 4.     | The Database returns no rows because there are no reports in the reports table		       |
 | <-	    | 5.     | There are no reports for Law Enforcement to view |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
@@ -1300,7 +1339,7 @@ The following are the on screen appearance requirements for various pages:
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### User Story UC-#10: Validate/Approve Report
+#### User Story UC-#10: Validate/Approve Report
 
 |			|										      |
 | ---			| ---										      |
@@ -1311,7 +1350,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| A report has been submitted by the Concerned Citizen and has the status “on hold” |
 | Postconditions:	| The report is approved, has the status “in progress”, and is now displayed in the application to the Concerned Citizens to view	      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1321,7 +1360,7 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 3.     | The Database changes the report status from “on hold” to “in progress”							 |
 | <-	    | 4.     | The application now displays the approved report to the Concerned Citizens |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1329,14 +1368,14 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 2.     | The Database stores the report with an “on hold” status for >24hrs									       |
 | <-	    | 3.     | The Database deletes the report information |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### User Story UC-#11: Assign Official Report Number
+#### User Story UC-#11: Assign Official Report Number
 
 |			|										      |
 | ---			| ---										      |
@@ -1347,7 +1386,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| A report has been submitted by the Concerned Citizen and has the status “on hold” |
 | Postconditions:	| The report has an official report number and that number is displayed for each report	      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1356,7 +1395,7 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number			 |
 | -> 	    | 4.     | Law Enforcement enters the report number and clicks the confirm button						 |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1366,14 +1405,14 @@ The following are the on screen appearance requirements for various pages:
 | -> 	    | 4.     | Law Enforcement enters invalid characters into the text field and clicks approve						 |
 | -> 	    | 5.     | An error message is displayed because the characters are invalid and the report number is not added					 |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### User Story UC-#12: Categorize Missing People
+#### User Story UC-#12: Categorize Missing People
 
 |			|										      |
 | ---			| ---										      |
@@ -1384,7 +1423,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| A report has been submitted by the Concerned Citizen and has the status “in progress" |
 | Postconditions:	| The missing person is labeled with one of the predefined categories	      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1394,7 +1433,7 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 4.     | A modal pops up and display category options as checkboxes						 |
 | ->	    | 5.     | Law Enforcement clicks one or more of the check boxes and clicks confirm to apply the categorization |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1404,14 +1443,14 @@ The following are the on screen appearance requirements for various pages:
 | <- 	    | 4.     | A modal pops up and display category options as checkboxes						 |
 | ->	    | 5.     | Law Enforcement clicks does not see the category they want and closes the modal without choosing a categorization |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### User Story UC-#13: Update Case Info
+#### User Story UC-#13: Update Case Info
 
 |			|										      |
 | ---			| ---										      |
@@ -1422,7 +1461,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| A report has been submitted by the Concerned Citizen and has the status “in progress” |
 | Postconditions:	| The report is updated and the updated info is displayed      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1433,7 +1472,7 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 5.     | The form validates the changes |
 | <-	    | 5.     | The database applies the changes to the fields in the associated table |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1444,14 +1483,14 @@ The following are the on screen appearance requirements for various pages:
 | <-	    | 5.     | The form validates the changes |
 | <-	    | 5.     | The form returns an error because the updated fields were not changed in the database |
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### User Story UC-#14: Mark As Found
+#### User Story UC-#14: Mark As Found
 
 |			|										      |
 | ---			| ---										      |
@@ -1462,7 +1501,7 @@ The following are the on screen appearance requirements for various pages:
 | Preconditions:	| A report has been submitted by the Concerned Citizen and has the status “in progress” |
 | Postconditions:	| The report has the status of "Found"	      |
 
-#### Flow of Events for Main Success Scenario
+##### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description
 | --- 	    | ---    | ---
@@ -1473,7 +1512,7 @@ The following are the on screen appearance requirements for various pages:
 | ->	    | 5.     | Law Enforcement clicks "confirm" |
 | <- 	    | 6.     | The database changes the missing person report status to "found"					 |
 
-#### Flow of Events for Alternate Scenario
+##### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description
 | ---	    | ---    | ---
@@ -1484,14 +1523,14 @@ The following are the on screen appearance requirements for various pages:
 | ->	    | 5.     | Law Enforcement clicks "cancel" |
 
 
-#### Responsibility Matrix
+##### Responsibility Matrix
 
 | Responsibility Description 		  | Type | Concept Name     |
 | --- 					  | ---  | ---              |
 | Container of All Missing Person Reports | K    | ReportStorage    |
 | Access Report Storage			  | D    | ReportController |
 
-### 4.3c Use Case diagrams
+#### 4.3c Use Case diagrams
 
 ![](media/UseCaseDiagram1.png)
 
