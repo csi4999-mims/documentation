@@ -1,30 +1,12 @@
-# MIMS Master Documentation
-
-- This folder contains all of the project documentation files.
-- Files are stored as GitHub-flavored Markdown (`.md`) and can be
-  viewed in any application which supports GitHub-flavored Markdown.
-- The "media" directory contains any supporting image files that
-  appear in various sections of the documentation as well as any
-  support PDF files that are referenced.
-
-## Missing In Michigan System (MIMS)
-
-### Project Documentation
-
-### Team Members
-
-- Nicole Cox
-- Bryan Derr
-- Minqiang Hu
-- Alex Morey
-- Mitchell Roe
-- Tyler Watling
+# Missing In Michigan System (MIMS)
 
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+- [Team Members](#team-members)
 - [Background](#background)
 - [Socioeconomic Impact, Business Objectives, and Gap Analysis](#socioeconomic-impact-business-objectives-and-gap-analysis)
   - [Socioeconomic Impact](#socioeconomic-impact)
@@ -202,6 +184,15 @@
   - [Chart.js](#chartjs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Team Members
+
+- Nicole Cox
+- Bryan Derr
+- Minqiang Hu
+- Alex Morey
+- Mitchell Roe
+- Tyler Watling
 
 ## Background
 
