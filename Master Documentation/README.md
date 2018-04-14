@@ -2,6 +2,18 @@
 
 ## Table of Contents
 
+<!--
+
+To update the table of contents below, run the following from the
+'Master Documentation' directory:
+
+    doctoc --notitle --maxlevel 3 README.md
+
+Check out https://github.com/thlorenz/doctoc for installation
+instructions.
+
+-->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
