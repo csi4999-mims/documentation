@@ -767,7 +767,7 @@ Please note: Phinx will **ignore** the contents of the `up()` and
 
 ### 3.1 Functional Requirements
 
-| Requirement # | Description |
+| Requirement # | Description                                                                                                                                                                                                                                                                                                                |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | REQ 1         | The Concerned Public & Law Enforcement should be able to create an account                                                                                                                                                                                                                                                 |
 | REQ 2         | The Concerned Public & Law Enforcement should be able to login with their created account                                                                                                                                                                                                                                  |
