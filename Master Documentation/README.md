@@ -279,12 +279,12 @@ installed to support the MIMS system:
 
 #### 2.3.1 Gantt Chart
 
-See [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
+Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
 chart PDF file.
 
 #### 2.3.2 Task Breakdown
 
-See [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
+Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
 breakdown PDF file.
 
 ### 2.4 Best Standards and Practices
