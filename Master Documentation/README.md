@@ -851,17 +851,17 @@ information and create an account.
 
 #### 4.3.1 User Stories
 
-| #  | User Stories                                                                                                                                                                                                                                                                                                                                         | Requirements Covered |
-|----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| 1  | As the Concerned Citizen or Law Enforcement I want to be able to create an account                                                                                                                                                                                                                                                                   | REQ 1                |
-| 2  | As the Concerned Citizen or Law Enforcement I want to be able to login with my account                                                                                                                                                                                                                                                               | REQ 2                |
-| 3  | As the Concerned Citizen or Law Enforcement I want to be able to update my account information                                                                                                                                                                                                                                                       | REQ 3                |
-| 4  | As the Concerned Citizen or Law Enforcement I want to be able to gain access to my account if I get locked out                                                                                                                                                                                                                                       | REQ 4                |
-| 5  | As an Application Administrator I want to be able to restrict user access via role management                                                                                                                                                                                                                                                        | REQ 7                |
-| 6  | As an Application Administrator I want the application to verify a user\'s email address                                                                                                                                                                                                                                                             | REQ 5                |
-| 7  | As an Application Administrator I want only one email to be associated with one user account                                                                                                                                                                                                                                                         | REQ 6                |
-| 8  | As the Concerned Citizen I want an interface specific to my user type                                                                                                                                                                                                                                                                                | REQ 8                |
-| 9  | As Law Enforcement I want an interface specific to my user type                                                                                                                                                                                                                                                                                      | REQ 9                |
+|  # | User Stories                                                                                                                                                                                                                                                                                                                                         | Requirements Covered |
+|---:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+|  1 | As the Concerned Citizen or Law Enforcement I want to be able to create an account                                                                                                                                                                                                                                                                   | REQ 1                |
+|  2 | As the Concerned Citizen or Law Enforcement I want to be able to login with my account                                                                                                                                                                                                                                                               | REQ 2                |
+|  3 | As the Concerned Citizen or Law Enforcement I want to be able to update my account information                                                                                                                                                                                                                                                       | REQ 3                |
+|  4 | As the Concerned Citizen or Law Enforcement I want to be able to gain access to my account if I get locked out                                                                                                                                                                                                                                       | REQ 4                |
+|  5 | As an Application Administrator I want to be able to restrict user access via role management                                                                                                                                                                                                                                                        | REQ 7                |
+|  6 | As an Application Administrator I want the application to verify a user\'s email address                                                                                                                                                                                                                                                             | REQ 5                |
+|  7 | As an Application Administrator I want only one email to be associated with one user account                                                                                                                                                                                                                                                         | REQ 6                |
+|  8 | As the Concerned Citizen I want an interface specific to my user type                                                                                                                                                                                                                                                                                | REQ 8                |
+|  9 | As Law Enforcement I want an interface specific to my user type                                                                                                                                                                                                                                                                                      | REQ 9                |
 | 10 | As an Application Administrator I want to have a website and mobile application version of the system                                                                                                                                                                                                                                                | REQ 10               |
 | 11 | As the Concerned Citizen I want to be able to submit a new missing person report                                                                                                                                                                                                                                                                     | REQ 11               |
 | 12 | As the Concerned Citizen when I submit a new report I want to be able to enter the Name of Parents, Parents Contact Info(email, phone, address), Victim's Name, Height, Weight, Color of Hair & Eyes, Additional Marks/Tattoos, Victim's DOB, Victim's Phone Number, Phone Contacts, and Social Media Accounts as they pertain to the missing person | REQ 12               |
@@ -899,24 +899,24 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                                    |
-|-----------|--------|--------------------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | Concerned Citizen opens the application and presses the "sign up" button                                                       |
-| ←         | 2.     | The application redirects the Concerned Citizen to the registration page                                                       |
-| ←         | 3.     | The Concerned Citizen is prompted to enter their first name, last name, email, password, and confirm password in textboxes     |
-| →         | 4.     | The Concerned Citizen enters their first name, last name, email, password, and confirm password in the corresponding textboxes |
-| ←         | 5.     | The information entered is verified                                                                                            |
-| ←         | 6.     | The Concerned Citizens account is added to the Database                                                                        |
+|-----------|-------:|--------------------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | Concerned Citizen opens the application and presses the "sign up" button                                                       |
+| ←         |     2. | The application redirects the Concerned Citizen to the registration page                                                       |
+| ←         |     3. | The Concerned Citizen is prompted to enter their first name, last name, email, password, and confirm password in textboxes     |
+| →         |     4. | The Concerned Citizen enters their first name, last name, email, password, and confirm password in the corresponding textboxes |
+| ←         |     5. | The information entered is verified                                                                                            |
+| ←         |     6. | The Concerned Citizens account is added to the Database                                                                        |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                                                    |
-|-----------|--------|--------------------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen open the application and presses the "sign up" button                                                    |
-| ←         | 2.     | The application redirects the Concerned Citizen to the registration page                                                       |
-| ←         | 3.     | The Concerned Citizen is prompted to enter their first name, last name, email, password, and confirm password in textboxes     |
-| →         | 4.     | The Concerned Citizen enters their first name, last name, email, password, and confirm password in the corresponding textboxes |
-| ←         | 5.     | The application notifies the Concerned Citizen information already exists                                                      |
-| ←         | 6.     | The Concerned Citizen is directed to the reset password page                                                                   |
+|-----------|-------:|--------------------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen open the application and presses the "sign up" button                                                    |
+| ←         |     2. | The application redirects the Concerned Citizen to the registration page                                                       |
+| ←         |     3. | The Concerned Citizen is prompted to enter their first name, last name, email, password, and confirm password in textboxes     |
+| →         |     4. | The Concerned Citizen enters their first name, last name, email, password, and confirm password in the corresponding textboxes |
+| ←         |     5. | The application notifies the Concerned Citizen information already exists                                                      |
+| ←         |     6. | The Concerned Citizen is directed to the reset password page                                                                   |
 
 ###### Responsibility Matrix
 
@@ -940,23 +940,23 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                             |
-|-----------|--------|-----------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen opens the application and is on the login screen                  |
-| ←         | 2.     | The Concerned Citizen is prompted to enter their username and password in textboxes     |
-| →         | 3.     | The Concerned Citizen enters their username and password in the corresponding textboxes |
-| ←         | 4.     | The entered information is validated based on the information in the Database           |
-| ←         | 5.     | The Database returns confirmation of the login information                              |
-| ←         | 6.     | The application displays the landing page                                               |
+|-----------|-------:|-----------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen opens the application and is on the login screen                  |
+| ←         |     2. | The Concerned Citizen is prompted to enter their username and password in textboxes     |
+| →         |     3. | The Concerned Citizen enters their username and password in the corresponding textboxes |
+| ←         |     4. | The entered information is validated based on the information in the Database           |
+| ←         |     5. | The Database returns confirmation of the login information                              |
+| ←         |     6. | The application displays the landing page                                               |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                             |
-|-----------|--------|-----------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen opens the application and is on the login screen                  |
-| ←         | 2.     | The Concerned Citizen is prompted to enter their username and password in textboxes     |
-| →         | 3.     | The Concerned Citizen enters their username and password in the corresponding textboxes |
-| ←         | 4.     | The entered information is validated based on the information in the Database           |
-| ←         | 5.     | The Database returns the login information as invalid                                   |
+|-----------|-------:|-----------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen opens the application and is on the login screen                  |
+| ←         |     2. | The Concerned Citizen is prompted to enter their username and password in textboxes     |
+| →         |     3. | The Concerned Citizen enters their username and password in the corresponding textboxes |
+| ←         |     4. | The entered information is validated based on the information in the Database           |
+| ←         |     5. | The Database returns the login information as invalid                                   |
 
 ###### Responsibility Matrix
 
@@ -979,20 +979,20 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                            |
-|-----------|--------|------------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen enters their updated name and email in the appropriate textboxes                                 |
-| ←         | 1.b    | If the Concerned Citizen updates their email a confirmation email is sent again similar to at initial account creation |
-| ←         | 2.     | The Database updates the entered information                                                                           |
-| ←         | 3.     | The application returns a success message to the Concerned Citizen                                                     |
+|-----------|-------:|------------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen enters their updated name and email in the appropriate textboxes                                 |
+| ←         |    1.b | If the Concerned Citizen updates their email a confirmation email is sent again similar to at initial account creation |
+| ←         |     2. | The Database updates the entered information                                                                           |
+| ←         |     3. | The application returns a success message to the Concerned Citizen                                                     |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                            |
-|-----------|--------|----------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen enters their updated name and email in the appropriate textboxes |
-| ←         | 2.     | The form checks the input                                                              |
-| ←         | 3.     | The form returns an error saying the input is not valid                                |
-| ←         | 4.     | The Database does not update the account information                                   |
+|-----------|-------:|----------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen enters their updated name and email in the appropriate textboxes |
+| ←         |     2. | The form checks the input                                                              |
+| ←         |     3. | The form returns an error saying the input is not valid                                |
+| ←         |     4. | The Database does not update the account information                                   |
 
 ###### Responsibility Matrix
 
@@ -1016,27 +1016,27 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                        |
-|-----------|--------|----------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen enters their email in the appropriate textbox                                |
-| →         | 2.     | The Concerned Citizen clicks the Reset Password button                                             |
-| ←         | 3.     | The application sends an email to the entered address                                              |
-| →         | 4.     | The Concerned Citizen clicks on the reset link in the email                                        |
-| ←         | 5.     | The application redirects the Concerned Citizen to the reset password page                         |
-| →         | 6.     | The Concerned Citizen enters their new password in the first textbox and confirms it in the second |
-| ←         | 7.     | The Database updates the Concerned Citizen's password                                              |
-| ←         | 8.     | The application displays a success message to the Concerned Citizen                                |
+|-----------|-------:|----------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen enters their email in the appropriate textbox                                |
+| →         |     2. | The Concerned Citizen clicks the Reset Password button                                             |
+| ←         |     3. | The application sends an email to the entered address                                              |
+| →         |     4. | The Concerned Citizen clicks on the reset link in the email                                        |
+| ←         |     5. | The application redirects the Concerned Citizen to the reset password page                         |
+| →         |     6. | The Concerned Citizen enters their new password in the first textbox and confirms it in the second |
+| ←         |     7. | The Database updates the Concerned Citizen's password                                              |
+| ←         |     8. | The application displays a success message to the Concerned Citizen                                |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                        |
-|-----------|--------|----------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen enters their email in the appropriate textbox                                |
-| →         | 2.     | The Concerned Citizen clicks the Reset Password button                                             |
-| ←         | 3.     | The application sends an email to the entered address                                              |
-| →         | 4.     | The Concerned Citizen clicks on the reset link in the email                                        |
-| ←         | 5.     | The application redirects the Concerned Citizen to the reset password page                         |
-| →         | 6.     | The Concerned Citizen enters their new password in the first textbox and confirms it in the second |
-| ←         | 7.     | The Database returns an error and does not update the password                                     |
+|-----------|-------:|----------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen enters their email in the appropriate textbox                                |
+| →         |     2. | The Concerned Citizen clicks the Reset Password button                                             |
+| ←         |     3. | The application sends an email to the entered address                                              |
+| →         |     4. | The Concerned Citizen clicks on the reset link in the email                                        |
+| ←         |     5. | The application redirects the Concerned Citizen to the reset password page                         |
+| →         |     6. | The Concerned Citizen enters their new password in the first textbox and confirms it in the second |
+| ←         |     7. | The Database returns an error and does not update the password                                     |
 
 ###### Responsibility Matrix
 
@@ -1059,26 +1059,26 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                         |
-|-----------|--------|-------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen navigates to the Edit Account page                            |
-| →         | 2.     | The Concerned Citizen enters their old password in the corresponding text field     |
-| →         | 3.     | The application sends an email to the entered address                               |
-| →         | 4.     | The Concerned Citizen enters their new password again in the confirm password field |
-| ←         | 5.     | The application verifies the passwords match                                        |
-| ←         | 6.     | The Database updates the Concerned Citizen’s password                               |
-| ←         | 7.     | The application displays a success message to the Concerned Citizen                 |
+|-----------|-------:|-------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen navigates to the Edit Account page                            |
+| →         |     2. | The Concerned Citizen enters their old password in the corresponding text field     |
+| →         |     3. | The application sends an email to the entered address                               |
+| →         |     4. | The Concerned Citizen enters their new password again in the confirm password field |
+| ←         |     5. | The application verifies the passwords match                                        |
+| ←         |     6. | The Database updates the Concerned Citizen’s password                               |
+| ←         |     7. | The application displays a success message to the Concerned Citizen                 |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                         |
-|-----------|--------|-------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen navigates to the Edit Account page                            |
-| →         | 2.     | The Concerned Citizen enters their old password in the corresponding text field     |
-| →         | 3.     | The Concerned Citizen enters their new password in the corresponding text field     |
-| →         | 4.     | The Concerned Citizen enters their new password again in the confirm password field |
-| ←         | 5.     | The application verifies the passwords match                                        |
-| ←         | 6.     | The application notifies the Concerned Citizen that the passwords do not match      |
-| ←         | 7.     | The application fails to update the Concerned Citizen’s password                    |
+|-----------|-------:|-------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen navigates to the Edit Account page                            |
+| →         |     2. | The Concerned Citizen enters their old password in the corresponding text field     |
+| →         |     3. | The Concerned Citizen enters their new password in the corresponding text field     |
+| →         |     4. | The Concerned Citizen enters their new password again in the confirm password field |
+| ←         |     5. | The application verifies the passwords match                                        |
+| ←         |     6. | The application notifies the Concerned Citizen that the passwords do not match      |
+| ←         |     7. | The application fails to update the Concerned Citizen’s password                    |
 
 ###### Responsibility Matrix
 
@@ -1101,19 +1101,19 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                                            |
-|-----------|--------|----------------------------------------------------------------------------------------------------------------------------------------|
-| ←         | 1.     | The Email Service sends an email to the entered address                                                                                |
-| →         | 2.     | The Concerned Citizen opens the email                                                                                                  |
-| →         | 3.     | The Concerned Citizen clicks the verify link in email                                                                                  |
-| ←         | 4.     | The application successfully creates the account OR updates the email of an existing account AND allows the Concerned Citizen to login |
+|-----------|-------:|----------------------------------------------------------------------------------------------------------------------------------------|
+| ←         |     1. | The Email Service sends an email to the entered address                                                                                |
+| →         |     2. | The Concerned Citizen opens the email                                                                                                  |
+| →         |     3. | The Concerned Citizen clicks the verify link in email                                                                                  |
+| ←         |     4. | The application successfully creates the account OR updates the email of an existing account AND allows the Concerned Citizen to login |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                         |
-|-----------|--------|-----------------------------------------------------------------------------------------------------|
-| ←         | 1.     | The Email Service sends an email to the entered address                                             |
-| ←         | 2.     | The email fails to send due to an invalid email                                                     |
-| →         | 3.     | The Concerned Citizen cannot continue with successful account creation OR updating of their account |
+|-----------|-------:|-----------------------------------------------------------------------------------------------------|
+| ←         |     1. | The Email Service sends an email to the entered address                                             |
+| ←         |     2. | The email fails to send due to an invalid email                                                     |
+| →         |     3. | The Concerned Citizen cannot continue with successful account creation OR updating of their account |
 
 ###### Responsibility Matrix
 
@@ -1136,22 +1136,22 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                               |
-|-----------|--------|---------------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen opens the application                                                                               |
-| ←         | 2.     | The application prompts the Concerned Citizen to login with their credentials                                             |
-| →         | 3.     | The Concerned Citizen enters their username(email) and password in the corresponding fields                               |
-| ←         | 4.     | The database verifies the Concerned Citizen's credentials and identifies their user type based on the entered credentials |
-| ←         | 5.     | The Concerned Citizen is directed to the landing (home) page                                                              |
+|-----------|-------:|---------------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen opens the application                                                                               |
+| ←         |     2. | The application prompts the Concerned Citizen to login with their credentials                                             |
+| →         |     3. | The Concerned Citizen enters their username(email) and password in the corresponding fields                               |
+| ←         |     4. | The database verifies the Concerned Citizen's credentials and identifies their user type based on the entered credentials |
+| ←         |     5. | The Concerned Citizen is directed to the landing (home) page                                                              |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                  |
-|-----------|--------|----------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen opens the application                                                  |
-| ←         | 2.     | The application prompts the Concerned Citizen to login with their credentials                |
-| →         | 3.     | The Concerned Citizen enters their username(email) and password in the corresponding fields  |
-| ←         | 4.     | The database verifies the Concerned Citizen's credentials, but cannot verify their user type |
-| ←         | 5.     | The application displays and error to the Concerned Citizen                                  |
+|-----------|-------:|----------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen opens the application                                                  |
+| ←         |     2. | The application prompts the Concerned Citizen to login with their credentials                |
+| →         |     3. | The Concerned Citizen enters their username(email) and password in the corresponding fields  |
+| ←         |     4. | The database verifies the Concerned Citizen's credentials, but cannot verify their user type |
+| ←         |     5. | The application displays and error to the Concerned Citizen                                  |
 
 ###### Responsibility Matrix
 
@@ -1174,22 +1174,22 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                       |
-|-----------|--------|-------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement opens the application                                                                             |
-| ←         | 2.     | The application prompts Law Enforcement to login with their credentials                                           |
-| →         | 3.     | Law Enforcement enters their username(emails) and password in the corresponding fields                            |
-| ←         | 4.     | The database verfies Law Enforcement's credentials and identifies ther user type based on the entered credentials |
-| ←         | 5.     | Law Enforcement is directed to the ladning (home) page                                                            |
+|-----------|-------:|-------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement opens the application                                                                             |
+| ←         |     2. | The application prompts Law Enforcement to login with their credentials                                           |
+| →         |     3. | Law Enforcement enters their username(emails) and password in the corresponding fields                            |
+| ←         |     4. | The database verfies Law Enforcement's credentials and identifies ther user type based on the entered credentials |
+| ←         |     5. | Law Enforcement is directed to the ladning (home) page                                                            |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                              |
-|-----------|--------|------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement opens the application                                                    |
-| ←         | 2.     | The application prompts Law Enforcement to login with their credentials                  |
-| →         | 3.     | Law Enforcement enters their username(email) and password in the corresponding fields    |
-| ←         | 4.     | The database verifies Law Enforcement's credentials, but cannot identify their user type |
-| ←         | 5.     | The application displays an error to Law Enforcement                                     |
+|-----------|-------:|------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement opens the application                                                    |
+| ←         |     2. | The application prompts Law Enforcement to login with their credentials                  |
+| →         |     3. | Law Enforcement enters their username(email) and password in the corresponding fields    |
+| ←         |     4. | The database verifies Law Enforcement's credentials, but cannot identify their user type |
+| ←         |     5. | The application displays an error to Law Enforcement                                     |
 
 ###### Responsibility Matrix
 
@@ -1212,21 +1212,21 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-----------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
-| →         | 2.     | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ←         | 3.     | The database saves all of the entered form data and assigns it a unique ID                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ←         | 4.     | The database flags the submitted report as "on hold"                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ←         | 5.     | The application notifies the Concerned Citizen to visit the nearest police station to complete the process                                                                                                                                                                                                                                                                                                                                                                                             |
+|-----------|-------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
+| →         |     2. | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ←         |     3. | The database saves all of the entered form data and assigns it a unique ID                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ←         |     4. | The database flags the submitted report as "on hold"                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ←         |     5. | The application notifies the Concerned Citizen to visit the nearest police station to complete the process                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-----------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
-| →         | 2.     | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ←         | 3.     | The form is not properly submitted because the Concerned Citizen missed filling in one of the Required(*) fields                                                                                                                                                                                                                                                                                                                                                                                       |
-| ←         | 4.     | The application displays an error message to the Concerned Citizen to fill in all required fields                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------|-------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
+| →         |     2. | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ←         |     3. | The form is not properly submitted because the Concerned Citizen missed filling in one of the Required(*) fields                                                                                                                                                                                                                                                                                                                                                                                       |
+| ←         |     4. | The application displays an error message to the Concerned Citizen to fill in all required fields                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 ###### Responsibility Matrix
 
@@ -1250,22 +1250,22 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                                         |
-|-----------|--------|---------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen clicks the submit report button                                                               |
-| ←         | 2.     | The form input is validated and saved into the Database                                                             |
-| ←         | 3.     | The ReportsController queries the Database for all reports                                                          |
-| ←         | 4.     | The Database returns all rows in the reports table                                                                  |
-| ←         | 5.     | The application displays the reports in a table format on the Law Enforcement home page for Law Enforcement to view |
+|-----------|-------:|---------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen clicks the submit report button                                                               |
+| ←         |     2. | The form input is validated and saved into the Database                                                             |
+| ←         |     3. | The ReportsController queries the Database for all reports                                                          |
+| ←         |     4. | The Database returns all rows in the reports table                                                                  |
+| ←         |     5. | The application displays the reports in a table format on the Law Enforcement home page for Law Enforcement to view |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                    |
-|-----------|--------|--------------------------------------------------------------------------------|
-| →         | 1.     | The Concerned Citizen clicks the submit report button                          |
-| ←         | 2.     | The form input is validated and saved into the Database                        |
-| ←         | 3.     | The ReportsController queries the Database for all reports                     |
-| ←         | 4.     | The Database returns no rows because there are no reports in the reports table |
-| ←         | 5.     | There are no reports for Law Enforcement to view                               |
+|-----------|-------:|--------------------------------------------------------------------------------|
+| →         |     1. | The Concerned Citizen clicks the submit report button                          |
+| ←         |     2. | The form input is validated and saved into the Database                        |
+| ←         |     3. | The ReportsController queries the Database for all reports                     |
+| ←         |     4. | The Database returns no rows because there are no reports in the reports table |
+| ←         |     5. | There are no reports for Law Enforcement to view                               |
 
 ###### Responsibility Matrix
 
@@ -1289,20 +1289,20 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                      |
-|-----------|--------|--------------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format        |
-| →         | 2a.    | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
-| →         | 2b.    | Law Enforcement clicks the “Approve” button in the “Approve Case” column                         |
-| ←         | 3.     | The Database changes the report status from “on hold” to “in progress”                           |
-| ←         | 4.     | The application now displays the approved report to the Concerned Citizens                       |
+|-----------|-------:|--------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format        |
+| →         |    2a. | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
+| →         |    2b. | Law Enforcement clicks the “Approve” button in the “Approve Case” column                         |
+| ←         |     3. | The Database changes the report status from “on hold” to “in progress”                           |
+| ←         |     4. | The application now displays the approved report to the Concerned Citizens                       |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                               |
-|-----------|--------|-------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| ←         | 2.     | The Database stores the report with an “on hold” status for >24hrs                        |
-| ←         | 3.     | The Database deletes the report information                                               |
+|-----------|-------:|-------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format |
+| ←         |     2. | The Database stores the report with an “on hold” status for >24hrs                        |
+| ←         |     3. | The Database deletes the report information                                               |
 
 ###### Responsibility Matrix
 
@@ -1325,21 +1325,21 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                      |
-|-----------|--------|--------------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format        |
-| →         | 2      | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
-| ←         | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number           |
-| →         | 4.     | Law Enforcement enters the report number and clicks the confirm button                           |
+|-----------|-------:|--------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format        |
+| →         |     2. | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
+| ←         |     3. | A modal pops up containing a text field for Law Enforcement to enter the report number           |
+| →         |     4. | Law Enforcement enters the report number and clicks the confirm button                           |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                         |
-|-----------|--------|-----------------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format           |
-| →         | 2.     | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button    |
-| ←         | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number              |
-| →         | 4.     | Law Enforcement enters invalid characters into the text field and clicks approve                    |
-| →         | 5.     | An error message is displayed because the characters are invalid and the report number is not added |
+|-----------|-------:|-----------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format           |
+| →         |     2. | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button    |
+| ←         |     3. | A modal pops up containing a text field for Law Enforcement to enter the report number              |
+| →         |     4. | Law Enforcement enters invalid characters into the text field and clicks approve                    |
+| →         |     5. | An error message is displayed because the characters are invalid and the report number is not added |
 
 ###### Responsibility Matrix
 
@@ -1362,22 +1362,22 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                                          |
-|-----------|--------|------------------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format            |
-| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                            |
-| →         | 3.     | Law Enforcement clicks the “Categorize" button                                                       |
-| ←         | 4.     | A modal pops up and display category options as checkboxes                                           |
-| →         | 5.     | Law Enforcement clicks one or more of the check boxes and clicks confirm to apply the categorization |
+|-----------|-------:|------------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format            |
+| →         |     2. | Law Enforcement clicks the report number to view the detailed report page                            |
+| →         |     3. | Law Enforcement clicks the “Categorize" button                                                       |
+| ←         |     4. | A modal pops up and display category options as checkboxes                                           |
+| →         |     5. | Law Enforcement clicks one or more of the check boxes and clicks confirm to apply the categorization |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                                       |
-|-----------|--------|-------------------------------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format                         |
-| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                                         |
-| →         | 3.     | Law Enforcement clicks the “Categorize" button                                                                    |
-| ←         | 4.     | A modal pops up and display category options as checkboxes                                                        |
-| →         | 5.     | Law Enforcement clicks does not see the category they want and closes the modal without choosing a categorization |
+|-----------|-------:|-------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format                         |
+| →         |     2. | Law Enforcement clicks the report number to view the detailed report page                                         |
+| →         |     3. | Law Enforcement clicks the “Categorize" button                                                                    |
+| ←         |     4. | A modal pops up and display category options as checkboxes                                                        |
+| →         |     5. | Law Enforcement clicks does not see the category they want and closes the modal without choosing a categorization |
 
 ###### Responsibility Matrix
 
@@ -1400,24 +1400,24 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                               |
-|-----------|--------|-------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| →         | 3.     | Law Enforcement updates any fields as needed                                              |
-| →         | 4.     | Law Enforcement clicks the "Update Button"                                                |
-| ←         | 5.     | The form validates the changes                                                            |
-| ←         | 5.     | The database applies the changes to the fields in the associated table                    |
+|-----------|-------:|-------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         |     2. | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         |     3. | Law Enforcement updates any fields as needed                                              |
+| →         |     4. | Law Enforcement clicks the "Update Button"                                                |
+| ←         |     5. | The form validates the changes                                                            |
+| ←         |     6. | The database applies the changes to the fields in the associated table                    |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                               |
-|-----------|--------|-------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| →         | 3.     | Law Enforcement updates any fields as needed                                              |
-| →         | 4.     | Law Enforcement clicks the "Update Button"                                                |
-| ←         | 5.     | The form validates the changes                                                            |
-| ←         | 5.     | The form returns an error because the updated fields were not changed in the database     |
+|-----------|-------:|-------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         |     2. | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         |     3. | Law Enforcement updates any fields as needed                                              |
+| →         |     4. | Law Enforcement clicks the "Update Button"                                                |
+| ←         |     5. | The form validates the changes                                                            |
+| ←         |     6. | The form returns an error because the updated fields were not changed in the database     |
 
 ###### Responsibility Matrix
 
@@ -1440,23 +1440,23 @@ information and create an account.
 ###### Flow of Events for Main Success Scenario
 
 | Direction | Number | Description                                                                               |
-|-----------|--------|-------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| →         | 3.     | Law Enforcement clicks the "Mark As Found" button                                         |
-| ←         | 4.     | A modal pops up to confirm you want to mark the person as found                           |
-| →         | 5.     | Law Enforcement clicks "confirm"                                                          |
-| ←         | 6.     | The database changes the missing person report status to "found"                          |
+|-----------|-------:|-------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         |     2. | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         |     3. | Law Enforcement clicks the "Mark As Found" button                                         |
+| ←         |     4. | A modal pops up to confirm you want to mark the person as found                           |
+| →         |     5. | Law Enforcement clicks "confirm"                                                          |
+| ←         |     6. | The database changes the missing person report status to "found"                          |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                               |
-|-----------|--------|-------------------------------------------------------------------------------------------|
-| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| →         | 3.     | Law Enforcement clicks the "Mark As Found" button                                         |
-| ←         | 4.     | A modal pops up to confirm you want to mark the person as found                           |
-| →         | 5.     | Law Enforcement clicks "cancel"                                                           |
+|-----------|-------:|-------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         |     2. | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         |     3. | Law Enforcement clicks the "Mark As Found" button                                         |
+| ←         |     4. | A modal pops up to confirm you want to mark the person as found                           |
+| →         |     5. | Law Enforcement clicks "cancel"                                                           |
 
 ###### Responsibility Matrix
 
