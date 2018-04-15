@@ -1,3 +1,5 @@
+<!-- -*- mode: gfm; -*- -->
+
 # Missing In Michigan System (MIMS)
 
 <!--
