@@ -251,7 +251,7 @@ helping Law Enforcement</dd>
 #### 2.2.1 Project Management & Revision Management
 
 For project management our team used Microsoft Project 2013, Slack,
-Google Drive, and Github.
+Google Drive, and GitHub.
 
 #### 2.2.2 Front End Development
 
@@ -445,7 +445,7 @@ public $helpers = [
 
 Add these lines to `Layout/default.ctp`:
 
-``` php
+``` html+php
 <?php
 echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
 /bootstrap.min.css');
@@ -468,7 +468,7 @@ can pop up.
 
 <https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/>
 
-``` php
+``` html+php
 <?php
     // Start a modal with a title, default value for 'close' is true
     echo $this->Modal->create("My Modal Form", ['id' => 'MyModal1',
@@ -488,7 +488,7 @@ can pop up.
 
 ###### Modal using standard HTML Syntax
 
-``` php
+``` html
 <!-- Example Button trigger modal -->
 <button type="button" class="btn btn-primary example-button"
 data-toggle="modal" data-target="#exampleModal">
@@ -505,7 +505,7 @@ aria-labbeledby="MyModal1Label" class="modal fade">
                 <button type="button" class="close" data-dismiss="modal"
                 aria-hidden="true">×</button> -->
                 <h4 class="modal-title" id="MyModal1Label">Example 1 -
-                Simple header & footer, custom body</h4>
+                Simple header &amp; footer, custom body</h4>
             </div>
             <div class="modal-body ">
                 <p>Here I write the body of my modal !</p>
@@ -527,23 +527,23 @@ aria-labbeledby="MyModal1Label" class="modal fade">
 
 ##### Installation
 
-1. Download the files from Github
+1. Download the files from GitHub
 2. Place the helper file (`GoogleMapsHelper.php`) into the following
    location: `src/View/Helper/`
 3. Add this line to the controller associated with the view you will
    place the Google Map on: `public $helpers = array('GoogleMap');`
 4. Add the JavaScript files to the associated view:
    ``` html+php
-   <?= $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
+   <?php $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
    ```
     - Get the API Key from Nicole
 5. In the view add this line:
    ``` html+php
-   <?= $this->GoogleMap->map(); ?>
+   <?php $this->GoogleMap->map(); ?>
    ```
 6. Modify the map options with the follow code in the specific view:
    ``` html+php
-   <?=
+   <?php
    // Override any of the following default options to customize your map
    $map_options = array(
        'id' => 'map_canvas',
@@ -564,12 +564,12 @@ aria-labbeledby="MyModal1Label" class="modal fade">
        'windowText' => 'My Position',
        'draggableMarker' => false
    );
+   $this->GoogleMap->map($map_options);
    ?>
-   <?= $this->GoogleMap->map($map_options); ?>`
    ```
 7. Add markers for each report in the database:
 
-   ``` html\+php
+   ``` html+php
    <?php
    foreach ($reports as $report) {
        $this->GoogleMap->addMarker("map_canvas", 1, $report->get('FamilyStreet'));
@@ -603,7 +603,7 @@ to have a Service Provider Application, which will create and
 distribute the web services to the client.  With this method
 authentication and authorization can be controlled better.
 
-###### SSL with mySQL Workbench
+###### SSL with MySQL Workbench
 
 <https://developer.android.com/training/articles/security-ssl.html>
 
@@ -639,12 +639,12 @@ provide a variety of useful functions, such as running static code,
 providing code analysis tools, and handling the generation and
 distribution of APK files.
 
-###### Proguard
+###### ProGuard
 
 <https://github.com/futurice/android-best-practices#proguard-configuration>
 
-Lastly, we might consider implementing utilities such as proguard or
-dexguard, for the purpose of obfuscating our code, and shrinking the
+Lastly, we might consider implementing utilities such as ProGuard or
+DexGuard, for the purpose of obfuscating our code, and shrinking the
 overall package size.  The main purpose of this would to be to better
 optimize the application for use on a mobile device.
 
@@ -670,7 +670,7 @@ optimize the application for use on a mobile device.
 | REQ 16        | The report information must be validated by Law Enforcement                                                                                                                                                                                                                                                                |
 | REQ 17        | Each report must have a valid police report number to appear in the application                                                                                                                                                                                                                                            |
 | REQ 18        | Reports approved by Law Enforcement will be added to the application and be displayed to the Concerned Public                                                                                                                                                                                                              |
-| REQ 19        | Law Enforcement should be able to categorize the type of missing person--drug user, romeo & juliet, human trafficking, etc.                                                                                                                                                                                                |
+| REQ 19        | Law Enforcement should be able to categorize the type of missing person--drug user, Romeo & Juliet, human trafficking, etc.                                                                                                                                                                                                |
 | REQ 20        | The Concerned Public Interface should display missing person's image, name, DOB, description, last location                                                                                                                                                                                                                |
 | REQ 21        | The Law Enforcement Interface should display all information contained in the report                                                                                                                                                                                                                                       |
 | REQ 22        | The Concerned Public should be able to browse current missing and found people                                                                                                                                                                                                                                             |
@@ -751,7 +751,7 @@ information and create an account.
   the details of each report
 - The public view should not be able to be edited
 - The public view should be organized in an easy to understand way
-- The Law Enforcement view should be abled to e edited
+- The Law Enforcement view should be able to be edited
 
 ### 3.4 Wireframes
 
@@ -1047,14 +1047,14 @@ information and create an account.
 
 ##### Use Case UC-#4B: Update Password
 
-|                       |                                                                              |
-|-----------------------|------------------------------------------------------------------------------|
-| Related Requirements: | REQ 4                                                                        |
-| Initiating Actor:     | Concerned Citizen                                                            |
-| Actor's Goals:        | To change their password in Edit Account page                                |
-| Participating Actors: | Database, Concerned Citizen, Email Service                                   |
-| Preconditions:        | TThe Concerned Citizen has an account and they want to change their password |
-| Postconditions:       | The Concerned Citizen has a new updated account password                     |
+|                       |                                                                             |
+|-----------------------|-----------------------------------------------------------------------------|
+| Related Requirements: | REQ 4                                                                       |
+| Initiating Actor:     | Concerned Citizen                                                           |
+| Actor's Goals:        | To change their password in Edit Account page                               |
+| Participating Actors: | Database, Concerned Citizen, Email Service                                  |
+| Preconditions:        | The Concerned Citizen has an account and they want to change their password |
+| Postconditions:       | The Concerned Citizen has a new updated account password                    |
 
 ###### Flow of Events for Main Success Scenario
 
@@ -1173,13 +1173,13 @@ information and create an account.
 
 ###### Flow of Events for Main Success Scenario
 
-| Direction | Number | Description                                                                                                       |
-|-----------|-------:|-------------------------------------------------------------------------------------------------------------------|
-| →         |     1. | Law Enforcement opens the application                                                                             |
-| ←         |     2. | The application prompts Law Enforcement to login with their credentials                                           |
-| →         |     3. | Law Enforcement enters their username(emails) and password in the corresponding fields                            |
-| ←         |     4. | The database verfies Law Enforcement's credentials and identifies ther user type based on the entered credentials |
-| ←         |     5. | Law Enforcement is directed to the ladning (home) page                                                            |
+| Direction | Number | Description                                                                                                         |
+|-----------|-------:|---------------------------------------------------------------------------------------------------------------------|
+| →         |     1. | Law Enforcement opens the application                                                                               |
+| ←         |     2. | The application prompts Law Enforcement to login with their credentials                                             |
+| →         |     3. | Law Enforcement enters their username(emails) and password in the corresponding fields                              |
+| ←         |     4. | The database verifies Law Enforcement's credentials and identifies their user type based on the entered credentials |
+| ←         |     5. | Law Enforcement is directed to the landing (home) page                                                              |
 
 ###### Flow of Events for Alternate Scenario
 
@@ -1242,7 +1242,7 @@ information and create an account.
 |-----------------------|-----------------------------------------------------------|
 | Related Requirements: | REQ 15                                                    |
 | Initiating Actor:     | Concerned Citizen                                         |
-| Actor's Goals:        | To send submitted report informatin to Law Enforcement    |
+| Actor's Goals:        | To send submitted report information to Law Enforcement   |
 | Participating Actors: | Law Enforcement, Database                                 |
 | Preconditions:        | The Submit Report form is filled out                      |
 | Postconditions:       | Law Enforcement can view submitted missing person reports |
@@ -1636,7 +1636,7 @@ addReport(Report_ID : Report_ID,
           FamilyMiddleName : text,
           FamilyLastName : text,
           FamilyGender : text,
-          Realtion : text,
+          Relation : text,
           FamilyStreet : text,
           FamilyCity : text,
           FamilyState : text,
@@ -1765,7 +1765,7 @@ updateReport(Report_ID : Report_ID,
              FamilyMiddleName : text,
              FamilyLastName : text,
              FamilyGender : text,
-             Realtion : text,
+             Relation : text,
              FamilyStreet : text,
              FamilyCity : text,
              FamilyState : text,
@@ -2097,17 +2097,17 @@ CakePHP:
 
 #### 11.1.4 Running Tests
 
-To run tests for a plugin that is part of your applcation source, you
-need to cd into the plugin directory and then use phpunit command that
-matches how you installed phpunit.
+To run tests for a plugin that is part of your application source, you
+need to cd into the plugin directory and then use PHPUnit command that
+matches how you installed PHPUnit.
 
-##### Using composer installed phpunit
+##### Using composer installed PHPUnit
 
 ``` shell
 vendor/bin/phpunit
 ```
 
-##### Using phar file
+##### Using PHAR file
 
 ``` shell
 php phpunit.phar
@@ -3074,7 +3074,7 @@ to the home page.
 ##### Actual Results
 
 - User 1: Login was successful and the home page was displayed.
-- User 2: Login was not successful and an error message was dislayed.
+- User 2: Login was not successful and an error message was displayed.
 - User 3: Login was successful and the home page was displayed.
 - User 4: Login was successful and the home page was displayed.
 - User 5: Login was successful and the home page was displayed.
@@ -3858,13 +3858,13 @@ The report has a status of "found" and the public can still view it
 
 #### 12.1.1 Gantt Chart
 
-Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for Gantt chart
-PDF.
+Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
+chart PDF file.
 
 #### 12.1.2 Task Breakdown
 
-Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for task
-breakdown PDF.
+Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
+breakdown PDF file.
 
 ### 12.2 Risk Management
 
@@ -3872,7 +3872,7 @@ breakdown PDF.
 
 1. Risk Details
     1. Personal data about missing people will be maintained in the
-       database for Law Enforcement to Access
+       database for Law Enforcement to access
     2. There will need to be restrictions to what data the Concerned
        Public can see
     3. The integrity of the data needs to be retained
