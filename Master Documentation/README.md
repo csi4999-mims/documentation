@@ -2002,7 +2002,7 @@ an easy to read table format.  The maps on both the Law Enforcement
 dashboard and the Public dashboard allow for users to have a more
 interactive way to see the locations of various missing people based
 on their last know location and with a description next to the map to
-should how to fully utilize its functionality.  The content of all the
+show how to fully utilize its functionality.  The content of all the
 pages is kept simple to maintain the focus on what the purpose of the
 application is—to help locate missing people and bring them back to
 their families.
