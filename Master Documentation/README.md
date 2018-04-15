@@ -488,7 +488,7 @@ can pop up.
 
 ###### Modal using standard HTML Syntax
 
-``` php
+``` html
 <!-- Example Button trigger modal -->
 <button type="button" class="btn btn-primary example-button"
 data-toggle="modal" data-target="#exampleModal">
