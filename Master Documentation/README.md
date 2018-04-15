@@ -558,10 +558,8 @@ aria-labbeledby="MyModal1Label" class="modal fade">
        'longitude' => -83.399939,
        'marker' => true,
        'markerTitle' => 'This is my position',
-       'markerIcon' => 'http://google-maps-icons.googlecode.com/
-       files/home.png',
-       'markerShadow' => 'http://google-maps-icons.googlecode.com/
-       files/shadow.png',
+       'markerIcon' => 'http://google-maps-icons.googlecode.com/files/home.png',
+       'markerShadow' => 'http://google-maps-icons.googlecode.com/files/shadow.png',
        'infoWindow' => true,
        'windowText' => 'My Position',
        'draggableMarker' => false
