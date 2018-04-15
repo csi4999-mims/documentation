@@ -445,7 +445,7 @@ public $helpers = [
 
 Add these lines to `Layout/default.ctp`:
 
-``` php
+``` html+php
 <?php
 echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
 /bootstrap.min.css');
@@ -534,16 +534,16 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    place the Google Map on: `public $helpers = array('GoogleMap');`
 4. Add the JavaScript files to the associated view:
    ``` html+php
-   <?= $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
+   <?php $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
    ```
     - Get the API Key from Nicole
 5. In the view add this line:
    ``` html+php
-   <?= $this->GoogleMap->map(); ?>
+   <?php $this->GoogleMap->map(); ?>
    ```
 6. Modify the map options with the follow code in the specific view:
    ``` html+php
-   <?=
+   <?php
    // Override any of the following default options to customize your map
    $map_options = array(
        'id' => 'map_canvas',
@@ -564,8 +564,8 @@ aria-labbeledby="MyModal1Label" class="modal fade">
        'windowText' => 'My Position',
        'draggableMarker' => false
    );
+   $this->GoogleMap->map($map_options);
    ?>
-   <?= $this->GoogleMap->map($map_options); ?>`
    ```
 7. Add markers for each report in the database:
 
