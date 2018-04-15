@@ -3858,13 +3858,13 @@ The report has a status of "found" and the public can still view it
 
 #### 12.1.1 Gantt Chart
 
-Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for Gantt chart
-PDF.
+Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
+chart PDF file.
 
 #### 12.1.2 Task Breakdown
 
-Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for task
-breakdown PDF.
+Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
+breakdown PDF file.
 
 ### 12.2 Risk Management
 
