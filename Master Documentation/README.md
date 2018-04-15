@@ -157,121 +157,135 @@ their family, friends, phone, and social media accounts is private and
 should only be accessible by Law Enforcement. The balance between
 sharing enough information to the public to be helpful and maintaining
 the privacy of the missing person is vital to the integrity of the
-application. The data must be stored in a secure way and controlled via
-role management.
+application. The data must be stored in a secure way and controlled
+via role management.
 
 Some of the ethical concerns that are related to the application are
 that people who have access to the sensitive data might use it for
-personal gain or inappropriate reasons. Also, some issues of how ethical
-social media mining and analysis might be can come up. This concern can
-be mitigated by ensuring that all users of the application consent to
-the use of social media mining for any person they report missing. Users
-of social media also already agree to have their data publicized to a
-certain extent on platforms such as Facebook and Twitter.
+personal gain or inappropriate reasons. Also, some issues of how
+ethical social media mining and analysis might be can come up. This
+concern can be mitigated by ensuring that all users of the application
+consent to the use of social media mining for any person they report
+missing. Users of social media also already agree to have their data
+publicized to a certain extent on platforms such as Facebook and
+Twitter.
 
 ### 1.4 Glossary of Terms
 
-**Missing Person:** an individual who has gone missing
+<dl>
 
-**Runaway:** an individual who has chosen to run away for various
-reasons
+<dt>Missing Person</dt> <dd>An individual who has gone missing</dd>
 
-**Human Trafficking:** organized criminal activity in which human
-beings are treated as possessions to be controlled and exploited
+<dt>Runaway</dt> <dd>An individual who has chosen to run away for
+various reasons</dd>
 
-**Criminal Activity:** an activity that is defined as illegal by law
+<dt>Human Trafficking</dt> <dd>Organized criminal activity in which
+human beings are treated as possessions to be controlled and
+exploited</dd>
 
-**Drug Use:** the use of illegal or prescription substances
+<dt>Criminal Activity</dt> <dd>An activity that is defined as illegal
+by law</dd>
 
-**Romeo & Juliet:** a scenario where two individuals run away with the
-intended purpose of being together in a relationship
+<dt>Drug Use</dt> <dd>The use of illegal or prescription substances</dd>
 
-**Police Report:** an official report filed at a police station
+<dt>Romeo & Juliet</dt> <dd>A scenario where two individuals run away
+with the intended purpose of being together in a relationship</dd>
 
-**Illegal:** not according or authorized by law
+<dt>Police Report</dt> <dd>An official report filed at a police
+station</dd>
 
-**Legal:** conforming or permitted to by law
+<dt>Illegal</dt> <dd>Not according or authorized by law</dd>
 
-**Search Warrant:** a warrant authorizing a search
+<dt>Legal</dt> <dd>Conforming or permitted to by law</dd>
 
-**LEIN:** Law Enforcement Information Network, is used by police to
-manage information including traffic stops, crimes, missing people,
-etc.
+<dt>Search Warrant</dt> <dd>A warrant authorizing a search</dd>
 
-**Facebook:** social media network
+<dt>LEIN</dt> <dd>Law Enforcement Information Network, is used by
+police to manage information including traffic stops, crimes, missing
+people, etc.</dd>
 
-**Twitter:** social media network
+<dt>Facebook</dt> <dd>Social media network</dd>
 
-**Social Media Mining:** the process of using social media information
-to analyze and develop patterns
+<dt>Twitter</dt> <dd>Social media network</dd>
 
-**Victim:** one that is subjected to oppression, hardship, or
-mistreatment
+<dt>Social Media Mining</dt> <dd>The process of using social media
+information to analyze and develop patterns</dd>
 
-**Law Enforcement:** the department of people who enforce the law,
-investigate crimes, and make arrests
+<dt>Victim</dt> <dd>One that is subjected to oppression, hardship, or
+mistreatment</dt>
 
-**Concerned Public:** The general public who is interested in helping
-Law Enforcement
+<dt>Law Enforcement</dt> <dd>The department of people who enforce the
+law, investigate crimes, and make arrests</dd>
+
+<dt>Concerned Public</dt> <dd>The general public who is interested in
+helping Law Enforcement</dd>
+
+</dl>
 
 ## Section 2
 
 ### 2.1 Team Information
 
-Nicole Cox: Project Management, Website UI Development, Website
-Functionality Development, Documentation
-
-Bryan Derr: Mobile Application Development and Research, Documentation
-
-Minqiang Hu:
-
-Alex Morey:
-
-Mitchell Roe: Systems Administration, DevOps, Documentation
-
-Tyler Watling: Database, Website Functionality, Documentation
+- Nicole Cox
+    - Project Management
+    - Website UI Development
+    - Website Functionality Development
+    - Documentation
+- Bryan Derr
+    - Mobile Application Development and Research
+    - Documentation
+- Minqiang Hu
+- Alex Morey
+- Mitchell Roe
+    - Systems Administration
+    - Database Administration
+    - DevOps
+    - Documentation
+- Tyler Watling
+    - Database
+    - Website Functionality
+    - Documentation
 
 ### 2.2 Tools and Technology
 
 #### 2.2.1 Project Management & Revision Management
 
-For project management our team is using Microsoft Project 2013, Slack,
+For project management our team used Microsoft Project 2013, Slack,
 Google Drive, and Github.
 
 #### 2.2.2 Front End Development
 
-For Front End Development our team is using Bootstrap, HTML, CSS, and
+For Front End Development our team used Bootstrap, HTML, CSS, and
 JavaScript.
 
 #### 2.2.3 Back End Development
 
-For Back End Development our team is using the [CakePHP
+For Back End Development our team used the [CakePHP
 Framework](https://cakephp.org/).
 
 #### 2.2.4 Server
 
 The MIMS server is a Debian 9 (codename "stretch") 64-bit server
-hosted by Linode.  It has the following software installed to support
-the MIMS system:
+hosted by [Linode](http://linode.com/).  It has the following software
+installed to support the MIMS system:
 
 - Apache 2.4
 - PHP 7.0
 - MariaDB 15.1
 - PHPUnit 5.4.6
+- Composer 1.2.2
 
 ### 2.3 Project Plan
 
 #### 2.3.1 Gantt Chart
 
-See included PDF in *media/MIMS_Project_Plan_FINAL_Gantt*
-
-![](media/MIMS_Project_Plan_FINAL_Gantt.pdf)
+See [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
+chart PDF file.
 
 #### 2.3.2 Task Breakdown
 
-See included PDF in *media/MIMS_Project_Plan_FINAL_Tasks*
-
-![](media/MIMS_Project_Plan_FINAL_Tasks.pdf)
+See [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
+breakdown PDF file.
 
 ### 2.4 Best Standards and Practices
 
@@ -336,213 +350,234 @@ The Controller is plural (e.g. `UsersController.php`).
 
 ###### Clone a repo
 
-    git clone <repo name> [destination]
+``` shell
+git clone <repo name> [destination]
+
+```
 
 For example:
 
-    git clone https://github.com/csi4999-mims/documentation.git
+``` shell
+git clone https://github.com/csi4999-mims/documentation.git
+```
 
 (The `[destination]` is optional.)
 
 ###### Get the latest from the repo
 
-    git pull
+``` shell
+git pull
+```
 
 ###### Check for unstaged changes
 
-    git status
+``` shell
+git status
+```
 
 ###### Stage changes
 
-    git add -A
+``` shell
+git add -A
+```
 
 OR
 
-    git add
+``` shell
+git add
+```
 
 ###### Commit changes
 
-    git commit -m "my commit message"
+``` shell
+git commit -m "my commit message"
+```
 
 ###### Push changes
 
-    git push
+``` shell
+git push
+```
 
 #### 2.4.3 Bootstrap Helper Documentation
 
-https://holt59.github.io/cakephp3-bootstrap-helpers/
+<https://holt59.github.io/cakephp3-bootstrap-helpers/>
 
 ##### Installation
 
-    To install the Bootstrap Helper for CakePHP you need to run the following
-    commands or add the following code:
+To install the Bootstrap Helper for CakePHP you need to run the
+following commands or add the following code:
 
-    ~~~
-    composer require holt59/cakephp3-bootstrap-helpers:dev-master
-    ~~~
+``` shell
+composer require holt59/cakephp3-bootstrap-helpers:dev-master
+```
 
-Add this line to `/config/bootstrap.php`:
+Add this line to `config/bootstrap.php`:
 
-    ~~~
-    Plugin::load('Bootstrap');
-    ~~~
+``` php
+Plugin::load('Bootstrap');
+```
+
 Add these lines to `AppController.php`:
 
-    ~~~
-    public $helpers = [
-        'Form' => [
-            'className' => 'Bootstrap.Form'
-        ],
-        'Html' => [
-            'className' => 'Bootstrap.Html'
-        ],
-        'Modal' => [
-            'className' => 'Bootstrap.Modal'
-        ],
-        'Navbar' => [
-            'className' => 'Bootstrap.Navbar'
-        ],
-        'Paginator' => [
-            'className' => 'Bootstrap.Paginator'
-        ],
-        'Panel' => [
-            'className' => 'Bootstrap.Panel'
-        ]
-    ];
-    ~~~
+``` php
+public $helpers = [
+    'Form' => [
+        'className' => 'Bootstrap.Form'
+    ],
+    'Html' => [
+        'className' => 'Bootstrap.Html'
+    ],
+    'Modal' => [
+        'className' => 'Bootstrap.Modal'
+    ],
+    'Navbar' => [
+        'className' => 'Bootstrap.Navbar'
+    ],
+    'Paginator' => [
+        'className' => 'Bootstrap.Paginator'
+    ],
+    'Panel' => [
+        'className' => 'Bootstrap.Panel'
+    ]
+];
+```
 
 Add these lines to `Layout/default.ctp`:
 
-    ~~~
-    <?php
-    echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
-    /bootstrap.min.css');
-    echo $this->Html->script([
-        'https://code.jquery.com/jquery-1.12.4.min.js',
-        'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
-    ]);
-    ?>
-    ~~~
+``` php
+<?php
+echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
+/bootstrap.min.css');
+echo $this->Html->script([
+    'https://code.jquery.com/jquery-1.12.4.min.js',
+    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
+]);
+?>
+```
 
 ##### Using the Helpers
 
 ###### Modal Helper
 
-    A modal is a window that can dynamically pop up when you specify it to. For
-    example when someone presses a button on the screen a modal can pop up.
+A modal is a window that can dynamically pop up when you specify it
+to. For example when someone presses a button on the screen a modal
+can pop up.
 
 ###### Modal using CakePHP Syntax
 
-    https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/
+<https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/>
 
-    ~~~
-    <?php
-        // Start a modal with a title, default value for 'close' is true
-        echo $this->Modal->create("My Modal Form", ['id' => 'MyModal1',
-        'close' => false]) ;
-    ?>
-    <p>Here I write the body of my modal !</p>
-    <?php
-        // Close the modal, output a footer with a 'close' button
-        echo $this->Modal->end() ;
-        // It is possible to specify custom buttons:
-        echo $this->Modal->end([
-            $this->Form->button('Submit', ['bootstrap-type' => 'primary']),
-            $this->Form->button('Close', ['data-dismiss' => 'modal'])
-        ]);
-    ?>
-    ~~~
+``` php
+<?php
+    // Start a modal with a title, default value for 'close' is true
+    echo $this->Modal->create("My Modal Form", ['id' => 'MyModal1',
+    'close' => false]) ;
+?>
+<p>Here I write the body of my modal !</p>
+<?php
+    // Close the modal, output a footer with a 'close' button
+    echo $this->Modal->end() ;
+    // It is possible to specify custom buttons:
+    echo $this->Modal->end([
+        $this->Form->button('Submit', ['bootstrap-type' => 'primary']),
+        $this->Form->button('Close', ['data-dismiss' => 'modal'])
+    ]);
+?>
+```
 
 ###### Modal using standard HTML Syntax
 
-    ~~~
-    <!-- Example Button trigger modal -->
-    <button type="button" class="btn btn-primary example-button"
-    data-toggle="modal" data-target="#exampleModal">
-      comment
-    </button>
+``` php
+<!-- Example Button trigger modal -->
+<button type="button" class="btn btn-primary example-button"
+data-toggle="modal" data-target="#exampleModal">
+  comment
+</button>
 
-    <!-- Example Modal -->
-    <div id="MyModal1" tabindex="-1" role="dialog" aria-hidden="true"
-    aria-labbeledby="MyModal1Label" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header ">
-                    <!-- With 'close' => true, or without specifying:
-                    <button type="button" class="close" data-dismiss="modal"
-                    aria-hidden="true">×</button> -->
-                    <h4 class="modal-title" id="MyModal1Label">Example 1 -
-                    Simple header & footer, custom body</h4>
-                </div>
-                <div class="modal-body ">
-                    <p>Here I write the body of my modal !</p>
-                </div>
-                <div class="modal-footer ">
-                    <button class="btn btn-primary btn-primary" type="submit">
-                    Submit</button>
-                    <button data-dismiss="modal" class="btn btn-default"
-                     type="submit">Close</button>
-                </div>
+<!-- Example Modal -->
+<div id="MyModal1" tabindex="-1" role="dialog" aria-hidden="true"
+aria-labbeledby="MyModal1Label" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <!-- With 'close' => true, or without specifying:
+                <button type="button" class="close" data-dismiss="modal"
+                aria-hidden="true">×</button> -->
+                <h4 class="modal-title" id="MyModal1Label">Example 1 -
+                Simple header & footer, custom body</h4>
+            </div>
+            <div class="modal-body ">
+                <p>Here I write the body of my modal !</p>
+            </div>
+            <div class="modal-footer ">
+                <button class="btn btn-primary btn-primary" type="submit">
+                Submit</button>
+                <button data-dismiss="modal" class="btn btn-default"
+                 type="submit">Close</button>
             </div>
         </div>
     </div>
-    ~~~~
+</div>
+```
 
 #### 2.4.4 Google Maps API Helper Documentation
 
-    https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3
+<https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3>
 
 ##### Installation
 
-1) Download the files from Github
+1. Download the files from Github
+2. Place the helper file (`GoogleMapsHelper.php`) into the following
+   location: `src/View/Helper/`
+3. Add this line to the controller associated with the view you will
+   place the Google Map on: `public $helpers = array('GoogleMap');`
+4. Add the JavaScript files to the associated view:
+   ``` html+php
+   <?= $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
+   ```
+    - Get the API Key from Nicole
+5. In the view add this line:
+   ``` html+php
+   <?= $this->GoogleMap->map(); ?>
+   ```
+6. Modify the map options with the follow code in the specific view:
+   ``` html+php
+   <?=
+   // Override any of the following default options to customize your map
+   $map_options = array(
+       'id' => 'map_canvas',
+       'width' => '600px',
+       'height' => '600px',
+       'style' => '',
+       'zoom' => 10,
+       'type' => 'ROADMAP',
+       'custom' => null,
+       'localize' => true,
+       'latitude' => 42.6666979,
+       'longitude' => -83.399939,
+       'marker' => true,
+       'markerTitle' => 'This is my position',
+       'markerIcon' => 'http://google-maps-icons.googlecode.com/
+       files/home.png',
+       'markerShadow' => 'http://google-maps-icons.googlecode.com/
+       files/shadow.png',
+       'infoWindow' => true,
+       'windowText' => 'My Position',
+       'draggableMarker' => false
+   );
+   ?>
+   <?= $this->GoogleMap->map($map_options); ?>`
+   ```
+7. Add markers for each report in the database:
 
-2) Place the helper file (`GoogleMapsHelper.php`) into the following location:
-    `src/View/Helper/`
-
-3) Add this line to the controller associated with the view you will
-    place the Google Map on:
-    `public $helpers = array('GoogleMap');`
-
-4) Add the JavaScript files to the associated view:
-    `<?= $this->Html->script('http://maps.google.com/maps/api/js?key=
-    YOUR_API_KEY&sensor=true', [false]); ?>`
-    * Get the API Key from Nicole
-
-5) In the view add this line:
-    `<?= $this->GoogleMap->map(); ?>`
-
-6) Modify the map options with the follow code in the specific view:
-    `      <?=
-            // Override any of the following default options to customize your map
-            $map_options = array(
-              'id' => 'map_canvas',
-              'width' => '600px',
-              'height' => '600px',
-              'style' => '',
-              'zoom' => 10,
-              'type' => 'ROADMAP',
-              'custom' => null,
-              'localize' => true,
-              'latitude' => 42.6666979,
-              'longitude' => -83.399939,
-              'marker' => true,
-              'markerTitle' => 'This is my position',
-              'markerIcon' => 'http://google-maps-icons.googlecode.com/
-              files/home.png',
-              'markerShadow' => 'http://google-maps-icons.googlecode.com/
-              files/shadow.png',
-              'infoWindow' => true,
-              'windowText' => 'My Position',
-              'draggableMarker' => false
-            );
-          ?>
-          <?= $this->GoogleMap->map($map_options); ?>`
-
-7) Add markers for each report in the database:
-    `<?php foreach ($reports as $report): ?>
-        <?= $this->GoogleMap->addMarker("map_canvas", 1,
-        $report->get('FamilyStreet')); ?>
-    <?php endforeach; ?>`
+   ``` html\+php
+   <?php
+   foreach ($reports as $report) {
+       $this->GoogleMap->addMarker("map_canvas", 1, $report->get('FamilyStreet'));
+   }
+   ?>
+   ```
 
 #### 2.4.5 Android Studio with Database Integration
 
@@ -550,43 +585,70 @@ Add these lines to `Layout/default.ctp`:
 
 ###### JDBC Package
 
-https://www.tutorialspoint.com/android/android_php_mysql.htm
+<https://www.tutorialspoint.com/android/android_php_mysql.htm>
 
-A SQL database can be connected to by the android app utilizing the JDBC package, and will use MySQL to query the database.
-Having the android device/application access the database directly is not recommended, Android applications can be decompiled, giving a client the credentials to access the database, which is a security risk.
-Having the client open a physical database connection will take a considerable amount of time, especially if the user is located far from the server.
+A SQL database can be connected to by the android app utilizing the
+JDBC package, and will use MySQL to query the database.  Having the
+android device/application access the database directly is not
+recommended, Android applications can be decompiled, giving a client
+the credentials to access the database, which is a security risk.
+Having the client open a physical database connection will take a
+considerable amount of time, especially if the user is located far
+from the server.
 
 ###### Provider Service
 
-https://developer.android.com/reference/java/security/Provider.Service.html
+<https://developer.android.com/reference/java/security/Provider.Service.html>
 
-In order to solve the problems with this method, it will be necessary to have a Service Provider Application, which will create and distribute the web services to the client. With this method authentication and authorization can be controlled better.
+In order to solve the problems with this method, it will be necessary
+to have a Service Provider Application, which will create and
+distribute the web services to the client.  With this method
+authentication and authorization can be controlled better.
 
 ###### SSL with mySQL Workbench
 
-https://developer.android.com/training/articles/security-ssl.html
+<https://developer.android.com/training/articles/security-ssl.html>
 
-Currently in our project we are using Putty to create an SSH tunnel with MySQL workbench to access the database. Ideally in the Secure Sockets Layer (SSL), we will want to make use of key rotation to strengthen the security involved with public and private key exchanges.
+Currently in our project we are using Putty to create an SSH tunnel
+with MySQL workbench to access the database.  Ideally in the Secure
+Sockets Layer (SSL), we will want to make use of key rotation to
+strengthen the security involved with public and private key
+exchanges.
 
 ##### Website Integration with Mobile Applications
 
 ###### Web Views
 
-https://github.com/futurice/android-best-practices#webviews
+<https://github.com/futurice/android-best-practices#webviews>
 
-Now that the mobile application will require connectivity to the website, the app must utilize webViews in order to pull information from the site, and database. The pitfall to be aware of with this approach is not to handle the html processing client-side, which can result in the webViews leaking memory. The implementation for these functions are best handled with the back-end html, or making better use of the platform’s widgets.
+Now that the mobile application will require connectivity to the
+website, the app must utilize webViews in order to pull information
+from the site, and database.  The pitfall to be aware of with this
+approach is not to handle the html processing client-side, which can
+result in the webViews leaking memory.  The implementation for these
+functions are best handled with the back-end html, or making better
+use of the platform’s widgets.
 
 ###### Continuous Integration
 
-https://github.com/futurice/android-best-practices#use-continuous-integration-1
+<https://github.com/futurice/android-best-practices#use-continuous-integration-1>
 
-Considering the web application side is still under construction, and will likely have updates as time goes on, the mobile application must be able to reflect those changes, and ensure it is running the same framework. Continuous integration of the mobile application can provide a variety of useful functions, such as running static code, providing code analysis tools, and handling the generation and distribution of APK files.
+Considering the web application side is still under construction, and
+will likely have updates as time goes on, the mobile application must
+be able to reflect those changes, and ensure it is running the same
+framework.  Continuous integration of the mobile application can
+provide a variety of useful functions, such as running static code,
+providing code analysis tools, and handling the generation and
+distribution of APK files.
 
 ###### Proguard
 
-https://github.com/futurice/android-best-practices#proguard-configuration
+<https://github.com/futurice/android-best-practices#proguard-configuration>
 
-Lastly, we might consider implementing utilities such as proguard or dexguard, for the purpose of obfuscating our code, and shrinking the overall package size. The main purpose of this would to be to better optimize the application for use on a mobile device.
+Lastly, we might consider implementing utilities such as proguard or
+dexguard, for the purpose of obfuscating our code, and shrinking the
+overall package size.  The main purpose of this would to be to better
+optimize the application for use on a mobile device.
 
 ## Section 3
 
@@ -637,48 +699,61 @@ Lastly, we might consider implementing utilities such as proguard or dexguard, f
 
 ### 3.3 On-Screen Appearance of Pages Requirements
 
-The following are the on screen appearance requirements for various pages:
+The following are the on screen appearance requirements for various
+pages:
 
 #### 3.3.1 Home Page
 
-* There should be a home page that gives users a brief description of the purpose of the application
-* Users should be able to navigate to the register and login pages
+- There should be a home page that gives users a brief description of
+  the purpose of the application
+- Users should be able to navigate to the register and login pages
 
 #### 3.3.2 Login Page
 
-* There should be fields for username and password
+- There should be fields for username and password
 
 #### 3.3.3 Dashboards
 
-* There should be separate dashboards for Law Enforcement and the Public
-* The Law Enforcement dashboard should have a table that displays reports
-* The Law Enforcement dashboard should have a map that displays the locations of missing people
-* The Law Enforcement dashboard should allow users to mark reports as "In Progress"
-* The Law Enforcement dashboard should allow users to comment on missing people reports
-* The Law Enforcement dashboard should allow users to mark people as found
-* The Public dashboard should display on "In Progress" and "Found" missing people
-* The Public dashboard should allow users to comment on missing people reports
+- There should be separate dashboards for Law Enforcement and the
+  Public
+- The Law Enforcement dashboard should have a table that displays
+  reports
+- The Law Enforcement dashboard should have a map that displays the
+  locations of missing people
+- The Law Enforcement dashboard should allow users to mark reports as
+  "In Progress"
+- The Law Enforcement dashboard should allow users to comment on
+  missing people reports
+- The Law Enforcement dashboard should allow users to mark people as
+  found
+- The Public dashboard should display on "In Progress" and "Found"
+  missing people
+- The Public dashboard should allow users to comment on missing people
+  reports
 
 #### 3.3.4 Register Page
 
-* The register page should have fields for people to enter basic information and create an account
+The register page should have fields for people to enter basic
+information and create an account.
 
 #### 3.3.5 Account Page
 
-* The account page should have the user's account information
-* The fields should be able to be edited
+- The account page should have the user's account information
+- The fields should be able to be edited
 
 #### 3.3.6 Submit Report Page
 
-* The submit report page should have fields for each part of the missing person report
-* The form should be organized in a way that is easy to understand
+- The submit report page should have fields for each part of the
+  missing person report
+- The form should be organized in a way that is easy to understand
 
 #### 3.3.7 View Reports
 
-* There should be a place for Law Enforcement and the Public to view the details of each report
-* The public view should not be able to be edited
-* The public view should be organized in an easy to understand way
-* The Law Enforcement view should be abled to e edited
+- There should be a place for Law Enforcement and the Public to view
+  the details of each report
+- The public view should not be able to be edited
+- The public view should be organized in an easy to understand way
+- The Law Enforcement view should be abled to e edited
 
 ### 3.4 Wireframes
 
@@ -744,57 +819,35 @@ The following are the on screen appearance requirements for various pages:
 
 ### 4.1 – 4.2 Stakeholders, Actors, and Goals
 
-**Stakeholders**
+#### Stakeholders
 
--   The Concerned Public
+- The Concerned Public
+- Law Enforcement
+- Development Team
 
--   Law Enforcement
+#### Actors & Goals
 
--   Development Team
-
-**Actors & Goals**
-
--   Concerned Public
-
-    -   Create an account
-
-    -   Login to an account
-
-    -   Update account info
-
-    -   Change Password
-
-    -   Browse missing & found people
-
-    -   Submit new missing person report
-
--   Law Enforcement
-
-    -   Create an account
-
-    -   Login to an account
-
-    -   Update account info
-
-    -   Change Password
-
-    -   Browse missing & found people
-
-    -   Validate missing person reports
-
-    -   Update missing person report info
-
--   Application Administrator
-
-    -   Restrict user access via role management
-
--   Database
-
-    -   Maintain missing person report data
-
--   Email Service
-
-    -   Manage email verification service
+- Concerned Public
+    - Create an account
+    - Login to an account
+    - Update account info
+    - Change Password
+    - Browse missing & found people
+    - Submit new missing person report
+- Law Enforcement
+    - Create an account
+    - Login to an account
+    - Update account info
+    - Change Password
+    - Browse missing & found people
+    - Validate missing person reports
+    - Update missing person report info
+- Application Administrator
+    - Restrict user access via role management
+- Database
+    - Maintain missing person report data
+- Email Service
+    - Manage email verification service
 
 ### 4.3 User Stories, Scenarios, and Use Cases
 
@@ -1036,7 +1089,6 @@ The following are the on screen appearance requirements for various pages:
 | Access User Storage        | D    | Controller   |
 | Container of All Users     | K    | UserStorage  |
 
-
 ##### Use Case UC-#5: Verify Email Address
 
 |                       |                                                                                                                                                                            |
@@ -1087,21 +1139,21 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                                               |
 |-----------|--------|---------------------------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | The Concerned Citizen opens the application                                                                               |
-| <-        | 2.     | The application prompts the Concerned Citizen to login with their credentials                                             |
-| ->        | 3.     | The Concerned Citizen enters their username(email) and password in the corresponding fields                               |
-| <-        | 4.     | The database verifies the Concerned Citizen's credentials and identifies their user type based on the entered credentials |
-| <-        | 5.     | The Concerned Citizen is directed to the landing (home) page                                                              |
+| →         | 1.     | The Concerned Citizen opens the application                                                                               |
+| ←         | 2.     | The application prompts the Concerned Citizen to login with their credentials                                             |
+| →         | 3.     | The Concerned Citizen enters their username(email) and password in the corresponding fields                               |
+| ←         | 4.     | The database verifies the Concerned Citizen's credentials and identifies their user type based on the entered credentials |
+| ←         | 5.     | The Concerned Citizen is directed to the landing (home) page                                                              |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                  |
 |-----------|--------|----------------------------------------------------------------------------------------------|
-| ->        | 1.     | The Concerned Citizen opens the application                                                  |
-| <-        | 2.     | The application prompts the Concerned Citizen to login with their credentials                |
-| ->        | 3.     | The Concerned Citizen enters their username(email) and password in the corresponding fields  |
-| <-        | 4.     | The database verifies the Concerned Citizen's credentials, but cannot verify their user type |
-| <-        | 5.     | The application displays and error to the Concerned Citizen                                  |
+| →         | 1.     | The Concerned Citizen opens the application                                                  |
+| ←         | 2.     | The application prompts the Concerned Citizen to login with their credentials                |
+| →         | 3.     | The Concerned Citizen enters their username(email) and password in the corresponding fields  |
+| ←         | 4.     | The database verifies the Concerned Citizen's credentials, but cannot verify their user type |
+| ←         | 5.     | The application displays and error to the Concerned Citizen                                  |
 
 ###### Responsibility Matrix
 
@@ -1125,21 +1177,21 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                                       |
 |-----------|--------|-------------------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement opens the application                                                                             |
-| <-        | 2.     | The application prompts Law Enforcement to login with their credentials                                           |
-| ->        | 3.     | Law Enforcement enters their username(emails) and password in the corresponding fields                            |
-| <-        | 4.     | The database verfies Law Enforcement's credentials and identifies ther user type based on the entered credentials |
-| <-        | 5.     | Law Enforcement is directed to the ladning (home) page                                                            |
+| →         | 1.     | Law Enforcement opens the application                                                                             |
+| ←         | 2.     | The application prompts Law Enforcement to login with their credentials                                           |
+| →         | 3.     | Law Enforcement enters their username(emails) and password in the corresponding fields                            |
+| ←         | 4.     | The database verfies Law Enforcement's credentials and identifies ther user type based on the entered credentials |
+| ←         | 5.     | Law Enforcement is directed to the ladning (home) page                                                            |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                              |
 |-----------|--------|------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement opens the application                                                    |
-| <-        | 2.     | The application prompts Law Enforcement to login with their credentials                  |
-| ->        | 3.     | Law Enforcement enters their username(email) and password in the corresponding fields    |
-| <-        | 4.     | The database verifies Law Enforcement's credentials, but cannot identify their user type |
-| <-        | 5.     | The application displays an error to Law Enforcement                                     |
+| →         | 1.     | Law Enforcement opens the application                                                    |
+| ←         | 2.     | The application prompts Law Enforcement to login with their credentials                  |
+| →         | 3.     | Law Enforcement enters their username(email) and password in the corresponding fields    |
+| ←         | 4.     | The database verifies Law Enforcement's credentials, but cannot identify their user type |
+| ←         | 5.     | The application displays an error to Law Enforcement                                     |
 
 ###### Responsibility Matrix
 
@@ -1163,20 +1215,20 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
-| ->        | 2.     | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <-        | 3.     | The database saves all of the entered form data and assigns it a unique ID                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| <-        | 4.     | The database flags the submitted report as "on hold"                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| <-        | 5.     | The application notifies the Concerned Citizen to visit the nearest police station to complete the process                                                                                                                                                                                                                                                                                                                                                                                             |
+| →         | 1.     | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
+| →         | 2.     | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ←         | 3.     | The database saves all of the entered form data and assigns it a unique ID                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ←         | 4.     | The database flags the submitted report as "on hold"                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ←         | 5.     | The application notifies the Concerned Citizen to visit the nearest police station to complete the process                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
-| ->        | 2.     | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <-        | 3.     | The form is not properly submitted because the Concerned Citizen missed filling in one of the Required(*) fields                                                                                                                                                                                                                                                                                                                                                                                       |
-| <-        | 4.     | The application displays an error message to the Concerned Citizen to fill in all required fields                                                                                                                                                                                                                                                                                                                                                                                                      |
+| →         | 1.     | The Concerned Citizen fills in the following fields on the form about the missing person: Name* (text), Name of Parents (text), Height* (number), Weight* (number), DOB* (number), Color of Hair* (text), Color of Eyes* (text), Marks/Tattoos (text), Phone (text), Social Media Accounts (text), Photo (jpg, png, etc.), Family/Friends Contact Info (text), submitter relation to missing (text), Workplace (text), Hangouts (text), Last Seen Location* (text) [fields marked with * are required] |
+| →         | 2.     | The Concerned Citizen submits the form                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ←         | 3.     | The form is not properly submitted because the Concerned Citizen missed filling in one of the Required(*) fields                                                                                                                                                                                                                                                                                                                                                                                       |
+| ←         | 4.     | The application displays an error message to the Concerned Citizen to fill in all required fields                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 ###### Responsibility Matrix
 
@@ -1201,21 +1253,21 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                                         |
 |-----------|--------|---------------------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | The Concerned Citizen clicks the submit report button                                                               |
-| <-        | 2.     | The form input is validated and saved into the Database                                                             |
-| <-        | 3.     | The ReportsController queries the Database for all reports                                                          |
-| <-        | 4.     | The Database returns all rows in the reports table                                                                  |
-| <-        | 5.     | The application displays the reports in a table format on the Law Enforcement home page for Law Enforcement to view |
+| →         | 1.     | The Concerned Citizen clicks the submit report button                                                               |
+| ←         | 2.     | The form input is validated and saved into the Database                                                             |
+| ←         | 3.     | The ReportsController queries the Database for all reports                                                          |
+| ←         | 4.     | The Database returns all rows in the reports table                                                                  |
+| ←         | 5.     | The application displays the reports in a table format on the Law Enforcement home page for Law Enforcement to view |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                    |
 |-----------|--------|--------------------------------------------------------------------------------|
-| ->        | 1.     | The Concerned Citizen clicks the submit report button                          |
-| <-        | 2.     | The form input is validated and saved into the Database                        |
-| <-        | 3.     | The ReportsController queries the Database for all reports                     |
-| <-        | 4.     | The Database returns no rows because there are no reports in the reports table |
-| <-        | 5.     | There are no reports for Law Enforcement to view                               |
+| →         | 1.     | The Concerned Citizen clicks the submit report button                          |
+| ←         | 2.     | The form input is validated and saved into the Database                        |
+| ←         | 3.     | The ReportsController queries the Database for all reports                     |
+| ←         | 4.     | The Database returns no rows because there are no reports in the reports table |
+| ←         | 5.     | There are no reports for Law Enforcement to view                               |
 
 ###### Responsibility Matrix
 
@@ -1240,19 +1292,19 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                      |
 |-----------|--------|--------------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format        |
-| ->        | 2a.    | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
-| ->        | 2b.    | Law Enforcement clicks the “Approve” button in the “Approve Case” column                         |
-| <-        | 3.     | The Database changes the report status from “on hold” to “in progress”                           |
-| <-        | 4.     | The application now displays the approved report to the Concerned Citizens                       |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format        |
+| →         | 2a.    | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
+| →         | 2b.    | Law Enforcement clicks the “Approve” button in the “Approve Case” column                         |
+| ←         | 3.     | The Database changes the report status from “on hold” to “in progress”                           |
+| ←         | 4.     | The application now displays the approved report to the Concerned Citizens                       |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                               |
 |-----------|--------|-------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| <-        | 2.     | The Database stores the report with an “on hold” status for >24hrs                        |
-| <-        | 3.     | The Database deletes the report information                                               |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
+| ←         | 2.     | The Database stores the report with an “on hold” status for >24hrs                        |
+| ←         | 3.     | The Database deletes the report information                                               |
 
 ###### Responsibility Matrix
 
@@ -1276,20 +1328,20 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                      |
 |-----------|--------|--------------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format        |
-| ->        | 2      | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
-| <-        | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number           |
-| ->        | 4.     | Law Enforcement enters the report number and clicks the confirm button                           |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format        |
+| →         | 2      | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button |
+| ←         | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number           |
+| →         | 4.     | Law Enforcement enters the report number and clicks the confirm button                           |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                         |
 |-----------|--------|-----------------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format           |
-| ->        | 2.     | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button    |
-| <-        | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number              |
-| ->        | 4.     | Law Enforcement enters invalid characters into the text field and clicks approve                    |
-| ->        | 5.     | An error message is displayed because the characters are invalid and the report number is not added |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format           |
+| →         | 2.     | Law Enforcement checks the checkbox in the “Approve Case” column and clicks the “Approve” button    |
+| ←         | 3.     | A modal pops up containing a text field for Law Enforcement to enter the report number              |
+| →         | 4.     | Law Enforcement enters invalid characters into the text field and clicks approve                    |
+| →         | 5.     | An error message is displayed because the characters are invalid and the report number is not added |
 
 ###### Responsibility Matrix
 
@@ -1313,21 +1365,21 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                                          |
 |-----------|--------|------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format            |
-| ->        | 2.     | Law Enforcement clicks the report number to view the detailed report page                            |
-| ->        | 3.     | Law Enforcement clicks the “Categorize" button                                                       |
-| <-        | 4.     | A modal pops up and display category options as checkboxes                                           |
-| ->        | 5.     | Law Enforcement clicks one or more of the check boxes and clicks confirm to apply the categorization |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format            |
+| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                            |
+| →         | 3.     | Law Enforcement clicks the “Categorize" button                                                       |
+| ←         | 4.     | A modal pops up and display category options as checkboxes                                           |
+| →         | 5.     | Law Enforcement clicks one or more of the check boxes and clicks confirm to apply the categorization |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                                                       |
 |-----------|--------|-------------------------------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format                         |
-| ->        | 2.     | Law Enforcement clicks the report number to view the detailed report page                                         |
-| ->        | 3.     | Law Enforcement clicks the “Categorize" button                                                                    |
-| <-        | 4.     | A modal pops up and display category options as checkboxes                                                        |
-| ->        | 5.     | Law Enforcement clicks does not see the category they want and closes the modal without choosing a categorization |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format                         |
+| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                                         |
+| →         | 3.     | Law Enforcement clicks the “Categorize" button                                                                    |
+| ←         | 4.     | A modal pops up and display category options as checkboxes                                                        |
+| →         | 5.     | Law Enforcement clicks does not see the category they want and closes the modal without choosing a categorization |
 
 ###### Responsibility Matrix
 
@@ -1351,23 +1403,23 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                               |
 |-----------|--------|-------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| ->        | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| ->        | 3.     | Law Enforcement updates any fields as needed                                              |
-| ->        | 4.     | Law Enforcement clicks the "Update Button"                                                |
-| <-        | 5.     | The form validates the changes                                                            |
-| <-        | 5.     | The database applies the changes to the fields in the associated table                    |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         | 3.     | Law Enforcement updates any fields as needed                                              |
+| →         | 4.     | Law Enforcement clicks the "Update Button"                                                |
+| ←         | 5.     | The form validates the changes                                                            |
+| ←         | 5.     | The database applies the changes to the fields in the associated table                    |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                               |
 |-----------|--------|-------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| ->        | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| ->        | 3.     | Law Enforcement updates any fields as needed                                              |
-| ->        | 4.     | Law Enforcement clicks the "Update Button"                                                |
-| <-        | 5.     | The form validates the changes                                                            |
-| <-        | 5.     | The form returns an error because the updated fields were not changed in the database     |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         | 3.     | Law Enforcement updates any fields as needed                                              |
+| →         | 4.     | Law Enforcement clicks the "Update Button"                                                |
+| ←         | 5.     | The form validates the changes                                                            |
+| ←         | 5.     | The form returns an error because the updated fields were not changed in the database     |
 
 ###### Responsibility Matrix
 
@@ -1391,22 +1443,22 @@ The following are the on screen appearance requirements for various pages:
 
 | Direction | Number | Description                                                                               |
 |-----------|--------|-------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| ->        | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| ->        | 3.     | Law Enforcement clicks the "Mark As Found" button                                         |
-| <-        | 4.     | A modal pops up to confirm you want to mark the person as found                           |
-| ->        | 5.     | Law Enforcement clicks "confirm"                                                          |
-| <-        | 6.     | The database changes the missing person report status to "found"                          |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         | 3.     | Law Enforcement clicks the "Mark As Found" button                                         |
+| ←         | 4.     | A modal pops up to confirm you want to mark the person as found                           |
+| →         | 5.     | Law Enforcement clicks "confirm"                                                          |
+| ←         | 6.     | The database changes the missing person report status to "found"                          |
 
 ###### Flow of Events for Alternate Scenario
 
 | Direction | Number | Description                                                                               |
 |-----------|--------|-------------------------------------------------------------------------------------------|
-| ->        | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
-| ->        | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
-| ->        | 3.     | Law Enforcement clicks the "Mark As Found" button                                         |
-| <-        | 4.     | A modal pops up to confirm you want to mark the person as found                           |
-| ->        | 5.     | Law Enforcement clicks "cancel"                                                           |
+| →         | 1.     | Law Enforcement navigates to their home page which displays all reports in a table format |
+| →         | 2.     | Law Enforcement clicks the report number to view the detailed report page                 |
+| →         | 3.     | Law Enforcement clicks the "Mark As Found" button                                         |
+| ←         | 4.     | A modal pops up to confirm you want to mark the person as found                           |
+| →         | 5.     | Law Enforcement clicks "cancel"                                                           |
 
 ###### Responsibility Matrix
 
@@ -1461,95 +1513,96 @@ The following are the on screen appearance requirements for various pages:
 
 ### 5.1 Preliminary Design
 
-Our preliminary design based off the documentation we received the first
-day of class is as follows:
+Our preliminary design based off the documentation we received the
+first day of class is as follows:
 
 We plan to design a mobile application that can be used by Law
-Enforcement and the Public as it relates to missing person cases. The
-application will have a variety of interfaces that are specific for the
-user type. Law Enforcement will have an interface that gives them access
-to all the information contained in a missing person report and it will
-be displayed in a meaningful way. This will allow Law Enforcement to
-more quickly analyze large amounts of data and help to improve the
-searching process for locating a missing person. The interface for the
-concerned public will allow people to see details about current missing
-people\--photos, name, description, last known location, contact
-information for tips. The application should also allow someone to
-report information to Law Enforcement about a suspected missing person.
+Enforcement and the Public as it relates to missing person cases.  The
+application will have a variety of interfaces that are specific for
+the user type.  Law Enforcement will have an interface that gives them
+access to all the information contained in a missing person report and
+it will be displayed in a meaningful way.  This will allow Law
+Enforcement to more quickly analyze large amounts of data and help to
+improve the searching process for locating a missing person.  The
+interface for the concerned public will allow people to see details
+about current missing people—photos, name, description, last known
+location, contact information for tips.  The application should also
+allow someone to report information to Law Enforcement about a
+suspected missing person.
 
 The application will be designed with the user experience in mind and
-will have a clean organized layout. The Law Enforcement interface should
-organize data so that it is easy for someone to read and analyze\--a
-table format like in excel is what we are aiming for. The pages should
-be linked a logically flow so that it is easy for the user to navigate
-throughout the application. The public facing interface will be a simple
-scrolling page that displays the information about missing people,
-similar to what is seen in newspapers. There will also be a form for
-people to complete is they need to report a person missing.
+will have a clean organized layout.  The Law Enforcement interface
+should organize data so that it is easy for someone to read and
+analyze—a table format like in excel is what we are aiming for.  The
+pages should be linked a logically flow so that it is easy for the
+user to navigate throughout the application.  The public facing
+interface will be a simple scrolling page that displays the
+information about missing people, similar to what is seen in
+newspapers.  There will also be a form for people to complete is they
+need to report a person missing.
 
-Everyone Pages
-
--   Login\--textboxes, submit button
--   Register\--textboxes, submit button
--   Home\--dashboard style landing page
--   Account Info\--fields to display account in
-
-Law Enforcement Pages
-
--   Missing Person Info\--image, table to display information
--   Charts, tables, graphs to display data
--   Comments\-- textboxes, submit buttons
-
-Public Facing Pages
-
--   Report Missing Person\--image, fields to display basic info, button
-    to get local police info
--   Comments\-- textboxes, submit buttons
+- Everyone Pages
+    - Login—textboxes, submit button
+    - Register—textboxes, submit button
+    - Home—dashboard style landing page
+    - Account Info—fields to display account in
+- Law Enforcement Pages
+    - Missing Person Info—image, table to display information
+    - Charts, tables, graphs to display data
+    - Comments—textboxes, submit buttons
+- Public Facing Pages
+    - Report Missing Person—image, fields to display basic info,
+      button to get local police info
+    - Comments—textboxes, submit buttons
 
 ### 5.2 User Efforts Estimation
 
 #### 5.2.1 Function Point Analysis
 
-  * Number of User Inputs =  159 (level of complexity simple)
-  * Number of User Outputs = 2 (level of complexity average)
-  * Number of User Inquiries = 1 (level of complexity simple)
-  * Number of Master Files =  104 (level of complexity complex)
-  * Number of Interfaces = 12 (level of complexity average)
+| Category       | Number | Level of Complexity |
+|----------------|-------:|---------------------|
+| User Inputs    |    159 | Simple              |
+| User Outputs   |      2 | Average             |
+| User Inquiries |      1 | Simple              |
+| Master Files   |    104 | Complex             |
+| Interfaces     |     12 | Average             |
 
-  `FP = (159 x 3) + (2 x 5) + (1 x 3) + (104 x 7) + (12 x 7)`
-     `= 477 + 10 + 3 + 728 + 84`
-     `= 1302`
-
+```
+FP = (159 x 3) + (2 x 5) + (1 x 3) + (104 x 7) + (12 x 7)
+   = 477 + 10 + 3 + 728 + 84
+   = 1302
+```
 
 | General System Characteristic | Weight |
-|-------------------------------|--------|
-| Data Communications           | 1      |
-| Distributed Data Processing   | 0      |
-| Performance                   | 2      |
-| Heavily Utilized hardware     | 1      |
-| High Transaction Rates        | 1      |
-| Online Data Entry             | 5      |
-| End-User Efficiency           | 5      |
-| Online Update                 | 5      |
-| Complex Processing            | 1      |
-| Reusability                   | 3      |
-| Installation Ease             | 2      |
-| Operational Ease              | 3      |
-| Portability                   | 3      |
-| Maintainability               | 1      |
+|-------------------------------|-------:|
+| Data Communications           |      1 |
+| Distributed Data Processing   |      0 |
+| Performance                   |      2 |
+| Heavily Utilized hardware     |      1 |
+| High Transaction Rates        |      1 |
+| Online Data Entry             |      5 |
+| End-User Efficiency           |      5 |
+| Online Update                 |      5 |
+| Complex Processing            |      1 |
+| Reusability                   |      3 |
+| Installation Ease             |      2 |
+| Operational Ease              |      3 |
+| Portability                   |      3 |
+| Maintainability               |      1 |
 
-  `DI = 1 + 0 + 2 + 1 + 1 + 5 + 5 + 5 + 1 + 3 + 2 + 3 + 3 + 1`
-     `= 33`
-  `TCF = 0.65 + (0.01 x 33)`
-      `= .98`
-  `Adjusted FP = 1302 x .98`
-              `= 1275.96`
-  `LOC = 1275.96 x (12211 / 1302)`
-      `= 11966.78 LOC`
-      `= 11.97 KLOC`
-  `Nominal Effort = 3.2 x (11.97)^1.05`
-                 `= 43.37 person months`
-
+```
+DI = 1 + 0 + 2 + 1 + 1 + 5 + 5 + 5 + 1 + 3 + 2 + 3 + 3 + 1
+   = 33
+TCF = 0.65 + (0.01 x 33)
+    = .98
+Adjusted FP = 1302 x .98
+            = 1275.96
+LOC = 1275.96 x (12211 / 1302)
+    = 11966.78 LOC
+    = 11.97 KLOC
+Nominal Effort = 3.2 x (11.97)^1.05
+               = 43.37 person months
+```
 
 ## Section 6
 
@@ -1561,53 +1614,239 @@ Public Facing Pages
 
 #### 6.2.1 Contract C01: addReport
 
-**Operation:** addReport(Report_ID : Report_ID, CaseNumber : int, status : text, DateCreated : Date, SubmitterEmail : text, FirstName : text, MiddleName : text, LastName : text, Gender : text, Ethnicity : text, EyeColor : text, HairColor : text, MarksTattoos : text, Weight : int, DoB : Date, Phone : int, ReportMiscInfo : text, FamilyFirstName : text, FamilyMiddleName : text, FamilyLastName : text, FamilyGender : text, Realtion : text, Family Street : text, FamilyCity : text, FamilyState : text, FamilyZip : text, FamilyPhone : text, FamilyEmail : text, Alias : text, MissingEthnicityOther : text, MissingEyeColorOther : text, MissingHairColorOther : text, HeightFeet : int, HeightInches : text, SeenName : text, SeenStreet : text, SeenCity : text, SeenNumber : text, SeenState: text, SeenZip : text, SeenWhen : date, SeenNotes : text, FamilyEthnicity : text, FamilyEthnicityOther : text, RelationOther : text, WorkplaceName : text, WorkplaceStreet : text, WorkplaceNumber : text, WorkplaceCity : text, WorkplaceState : text, WorkplaceZip : text, WorkplaceStartDate: date, WorkplaceEndDate : date, WorkplaceMisc : text, HangoutName : text, HangoutStreet : text, HangoutNumber : text, HangoutCity : text, HangoutState : text, HangoutZip : text, HangoutMisc : text, category : text, missing_facebook_username : text, missing_instagram_username : text, missing_snapchat_username : text, missing_twitter_username : text, MissingEmail : text)
+##### Operation
 
-**Cross References:** Use Case 8-Submit New Report
+```
+addReport(Report_ID : Report_ID,
+          CaseNumber : int, 
+          status : text,
+          DateCreated : Date, 
+          SubmitterEmail : text, 
+          FirstName : text, 
+          MiddleName : text, 
+          LastName : text, 
+          Gender : text, 
+          Ethnicity : text, 
+          EyeColor : text, 
+          HairColor : text, 
+          MarksTattoos : text, 
+          Weight : int, 
+          DoB : Date, 
+          Phone : int, 
+          ReportMiscInfo : text, 
+          FamilyFirstName : text, 
+          FamilyMiddleName : text, 
+          FamilyLastName : text, 
+          FamilyGender : text, 
+          Realtion : text, 
+          FamilyStreet : text, 
+          FamilyCity : text, 
+          FamilyState : text, 
+          FamilyZip : text, 
+          FamilyPhone : text, 
+          FamilyEmail : text, 
+          Alias : text, 
+          MissingEthnicityOther : text, 
+          MissingEyeColorOther : text, 
+          MissingHairColorOther : text, 
+          HeightFeet : int, 
+          HeightInches : text, 
+          SeenName : text, 
+          SeenStreet : text, 
+          SeenCity : text, 
+          SeenNumber : text, 
+          SeenState: text, 
+          SeenZip : text, 
+          SeenWhen : date, 
+          SeenNotes : text, 
+          FamilyEthnicity : text, 
+          FamilyEthnicityOther : text, 
+          RelationOther : text, 
+          WorkplaceName : text, 
+          WorkplaceStreet : text, 
+          WorkplaceNumber : text, 
+          WorkplaceCity : text, 
+          WorkplaceState : text, 
+          WorkplaceZip : text, 
+          WorkplaceStartDate: date, 
+          WorkplaceEndDate : date, 
+          WorkplaceMisc : text, 
+          HangoutName : text, 
+          HangoutStreet : text, 
+          HangoutNumber : text, 
+          HangoutCity : text, 
+          HangoutState : text, 
+          HangoutZip : text, 
+          HangoutMisc : text, 
+          category : text, 
+          missing_facebook_username : text, 
+          missing_instagram_username : text, 
+          missing_snapchat_username : text, 
+          missing_twitter_username : text, 
+          MissingEmail : text)
+```
 
-**Preconditions:** The Concerned Citizen has an account, is logged in, and is on the Submit Report page
+##### Cross References
 
-**Postconditions:** A new missing person report has been submitted and is "on hold"
+Use Case 8-Submit New Report
+
+##### Preconditions
+
+The Concerned Citizen has an account, is logged in, and is on the
+Submit Report page
+
+##### Postconditions
+
+A new missing person report has been submitted and is "on hold"
 
 #### 6.2.2 Contract C02: approveReport
 
-**Operation:** approveReport(Report_ID : Report_ID, status : text)
+##### Operation
 
-**Cross References:** Use Case 10-Validate/Approve Report
+```
+approveReport(Report_ID : Report_ID, status : text)
 
-**Preconditions:** A report has been submitted by the Concerned Citizen and has the status “on hold”
+```
 
-**Postconditions:** The report is approved, has the status “in progress”, and is now displayed in the application to the Concerned Citizens to view
+##### Cross References
+
+Use Case 10-Validate/Approve Report
+
+##### Preconditions
+
+A report has been submitted by the Concerned Citizen and has the status “on hold”
+
+##### Postconditions
+
+The report is approved, has the status “in progress”, and is now displayed in the application to the Concerned Citizens to view
 
 #### 6.2.3 Contract C03: categorizeReport
 
-**Operation:** categorizeReport(Report_ID : Report_ID, category : text)
+##### Operation
 
-**Cross References:** Use Case 12-Categorize Missing People
+```
+categorizeReport(Report_ID : Report_ID, category : text)
+```
 
-**Preconditions:** A report has been submitted by the Concerned Citizen and has the status “in progress"
+##### Cross References
 
-**Postconditions:** The missing person is labeled with one of the predefined categories
+Use Case 12-Categorize Missing People
+
+##### Preconditions
+
+A report has been submitted by the Concerned Citizen and has the
+status “in progress"
+
+##### Postconditions
+
+The missing person is labeled with one of the predefined categories
 
 #### 6.2.4 Contract C04: updateReport
 
-**Operation:** updateReport(Report_ID : Report_ID, CaseNumber : int, status : text, DateCreated : Date, SubmitterEmail : text, FirstName : text, MiddleName : text, LastName : text, Gender : text, Ethnicity : text, EyeColor : text, HairColor : text, MarksTattoos : text, Weight : int, DoB : Date, Phone : int, ReportMiscInfo : text, FamilyFirstName : text, FamilyMiddleName : text, FamilyLastName : text, FamilyGender : text, Realtion : text, Family Street : text, FamilyCity : text, FamilyState : text, FamilyZip : text, FamilyPhone : text, FamilyEmail : text, Alias : text, MissingEthnicityOther : text, MissingEyeColorOther : text, MissingHairColorOther : text, HeightFeet : int, HeightInches : text, SeenName : text, SeenStreet : text, SeenCity : text, SeenNumber : text, SeenState: text, SeenZip : text, SeenWhen : date, SeenNotes : text, FamilyEthnicity : text, FamilyEthnicityOther : text, RelationOther : text, WorkplaceName : text, WorkplaceStreet : text, WorkplaceNumber : text, WorkplaceCity : text, WorkplaceState : text, WorkplaceZip : text, WorkplaceStartDate: date, WorkplaceEndDate : date, WorkplaceMisc : text, HangoutName : text, HangoutStreet : text, HangoutNumber : text, HangoutCity : text, HangoutState : text, HangoutZip : text, HangoutMisc : text, category : text, missing_facebook_username : text, missing_instagram_username : text, missing_snapchat_username : text, missing_twitter_username : text, MissingEmail : text)
+##### Operation
 
-**Cross References:** Use Case 13-Update Case Info
+```
+updateReport(Report_ID : Report_ID,
+             CaseNumber : int, 
+             status : text, 
+             DateCreated : Date, 
+             SubmitterEmail : text, 
+             FirstName : text, 
+             MiddleName : text, 
+             LastName : text, 
+             Gender : text, 
+             Ethnicity : text, 
+             EyeColor : text, 
+             HairColor : text, 
+             MarksTattoos : text, 
+             Weight : int, 
+             DoB : Date, 
+             Phone : int, 
+             ReportMiscInfo : text, 
+             FamilyFirstName : text, 
+             FamilyMiddleName : text, 
+             FamilyLastName : text, 
+             FamilyGender : text, 
+             Realtion : text, 
+             FamilyStreet : text, 
+             FamilyCity : text, 
+             FamilyState : text, 
+             FamilyZip : text, 
+             FamilyPhone : text, 
+             FamilyEmail : text, 
+             Alias : text, 
+             MissingEthnicityOther : text, 
+             MissingEyeColorOther : text, 
+             MissingHairColorOther : text, 
+             HeightFeet : int, 
+             HeightInches : text, 
+             SeenName : text, 
+             SeenStreet : text, 
+             SeenCity : text, 
+             SeenNumber : text, 
+             SeenState: text, 
+             SeenZip : text, 
+             SeenWhen : date, 
+             SeenNotes : text, 
+             FamilyEthnicity : text, 
+             FamilyEthnicityOther : text, 
+             RelationOther : text, 
+             WorkplaceName : text, 
+             WorkplaceStreet : text, 
+             WorkplaceNumber : text, 
+             WorkplaceCity : text, 
+             WorkplaceState : text, 
+             WorkplaceZip : text, 
+             WorkplaceStartDate: date, 
+             WorkplaceEndDate : date, 
+             WorkplaceMisc : text, 
+             HangoutName : text, 
+             HangoutStreet : text, 
+             HangoutNumber : text, 
+             HangoutCity : text, 
+             HangoutState : text, 
+             HangoutZip : text, 
+             HangoutMisc : text, 
+             category : text, 
+             missing_facebook_username : text, 
+             missing_instagram_username : text, 
+             missing_snapchat_username : text, 
+             missing_twitter_username : text, 
+             MissingEmail : text)
+```
 
-**Preconditions:** A report has been submitted by the Concerned Citizen and has the status “in progress”
+##### Cross References
 
-**Postconditions:** The report is updated and the updated info is displayed
+Use Case 13-Update Case Info
+
+##### Preconditions
+
+A report has been submitted by the Concerned Citizen and has the
+status “in progress”
+
+##### Postconditions
+
+The report is updated and the updated info is displayed
 
 #### 6.2.5 Contract C05: closeReport
 
-**Operation:** closeReport(Report_ID : Report_ID, status : text)
+##### Operation
 
-**Cross References:** Use Case 14-Mark As Found
+```
+closeReport(Report_ID : Report_ID, status : text)
+```
 
-**Preconditions:** A report has been submitted by the Concerned Citizen and has the status “in progress”
+##### Cross References
 
-**Postconditions:** The report has the status of "Found"
+Use Case 14-Mark As Found
+
+##### Preconditions
+
+A report has been submitted by the Concerned Citizen and has the status “in progress”
+
+##### Postconditions
+
+The report has the status of "Found"
 
 ### 6.3 Mathematical Model
 
@@ -1681,6 +1920,7 @@ Public Facing Pages
 #### 7.2.1 Procedural Interfaces
 
 Our application utilizes the following APIs or Libraries:
+
 - Google Maps API
 - Faker Library
 - Phinx Library
@@ -1688,6 +1928,7 @@ Our application utilizes the following APIs or Libraries:
 #### 7.2.2 Data Structures
 
 Our application utilizes the following Data Structures:
+
 - PHP Arrays
 - CakePHP Entities, Tables, & Behaviors (Model)
 - JavaScript Arrays
@@ -1700,24 +1941,39 @@ Our application utilizes the following Data Structures:
 
 ### 8.1 Subsystems and Component Design Patterns
 
-Our application uses the Model View Controller (MVC) design pattern. With the use of CakePHP 3.0 as our framework, the exact design pattern is a variation of MVC where the model is broken down into three parts. The three parts of the model in CakePHP are Entity, Table, and Behavior.
+Our application uses the Model View Controller (MVC) design pattern.
+With the use of CakePHP 3.0 as our framework, the exact design pattern
+is a variation of MVC where the model is broken down into three parts.
+The three parts of the model in CakePHP are Table, Entity, and
+Behavior.
 
-- Table: provide access to the collection of entities stored in a specific table.
-- Entity: contain persistent properties and methods to manipulate and access the data they contain.
-- Behavior: a way to organize and enable horizontal re-use of Model layer logic.
+<dl>
+
+<dt>Table</dt> <dd>Provide access to the collection of entities stored
+in a specific table.</dd>
+
+<dt>Entity</dt> <dd>Contain persistent properties and methods to
+manipulate and access the data they contain.</dd>
+
+<dt>Behavior</dt> <dd>A way to organize and enable horizontal re-use
+of Model layer logic.</dd>
+
+</dl>
 
 ### 8.2 Mapping Subsystem to Hardware Deployment
 
-
 ### 8.3 Persistent Data Storage
-
 
 ### 8.4 Network Protocol
 
 Our application uses standard network protocols.
 
-**Ports:** 22, 443, 80, 3306
-**Protocols:** TCP
+- Ports
+    - 22 (SSH)
+    - 80 (HTTP)
+    - 443 (HTTPS)
+    - 3306 (MySQL)
+- Protocols: TCP
 
 ### 8.5 Global Control Flow
 
@@ -1732,6 +1988,7 @@ Our application uses standard network protocols.
 ### 9.2 Data Structures
 
 Our application utilizes the following Data Structures:
+
 - PHP Arrays
 - CakePHP Entities, Tables, & Behaviors (Model)
 - JavaScript Arrays
@@ -1740,7 +1997,16 @@ Our application utilizes the following Data Structures:
 
 ### 10.1 User Interface Design
 
-The user interface design follows a simple layout and color combinations that allows users to easily see important data on a quick glance. The Law Enforcement page displays the data about reports in an easy to read table format. The maps on both the Law Enforcement dashboard and the Public dashboard allow for users to have a more interactive way to see the locations of various missing people based on their last know location. The content of all the pages is kept simple to maintain the focus on what the purpose of the application is--to help locate missing people and bring them back to their families.
+The user interface design follows a simple layout and color
+combinations that allows users to easily see important data on a quick
+glance.  The Law Enforcement page displays the data about reports in
+an easy to read table format.  The maps on both the Law Enforcement
+dashboard and the Public dashboard allow for users to have a more
+interactive way to see the locations of various missing people based
+on their last know location.  The content of all the pages is kept
+simple to maintain the focus on what the purpose of the application
+is—to help locate missing people and bring them back to their
+families.
 
 ### 10.2 User Interface Implementation
 
@@ -1802,26 +2068,34 @@ The user interface design follows a simple layout and color combinations that al
 
 #### 11.1.1 Overview
 
-For our Unit Testing we will use PHPUnit which can be easily integrated with CakePHP. The testing
-framework can be installed by using the PHAR package or composer. For our case we used the composer to
-install PHPUnit.
+For our Unit Testing we used PHPUnit, which can be easily integrated
+with CakePHP.  The testing framework can be installed by using the
+PHAR package or composer.  For our case we used composer to install
+PHPUnit.
 
 #### 11.1.2 Test Database Setup
 
-In order to do unit testing using PHPUnit we need to set up a test database for CakePHP to reference
-when we are testing various functions of our application.
+In order to do unit testing using PHPUnit we need to set up a test
+database for CakePHP to reference when we are testing various
+functions of our application.
 
 #### 11.1.3 Test Case Conventions
 
-The following are the conventions for creating test cases using CakePHP:
-1) PHP files containing tests should be in your tests/TestCase/[Type] directories
-2) The file names of these files should end in Test.php instead of just .php
-3) The classes containing tests should extend Cake\TestSuite\TestCase,
-Cake\TestSuite\IntegrationTestCase, or \PHPUnit\Framework\TestCase
-4) Like other class names, the test case class names should match the file name. EX. RouterTest.php
-should contain class RouterTest extends TestCase
-5) The name of any method containing a test case should begin with test, as in testPublished(). You can
-also use @test annotation to mark methods as test methods
+The following are the conventions for creating test cases using
+CakePHP:
+
+1. PHP files containing tests should be in your tests/TestCase/[Type]
+   directories
+2. The file names of these files should end in Test.php instead of
+   just .php
+3. The classes containing tests should extend Cake\TestSuite\TestCase,
+   Cake\TestSuite\IntegrationTestCase, or \PHPUnit\Framework\TestCase
+4. Like other class names, the test case class names should match the
+   file name.  EX. RouterTest.php should contain class RouterTest
+   extends TestCase
+5. The name of any method containing a test case should begin with
+   test, as in testPublished().  You can also use @test annotation to
+   mark methods as test methods
 
 #### 11.1.4 Running Tests
 
@@ -1831,11 +2105,15 @@ matches how you installed phpunit.
 
 ##### Using composer installed phpunit
 
-../vendor/bin/phpunit
+``` shell
+vendor/bin/phpunit
+```
 
 ##### Using phar file
 
-php ../phpunit.phar
+``` shell
+php phpunit.phar
+```
 
 ### 11.2 Unit Test Definition and Data Selection
 
@@ -1920,39 +2198,34 @@ functionality will include a variety of email and phone combinations.
 The data that will be used to test the submit report functionality
 will include combinations of the following data fields:
 
-###### Missing Person Info
+- Missing Person Info
+    - Gender
+    - Name
+    - DOB
+    - Hair Color
+    - Eye Color
+    - Ethnicity
+    - Weight
+    - Height
+    - Marks/Tattoos
+    - Social Media Accounts
+    - Phone Number
+    - Photo(s)
+    - Additional Info
+- Family/Friends of Missing Person
+    - Email
+    - Phone Number
+    - Address
+    - Relation to Missing Person
+    - Gender
+- Workplace/Hangouts of Missing Person
+    - Name
+    - City
+    - Address
+    - Zip
+    - State
 
-1. Gender
-2. Name
-3. DOB
-4. Hair Color
-5. Eye Color
-6. Ethnicity
-7. Weight
-8. Height
-9. Marks/Tattoos
-10. Social Media Accounts
-11. Phone Number
-12. Photo(s)
-13. Additional Info
-
-###### Family/Friends of Missing Person
-
-1. Email
-2. Phone Number
-3. Address
-4. Relation to Missing Person
-5. Gender
-
-###### Workplace/Hangouts of Missing Person
-
-1. Name
-2. City
-3. Address
-4. Zip
-5. State
-
-###### Data
+##### Data
 
 | Gender | Name       | DOB      | Hair Color | Eye Color | Ethnicity       | Weight (lbs) | Height (inches) | Marks/Tattoos        | Social Media Accounts | Phone Number | Photo(s) | Additional Info |
 |--------|------------|----------|------------|-----------|-----------------|--------------|-----------------|----------------------|-----------------------|--------------|----------|-----------------|
@@ -1989,7 +2262,7 @@ will include combinations of the following data fields:
 The data that will be used to test the email service functionality
 will be a list of emails.
 
-###### Data
+##### Data
 
 | Email                  |
 |------------------------|
@@ -2004,9 +2277,10 @@ will be a list of emails.
 
 ##### Data Selection
 
-The data that will be used to test the forgot password will be a set of emails and new passwords.
+The data that will be used to test the forgot password will be a set
+of emails and new passwords.
 
-###### Data
+##### Data
 
 | Password               |
 |------------------------|
@@ -2021,9 +2295,10 @@ The data that will be used to test the forgot password will be a set of emails a
 
 ##### Data Selection
 
-The data that will be used to test the forgot password will be a set of emails and new passwords.
+The data that will be used to test the forgot password will be a set
+of emails and new passwords.
 
-###### Data
+##### Data
 
 | Username         | Password           |
 |------------------|--------------------|
@@ -2038,9 +2313,10 @@ The data that will be used to test the forgot password will be a set of emails a
 
 ##### Data Selection
 
-The data that will be used to test the forgot password will be a set of emails and new passwords.
+The data that will be used to test the forgot password will be a set
+of emails and new passwords.
 
-###### Data
+##### Data
 
 | Username         | Password           |
 |------------------|--------------------|
@@ -2058,39 +2334,34 @@ The data that will be used to test the forgot password will be a set of emails a
 The data that will be used to test the submit report functionality
 will include combinations of the following data fields:
 
-###### Missing Person Info
+- Missing Person Info
+    - Gender
+    - Name
+    - DOB
+    - Hair Color
+    - Eye Color
+    - Ethnicity
+    - Weight
+    - Height
+    - Marks/Tattoos
+    - Social Media Accounts
+    - Phone Number
+    - Photo(s)
+    - Additional Info
+- Family/Friends of Missing Person
+    - Email
+    - Phone Number
+    - Address
+    - Relation to Missing Person
+    - Gender
+- Workplace/Hangouts of Missing Person
+    - Name
+    - City
+    - Address
+    - Zip
+    - State
 
-1. Gender
-2. Name
-3. DOB
-4. Hair Color
-5. Eye Color
-6. Ethnicity
-7. Weight
-8. Height
-9. Marks/Tattoos
-10. Social Media Accounts
-11. Phone Number
-12. Photo(s)
-13. Additional Info
-
-###### Family/Friends of Missing Person
-
-1. Email
-2. Phone Number
-3. Address
-4. Relation to Missing Person
-5. Gender
-
-###### Workplace/Hangouts of Missing Person
-
-1. Name
-2. City
-3. Address
-4. Zip
-5. State
-
-###### Data
+##### Data
 
 | Gender | Name       | DOB      | Hair Color | Eye Color | Ethnicity       | Weight (lbs) | Height (inches) | Marks/Tattoos        | Social Media Accounts | Phone Number | Photo(s) | Additional Info |
 |--------|------------|----------|------------|-----------|-----------------|--------------|-----------------|----------------------|-----------------------|--------------|----------|-----------------|
@@ -2124,9 +2395,10 @@ will include combinations of the following data fields:
 
 ##### Data Selection
 
-The data that will be used to test the approve reports functionality will be a set of reports based on their Report ID.
+The data that will be used to test the approve reports functionality
+will be a set of reports based on their Report ID.
 
-###### Data
+##### Data
 
 | Report ID               |
 |-------------------------|
@@ -2141,9 +2413,10 @@ The data that will be used to test the approve reports functionality will be a s
 
 ##### Data Selection
 
-The data that will be used to test the assign official report number functionality will be a set of report numbers.
+The data that will be used to test the assign official report number
+functionality will be a set of report numbers.
 
-###### Data
+##### Data
 
 | Report Numbers               |
 |------------------------------|
@@ -2158,9 +2431,10 @@ The data that will be used to test the assign official report number functionali
 
 ##### Data Selection
 
-The data that will be used to test the categorize missing people functionality will be a set of categories and report IDs.
+The data that will be used to test the categorize missing people
+functionality will be a set of categories and report IDs.
 
-###### Data
+##### Data
 
 | Report ID               | Category          |
 |-------------------------|-------------------|
@@ -2175,9 +2449,11 @@ The data that will be used to test the categorize missing people functionality w
 
 ##### Data Selection
 
-The data that will be used to test the update case information functionality will be a set of existing reports based on ID and new report values (category field used for testing purposes).
+The data that will be used to test the update case information
+functionality will be a set of existing reports based on ID and new
+report values (category field used for testing purposes).
 
-###### Data
+##### Data
 
 | Report ID               | Category          |
 |-------------------------|-------------------|
@@ -2192,9 +2468,10 @@ The data that will be used to test the update case information functionality wil
 
 ##### Data Selection
 
-The data that will be used to test the mark as found functionality will be a set of reports based on ID with status on hold.
+The data that will be used to test the mark as found functionality
+will be a set of reports based on ID with status on hold.
 
-###### Data
+##### Data
 
 | Report ID | Status  |
 |-----------|---------|
@@ -2212,414 +2489,471 @@ The data that will be used to test the mark as found functionality will be a set
 ##### Flow of Success
 
 The Concerned Citizen/Law Enforcement opens the application and
-navigates the register page to create a new account. Once on the
+navigates the register page to create a new account.  Once on the
 register page, the Concerned Citizen/Law Enforcement enters in the
 required information (First Name, Last Name, Email, Phone, Password,
-and Confirm Password). The Concerned Citizen/Law Enforcement then
-clicks the register button to complete the registration process. Once
+and Confirm Password).  The Concerned Citizen/Law Enforcement then
+clicks the register button to complete the registration process.  Once
 the account is created successfully and message with be displayed to
 the Concerned Citizen/Law Enforcement to let them know they can now
 login.
 
 ##### Test Steps
 
-1) Enter the First Name
-2) Enter the Last Name
-3) Enter the Email
-4) Enter the Phone Number
-5) Enter the Password
-6) Enter the Confirm Password
-7) Select the Role
-8) Press the "Register" button
+1. Enter the First Name
+2. Enter the Last Name
+3. Enter the Email
+4. Enter the Phone Number
+5. Enter the Password
+6. Enter the Confirm Password
+7. Select the Role
+8. Press the "Register" button
 
 ##### Test Case Information
 
-* Test Case ID: TC1
-* Test Data: The data that will be used to test the register functionality will include a variety of First Name, Last Name, Email, Phone, Password, Confirm Password, and Role combinations.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC1
+- Test Data: The data that will be used to test the register
+  functionality will include a variety of First Name, Last Name,
+  Email, Phone, Password, Confirm Password, and Role combinations.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.2 Use Case #2 Login
 
 ##### Flow of Success
 
 The Concerned Citizen/Law Enforcement has their account registered
-with the application. They go to the login page for the application
+with the application.  They go to the login page for the application
 and enter their Username (email) and Password in the corresponding
-fields. They then click the Login button.
+fields.  They then click the Login button.
 
 ##### Test Steps
 
-1) Enter the Email
-2) Enter the Password
-3) Click the "Login" button
+1. Enter the Email
+2. Enter the Password
+3. Click the "Login" button
 
 ##### Test Case Information
 
-* Test Case ID: TC2
-* Test Data: The data that will be used to test the login functionality will include a variety of username (emails) and password combinations.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC2
+- Test Data: The data that will be used to test the login
+  functionality will include a variety of username (emails) and
+  password combinations.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.3 Use Case #3 Update Account Info
 
 ##### Flow of Success
 
 The Concerned Citizen/Law Enforcement has logged in with their
-existing account and navigates to the "My Account" page. They update
-their phone or email in the corresponding fields. Next they will click
-the update account button. If the information is valid, the account
-information will be updated.
+existing account and navigates to the "My Account" page.  They update
+their phone or email in the corresponding fields.  Next they will
+click the update account button.  If the information is valid, the
+account information will be updated.
 
 ##### Test Steps
 
-1) Enter the Email
-2) Enter the Password
-3) Click the "Login" button
-4) Navigate to the My Account page
-5) Enter the new phone number in the corresponding field
-6) Enter the new email in the corresponding field
-7) Click the update account button
+1. Enter the Email
+2. Enter the Password
+3. Click the "Login" button
+4. Navigate to the My Account page
+5. Enter the new phone number in the corresponding field
+6. Enter the new email in the corresponding field
+7. Click the update account button
 
 ##### Test Case Information
 
-* Test Case ID: TC4
-* Test Data: The data that will be used to test the change account info functionality will include a variety of email and phone combinations.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC4
+- Test Data: The data that will be used to test the change account
+  info functionality will include a variety of email and phone
+  combinations.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.4 Use Case #4A Forgot Password
 
 ##### Flow of Success
 
 The Concerned Citizen/Law Enforcement has opened the application and
-is on the login page. They click the forgot password button and are
-directed to a page to enter the email associated with their
-account. They then receive an email with a unique link to reset their
-password. Once they enter their new password and confirm it in the
-corresponding fields they can access their account again.
+is on the login page.  They click the forgot password button and are
+directed to a page to enter the email associated with their account.
+They then receive an email with a unique link to reset their password.
+Once they enter their new password and confirm it in the corresponding
+fields they can access their account again.
 
 ##### Test Steps
 
-1) Click the Forgot Password button
-2) Open the email sent to you
-3) Click the unique link that redirects you to a reset password page
-4) Enter the new password in the corresponding field
-5) Enter the confirm password in the corresponding field
-6) click the Reset Password button
-7) Navigate to the login page
-8) Enter the email in the corresponding field
-9) Enter the password in the corresponding field
-10) Click the login button
+1. Click the Forgot Password button
+2. Open the email sent to you
+3. Click the unique link that redirects you to a reset password page
+4. Enter the new password in the corresponding field
+5. Enter the confirm password in the corresponding field
+6. click the Reset Password button
+7. Navigate to the login page
+8. Enter the email in the corresponding field
+9. Enter the password in the corresponding field
+10. Click the login button
 
 ##### Test Case Information
 
-* Test Case ID: TC7
-* Test Data: The data that will be used to test the forgot password will be a set of emails and new passwords.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC7
+- Test Data: The data that will be used to test the forgot password
+  will be a set of emails and new passwords.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.5 Use Case #4B Update Password
 
 ##### Flow of Success
 
 The Concerned Citizen/Law Enforcement has logged in with their
-existing account and navigates to the "My Account" page. They update
+existing account and navigates to the "My Account" page.  They update
 their old password, new password and confirm password in the
-corresponding fields. Next they will click the update account
-button. If the information is valid, the account information will be
-updated.
+corresponding fields.  Next they will click the update account button.
+If the information is valid, the account information will be updated.
 
 ##### Test Steps
 
-1) Enter the Email
-2) Enter the Password
-3) Click the "Login" button
-4) Navigate to the My Account page
-5) Enter in the old password in the corresponding field
-6) Enter in the new password in the corresponding field
-7) Enter in the confirm new password in the corresponding field
-8) Click the update account button
+1. Enter the Email
+2. Enter the Password
+3. Click the "Login" button
+4. Navigate to the My Account page
+5. Enter in the old password in the corresponding field
+6. Enter in the new password in the corresponding field
+7. Enter in the confirm new password in the corresponding field
+8. Click the update account button
 
 ##### Test Case Information
 
-* Test Case ID: TC3
-* Test Data: The data that will be used to test the change password functionality will include a variety of old password, new password, and confirm new password combinations.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC3
+- Test Data: The data that will be used to test the change password
+  functionality will include a variety of old password, new password,
+  and confirm new password combinations.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.6 Use Case #5 Verify Email Address
 
 ##### Flow of Success
 
 The Concerned Citizen/Law Enforcement has opened the application and
-is on the register new account page. They have entered their first
+is on the register new account page.  They have entered their first
 name, last name, email, phone, password, and confirm password in the
-corresponding fields. Then they press the submit button to create the
-account. The form validates that all of the fields data are valid and
-then creates the new account in the database. The Email Service will
+corresponding fields.  Then they press the submit button to create the
+account.  The form validates that all of the fields data are valid and
+then creates the new account in the database.  The Email Service will
 then send an email to the Concerned Citizen/Law Enforcement to have
 them verify that their email is valid by sending a unique link in the
 email for the Concerned Citizen/Law Enforcement to click.
 
 ##### Test Steps
 
-1) Enter the First Name, Last Name, Email, Phone, Password, and Confirm Password
-2) Click the "Submit" button
-3) Open the email inbox
-4) Open the email sent by the Email Service
-5) Click the link in the email
+1. Enter the First Name, Last Name, Email, Phone, Password, and Confirm Password
+2. Click the "Submit" button
+3. Open the email inbox
+4. Open the email sent by the Email Service
+5. Click the link in the email
 
 ##### Test Case Information
 
-* Test Case ID: TC6
-* Test Data: The data that will be used to test the email service functionality will be a list of emails.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC6
+- Test Data: The data that will be used to test the email service
+  functionality will be a list of emails.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.7 Use Case #6 View as Citizen
 
 ##### Flow of Success
 
 The Concerned Citizen already has an account created and they are on
-the login page. They enter their email and password then click the
-login button. Once their credentials are validated they will be
+the login page.  They enter their email and password then click the
+login button.  Once their credentials are validated they will be
 directed to the Home Page specific to their user type.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you were redirected to "home_concerned_public"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you were redirected to "home_concerned_public"
 
 ##### Test Case Information
 
-* Test Case ID: TC8
-* Test Data: The data that will be used to test the view as citizen functionality will be a set of emails and passwords for accounts with the role of "Public" in the database.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC8
+- Test Data: The data that will be used to test the view as citizen
+  functionality will be a set of emails and passwords for accounts
+  with the role of "Public" in the database.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.8 Use Case #7 View as Law Enforcement
 
 ##### Flow of Success
 
-  The Law Enforcement already has an account created and they are on the login page. They enter their email and password then click the login button. Once their credentials are validated they will be directed to the Home Page specific to their user type.
+The Law Enforcement already has an account created and they are on the
+login page.  They enter their email and password then click the login
+button.  Once their credentials are validated they will be directed to
+the Home Page specific to their user type.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you were redirected to "home_law_enforcement"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you were redirected to "home_law_enforcement"
 
 ##### Test Case Information
 
-* Test Case ID: TC9
-* Test Data: The data that will be used to test the view as law enforcement functionality will be a set of emails and passwords for accounts with the role of "Law Enforcement" in the database.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC9
+- Test Data: The data that will be used to test the view as law
+  enforcement functionality will be a set of emails and passwords for
+  accounts with the role of "Law Enforcement" in the database.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.9 Use Case #8 Submit New Report
 
 ##### Flow of Success
 
-  The Concerned Citizen is logged into their account and is on the Submit Report page. They enter the data in the corresponding fields and click the submit button. The form data is validated and then a new report is added to the database with a status of "on hold" for Law Enforcement to then review.
+The Concerned Citizen is logged into their account and is on the
+Submit Report page.  They enter the data in the corresponding fields
+and click the submit button.  The form data is validated and then a
+new report is added to the database with a status of "on hold" for Law
+Enforcement to then review.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) click the login button
-4) Click the Submit Report button
-5) Fill in the required and non required fields as needed
-6) Click the submit button
+1. Enter the email
+2. Enter the password
+3. click the login button
+4. Click the Submit Report button
+5. Fill in the required and non required fields as needed
+6. Click the submit button
 
 ##### Test Case Information
 
-* Test Case ID: TC5
-* Test Data: The data that will be used to test the submit report functionality will include combinations of the following data fields:
+- Test Case ID: TC5
+- Test Data: The data that will be used to test the submit report
+  functionality will include combinations of data from the following
+  sub-sections.
+- Test Count: The test will be performed with 6 sets of data.
 
-  #### Missing Person Info
-  1) Gender
-  2) Name
-  3) DOB
-  4) Hair Color
-  5) Eye Color
-  6) Ethnicity
-  7) Weight
-  8) Height
-  9) Marks/Tattoos
-  10) Social Media Accounts
-  11) Phone Number
-  12) Photo(s)
-  13) Additional Info
+###### Missing Person Info
 
-  #### Family/Friends of Missing Person
-  1) Email
-  2) Phone Number
-  3) Address
-  4) Relation to Missing Person
-  5) Gender
+- Gender
+- Name
+- DOB
+- Hair Color
+- Eye Color
+- Ethnicity
+- Weight
+- Height
+- Marks/Tattoos
+- Social Media Accounts
+- Phone Number
+- Photo(s)
+- Additional Info
 
-  #### Workplace/Hangouts of Missing Person
-  1) Name
-  2) City
-  3) Address
-  4) Zip
-  5) State
-* Test Count: The test will be performed with 6 sets of data.
+###### Family/Friends of Missing Person
+
+- Email
+- Phone Number
+- Address
+- Relation to Missing Person
+- Gender
+
+###### Workplace/Hangouts of Missing Person
+
+- Name
+- City
+- Address
+- Zip
+- State
 
 #### 11.3.10 Use Case #9 Send Report
 
 ##### Flow of Success
 
-  The Concerned Citizen has submitted a new missing person report. The report form data has been validated and stored in the database. The Law Enforcement logs into their account and navigates to their specified home page. All missing person reports, including the newly submitted one, are displayed in a table on the home page for the Law Enforcement to see.
+The Concerned Citizen has submitted a new missing person report.  The
+report form data has been validated and stored in the database.  The
+Law Enforcement logs into their account and navigates to their
+specified home page.  All missing person reports, including the newly
+submitted one, are displayed in a table on the home page for the Law
+Enforcement to see.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
 
 ##### Test Case Information
 
-* Test Case ID: TC10
-* Test Data: The data that will be used to test the send report functionality will include combinations of the following data fields:
+- Test Case ID: TC10
+- Test Data: The data that will be used to test the submit report
+  functionality will include combinations of data from the following
+  sub-sections.
+- Test Count: The test will be performed with 6 sets of data.
 
-  ### Missing Person Info
-  1) Gender
-  2) Name
-  3) DOB
-  4) Hair Color
-  5) Eye Color
-  6) Ethnicity
-  7) Weight
-  8) Height
-  9) Marks/Tattoos
-  10) Social Media Accounts
-  11) Phone Number
-  12) Photo(s)
-  13) Additional Info
+###### Missing Person Info
 
-  #### Family/Friends of Missing Person
-  1) Email
-  2) Phone Number
-  3) Address
-  4) Relation to Missing Person
-  5) Gender
+- Gender
+- Name
+- DOB
+- Hair Color
+- Eye Color
+- Ethnicity
+- Weight
+- Height
+- Marks/Tattoos
+- Social Media Accounts
+- Phone Number
+- Photo(s)
+- Additional Info
 
-  #### Workplace/Hangouts of Missing Person
-  1) Name
-  2) City
-  3) Address
-  4) Zip
-  5) State
-* Test Count: The test will be performed with 6 sets of data.
+###### Family/Friends of Missing Person
+
+- Email
+- Phone Number
+- Address
+- Relation to Missing Person
+- Gender
+
+###### Workplace/Hangouts of Missing Person
+
+- Name
+- City
+- Address
+- Zip
+- State
 
 #### 11.3.11 Use Case #10 Validate/Approve Report
 
 ##### Flow of Success
 
-The Law Enforcement click on a missing person report in the table on the home page and are able to approve the report. The reports status changes from "on hold" to "in progress".
+The Law Enforcement click on a missing person report in the table on
+the home page and are able to approve the report.  The reports status
+changes from "on hold" to "in progress".
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click the approve button in the row of the specific case to be approved
-7) Verify the status is changed to "in progress"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click the approve button in the row of the specific case to be approved
+7. Verify the status is changed to "in progress"
 
 ##### Test Case Information
 
-* Test Case ID: TC11
-* Test Data: The data that will be used to test the  validate/approve report functionality will include reports with the status of "on hold"
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC11
+- Test Data: The data that will be used to test the validate/approve
+  report functionality will include reports with the status of "on
+  hold"
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.12 Use Case #11 Assign Official Report Number
 
 ##### Flow of Success
 
-The Law Enforcement clicks on a missing person report in the table to see a more detailed view of the report. Law Enforcement assigns an official police report number to the in progress case.
+The Law Enforcement clicks on a missing person report in the table to
+see a more detailed view of the report.  Law Enforcement assigns an
+official police report number to the in progress case.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Update the report by assigning it an official police report number
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Update the report by assigning it an official police report number
 
 ##### Test Case Information
 
-* Test Case ID: TC12
-* Test Data: The data that will be used to test the assign official report number functionality will include official report numbers similar to what Law Enforcement uses and sets of missing person reports who do not have an official report number
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC12
+- Test Data: The data that will be used to test the assign official
+  report number functionality will include official report numbers
+  similar to what Law Enforcement uses and sets of missing person
+  reports who do not have an official report number
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.13 Use Case #12 Categorize Missing People
 
 ##### Flow of Success
 
-The Law Enforcement clicks on the more detailed view of a report and updates the report to give it assign it a type of missing person based on set categories.
+The Law Enforcement clicks on the more detailed view of a report and
+updates the report to give it assign it a type of missing person based
+on set categories.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Update the report by assigning it a type of missing person based on set categories
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Update the report by assigning it a type of missing person based on set categories
 
 ##### Test Case Information
 
-* Test Case ID: TC13
-* Test Data: The data that will be used to test the categorize missing people functionality will include a set of missing person reports and a set of classifications that can be assigned to missing people.
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC13
+- Test Data: The data that will be used to test the categorize missing
+  people functionality will include a set of missing person reports
+  and a set of classifications that can be assigned to missing people.
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.14 Use Case #13 Update Case Info
 
 ##### Flow of Success
 
-The Law Enforcement clicks on the more detailed view of a report and updates any editable fields pertaining to the report for other Law Enforcement and the Concerned Public to see.
+The Law Enforcement clicks on the more detailed view of a report and
+updates any editable fields pertaining to the report for other Law
+Enforcement and the Concerned Public to see.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Update any of the editable fields pertaining to the report
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Update any of the editable fields pertaining to the report
 
 ##### Test Case Information
 
-* Test Case ID: TC14
-* Test Data: The data that will be used to test the update case info functionality will include a set of missing person reports and a set of updated data to insert into each missing person report
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC14
+- Test Data: The data that will be used to test the update case info
+  functionality will include a set of missing person reports and a set
+  of updated data to insert into each missing person report
+- Test Count: The test will be performed with 6 sets of data.
 
 #### 11.3.15 Use Case #14 Mark As Found
 
 ##### Flow of Success
 
-The Law Enforcement clicks on the more detailed view of a report and changes the case from "Missing" to "Found". The word "Found" is displayed across the image of the missing persona and still appears in the system for the Concerned Citizen to see.
+The Law Enforcement clicks on the more detailed view of a report and
+changes the case from "Missing" to "Found".  The word "Found" is
+displayed across the image of the missing persona and still appears in
+the system for the Concerned Citizen to see.
 
 ##### Test Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Change the report from "Missing" to "Found"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Change the report from "Missing" to "Found"
 
 ##### Test Case Information
 
-* Test Case ID: TC15
-* Test Data: The data that will be used to test the mark as found functionality will include a set of missing person reports with the "Found" status as false
-* Test Count: The test will be performed with 6 sets of data.
+- Test Case ID: TC15
+- Test Data: The data that will be used to test the mark as found
+  functionality will include a set of missing person reports with the
+  "Found" status as false
+- Test Count: The test will be performed with 6 sets of data.
 
 ### 11.4 Test Reports Per Sprint
 
@@ -2639,19 +2973,20 @@ REQ 1
 
 ##### Test Setup
 
-The application needs to be open and the register (add) page needs to be active.
+The application needs to be open and the register (add) page needs to
+be active.
 
 ##### Test Case Steps
 
-1) Enter the First Name
-2) Enter the Last Name
-3) Enter the Email
-4) Enter the Phone Number
-5) Enter the Password
-6) Enter the Confirm Password
-7) Select the Role
-8) Press the "Register" button
-**repeat for all 6 sets of test data**
+1. Enter the First Name
+2. Enter the Last Name
+3. Enter the Email
+4. Enter the Phone Number
+5. Enter the Password
+6. Enter the Confirm Password
+7. Select the Role
+8. Press the "Register" button
+9. **Repeat for all 6 sets of test data**
 
 ##### Test Data
 
@@ -2670,25 +3005,31 @@ A new user should be added to the users table in the database.
 
 ##### Actual Results
 
-User 1: A new user was successfully added to the users table in the DB
-User 2: A new user was successfully added to the users table in the DB
-User 3: A new user was successfully added to the users table in the DB
-User 4: A new user was successfully added to the users table in the DB
-User 5: A new user was successfully added to the users table in the DB
-User 6: A new user was successfully added to the users table in the DB
+- User 1: A new user was successfully added to the users table in the
+  DB
+- User 2: A new user was successfully added to the users table in the
+  DB
+- User 3: A new user was successfully added to the users table in the
+  DB
+- User 4: A new user was successfully added to the users table in the
+  DB
+- User 5: A new user was successfully added to the users table in the
+  DB
+- User 6: A new user was successfully added to the users table in the
+  DB
 
 ##### Passed/Failed
 
-User 1: PASSED
-User 2: PASSED
-User 3: PASSED
-User 4: PASSED
-User 5: PASSED
-User 6: PASSED
+- User 1: PASSED
+- User 2: PASSED
+- User 3: PASSED
+- User 4: PASSED
+- User 5: PASSED
+- User 6: PASSED
 
 ##### Date Executed
 
-2-2-2018
+2018-02-02
 
 -------------------------------------------------------------------------------
 
@@ -2706,14 +3047,15 @@ REQ 2
 
 ##### Test Setup
 
-The application needs to be open, a user account needs to be register, and the login page needs to be active.
+The application needs to be open, a user account needs to be register,
+and the login page needs to be active.
 
 ##### Test Case Steps
 
-1) Enter the Email
-2) Enter the Password
-3) Click the "Login" button
-**repeat for all 6 sets of test data**
+1. Enter the Email
+2. Enter the Password
+3. Click the "Login" button
+4. **Repeat for all 6 sets of test data**
 
 ##### Test Data
 
@@ -2728,29 +3070,30 @@ The application needs to be open, a user account needs to be register, and the l
 
 ##### Expected Results
 
-A user who has a registered account will be able to login and be taken to the home page.
+A user who has a registered account will be able to login and be taken
+to the home page.
 
 ##### Actual Results
 
-User 1: Login was successful and the home page was displayed.
-User 2: Login was not successful and an error message was dislayed.
-User 3: Login was successful and the home page was displayed.
-User 4: Login was successful and the home page was displayed.
-User 5: Login was successful and the home page was displayed.
-User 6: Login was successful and the home page was displayed.
+- User 1: Login was successful and the home page was displayed.
+- User 2: Login was not successful and an error message was dislayed.
+- User 3: Login was successful and the home page was displayed.
+- User 4: Login was successful and the home page was displayed.
+- User 5: Login was successful and the home page was displayed.
+- User 6: Login was successful and the home page was displayed.
 
 ##### Passed/Failed
 
-User 1: PASSED
-User 2: FAILED
-User 3: PASSED
-User 4: PASSED
-User 5: PASSED
-User 6: PASSED
+- User 1: PASSED
+- User 2: FAILED
+- User 3: PASSED
+- User 4: PASSED
+- User 5: PASSED
+- User 6: PASSED
 
 ##### Date Executed
 
-2-2-2018
+2018-02-02
 
 #### 11.4.2 Sprint 2
 
@@ -2768,18 +3111,19 @@ REQ 3
 
 ##### Test Setup
 
-The application needs to be open, a user account needs to be register, and the login page needs to be active.
+The application needs to be open, a user account needs to be register,
+and the login page needs to be active.
 
 ##### Test Case Steps
 
-1) Enter the Email
-2) Enter the Password
-3) Click the "Login" button
-4) Navigate to the My Account page
-5) Enter in the old password in the corresponding field
-6) Enter in the new password in the corresponding field
-7) Enter in the confirm new password in the corresponding field
-8) Click the update account button
+1. Enter the Email
+2. Enter the Password
+3. Click the "Login" button
+4. Navigate to the My Account page
+5. Enter in the old password in the corresponding field
+6. Enter in the new password in the corresponding field
+7. Enter in the confirm new password in the corresponding field
+8. Click the update account button
 
 ##### Test Data
 
@@ -2794,29 +3138,37 @@ The application needs to be open, a user account needs to be register, and the l
 
 ##### Expected Results
 
-A user who has a registered account, is logged in, and chooses to change their password will no have a new password recorded in the users table in the database.
+A user who has a registered account, is logged in, and chooses to
+change their password will no have a new password recorded in the
+users table in the database.
 
 ##### Actual Results
 
-User 1: Password change was successful and login with the new password was successful
-User 2: The initial login failed so the password could not be changed
-User 3: Password change was successful and login with the new password was successful
-User 3: The initial login failed so the password could not be changed
-User 5: Password change was successful and login with the new password was successful
-User 6: Password change was successful and login with the new password was successful
+- User 1: Password change was successful and login with the new
+  password was successful
+- User 2: The initial login failed so the password could not be
+  changed
+- User 3: Password change was successful and login with the new
+  password was successful
+- User 3: The initial login failed so the password could not be
+  changed
+- User 5: Password change was successful and login with the new
+  password was successful
+- User 6: Password change was successful and login with the new
+  password was successful
 
 ##### Passed/Failed
 
-User 1: PASSED
-User 2: FAILED
-User 3: PASSED
-User 4: FAILED
-User 5: PASSED
-User 6: PASSED
+- User 1: PASSED
+- User 2: FAILED
+- User 3: PASSED
+- User 4: FAILED
+- User 5: PASSED
+- User 6: PASSED
 
 ##### Date Executed
 
-2-10-2018
+2018-02-10
 
 #### 11.4.3 Sprint 3
 
@@ -2834,17 +3186,18 @@ REQ 3
 
 ##### Test Setup
 
-The application needs to be open, a user account needs to be register, user needs to be logged in and the My Account page needs to be active.
+The application needs to be open, a user account needs to be register,
+user needs to be logged in and the My Account page needs to be active.
 
 ##### Test Case Steps
 
-1) Enter the Email
-2) Enter the Password
-3) Click the "Login" button
-4) Navigate to the My Account page
-5) Enter the new phone number in the corresponding field
-6) Enter the new email in the corresponding field
-7) Click the update account button
+1. Enter the Email
+2. Enter the Password
+3. Click the "Login" button
+4. Navigate to the My Account page
+5. Enter the new phone number in the corresponding field
+6. Enter the new email in the corresponding field
+7. Click the update account button
 
 ##### Test Data
 
@@ -2859,29 +3212,32 @@ The application needs to be open, a user account needs to be register, user need
 
 ##### Expected Results
 
-A user with a registered account, is logged in, and chooses to change their email and/or phone number associated with their account will have a new email and/or phone number recorded in the users table in the database.
+A user with a registered account, is logged in, and chooses to change
+their email and/or phone number associated with their account will
+have a new email and/or phone number recorded in the users table in
+the database.
 
 ##### Actual Results
 
-Test 1: email and phone were updated successfully
-Test 2: email and phone were updated successfully
-Test 3: email and phone were updated successfully
-Test 4: email and phone were updated successfully
-Test 5: email and phone were updated successfully
-Test 6: email and phone were updated successfully
+- Test 1: email and phone were updated successfully
+- Test 2: email and phone were updated successfully
+- Test 3: email and phone were updated successfully
+- Test 4: email and phone were updated successfully
+- Test 5: email and phone were updated successfully
+- Test 6: email and phone were updated successfully
 
 ##### Passed/Failed
 
-Test 1: PASSED
-Test 2: PASSED
-Test 3: PASSED
-Test 4: PASSED
-Test 5: PASSED
-Test 6: PASSED
+- Test 1: PASSED
+- Test 2: PASSED
+- Test 3: PASSED
+- Test 4: PASSED
+- Test 5: PASSED
+- Test 6: PASSED
 
 ##### Date Executed
 
-2-25-2018
+2018-02-25
 
 -------------------------------------------------------------------------------
 
@@ -2899,16 +3255,17 @@ REQ 11, REQ 12
 
 ##### Test Setup
 
-A user with a registered account, is logged in, and chooses to submit a new missing person report.
+A user with a registered account, is logged in, and chooses to submit
+a new missing person report.
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) click the login button
-4) Click the Submit Report button
-5) Fill in the required and non required fields as needed
-6) Click the submit button
+1. Enter the email
+2. Enter the password
+3. click the login button
+4. Click the Submit Report button
+5. Fill in the required and non required fields as needed
+6. Click the submit button
 
 ##### Test Data
 
@@ -2945,25 +3302,25 @@ A new missing person report will be added to the database.
 
 ##### Actual Results
 
-Test 1: A new report was submitted successfully
-Test 2: A new report was submitted successfully
-Test 3: A new report was submitted successfully
-Test 4: A new report was submitted successfully
-Test 5: A new report was submitted successfully
-Test 6: A new report was submitted successfully
+- Test 1: A new report was submitted successfully
+- Test 2: A new report was submitted successfully
+- Test 3: A new report was submitted successfully
+- Test 4: A new report was submitted successfully
+- Test 5: A new report was submitted successfully
+- Test 6: A new report was submitted successfully
 
 ##### Passed/Failed
 
-Test 1: PASSED
-Test 2: PASSED
-Test 3: PASSED
-Test 4: PASSED
-Test 5: PASSED
-Test 6: PASSED
+- Test 1: PASSED
+- Test 2: PASSED
+- Test 3: PASSED
+- Test 4: PASSED
+- Test 5: PASSED
+- Test 6: PASSED
 
 ##### Date Executed
 
-2-25-2018
+2018-02-25
 
 -------------------------------------------------------------------------------
 
@@ -2985,10 +3342,10 @@ A Concerned Citizen logs in with their registered account.
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you were redirected to "home_concerned_public"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you were redirected to "home_concerned_public"
 
 ##### Test Data
 
@@ -3003,29 +3360,36 @@ A Concerned Citizen logs in with their registered account.
 
 ##### Expected Results
 
-The Concerned Citizen logs in with their registered account and can see the home page specific to their user type.
+The Concerned Citizen logs in with their registered account and can
+see the home page specific to their user type.
 
 ##### Actual Results
 
-Test 1: Account login successful and redirected to "home_concerned_public"
-Test 2: Account login successful and redirected to "home_concerned_public"
-Test 3: Account login successful and redirected to "home_concerned_public"
-Test 4: Account login successful and redirected to "home_concerned_public"
-Test 5: Account login successful and redirected to "home_concerned_public"
-Test 6: Account login successful and redirected to "home_concerned_public"
+- Test 1: Account login successful and redirected to
+  "home_concerned_public"
+- Test 2: Account login successful and redirected to
+  "home_concerned_public"
+- Test 3: Account login successful and redirected to
+  "home_concerned_public"
+- Test 4: Account login successful and redirected to
+  "home_concerned_public"
+- Test 5: Account login successful and redirected to
+  "home_concerned_public"
+- Test 6: Account login successful and redirected to
+  "home_concerned_public"
 
 ##### Passed/Failed
 
-Test 1: PASSED
-Test 2: PASSED
-Test 3: PASSED
-Test 4: PASSED
-Test 5: PASSED
-Test 6: PASSED
+- Test 1: PASSED
+- Test 2: PASSED
+- Test 3: PASSED
+- Test 4: PASSED
+- Test 5: PASSED
+- Test 6: PASSED
 
 ##### Date Executed
 
-2-25-2018
+2018-02-25
 
 -------------------------------------------------------------------------------
 
@@ -3047,10 +3411,10 @@ The Law Enforcement logs in with their registered account.
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you were redirected to "home_law_enforcement"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you were redirected to "home_law_enforcement"
 
 ##### Test Data
 
@@ -3065,29 +3429,36 @@ The Law Enforcement logs in with their registered account.
 
 ##### Expected Results
 
-The Law Enforcement logs in with their registered account and can see the home page specific to their user type.
+The Law Enforcement logs in with their registered account and can see
+the home page specific to their user type.
 
 ##### Actual Results
 
-Test 1: Account login successful and redirected to "home_law_enforcement"
-Test 2: Account login successful and redirected to "home_law_enforcement"
-Test 3: Account login successful and redirected to "home_law_enforcement"
-Test 4: Account login successful and redirected to "home_law_enforcement"
-Test 5: Account login successful and redirected to "home_law_enforcement"
-Test 6: Account login successful and redirected to "home_law_enforcement"
+- Test 1: Account login successful and redirected to
+  "home_law_enforcement"
+- Test 2: Account login successful and redirected to
+  "home_law_enforcement"
+- Test 3: Account login successful and redirected to
+  "home_law_enforcement"
+- Test 4: Account login successful and redirected to
+  "home_law_enforcement"
+- Test 5: Account login successful and redirected to
+  "home_law_enforcement"
+- Test 6: Account login successful and redirected to
+  "home_law_enforcement"
 
 ##### Passed/Failed
 
-Test 1: PASSED
-Test 2: PASSED
-Test 3: PASSED
-Test 4: PASSED
-Test 5: PASSED
-Test 6: PASSED
+- Test 1: PASSED
+- Test 2: PASSED
+- Test 3: PASSED
+- Test 4: PASSED
+- Test 5: PASSED
+- Test 6: PASSED
 
 ##### Date Executed
 
-2-25-2018
+2018-02-25
 
 -------------------------------------------------------------------------------
 
@@ -3105,15 +3476,16 @@ REQ 15
 
 ##### Test Setup
 
-The Concerned Citizen has submitted a new report and law enforcement logs into their account.
+The Concerned Citizen has submitted a new report and law enforcement
+logs into their account.
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
 
 ##### Test Data
 
@@ -3128,7 +3500,8 @@ The Concerned Citizen has submitted a new report and law enforcement logs into t
 
 ##### Expected Results
 
-The Law Enforcement logs in with their registered account and can see all submitted reports in a table format
+The Law Enforcement logs in with their registered account and can see
+all submitted reports in a table format
 
 ##### Actual Results
 
@@ -3150,7 +3523,7 @@ The Law Enforcement logs in with their registered account and can see all submit
 
 ##### Date Executed
 
-2-25-2018
+2018-02-25
 
 #### 11.4.4 Sprint 4-7
 
@@ -3172,13 +3545,13 @@ A report as been submitted and has a status of "On Hold"
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click the approve button in the row of the specific case to be approved
-7) Verify the status is changed to "in progress"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click the approve button in the row of the specific case to be approved
+7. Verify the status is changed to "in progress"
 
 ##### Test Data
 
@@ -3193,16 +3566,17 @@ A report as been submitted and has a status of "On Hold"
 
 ##### Expected Results
 
-The status of the report will be changed to "in progress" and the public will be able to see it.
+The status of the report will be changed to "in progress" and the
+public will be able to see it.
 
 ##### Actual Results
 
-- Test 1: The status is changed  and the public sees the report
-- Test 2: The status is changed  and the public sees the report
-- Test 3: The status is changed  and the public sees the report
-- Test 4: The status is changed  and the public sees the report
-- Test 5: The status is changed  and the public sees the report
-- Test 6: The status is changed  and the public sees the report
+- Test 1: The status is changed and the public sees the report
+- Test 2: The status is changed and the public sees the report
+- Test 3: The status is changed and the public sees the report
+- Test 4: The status is changed and the public sees the report
+- Test 5: The status is changed and the public sees the report
+- Test 6: The status is changed and the public sees the report
 
 ##### Passed/Failed
 
@@ -3215,7 +3589,7 @@ The status of the report will be changed to "in progress" and the public will be
 
 ##### Date Executed
 
-4-6-2018
+2018-04-06
 
 -------------------------------------------------------------------------------
 
@@ -3237,13 +3611,13 @@ A report has been submitted and has been approved
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Update the report by assigning it an official police report number
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Update the report by assigning it an official police report number
 
 ##### Test Data
 
@@ -3280,7 +3654,7 @@ The report will have an official report number assigned to it
 
 ##### Date Executed
 
-4-6-2018
+2018-04-06
 
 -------------------------------------------------------------------------------
 
@@ -3298,17 +3672,18 @@ REQ 19
 
 ##### Test Setup
 
-A report has been added to the system and law enforcement is logged in.
+A report has been added to the system and law enforcement is logged
+in.
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Update the report by assigning it a type of missing person based on set categories
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Update the report by assigning it a type of missing person based on set categories
 
 ##### Test Data
 
@@ -3345,7 +3720,7 @@ The report will have a category
 
 ##### Date Executed
 
-4-6-2018
+2018-04-06
 
 -------------------------------------------------------------------------------
 
@@ -3363,17 +3738,18 @@ REQ 24, REQ 25
 
 ##### Test Setup
 
-Law enforcement is logged in and is viewing the detailed report view for an individual report
+Law enforcement is logged in and is viewing the detailed report view
+for an individual report
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Update any of the editable fields pertaining to the report
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Update any of the editable fields pertaining to the report
 
 ##### Test Data
 
@@ -3410,7 +3786,7 @@ The category for the report will be updated
 
 ##### Date Executed
 
-4-6-2018
+2018-04-06
 
 -------------------------------------------------------------------------------
 
@@ -3428,17 +3804,18 @@ REQ 26, REQ 27
 
 ##### Test Setup
 
-A report has been submitted, is active, and law enforcement has logged in and is viewing the table on their dashboard
+A report has been submitted, is active, and law enforcement has logged
+in and is viewing the table on their dashboard
 
 ##### Test Case Steps
 
-1) Enter the email
-2) Enter the password
-3) Click the login button
-4) Verify you are taken to the Law Enforcement home page
-5) View all reports in a table on the home page
-6) Click on a report to view a more detailed report page
-7) Change the report from "Missing" to "Found"
+1. Enter the email
+2. Enter the password
+3. Click the login button
+4. Verify you are taken to the Law Enforcement home page
+5. View all reports in a table on the home page
+6. Click on a report to view a more detailed report page
+7. Change the report from "Missing" to "Found"
 
 ##### Test Data
 
@@ -3475,7 +3852,7 @@ The report has a status of "found" and the public can still view it
 
 ##### Date Executed
 
-4-6-2018
+2018-04-06
 
 ## Section 12
 
@@ -3483,54 +3860,66 @@ The report has a status of "found" and the public can still view it
 
 #### 12.1.1 Gantt Chart
 
-See included PDF in *media/MIMS_Project_Plan_FINAL_Gantt*
-
-![](media/MIMS_Project_Plan_FINAL_Gantt.pdf)
+Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for Gantt chart
+PDF.
 
 #### 12.1.2 Task Breakdown
 
-See included PDF in *media/MIMS_Project_Plan_FINAL_Tasks*
-
-![](media/MIMS_Project_Plan_FINAL_Tasks.pdf)
+Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for task
+breakdown PDF.
 
 ### 12.2 Risk Management
 
-1. Sensitive data being misused
-    1. Risk Details
-        1. Personal data about missing people will be maintained in the database for Law Enforcement to Access
-        2. There will need to be restrictions to what data the Concerned Public can see
-        3. The integrity of the data needs to be retained
-    2. Risk Assessment
-        1. Likelihood: 5
-        2. Impact: 10
-        3. Cost: 10
-    3. Rank: 60
-    4. Mitigation Plan
-        Our mitigation plan for this is to create roles in the database and assign them to users (Public or Law Enforcement). This assigned role will affect the interface the user will see on the home page when they login.
+#### Sensitive data being misused
 
-2. High volumes of data are not managed
-    1. Risk Details
-        1. The data needs to be stored in a way that makes sense
-        2. It needs to be easily accessed and analyzed
-    2. Risk Assessment
-        1. Likelihood: 8
-        2. Impact: 5
-        3. Cost: 2
-    3. Rank: 36
-    4. Mitigation Plan
-        Our mitigation plan for this is to take extra time to plan and map out the database tables. We plan to do our best to organize the tables in a way that relates the data in a meaningful way as well as ensures the integrity of the data.
+1. Risk Details
+    1. Personal data about missing people will be maintained in the
+       database for Law Enforcement to Access
+    2. There will need to be restrictions to what data the Concerned
+       Public can see
+    3. The integrity of the data needs to be retained
+2. Risk Assessment
+    1. Likelihood: 5
+    2. Impact: 10
+    3. Cost: 10
+3. Rank: 60
+4. Mitigation Plan: Our mitigation plan for this is to create roles in
+   the database and assign them to users (Public or Law Enforcement).
+   This assigned role will affect the interface the user will see on
+   the home page when they login.
 
-3. Image files are not managed/stored properly
-    1. Risk Details
-        1. Images need to be stored in a way that they are easily accessed and associated with the correct missing person report
-        2. The images need to be managed so they do not take up enormous amounts of space
-    2. Risk Assessment:
-        1. Likelihood: 5
-        2. Impact: 7
-        3. Costs: 8
-    3. Rank: 192
-    4. Mitigation Plan
-        Our mitigation plan is to look into the best way to store large amounts of image files and the best way to maintain their relationship to a specific entry in the database. This will ensure that all photos related to a specific missing person case are accessible and reliably associated with that case.
+#### High volumes of data are not managed
+
+1. Risk Details
+    1. The data needs to be stored in a way that makes sense
+    2. It needs to be easily accessed and analyzed
+2. Risk Assessment
+    1. Likelihood: 8
+    2. Impact: 5
+    3. Cost: 2
+3. Rank: 36
+4. Mitigation Plan: Our mitigation plan for this is to take extra time
+   to plan and map out the database tables.  We plan to do our best to
+   organize the tables in a way that relates the data in a meaningful
+   way as well as ensures the integrity of the data.
+
+#### Image files are not managed/stored properly
+
+1. Risk Details
+    1. Images need to be stored in a way that they are easily accessed
+       and associated with the correct missing person report
+    2. The images need to be managed so they do not take up enormous
+       amounts of space
+2. Risk Assessment:
+    1. Likelihood: 5
+    2. Impact: 7
+    3. Costs: 8
+3. Rank: 192
+4. Mitigation Plan: Our mitigation plan is to look into the best way
+   to store large amounts of image files and the best way to maintain
+   their relationship to a specific entry in the database.  This will
+   ensure that all photos related to a specific missing person case
+   are accessible and reliably associated with that case.
 
 ## 13. References
 
