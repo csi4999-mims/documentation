@@ -569,7 +569,7 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    ```
 7. Add markers for each report in the database:
 
-   ``` html\+php
+   ``` html+php
    <?php
    foreach ($reports as $report) {
        $this->GoogleMap->addMarker("map_canvas", 1, $report->get('FamilyStreet'));
