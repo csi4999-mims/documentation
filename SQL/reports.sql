@@ -1,8 +1,12 @@
+--
+-- Table structure for table `reports`
+--
+
 CREATE TABLE `reports` (
-  `Report_ID` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Report_ID` int(11) NOT NULL,
   `CaseNumber` int(15) NOT NULL,
-    `status` varchar(25) NOT NULL DEFAULT "On Hold",
-    `DateCreated` datetime NOT NULL,
+  `status` varchar(25) NOT NULL DEFAULT 'On Hold',
+  `LastSeen` varchar(255) NOT NULL,
   `SubmitterEmail` varchar(50) NOT NULL,
   `FirstName` varchar(256) NOT NULL,
   `LastName` varchar(256) NOT NULL,
@@ -34,4 +38,4 @@ CREATE TABLE `reports` (
   `PlaceZip` int(5) NOT NULL,
   `PlaceMiscInfo` text NOT NULL,
   `photo` varchar(255) DEFAULT NULL
-)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
