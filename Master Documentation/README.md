@@ -505,7 +505,7 @@ aria-labbeledby="MyModal1Label" class="modal fade">
                 <button type="button" class="close" data-dismiss="modal"
                 aria-hidden="true">×</button> -->
                 <h4 class="modal-title" id="MyModal1Label">Example 1 -
-                Simple header & footer, custom body</h4>
+                Simple header &amp; footer, custom body</h4>
             </div>
             <div class="modal-body ">
                 <p>Here I write the body of my modal !</p>
