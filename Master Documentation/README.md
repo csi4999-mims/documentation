@@ -468,7 +468,7 @@ can pop up.
 
 <https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/>
 
-``` php
+``` html+php
 <?php
     // Start a modal with a title, default value for 'close' is true
     echo $this->Modal->create("My Modal Form", ['id' => 'MyModal1',
