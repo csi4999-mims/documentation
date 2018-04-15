@@ -648,11 +648,126 @@ DexGuard, for the purpose of obfuscating our code, and shrinking the
 overall package size.  The main purpose of this would to be to better
 optimize the application for use on a mobile device.
 
+#### 2.4.6 Database Migrations with Phinx
+
+The database for MIMS is managed using the [Phinx](https://phinx.org/)
+library.  This library is integrated into CakePHP, and allows
+maintainers to express the database schema using only PHP files, which
+can be tracked under version control.  These PHP files, called
+Migrations, are organized in chronological order, and function as a
+delta from one state to the next.
+
+##### Creating a new Migration
+
+(Much of this section comes from the [CakePHP Cookbook Migrations
+section](https://book.cakephp.org/3.0/en/phinx/migrations.html).)
+
+To create a migration file, run the following command from the root of
+the project:
+
+``` shell
+bin/cake migrations create MyNewMigration
+```
+
+This will create a new migration in the format
+`YYYYMMDDHHMMSS_MyNewMigration.php`, where the first 14 characters are
+replaced with the current timestamp down to the second.  This file
+will be stored in `config/Migrations`, and will contain the following
+skeleton:
+
+``` php
+<?php
+
+use Phinx\Migration\AbstractMigration;
+
+class MyNewMigration extends AbstractMigration
+{
+    /**
+     * Change Method.
+     *
+     * Write your reversible migrations using this method.
+     *
+     * More information on writing migrations is available here:
+     * http://docs.phinx.org/en/latest/migrations.html#the-abstractmigration-class
+     *
+     * The following commands can be used in this method and Phinx will
+     * automatically reverse them when rolling back:
+     *
+     *    createTable
+     *    renameTable
+     *    addColumn
+     *    renameColumn
+     *    addIndex
+     *    addForeignKey
+     *
+     * Remember to call "create()" or "update()" and NOT "save()" when working
+     * with the Table class.
+     */
+    public function change()
+    {
+
+    }
+}
+```
+
+##### Using the `change()` method
+
+If your changes are of the following types, you can place them in the
+`change()` method, and they can automatically be reverted upon
+rollback:
+
+- `createTable`
+- `renameTable`
+- `addColumn`
+- `renameColumn`
+- `addIndex`
+- `addForeignKey`
+
+Here is an example of a migration which adds a column to a table named
+"reports" using the `change()` method:
+
+``` php
+<?php
+use Migrations\AbstractMigration;
+
+class ExpandSocialMediaAccountsInReports extends AbstractMigration
+{
+    /**
+     * Change Method.
+     *
+     * More information on this method is available here:
+     * http://docs.phinx.org/en/latest/migrations.html#the-change-method
+     * @return void
+     */
+
+    public function change()
+    {
+        $reports = $this->table('reports');
+        $reports->addColumn('missing_facebook_username', 'text',
+                            ['null' => true, 'default' => null,])
+                ->update();
+    }
+}
+```
+
+This change can automatically be applied or reversed.
+
+##### Using the `up()` and `down()` methods
+
+When you have a schema modification you wish to make which is not of
+the types specified for use with the `change()` method, you must use
+the `up()` and `down()` methods instead.  These allow you to specify
+what should happen when moving *forward* (`up()`) as well as
+*backward* (`down()`) in the version history of the database schema.
+
+Please note: Phinx will **ignore** the contents of the `up()` and
+`down()` methods if it encounters a `change()` method.
+
 ## Section 3
 
 ### 3.1 Functional Requirements
 
-| Requirement # | Description                                                                                                                                                                                                                                                                                                                |
+| Requirement # | Description |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | REQ 1         | The Concerned Public & Law Enforcement should be able to create an account                                                                                                                                                                                                                                                 |
 | REQ 2         | The Concerned Public & Law Enforcement should be able to login with their created account                                                                                                                                                                                                                                  |
