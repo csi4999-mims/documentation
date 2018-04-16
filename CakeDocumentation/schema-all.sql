@@ -1,4 +1,4 @@
--- -*- mode: sql -*-
+-- -*- mode: sql; eval: (sql-highlight-mysql-keywords); -*-
 
 -- File: CakeDocumentation/schema-all.sql
 --
@@ -19,15 +19,17 @@ DROP TABLE IF EXISTS `friend_family`;
 DROP TABLE IF EXISTS `place`;
 DROP TABLE IF EXISTS `law_enforcement`;
 DROP TABLE IF EXISTS `report`;
+DROP TABLE IF EXISTS `reports`;
 DROP TABLE IF EXISTS `missing`;
 DROP TABLE IF EXISTS `user`;
+DROP TABLE IF EXISTS `users`;
 
 -- ----------------------
 -- CREATE DATABASE TABLES
 -- ----------------------
 
 -- user
-CREATE TABLE `user` (
+CREATE TABLE `users` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `first_name` VARCHAR(50) NOT NULL,
     `middle_name` VARCHAR(50),
@@ -38,7 +40,13 @@ CREATE TABLE `user` (
 
 -- law_enforcement
 CREATE TABLE `law_enforcement` (
-    `id` INT NOT NULL PRIMARY KEY,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `first_name` VARCHAR(50) NOT NULL,
+    `middle_name` VARCHAR(50),
+    `last_name` VARCHAR(50) NOT NULL,
+    `phone` CHAR(10),
+    `email` VARCHAR(100) NOT NULL,
+    `password` VARCHAR(255) NOT NULL,
     `badge_number` VARCHAR(100) NOT NULL,
     `department` VARCHAR(100) NOT NULL);
 
@@ -50,7 +58,6 @@ CREATE TABLE `place` (
     `state` VARCHAR(100),
     `city` VARCHAR(100),
     `street` VARCHAR(100),
-    `number` VARCHAR(20),
     -- Ruled out the use of ZIP+4 due to the fact that the +4 portion
     -- can change frequently and without notice.
     `zip` CHAR(5));
@@ -58,8 +65,17 @@ CREATE TABLE `place` (
 -- missing
 CREATE TABLE `missing` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `first_name` VARCHAR(100),
+    `middle_name` VARCHAR(100),
+    `last_name` VARCHAR(100),
+    `alias` VARCHAR(100),
     `email` VARCHAR(100),
     `phone` VARCHAR(15),
+    `gender` ENUM('androgynous', 'female', 'male'),
+    `ethnicity` ENUM('american_indian', 'asian', 'african_american',
+                     'hispanic_latino', 'middle_eastern',
+                     'pacific_islander', 'white', 'other'),
+    `ethnicity_other` VARCHAR(255),
     `eye_color` ENUM('amber', 'black', 'blue', 'brown', 'green',
                      'grey', 'hazel', 'other'),
     `eye_color_other` VARCHAR(255),
@@ -71,6 +87,9 @@ CREATE TABLE `missing` (
     `height_inches` SMALLINT,
     `date_of_birth` DATE,
     `facebook_username` VARCHAR(255),
+    `twitter_username` VARCHAR(255),
+    `instagram_username` VARCHAR(255),
+    `snapchat_username` VARCHAR(255),
     `misc` VARCHAR(255));
 
 -- friend_family
@@ -91,14 +110,15 @@ CREATE TABLE `friend_family` (
 
 -- last_seen
 CREATE TABLE `last_seen` (
-    `report_id` INT NOT NULL,
+    `reports_id` INT NOT NULL,
     `place_id` INT NOT NULL,
     `when` DATETIME,
-    PRIMARY KEY (`report_id`, `place_id`));
+    `notes` VARCHAR(255),
+    PRIMARY KEY (`reports_id`, `place_id`));
 
 -- workplace
 CREATE TABLE `workplace` (
-    `report_id` INT NOT NULL,
+    `missing_id` INT NOT NULL,
     `place_id` INT NOT NULL,
     `start_date` DATE,
     `end_date` DATE);
@@ -107,24 +127,29 @@ CREATE TABLE `workplace` (
 CREATE TABLE `missing_relation` (
     `friend_family_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
+    `relation_type` ENUM('mother', 'father', 'son', 'daughter', 'aunt',
+                         'uncle', 'niece', 'nephew', 'cousin',
+                         'friend', 'other'),
+    `relation_type_other` VARCHAR(255),
+    `notes` VARCHAR(255),
     PRIMARY KEY (`friend_family_id`, `missing_id`));
 
--- report
-CREATE TABLE `report` (
+-- reports
+CREATE TABLE `reports` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `submitter_id` INT NOT NULL,
     `missing_id` INT NOT NULL,
     `law_enforcement_id` INT,
     `approved_datetime` DATETIME,
     `submit_datetime` DATETIME NOT NULL,
-    `missing_status` ENUM('missing', 'found') NOT NULL,
+    `missing_status` ENUM('missing', 'found', 'on hold') NOT NULL,
     `case_number` VARCHAR(255));
 
 -- comment
 CREATE TABLE `comment` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `report_id` INT NOT NULL,
-    `user_id` INT NOT NULL,
+    `reports_id` INT NOT NULL,
+    `user_id` INT,
     `timestamp` TIMESTAMP,
     `text` VARCHAR(500));
 
@@ -132,33 +157,25 @@ CREATE TABLE `comment` (
 -- DATABASE RELATIONSHIPS
 -- ----------------------
 
--- law_enforcement.id --> user.id
-ALTER TABLE `law_enforcement`
-    ADD CONSTRAINT `fk_law_enforcement_id`
-    FOREIGN KEY (`id`)
-    REFERENCES `user` (`id`)
-    ON UPDATE CASCADE
-    ON DELETE CASCADE;
-
--- report.submitter_id --> user.id
-ALTER TABLE `report`
-    ADD CONSTRAINT `fk_report_submitter_id`
+-- reports.submitter_id --> user.id
+ALTER TABLE `reports`
+    ADD CONSTRAINT `fk_reports_submitter_id`
     FOREIGN KEY (`submitter_id`)
-    REFERENCES `user` (`id`)
+    REFERENCES `users` (`id`)
     ON UPDATE CASCADE;
 
--- report.missing_id --> missing.id
-ALTER TABLE `report`
-    ADD CONSTRAINT `fk_report_missing_id`
+-- reports.missing_id --> missing.id
+ALTER TABLE `reports`
+    ADD CONSTRAINT `fk_reports_missing_id`
     FOREIGN KEY (`missing_id`)
     REFERENCES `missing` (`id`)
     ON UPDATE CASCADE;
 
--- comment.report_id --> report.id
+-- comment.reports_id --> reports.id
 ALTER TABLE `comment`
-    ADD CONSTRAINT `fk_comment_report_id`
-    FOREIGN KEY (`report_id`)
-    REFERENCES `report` (`id`)
+    ADD CONSTRAINT `fk_comment_reports_id`
+    FOREIGN KEY (`reports_id`)
+    REFERENCES `reports` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
@@ -166,9 +183,16 @@ ALTER TABLE `comment`
 ALTER TABLE `comment`
     ADD CONSTRAINT `fk_comment_user_id`
     FOREIGN KEY (`user_id`)
-    REFERENCES `user` (`id`)
+    REFERENCES `users` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
+
+-- friend_family.home_id --> place.id
+ALTER TABLE `friend_family`
+    ADD CONSTRAINT `fk_friend_family_home_id`
+    FOREIGN KEY (`home_id`)
+    REFERENCES `place` (`id`)
+    ON UPDATE CASCADE;
 
 -- missing_relation.friend_family_id --> friend_family.id
 ALTER TABLE `missing_relation`
@@ -186,11 +210,11 @@ ALTER TABLE `missing_relation`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
--- last_seen.report_id --> report.id
+-- last_seen.reports_id --> reports.id
 ALTER TABLE `last_seen`
-    ADD CONSTRAINT `fk_last_seen_report_id`
-    FOREIGN KEY (`report_id`)
-    REFERENCES `report` (`id`)
+    ADD CONSTRAINT `fk_last_seen_reports_id`
+    FOREIGN KEY (`reports_id`)
+    REFERENCES `reports` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
@@ -202,11 +226,11 @@ ALTER TABLE `last_seen`
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
--- workplace.report_id --> report.id
+-- workplace.missing_id --> missing.id
 ALTER TABLE `workplace`
-    ADD CONSTRAINT `fk_workplace_report_id`
-    FOREIGN KEY (`report_id`)
-    REFERENCES `report` (`id`)
+    ADD CONSTRAINT `fk_workplace_missing_id`
+    FOREIGN KEY (`missing_id`)
+    REFERENCES `missing` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
 
@@ -217,3 +241,9 @@ ALTER TABLE `workplace`
     REFERENCES `place` (`id`)
     ON UPDATE CASCADE
     ON DELETE CASCADE;
+
+ -- lawenforcement inserting data --
+ Insert into law_enforcement
+       (first_name, middle_name, last_name, phone, email, password, badge_number, department)
+       Values
+       ('John', 'Joseph', 'Smith', '1234567890', 'jjsmith@gmail.com', 'password', '1', 'home');

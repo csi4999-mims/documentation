@@ -654,6 +654,73 @@ DexGuard, for the purpose of obfuscating our code, and shrinking the
 overall package size.  The main purpose of this would to be to better
 optimize the application for use on a mobile device.
 
+#### 2.4.6 Database Migrations with Phinx
+
+The database for MIMS is managed using the [Phinx](https://phinx.org/)
+library.  This library is integrated into CakePHP, and allows
+maintainers to express the database schema using only PHP files, which
+can be tracked under version control.  These PHP files, called
+Migrations, are organized in chronological order, and function as a
+delta from one state to the next.
+
+All the migration files are stored in `config/Migrations`.  They have
+a file naming convention of `YYYYMMDDHHMMSS_MyNewMigration.php`, where
+`YYYYMMDDHHMMSS` is the creation timestamp down to the second, and
+`MyNewMigration` is the name of the migration.  Because of this naming
+convention, all the database migrations are run in serial from least
+recent to most recent.
+
+##### Checking the database migration status
+
+Run the following command from the root of the project to check on the
+current migration status:
+
+``` shell
+bin/cake migrations status
+```
+
+This should display a list of migrations found in `config/Migrations`
+with a status of `up` or `down`.  One can move forward in time
+(changing a migration's status to `up`) or backward in time (changing
+a migration's status to `down`) by either migrating or rolling back.
+
+##### Migrating the database
+
+To migrate the database to the most up-to-date schema, run the
+following command from the root of the project:
+
+``` shell
+bin/cake migrations migrate
+```
+
+This will run all the migration files from the state of the most
+recent file with an `up` status, and move down the list, migrating
+each one until the schema is current.
+
+##### Rolling back the database
+
+To roll back the changes made by these migration files, use the
+following command:
+
+``` shell
+bin/cake migrations rollback
+```
+
+This will revert the most recently-applied migration.  To continue
+reverting the changes, run the command again until you have reached
+the desired state of the database.
+
+##### Migrating or rolling back to a specific version
+
+You can specify which version or migration file you wish to migrate to
+or roll back to with the following command, substituting
+`YYYYMMDDHHMMSS` with the timestamp of the migration file of your
+choosing:
+
+``` shell
+bin/cake migrations migrate -t YYYYMMDDHHMMSS
+```
+
 ## 3. System Requirements Analysis
 
 ### 3.1 Functional Requirements
@@ -1857,6 +1924,8 @@ The report has the status of "Found"
 ### 6.4 Entity Relationship Diagram
 
 ![](media/06.04.EntityRelationship.png)
+
+![](media/06.04.EntityRelationship2.png)
 
 ## 7. Dynamic Design
 
