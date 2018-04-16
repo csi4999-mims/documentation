@@ -92,7 +92,7 @@ usage instructions.
 - Mitchell Roe
 - Tyler Watling
 
-## Section 1
+## 1. Project Vision
 
 ### 1.1 Background
 
@@ -222,7 +222,7 @@ helping Law Enforcement</dd>
 
 </dl>
 
-## Section 2
+## 2. Project Execution and Planning
 
 ### 2.1 Team Information
 
@@ -648,7 +648,7 @@ DexGuard, for the purpose of obfuscating our code, and shrinking the
 overall package size.  The main purpose of this would to be to better
 optimize the application for use on a mobile device.
 
-## Section 3
+## 3. System Requirements Analysis
 
 ### 3.1 Functional Requirements
 
@@ -813,7 +813,7 @@ information and create an account.
 
 ![](media/3.4.%20Wireframe%20designs__html_75985fadc1200e41.png)
 
-## Section 4
+## 4. Functional Requirements Specification
 
 ### 4.1 – 4.2 Stakeholders, Actors, and Goals
 
@@ -1507,7 +1507,7 @@ information and create an account.
 
 ![](media/SystemSequenceUserCase11-14.png)
 
-## Section 5
+## 5. User Interface Specifications
 
 ### 5.1 Preliminary Design
 
@@ -1602,7 +1602,7 @@ Nominal Effort = 3.2 x (11.97)^1.05
                = 43.37 person months
 ```
 
-## Section 6
+## 6. Static Design
 
 ### 6.1 Class Model
 
@@ -1852,7 +1852,7 @@ The report has the status of "Found"
 
 ![](media/06.04.EntityRelationship.png)
 
-## Section 7
+## 7. Dynamic Design
 
 ### 7.1 Sequence Diagrams
 
@@ -1935,7 +1935,7 @@ Our application utilizes the following Data Structures:
 
 ![](media/07.03.StateDiagrams.png)
 
-## Section 8
+## 8. System Architecture and System Design
 
 ### 8.1 Subsystems and Component Design Patterns
 
@@ -1979,7 +1979,7 @@ Our application uses standard network protocols.
 
 ### 8.6 Hardware Requirements
 
-## Section 9
+## 9. Algorithms and Data Structures
 
 ### 9.1 Algorithms
 
@@ -1991,7 +1991,7 @@ Our application utilizes the following Data Structures:
 - CakePHP Entities, Tables, & Behaviors (Model)
 - JavaScript Arrays
 
-## Section 10
+## 10. User Interface Design and Implementation
 
 ### 10.1 User Interface Design
 
@@ -2061,7 +2061,7 @@ their families.
 
 ![](media/found.PNG)
 
-## Section 11
+## 11. Testing
 
 ### 11.1 Unit Test Architecture and Strategy Framework
 
@@ -3853,7 +3853,7 @@ The report has a status of "found" and the public can still view it
 
 2018-04-06
 
-## Section 12
+## 12. Project Management
 
 ### 12.1 Project Plan
 
