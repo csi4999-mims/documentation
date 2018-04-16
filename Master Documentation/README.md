@@ -1960,6 +1960,13 @@ of Model layer logic.</dd>
 
 ### 8.2 Mapping Subsystem to Hardware Deployment
 
+The MIMS website uses CakePHP, which has very loose
+[requirements](https://book.cakephp.org/3.0/en/installation.html#requirements)
+for hardware.  The MIMS system runs on a Linode server.  This Linode
+server uses redundant SSDs for storage and has a static IP address,
+which provides us with consistent, reliable, and speedy access to our
+content.
+
 ### 8.3 Persistent Data Storage
 
 Persistent data such as usernames, passwords, and report information
