@@ -1979,6 +1979,10 @@ Our application uses standard network protocols.
 
 ### 8.6 Hardware Requirements
 
+Please see the [CakePHP installation
+requirements](https://book.cakephp.org/3.0/en/installation.html#requirements)
+for details.
+
 ## Section 9
 
 ### 9.1 Algorithms
