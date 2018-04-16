@@ -1987,7 +1987,7 @@ Our application uses standard network protocols.
 
 Our application utilizes the following Data Structures:
 
-- PHP Arrays
+- PHP scalars, arrays, objects, and special types (e.g. `null`)
 - CakePHP Entities, Tables, & Behaviors (Model)
 - JavaScript Arrays
 
