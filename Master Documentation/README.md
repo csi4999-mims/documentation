@@ -237,11 +237,11 @@ helping Law Enforcement</dd>
 - Minqiang Hu
     - Software Wireframe Design
     - Creating UML Diagrams
-    - Documentation and Research 
-- Alex Morey
-    -Database
-    -Website Functionality
-    -Documentation
+    - Documentation and Research
+- Alex Morey  
+    - Database  
+    - Website Functionality
+    - Documentation
 - Mitchell Roe
     - Systems Administration
     - Database Administration
