@@ -1964,13 +1964,13 @@ of Model layer logic.</dd>
 
 ### 8.4 Network Protocol
 
-Our application uses standard network protocols.
+Our application uses standard network ports and protocols.
 
 - Ports
     - 22 (SSH)
     - 80 (HTTP)
     - 443 (HTTPS)
-    - 3306 (MySQL)
+    - 3306 (MariaDB/MySQL)
 - Protocols: TCP
 
 ### 8.5 Global Control Flow
