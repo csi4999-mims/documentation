@@ -1989,7 +1989,7 @@ Our application utilizes the following Data Structures:
 
 - PHP scalars, arrays, objects, and special types (e.g. `null`)
 - CakePHP Entities, Tables, & Behaviors (Model)
-- JavaScript Arrays
+- JavaScript arrays
 
 ## Section 10
 
