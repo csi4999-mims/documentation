@@ -3960,3 +3960,9 @@ breakdown PDF file.
 ### 13.8 Chart.js
 
 [Chart.js](https://www.chartjs.org/)
+
+### 13.9 Phinx Database Management
+
+- [CakePHP Cookbook: Phinx Migrations](https://book.cakephp.org/3.0/en/phinx.html)
+- [CakePHP Cookbook: Database Seeding](https://book.cakephp.org/3.0/en/phinx/seeding.html)
+- [Phinx Documentation](http://docs.phinx.org/en/latest/)
