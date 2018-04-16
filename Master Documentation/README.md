@@ -239,6 +239,9 @@ helping Law Enforcement</dd>
     - Creating UML Diagrams
     - Documentation and Research 
 - Alex Morey
+    -Database
+    -Website Functionality
+    -Documentation
 - Mitchell Roe
     - Systems Administration
     - Database Administration
