@@ -234,7 +234,7 @@ helping Law Enforcement</dd>
 - Bryan Derr
     - Mobile Application Development and Research
     - Documentation
-- Minqiang Hu
+- Minqiang Hu  
     - Software Wireframe Design
     - Creating UML Diagrams
     - Documentation and Research
