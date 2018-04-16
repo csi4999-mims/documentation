@@ -19,56 +19,56 @@ usage instructions.
 ## Table of Contents
 
 - [Team Members](#team-members)
-- [Section 1](#section-1)
+- [1. Project Vision](#1-project-vision)
   - [1.1 Background](#11-background)
   - [1.2 Socioeconomic Impact, Business Objectives, and Gap Analysis](#12-socioeconomic-impact-business-objectives-and-gap-analysis)
   - [1.3 Security and Ethical Concerns](#13-security-and-ethical-concerns)
   - [1.4 Glossary of Terms](#14-glossary-of-terms)
-- [Section 2](#section-2)
+- [2. Project Execution and Planning](#2-project-execution-and-planning)
   - [2.1 Team Information](#21-team-information)
   - [2.2 Tools and Technology](#22-tools-and-technology)
   - [2.3 Project Plan](#23-project-plan)
   - [2.4 Best Standards and Practices](#24-best-standards-and-practices)
-- [Section 3](#section-3)
+- [3. System Requirements Analysis](#3-system-requirements-analysis)
   - [3.1 Functional Requirements](#31-functional-requirements)
   - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
   - [3.3 On-Screen Appearance of Pages Requirements](#33-on-screen-appearance-of-pages-requirements)
   - [3.4 Wireframes](#34-wireframes)
-- [Section 4](#section-4)
+- [4. Functional Requirements Specification](#4-functional-requirements-specification)
   - [4.1 – 4.2 Stakeholders, Actors, and Goals](#41--42-stakeholders-actors-and-goals)
   - [4.3 User Stories, Scenarios, and Use Cases](#43-user-stories-scenarios-and-use-cases)
   - [4.4 System Sequence Activity Diagrams](#44-system-sequence-activity-diagrams)
-- [Section 5](#section-5)
+- [5. User Interface Specifications](#5-user-interface-specifications)
   - [5.1 Preliminary Design](#51-preliminary-design)
   - [5.2 User Efforts Estimation](#52-user-efforts-estimation)
-- [Section 6](#section-6)
+- [6. Static Design](#6-static-design)
   - [6.1 Class Model](#61-class-model)
   - [6.2 System Operation Contracts](#62-system-operation-contracts)
   - [6.3 Mathematical Model](#63-mathematical-model)
   - [6.4 Entity Relationship Diagram](#64-entity-relationship-diagram)
-- [Section 7](#section-7)
+- [7. Dynamic Design](#7-dynamic-design)
   - [7.1 Sequence Diagrams](#71-sequence-diagrams)
   - [7.2 Interface Specification](#72-interface-specification)
   - [7.3 State Diagrams](#73-state-diagrams)
-- [Section 8](#section-8)
+- [8. System Architecture and System Design](#8-system-architecture-and-system-design)
   - [8.1 Subsystems and Component Design Patterns](#81-subsystems-and-component-design-patterns)
   - [8.2 Mapping Subsystem to Hardware Deployment](#82-mapping-subsystem-to-hardware-deployment)
   - [8.3 Persistent Data Storage](#83-persistent-data-storage)
   - [8.4 Network Protocol](#84-network-protocol)
   - [8.5 Global Control Flow](#85-global-control-flow)
   - [8.6 Hardware Requirements](#86-hardware-requirements)
-- [Section 9](#section-9)
+- [9. Algorithms and Data Structures](#9-algorithms-and-data-structures)
   - [9.1 Algorithms](#91-algorithms)
   - [9.2 Data Structures](#92-data-structures)
-- [Section 10](#section-10)
+- [10. User Interface Design and Implementation](#10-user-interface-design-and-implementation)
   - [10.1 User Interface Design](#101-user-interface-design)
   - [10.2 User Interface Implementation](#102-user-interface-implementation)
-- [Section 11](#section-11)
+- [11. Testing](#11-testing)
   - [11.1 Unit Test Architecture and Strategy Framework](#111-unit-test-architecture-and-strategy-framework)
   - [11.2 Unit Test Definition and Data Selection](#112-unit-test-definition-and-data-selection)
   - [11.3 System Test Specification](#113-system-test-specification)
   - [11.4 Test Reports Per Sprint](#114-test-reports-per-sprint)
-- [Section 12](#section-12)
+- [12. Project Management](#12-project-management)
   - [12.1 Project Plan](#121-project-plan)
   - [12.2 Risk Management](#122-risk-management)
 - [13. References](#13-references)
@@ -92,7 +92,7 @@ usage instructions.
 - Mitchell Roe
 - Tyler Watling
 
-## Section 1
+## 1. Project Vision
 
 ### 1.1 Background
 
@@ -222,7 +222,7 @@ helping Law Enforcement</dd>
 
 </dl>
 
-## Section 2
+## 2. Project Execution and Planning
 
 ### 2.1 Team Information
 
@@ -648,7 +648,7 @@ DexGuard, for the purpose of obfuscating our code, and shrinking the
 overall package size.  The main purpose of this would to be to better
 optimize the application for use on a mobile device.
 
-## Section 3
+## 3. System Requirements Analysis
 
 ### 3.1 Functional Requirements
 
@@ -813,7 +813,7 @@ information and create an account.
 
 ![](media/3.4.%20Wireframe%20designs__html_75985fadc1200e41.png)
 
-## Section 4
+## 4. Functional Requirements Specification
 
 ### 4.1 – 4.2 Stakeholders, Actors, and Goals
 
@@ -1507,7 +1507,7 @@ information and create an account.
 
 ![](media/SystemSequenceUserCase11-14.png)
 
-## Section 5
+## 5. User Interface Specifications
 
 ### 5.1 Preliminary Design
 
@@ -1602,7 +1602,7 @@ Nominal Effort = 3.2 x (11.97)^1.05
                = 43.37 person months
 ```
 
-## Section 6
+## 6. Static Design
 
 ### 6.1 Class Model
 
@@ -1852,7 +1852,7 @@ The report has the status of "Found"
 
 ![](media/06.04.EntityRelationship.png)
 
-## Section 7
+## 7. Dynamic Design
 
 ### 7.1 Sequence Diagrams
 
@@ -1935,7 +1935,7 @@ Our application utilizes the following Data Structures:
 
 ![](media/07.03.StateDiagrams.png)
 
-## Section 8
+## 8. System Architecture and System Design
 
 ### 8.1 Subsystems and Component Design Patterns
 
@@ -1979,7 +1979,7 @@ Our application uses standard network protocols.
 
 ### 8.6 Hardware Requirements
 
-## Section 9
+## 9. Algorithms and Data Structures
 
 ### 9.1 Algorithms
 
@@ -1991,7 +1991,7 @@ Our application utilizes the following Data Structures:
 - CakePHP Entities, Tables, & Behaviors (Model)
 - JavaScript Arrays
 
-## Section 10
+## 10. User Interface Design and Implementation
 
 ### 10.1 User Interface Design
 
@@ -2061,7 +2061,7 @@ their families.
 
 ![](media/found.PNG)
 
-## Section 11
+## 11. Testing
 
 ### 11.1 Unit Test Architecture and Strategy Framework
 
@@ -3853,7 +3853,7 @@ The report has a status of "found" and the public can still view it
 
 2018-04-06
 
-## Section 12
+## 12. Project Management
 
 ### 12.1 Project Plan
 
