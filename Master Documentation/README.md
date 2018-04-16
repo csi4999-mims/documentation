@@ -1919,6 +1919,8 @@ The report has the status of "Found"
 
 ![](media/06.04.EntityRelationship.png)
 
+![](media/06.04.EntityRelationship2.png)
+
 ## 7. Dynamic Design
 
 ### 7.1 Sequence Diagrams
