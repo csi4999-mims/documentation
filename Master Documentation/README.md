@@ -235,6 +235,9 @@ helping Law Enforcement</dd>
     - Mobile Application Development and Research
     - Documentation
 - Minqiang Hu
+    - Software Wireframe Design
+    - Creating UML Diagrams
+    - Documentation and Research 
 - Alex Morey
 - Mitchell Roe
     - Systems Administration
