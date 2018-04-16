@@ -3947,19 +3947,19 @@ breakdown PDF file.
 
 ### 13.5 Installing CakePHP
 
-[CakePHP Cookbook: Installation](https://book.cakephp.org/3.0/en/installation.html)
+- [CakePHP Cookbook: Installation](https://book.cakephp.org/3.0/en/installation.html)
 
 ### 13.6 Google Maps Helper
 
-[GitHub: marcferna/CakePHP-GoogleMapHelper](https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3)
+- [GitHub: marcferna/CakePHP-GoogleMapHelper](https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3)
 
 ### 13.7 Bootstrap Helper
 
-[GitHub: Holt59/cakephp3-bootstrap-helpers](https://github.com/Holt59/cakephp3-bootstrap-helpers/)
+- [GitHub: Holt59/cakephp3-bootstrap-helpers](https://github.com/Holt59/cakephp3-bootstrap-helpers/)
 
 ### 13.8 Chart.js
 
-[Chart.js](https://www.chartjs.org/)
+- [Chart.js](https://www.chartjs.org/)
 
 ### 13.9 Phinx Database Management
 
