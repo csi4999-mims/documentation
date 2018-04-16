@@ -1962,6 +1962,11 @@ of Model layer logic.</dd>
 
 ### 8.3 Persistent Data Storage
 
+Persistent data such as usernames, passwords, and report information
+are stored in the database.  Pictures of the missing are stored on the
+server's filesystem.  The PHP, HTML, CSS, etc. used to render the MIMS
+system are also stored on the server's filesystem.
+
 ### 8.4 Network Protocol
 
 Our application uses standard network protocols.
