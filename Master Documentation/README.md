@@ -657,111 +657,63 @@ can be tracked under version control.  These PHP files, called
 Migrations, are organized in chronological order, and function as a
 delta from one state to the next.
 
-##### Creating a new Migration
+All the migration files are stored in `config/Migrations`.  They have
+a file naming convention of `YYYYMMDDHHMMSS_MyNewMigration.php`, where
+`YYYYMMDDHHMMSS` is the creation timestamp down to the second, and
+`MyNewMigration` is the name of the migration.  Because of this naming
+convention, all the database migrations are run in serial from least
+recent to most recent.
 
-(Much of this section comes from the [CakePHP Cookbook Migrations
-section](https://book.cakephp.org/3.0/en/phinx/migrations.html).)
+##### Checking the database migration status
 
-To create a migration file, run the following command from the root of
-the project:
+Run the following command from the root of the project to check on the
+current migration status:
 
 ``` shell
-bin/cake migrations create MyNewMigration
+bin/cake migrations status
 ```
 
-This will create a new migration in the format
-`YYYYMMDDHHMMSS_MyNewMigration.php`, where the first 14 characters are
-replaced with the current timestamp down to the second.  This file
-will be stored in `config/Migrations`, and will contain the following
-skeleton:
+This should display a list of migrations found in `config/Migrations`
+with a status of `up` or `down`.  One can move forward in time
+(changing a migration's status to `up`) or backward in time (changing
+a migration's status to `down`) by either migrating or rolling back.
 
-``` php
-<?php
+##### Migrating the database
 
-use Phinx\Migration\AbstractMigration;
+To migrate the database to the most up-to-date schema, run the
+following command from the root of the project:
 
-class MyNewMigration extends AbstractMigration
-{
-    /**
-     * Change Method.
-     *
-     * Write your reversible migrations using this method.
-     *
-     * More information on writing migrations is available here:
-     * http://docs.phinx.org/en/latest/migrations.html#the-abstractmigration-class
-     *
-     * The following commands can be used in this method and Phinx will
-     * automatically reverse them when rolling back:
-     *
-     *    createTable
-     *    renameTable
-     *    addColumn
-     *    renameColumn
-     *    addIndex
-     *    addForeignKey
-     *
-     * Remember to call "create()" or "update()" and NOT "save()" when working
-     * with the Table class.
-     */
-    public function change()
-    {
-
-    }
-}
+``` shell
+bin/cake migrations migrate
 ```
 
-##### Using the `change()` method
+This will run all the migration files from the state of the most
+recent file with an `up` status, and move down the list, migrating
+each one until the schema is current.
 
-If your changes are of the following types, you can place them in the
-`change()` method, and they can automatically be reverted upon
-rollback:
+##### Rolling back the database
 
-- `createTable`
-- `renameTable`
-- `addColumn`
-- `renameColumn`
-- `addIndex`
-- `addForeignKey`
+To roll back the changes made by these migration files, use the
+following command:
 
-Here is an example of a migration which adds a column to a table named
-"reports" using the `change()` method:
-
-``` php
-<?php
-use Migrations\AbstractMigration;
-
-class ExpandSocialMediaAccountsInReports extends AbstractMigration
-{
-    /**
-     * Change Method.
-     *
-     * More information on this method is available here:
-     * http://docs.phinx.org/en/latest/migrations.html#the-change-method
-     * @return void
-     */
-
-    public function change()
-    {
-        $reports = $this->table('reports');
-        $reports->addColumn('missing_facebook_username', 'text',
-                            ['null' => true, 'default' => null,])
-                ->update();
-    }
-}
+``` shell
+bin/cake migrations rollback
 ```
 
-This change can automatically be applied or reversed.
+This will revert the most recently-applied migration.  To continue
+reverting the changes, run the command again until you have reached
+the desired state of the database.
 
-##### Using the `up()` and `down()` methods
+##### Migrating or rolling back to a specific version
 
-When you have a schema modification you wish to make which is not of
-the types specified for use with the `change()` method, you must use
-the `up()` and `down()` methods instead.  These allow you to specify
-what should happen when moving *forward* (`up()`) as well as
-*backward* (`down()`) in the version history of the database schema.
+You can specify which version or migration file you wish to migrate to
+or roll back to with the following command, substituting
+`YYYYMMDDHHMMSS` with the timestamp of the migration file of your
+choosing:
 
-Please note: Phinx will **ignore** the contents of the `up()` and
-`down()` methods if it encounters a `change()` method.
+``` shell
+bin/cake migrations migrate -t YYYYMMDDHHMMSS
+```
 
 ## Section 3
 
