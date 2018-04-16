@@ -1991,6 +1991,10 @@ Our application uses standard network ports and protocols.
 
 ### 8.6 Hardware Requirements
 
+Please see the [CakePHP installation
+requirements](https://book.cakephp.org/3.0/en/installation.html#requirements)
+for details.
+
 ## 9. Algorithms and Data Structures
 
 ### 9.1 Algorithms
