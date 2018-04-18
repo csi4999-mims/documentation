@@ -2383,14 +2383,14 @@ of emails and new passwords.
 
 ##### Data
 
-| Password               |
-|------------------------|
-| password1              |
-| password2              |
-| password3              |
-| password4              |
-| password5              |
-| password6              |
+| Password  |
+|-----------|
+| password1 |
+| password2 |
+| password3 |
+| password4 |
+| password5 |
+| password6 |
 
 #### 11.2.8 View as Citizen Test
 
@@ -2401,14 +2401,14 @@ of emails and new passwords.
 
 ##### Data
 
-| Username         | Password           |
-|------------------|--------------------|
-| user7@test.com   | password1          |
-| user8@test.com   | password2          |
-| user9@test.com   | password3          |
-| user10@test.com  | password4          |
-| user11@test.com  | password5          |
-| user12@gmail.com | password6          |
+| Username         | Password  |
+|------------------|-----------|
+| user7@test.com   | password1 |
+| user8@test.com   | password2 |
+| user9@test.com   | password3 |
+| user10@test.com  | password4 |
+| user11@test.com  | password5 |
+| user12@gmail.com | password6 |
 
 #### 11.2.9 View as Law Enforcement Test
 
@@ -2419,14 +2419,14 @@ of emails and new passwords.
 
 ##### Data
 
-| Username         | Password           |
-|------------------|--------------------|
-| user13@test.com  | password1          |
-| user14@test.com  | password2          |
-| user15@test.com  | password3          |
-| user16@test.com  | password4          |
-| user17@test.com  | password5          |
-| user18@gmail.com | password6          |
+| Username         | Password  |
+|------------------|-----------|
+| user13@test.com  | password1 |
+| user14@test.com  | password2 |
+| user15@test.com  | password3 |
+| user16@test.com  | password4 |
+| user17@test.com  | password5 |
+| user18@gmail.com | password6 |
 
 #### 11.2.10 Send to Law Enforcement Test
 
@@ -2501,14 +2501,14 @@ will be a set of reports based on their Report ID.
 
 ##### Data
 
-| Report ID               |
-|-------------------------|
-| 1                       |
-| 2                       |
-| 3                       |
-| 4                       |
-| 5                       |
-| 6                       |
+| Report ID |
+|-----------|
+| 1         |
+| 2         |
+| 3         |
+| 4         |
+| 5         |
+| 6         |
 
 #### 11.2.12 Assign Official Report Number Test
 
@@ -2519,14 +2519,14 @@ functionality will be a set of report numbers.
 
 ##### Data
 
-| Report Numbers               |
-|------------------------------|
-| 111111                       |
-| 222222                       |
-| 333333                       |
-| 444444                       |
-| 555555                       |
-| 666666                       |
+| Report Numbers |
+|----------------|
+| 111111         |
+| 222222         |
+| 333333         |
+| 444444         |
+| 555555         |
+| 666666         |
 
 #### 11.2.13 Categorize Missing People Test
 
@@ -2537,14 +2537,14 @@ functionality will be a set of categories and report IDs.
 
 ##### Data
 
-| Report ID               | Category          |
-|-------------------------|-------------------|
-| 1                       | Romeo and Juliet  |
-| 2                       | Romeo and Juliet  |
-| 3                       | Runaway           |
-| 4                       | Runaway           |
-| 5                       | Substance Abuser  |
-| 6                       | Human Trafficking |
+| Report ID | Category          |
+|-----------|-------------------|
+| 1         | Romeo and Juliet  |
+| 2         | Romeo and Juliet  |
+| 3         | Runaway           |
+| 4         | Runaway           |
+| 5         | Substance Abuser  |
+| 6         | Human Trafficking |
 
 #### 11.2.14 Update Case Information Test
 
@@ -2556,14 +2556,14 @@ report values (category field used for testing purposes).
 
 ##### Data
 
-| Report ID               | Category          |
-|-------------------------|-------------------|
-| 1                       | Human Trafficking |
-| 2                       | Human Trafficking |
-| 3                       | Romeo and Juliet  |
-| 4                       | Human Trafficking |
-| 5                       | Runaway           |
-| 6                       | Substance Abuser  |
+| Report ID | Category          |
+|-----------|-------------------|
+| 1         | Human Trafficking |
+| 2         | Human Trafficking |
+| 3         | Romeo and Juliet  |
+| 4         | Human Trafficking |
+| 5         | Runaway           |
+| 6         | Substance Abuser  |
 
 #### 11.2.15 Mark as Found Test
 
