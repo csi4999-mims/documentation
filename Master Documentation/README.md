@@ -1785,11 +1785,13 @@ Use Case 10-Validate/Approve Report
 
 ##### Preconditions
 
-A report has been submitted by the Concerned Citizen and has the status “on hold”
+A report has been submitted by the Concerned Citizen and has the
+status "on hold".
 
 ##### Postconditions
 
-The report is approved, has the status “in progress”, and is now displayed in the application to the Concerned Citizens to view
+The report is approved, has the status "in progress", and is now
+displayed in the application to the Concerned Citizens to view
 
 #### 6.2.3 Contract C03: categorizeReport
 
@@ -1806,7 +1808,7 @@ Use Case 12-Categorize Missing People
 ##### Preconditions
 
 A report has been submitted by the Concerned Citizen and has the
-status “in progress"
+status "in progress".
 
 ##### Postconditions
 
@@ -1893,7 +1895,7 @@ Use Case 13-Update Case Info
 ##### Preconditions
 
 A report has been submitted by the Concerned Citizen and has the
-status “in progress”
+status "in progress".
 
 ##### Postconditions
 
