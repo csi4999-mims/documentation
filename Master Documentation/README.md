@@ -286,13 +286,15 @@ installed to support the MIMS system:
 
 #### 2.3.1 Gantt Chart
 
-Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
-chart PDF file.
+See
+[media/MIMS_Project_Plan_FINAL_Gantt.pdf](media/MIMS_Project_Plan_FINAL_Gantt.pdf)
+for the Gantt chart PDF file.
 
 #### 2.3.2 Task Breakdown
 
-Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
-breakdown PDF file.
+See
+[media/MIMS_Project_Plan_FINAL_Tasks.pdf](media/MIMS_Project_Plan_FINAL_Tasks.pdf)
+for the task breakdown PDF file.
 
 ### 2.4 Best Standards and Practices
 
@@ -774,8 +776,7 @@ bin/cake migrations migrate -t YYYYMMDDHHMMSS
 #### 2.4.8 Local Development Environment
 
 For details on setting up a local development environment, please see
-the [Local Development Environment
-PDF](media/local-development-environment.pdf).
+[media/local-development-environment.pdf](media/local-development-environment.pdf).
 
 ## 3. System Requirements Analysis
 
@@ -4023,13 +4024,15 @@ The report has a status of "found" and the public can still view it
 
 #### 12.1.1 Gantt Chart
 
-Click [here](media/MIMS_Project_Plan_FINAL_Gantt.pdf) for the Gantt
-chart PDF file.
+See
+[media/MIMS_Project_Plan_FINAL_Gantt.pdf](media/MIMS_Project_Plan_FINAL_Gantt.pdf)
+for the Gantt chart PDF file.
 
 #### 12.1.2 Task Breakdown
 
-Click [here](media/MIMS_Project_Plan_FINAL_Tasks.pdf) for the task
-breakdown PDF file.
+See
+[media/MIMS_Project_Plan_FINAL_Tasks.pdf](media/MIMS_Project_Plan_FINAL_Tasks.pdf)
+for the task breakdown PDF file.
 
 ### 12.2 Risk Management
 
