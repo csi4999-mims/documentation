@@ -574,7 +574,6 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    ?>
    ```
 7. Add markers for each report in the database:
-
    ``` html+php
    <?php
    foreach ($reports as $report) {
@@ -2128,8 +2127,11 @@ their families.
 #### 10.2.5 Law Enforcement Dashboard
 
 ![](media/le-dash1.PNG)
+
 ![](media/le-dash2.PNG)
+
 ![](media/le-dash3.PNG)
+
 ![](media/le-dash4.PNG)
 
 #### 10.2.6 LE Detailed Report
@@ -2139,6 +2141,7 @@ their families.
 #### 10.2.7 Public Dashboard
 
 ![](media/public-dash1.PNG)
+
 ![](media/public-dash2.PNG)
 
 #### 10.2.8 Public Detailed Report
@@ -2334,7 +2337,6 @@ will include combinations of the following data fields:
 | F      | User Four  | 4-4-4444 | Red        | Brown     | Caucasian       | 150          | 82              | None                 | @user.4               | 4444444444   | None     | None            |
 | F      | User Five  | 5-5-5555 | Blonde     | Hazel     | Native American | 100          | 78              | tattoo on left leg   | @user.5               | 5555555555   | None     | None            |
 | F      | User Six   | 6-6-6666 | Black      | Blue      | Caucasian       | 80           | 60              | scar on cheek        | @user.6               | 6666666666   | None     | None            |
-
 
 | Email            | Phone Number | Address                             | Relation to Missing Person | Gender |
 |------------------|--------------|-------------------------------------|----------------------------|--------|
