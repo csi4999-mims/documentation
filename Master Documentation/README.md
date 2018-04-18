@@ -720,6 +720,56 @@ choosing:
 bin/cake migrations migrate -t YYYYMMDDHHMMSS
 ```
 
+#### 2.4.7 How to Load Models in Controllers
+
+##### Single Model Instance in Matching Controller
+
+1. Include the reference to the controller that is associated with the
+   model you plan to load
+
+   ``` php
+   use App\Controller\ReportsController;
+   ```
+
+2. Get the model data
+
+   ``` php
+   $user =$this->Users->get($this->Auth->user('id'));
+   ```
+
+3. Set the model to be used
+
+   ``` php
+   $this->set('user',$user);
+   ```
+
+##### Single Model Instance in Different Controller
+
+1. Include the reference to the controller that is associated with the
+   model you plan to load
+
+   ``` php
+   use App\Controller\ReportsController;
+   ```
+
+2. Load the model
+
+   ``` php
+   $this->loadModel('Reports');
+   ```
+
+3. Get the model data
+
+   ``` php
+   $report = $this->Reports->get('all');
+   ```
+
+4. Set the model to be used
+
+   ``` php
+   $this->set('report',$report);
+   ```
+
 ## 3. System Requirements Analysis
 
 ### 3.1 Functional Requirements
