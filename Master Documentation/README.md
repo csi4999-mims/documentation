@@ -98,19 +98,19 @@ usage instructions.
 
 Missing Persons is a section of Law Enforcement that handles cases
 involving people who have gone missing for a variety of reasons
-including drug use, runaways, human trafficking, etc. The process of
+including drug use, runaways, human trafficking, etc.  The process of
 finding missing people is extremely taxing for Law Enforcement because
-it is usually like trying to find a needle in a haystack. Law
+it is usually like trying to find a needle in a haystack.  Law
 Enforcement resources dedicated to handling missing persons cases are
 often limited and it can be a time consuming process for Law
 Enforcement to gather and analyze all the information related to a
 missing person.  The information provided by their family, friends,
 phones, and social media accounts can be very helpful to Law
-Enforcement if organized in a meaningful way. The concerned public
+Enforcement if organized in a meaningful way.  The concerned public
 could also be an untapped resource in helping law enforcement find
-missing persons. Unfortunately, there is no existing method that would
-allow the public to contribute in the search for missing persons in a
-quick, easy and convenient manner.
+missing persons.  Unfortunately, there is no existing method that
+would allow the public to contribute in the search for missing persons
+in a quick, easy and convenient manner.
 
 ### 1.2 Socioeconomic Impact, Business Objectives, and Gap Analysis
 
@@ -118,7 +118,7 @@ quick, easy and convenient manner.
 
 People of all social and economical backgrounds and characteristics
 will be able to fully utilize the MIMS software to find their missing
-friends and loved ones. MIMS will also change the beliefs and
+friends and loved ones.  MIMS will also change the beliefs and
 attitudes towards the process on how to recover a missing person,
 allowing for the concerned personnel to feel more comfortable that
 their missing are in good hands.
@@ -127,24 +127,24 @@ their missing are in good hands.
 
 The business objectives of the MIMS application are to provide a
 platform that can contribute to the ongoing process of reporting and
-locating missing people. The purpose is to provide a platform that can
-allow law enforcement and the concerned public to interact and engage
-in the process of tracking down people who were reported as
-missing. The application needs to also provide law enforcement with a
+locating missing people.  The purpose is to provide a platform that
+can allow law enforcement and the concerned public to interact and
+engage in the process of tracking down people who were reported as
+missing.  The application needs to also provide law enforcement with a
 way to easily manage and analyze data at a quick glance through the
 use of tables and charts.
 
 #### 1.2.3 Gap Analysis
 
 The current process of locating missing people does not involve the
-active use of the knowledge of the concerned public in a useful
-way. Law enforcement is often tasked with finding missing people with
+active use of the knowledge of the concerned public in a useful way.
+Law enforcement is often tasked with finding missing people with
 limited resources and without an easy way to use the concerned
-public's knowledge about where a missing person might be or have
-been. With the use of MIMS, law enforcement and the concerned public
-can have a platform to view missing people, provide comments about
+public's knowledge about where a missing person might be or have been.
+With the use of MIMS, law enforcement and the concerned public can
+have a platform to view missing people, provide comments about
 different cases, and interact more proactively when trying to locate
-missing people. The platform will also aim to provide the friends and
+missing people.  The platform will also aim to provide the friends and
 family of to feel more involved in the process and more comforted in
 their time of trouble.
 
@@ -154,19 +154,19 @@ The data that is collected and analyzed in a missing person's case is
 extremely sensitive and needs to be restricted to only certain users.
 The personal information about a missing person that is provided by
 their family, friends, phone, and social media accounts is private and
-should only be accessible by Law Enforcement. The balance between
+should only be accessible by Law Enforcement.  The balance between
 sharing enough information to the public to be helpful and maintaining
 the privacy of the missing person is vital to the integrity of the
-application. The data must be stored in a secure way and controlled
+application.  The data must be stored in a secure way and controlled
 via role management.
 
 Some of the ethical concerns that are related to the application are
 that people who have access to the sensitive data might use it for
-personal gain or inappropriate reasons. Also, some issues of how
-ethical social media mining and analysis might be can come up. This
+personal gain or inappropriate reasons.  Also, some issues of how
+ethical social media mining and analysis might be can come up.  This
 concern can be mitigated by ensuring that all users of the application
 consent to the use of social media mining for any person they report
-missing. Users of social media also already agree to have their data
+missing.  Users of social media also already agree to have their data
 publicized to a certain extent on platforms such as Facebook and
 Twitter.
 
@@ -467,7 +467,7 @@ echo $this->Html->script([
 ###### Modal Helper
 
 A modal is a window that can dynamically pop up when you specify it
-to. For example when someone presses a button on the screen a modal
+to.  For example when someone presses a button on the screen a modal
 can pop up.
 
 ###### Modal using CakePHP Syntax
@@ -1913,7 +1913,8 @@ Use Case 14-Mark As Found
 
 ##### Preconditions
 
-A report has been submitted by the Concerned Citizen and has the status “in progress”
+A report has been submitted by the Concerned Citizen and has the
+status "in progress".
 
 ##### Postconditions
 
