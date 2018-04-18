@@ -45,12 +45,12 @@ Once you've saved `php.ini`, head over to the XAMPP Control Panel and
 start/restart Apache for the changes to take effect.
 
 ![Screenshot of the XAMPP Control
-Panel](media/xampp-control-panel.png)
+Panel](xampp-control-panel.png)
 
 To test that Apache's working properly, just point your browser to
 `localhost`.  You should see the default XAMPP welcome page.
 
-![Screenshot of XAMPP's welcome page](media/xampp-welcome-page.png)
+![Screenshot of XAMPP's welcome page](xampp-welcome-page.png)
 
 ## Git Bash ##
 
@@ -132,10 +132,10 @@ project, then give you a bunch of "suggestions".  You can safely
 ignore these suggestions, so long as you don't see any errors.
 
 ![Screenshot of Git Bash running composer
-update](media/composer-update-1.png)
+update](composer-update-1.png)
 
 ![Screenshot of Git Bash completing composer
-update](media/composer-update-2.png)
+update](composer-update-2.png)
 
 ## Database Setup ##
 
@@ -149,7 +149,7 @@ in the XAMPP Control Panel:
 3. Click the "Config" button for MySQL to open phpMyAdmin in your
    browser.
 
-![Screenshot of the phpMyAdmin landing page](media/phpmyadmin.png)
+![Screenshot of the phpMyAdmin landing page](phpmyadmin.png)
 
 In phpMyAdmin, click on the "User accounts" tab at the top of the
 page, and create a new user account and database for CakePHP.  Check
@@ -165,7 +165,7 @@ Set the password to whatever you want, so long as you remember what it
 is.
 
 ![Screenshot of phpMyAdmin with the creation of a cake
-user](media/phpmyadmin-create-new-user.png)
+user](phpmyadmin-create-new-user.png)
 
 ### Database Schema Import ###
 
@@ -178,7 +178,7 @@ user](media/phpmyadmin-create-new-user.png)
 - Scroll to the bottom of the page and click "Go".
 
 ![Screenshot of the Import page in phpMyAdmin with the users_table.sql
-file loaded](media/phpmyadmin-sql-import.png)
+file loaded](phpmyadmin-sql-import.png)
 
 ## CakePHP Environment Configuration ##
 
@@ -264,4 +264,4 @@ which points to your `C:\Users\Username` directory (obviously
 replacing `Username` with your _actual username_).
 
 ![Windows' environment variables dialog with HOME set to
-C:\Users\User](media/home-environment-variable.png)
+C:\Users\User](home-environment-variable.png)
