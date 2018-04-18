@@ -2182,8 +2182,8 @@ CakePHP:
 3. The classes containing tests should extend Cake\TestSuite\TestCase,
    Cake\TestSuite\IntegrationTestCase, or \PHPUnit\Framework\TestCase
 4. Like other class names, the test case class names should match the
-   file name.  EX. RouterTest.php should contain class RouterTest
-   extends TestCase
+   file name (e.g. RouterTest.php should contain `class RouterTest
+   extends TestCase`).
 5. The name of any method containing a test case should begin with
    test, as in testPublished().  You can also use @test annotation to
    mark methods as test methods
