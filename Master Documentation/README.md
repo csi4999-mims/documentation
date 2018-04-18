@@ -2745,7 +2745,8 @@ email for the Concerned Citizen/Law Enforcement to click.
 
 ##### Test Steps
 
-1. Enter the First Name, Last Name, Email, Phone, Password, and Confirm Password
+1. Enter the First Name, Last Name, Email, Phone, Password, and
+   Confirm Password
 2. Click the "Submit" button
 3. Open the email inbox
 4. Open the email sent by the Email Service
@@ -2939,7 +2940,8 @@ changes from "on hold" to "in progress".
 3. Click the login button
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
-6. Click the approve button in the row of the specific case to be approved
+6. Click the approve button in the row of the specific case to be
+   approved
 7. Verify the status is changed to "in progress"
 
 ##### Test Case Information
@@ -2993,7 +2995,8 @@ on set categories.
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
 6. Click on a report to view a more detailed report page
-7. Update the report by assigning it a type of missing person based on set categories
+7. Update the report by assigning it a type of missing person based on
+   set categories
 
 ##### Test Case Information
 
@@ -3651,7 +3654,8 @@ A report as been submitted and has a status of "On Hold"
 3. Click the login button
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
-6. Click the approve button in the row of the specific case to be approved
+6. Click the approve button in the row of the specific case to be
+   approved
 7. Verify the status is changed to "in progress"
 
 ##### Test Data
@@ -3784,7 +3788,8 @@ in.
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
 6. Click on a report to view a more detailed report page
-7. Update the report by assigning it a type of missing person based on set categories
+7. Update the report by assigning it a type of missing person based on
+   set categories
 
 ##### Test Data
 
