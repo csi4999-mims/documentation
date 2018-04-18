@@ -303,7 +303,7 @@ for the task breakdown PDF file.
 We are using CakePHP version 3.x, which is significantly different
 from the 2.x version of CakePHP.  As such, please make sure when
 browsing online help that you are looking at help for CakePHP version
-3.
+3.x.
 
 ##### CakePHP File Structure
 
