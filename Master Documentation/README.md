@@ -771,6 +771,12 @@ bin/cake migrations migrate -t YYYYMMDDHHMMSS
    $this->set('report',$report);
    ```
 
+#### 2.4.8 Local Development Environment
+
+For details on setting up a local development environment, please see
+the [Local Development Environment
+PDF](media/local-development-environment.pdf).
+
 ## 3. System Requirements Analysis
 
 ### 3.1 Functional Requirements
