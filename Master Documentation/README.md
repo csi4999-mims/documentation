@@ -1993,7 +1993,7 @@ The report has the status of "Found"
 
 #### 7.2.1 Procedural Interfaces
 
-Our application utilizes the following APIs or Libraries:
+Our application utilizes the following APIs and libraries:
 
 - Google Maps API
 - Faker Library
@@ -2003,9 +2003,9 @@ Our application utilizes the following APIs or Libraries:
 
 Our application utilizes the following Data Structures:
 
-- PHP Arrays
+- PHP scalars, arrays, objects, and special types (e.g. `null`)
 - CakePHP Entities, Tables, & Behaviors (Model)
-- JavaScript Arrays
+- JavaScript arrays
 
 ### 7.3 State Diagrams
 
