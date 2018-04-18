@@ -1811,7 +1811,7 @@ status "in progress".
 
 ##### Postconditions
 
-The missing person is labeled with one of the predefined categories.
+The missing person is labeled with one of the predefined categories
 
 #### 6.2.4 Contract C04: updateReport
 
@@ -1898,7 +1898,7 @@ status "in progress".
 
 ##### Postconditions
 
-The report is updated and the updated info is displayed.
+The report is updated and the updated info is displayed
 
 #### 6.2.5 Contract C05: closeReport
 
@@ -1919,7 +1919,7 @@ status "in progress".
 
 ##### Postconditions
 
-The report has the status of "Found".
+The report has the status of "Found"
 
 ### 6.3 Mathematical Model
 
