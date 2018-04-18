@@ -80,6 +80,7 @@ usage instructions.
   - [13.6 Google Maps Helper](#136-google-maps-helper)
   - [13.7 Bootstrap Helper](#137-bootstrap-helper)
   - [13.8 Chart.js](#138-chartjs)
+  - [13.9 Phinx Database Management](#139-phinx-database-management)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
