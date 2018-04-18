@@ -2074,6 +2074,12 @@ for details.
 
 ### 9.1 Algorithms
 
+The MIMS application utilizes programming structures, patterns, and
+algorithms typical to an application of its size and complexity.  The
+primary focus of the application is the gathering, storage, and
+display of data; the algorithmic processing of this data is not a
+major component of the application.
+
 ### 9.2 Data Structures
 
 Our application utilizes the following Data Structures:
