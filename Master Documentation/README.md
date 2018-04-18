@@ -1920,6 +1920,7 @@ A report has been submitted by the Concerned Citizen and has the status “in pr
 The report has the status of "Found"
 
 ### 6.3 Mathematical Model
+The MIMS application utilizes mathematical model typical to an application of its size and complexity. The primary focus of the application is the gathering, storage, and display of data; the mathematic processing of this data is not a major component of the application.
 
 ### 6.4 Entity Relationship Diagram
 
