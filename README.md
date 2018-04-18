@@ -228,30 +228,30 @@ helping Law Enforcement</dd>
 ### 2.1 Team Information
 
 - Nicole Cox
-  - Project Management
-  - Website UI Development
-  - Website Functionality Development
-  - Documentation
+    - Project Management
+    - Website UI Development
+    - Website Functionality Development
+    - Documentation
 - Bryan Derr
-  - Mobile Application Development and Research
-  - Documentation
+    - Mobile Application Development and Research
+    - Documentation
 - Minqiang Hu
-  - Software Wireframe Design
-  - Creating UML Diagrams
-  - Documentation and Research
+    - Software Wireframe Design
+    - Creating UML Diagrams
+    - Documentation and Research
 - Alex Morey
-  - Database
-  - Website Functionality
-  - Documentation
+    - Database
+    - Website Functionality
+    - Documentation
 - Mitchell Roe
-  - Systems Administration
-  - Database Administration
-  - DevOps
-  - Documentation
+    - Systems Administration
+    - Database Administration
+    - DevOps
+    - Documentation
 - Tyler Watling
-  - Database
-  - Website Functionality
-  - Documentation
+    - Database
+    - Website Functionality
+    - Documentation
 
 ### 2.2 Tools and Technology
 
@@ -542,15 +542,20 @@ aria-labbeledby="MyModal1Label" class="modal fade">
 3. Add this line to the controller associated with the view you will
    place the Google Map on: `public $helpers = array('GoogleMap');`
 4. Add the JavaScript files to the associated view:
+
    ``` html+php
    <?php $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
    ```
-   - Get the API Key from Nicole
+
+    - Get the API Key from Nicole
 5. In the view add this line:
+
    ``` html+php
    <?php $this->GoogleMap->map(); ?>
    ```
+
 6. Modify the map options with the follow code in the specific view:
+
    ``` html+php
    <?php
    // Override any of the following default options to customize your map
@@ -576,7 +581,9 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    $this->GoogleMap->map($map_options);
    ?>
    ```
+
 7. Add markers for each report in the database:
+
    ``` html+php
    <?php
    foreach ($reports as $report) {
@@ -956,26 +963,26 @@ information and create an account.
 #### Actors & Goals
 
 - Concerned Public
-  - Create an account
-  - Login to an account
-  - Update account info
-  - Change Password
-  - Browse missing & found people
-  - Submit new missing person report
+    - Create an account
+    - Login to an account
+    - Update account info
+    - Change Password
+    - Browse missing & found people
+    - Submit new missing person report
 - Law Enforcement
-  - Create an account
-  - Login to an account
-  - Update account info
-  - Change Password
-  - Browse missing & found people
-  - Validate missing person reports
-  - Update missing person report info
+    - Create an account
+    - Login to an account
+    - Update account info
+    - Change Password
+    - Browse missing & found people
+    - Validate missing person reports
+    - Update missing person report info
 - Application Administrator
-  - Restrict user access via role management
+    - Restrict user access via role management
 - Database
-  - Maintain missing person report data
+    - Maintain missing person report data
 - Email Service
-  - Manage email verification service
+    - Manage email verification service
 
 ### 4.3 User Stories, Scenarios, and Use Cases
 
@@ -1670,18 +1677,18 @@ newspapers.  There will also be a form for people to complete is they
 need to report a person missing.
 
 - Everyone Pages
-  - Login—textboxes, submit button
-  - Register—textboxes, submit button
-  - Home—dashboard style landing page
-  - Account Info—fields to display account in
+    - Login—textboxes, submit button
+    - Register—textboxes, submit button
+    - Home—dashboard style landing page
+    - Account Info—fields to display account in
 - Law Enforcement Pages
-  - Missing Person Info—image, table to display information
-  - Charts, tables, graphs to display data
-  - Comments—textboxes, submit buttons
+    - Missing Person Info—image, table to display information
+    - Charts, tables, graphs to display data
+    - Comments—textboxes, submit buttons
 - Public Facing Pages
-  - Report Missing Person—image, fields to display basic info, button
-    to get local police info
-  - Comments—textboxes, submit buttons
+    - Report Missing Person—image, fields to display basic info,
+      button to get local police info
+    - Comments—textboxes, submit buttons
 
 ### 5.2 User Efforts Estimation
 
@@ -2120,10 +2127,10 @@ system are also stored on the server's filesystem.
 Our application uses standard network ports and protocols.
 
 - Ports
-  - 22 (SSH)
-  - 80 (HTTP)
-  - 443 (HTTPS)
-  - 3306 (MariaDB/MySQL)
+    - 22 (SSH)
+    - 80 (HTTP)
+    - 443 (HTTPS)
+    - 3306 (MariaDB/MySQL)
 - Protocols: TCP
 
 ### 8.5 Global Control Flow
@@ -2365,31 +2372,31 @@ The data that will be used to test the submit report functionality
 will include combinations of the following data fields:
 
 - Missing Person Info
-  - Gender
-  - Name
-  - DOB
-  - Hair Color
-  - Eye Color
-  - Ethnicity
-  - Weight
-  - Height
-  - Marks/Tattoos
-  - Social Media Accounts
-  - Phone Number
-  - Photo(s)
-  - Additional Info
+    - Gender
+    - Name
+    - DOB
+    - Hair Color
+    - Eye Color
+    - Ethnicity
+    - Weight
+    - Height
+    - Marks/Tattoos
+    - Social Media Accounts
+    - Phone Number
+    - Photo(s)
+    - Additional Info
 - Family/Friends of Missing Person
-  - Email
-  - Phone Number
-  - Address
-  - Relation to Missing Person
-  - Gender
+    - Email
+    - Phone Number
+    - Address
+    - Relation to Missing Person
+    - Gender
 - Workplace/Hangouts of Missing Person
-  - Name
-  - City
-  - Address
-  - Zip
-  - State
+    - Name
+    - City
+    - Address
+    - Zip
+    - State
 
 ##### Data
 
@@ -2500,31 +2507,31 @@ The data that will be used to test the submit report functionality
 will include combinations of the following data fields:
 
 - Missing Person Info
-  - Gender
-  - Name
-  - DOB
-  - Hair Color
-  - Eye Color
-  - Ethnicity
-  - Weight
-  - Height
-  - Marks/Tattoos
-  - Social Media Accounts
-  - Phone Number
-  - Photo(s)
-  - Additional Info
+    - Gender
+    - Name
+    - DOB
+    - Hair Color
+    - Eye Color
+    - Ethnicity
+    - Weight
+    - Height
+    - Marks/Tattoos
+    - Social Media Accounts
+    - Phone Number
+    - Photo(s)
+    - Additional Info
 - Family/Friends of Missing Person
-  - Email
-  - Phone Number
-  - Address
-  - Relation to Missing Person
-  - Gender
+    - Email
+    - Phone Number
+    - Address
+    - Relation to Missing Person
+    - Gender
 - Workplace/Hangouts of Missing Person
-  - Name
-  - City
-  - Address
-  - Zip
-  - State
+    - Name
+    - City
+    - Address
+    - Zip
+    - State
 
 ##### Data
 
@@ -4045,15 +4052,15 @@ for the task breakdown PDF file.
 #### Sensitive data being misused
 
 1. Risk Details
-  1. Personal data about missing people will be maintained in the
-     database for Law Enforcement to access
-  2. There will need to be restrictions to what data the Concerned
-     Public can see
-  3. The integrity of the data needs to be retained
+   1. Personal data about missing people will be maintained in the
+      database for Law Enforcement to access
+   2. There will need to be restrictions to what data the Concerned
+      Public can see
+   3. The integrity of the data needs to be retained
 2. Risk Assessment
-  1. Likelihood: 5
-  2. Impact: 10
-  3. Cost: 10
+   1. Likelihood: 5
+   2. Impact: 10
+   3. Cost: 10
 3. Rank: 60
 4. Mitigation Plan: Our mitigation plan for this is to create roles in
    the database and assign them to users (Public or Law Enforcement).
@@ -4063,12 +4070,12 @@ for the task breakdown PDF file.
 #### High volumes of data are not managed
 
 1. Risk Details
-  1. The data needs to be stored in a way that makes sense
-  2. It needs to be easily accessed and analyzed
+   1. The data needs to be stored in a way that makes sense
+   2. It needs to be easily accessed and analyzed
 2. Risk Assessment
-  1. Likelihood: 8
-  2. Impact: 5
-  3. Cost: 2
+   1. Likelihood: 8
+   2. Impact: 5
+   3. Cost: 2
 3. Rank: 36
 4. Mitigation Plan: Our mitigation plan for this is to take extra time
    to plan and map out the database tables.  We plan to do our best to
@@ -4078,14 +4085,14 @@ for the task breakdown PDF file.
 #### Image files are not managed/stored properly
 
 1. Risk Details
-  1. Images need to be stored in a way that they are easily accessed
-     and associated with the correct missing person report
-  2. The images need to be managed so they do not take up enormous
-     amounts of space
+   1. Images need to be stored in a way that they are easily accessed
+      and associated with the correct missing person report
+   2. The images need to be managed so they do not take up enormous
+      amounts of space
 2. Risk Assessment:
-  1. Likelihood: 5
-  2. Impact: 7
-  3. Costs: 8
+   1. Likelihood: 5
+   2. Impact: 7
+   3. Costs: 8
 3. Rank: 192
 4. Mitigation Plan: Our mitigation plan is to look into the best way
    to store large amounts of image files and the best way to maintain
@@ -4105,7 +4112,7 @@ for the task breakdown PDF file.
 
 ### 13.2 Creating Views in CakePHP
 
-[CakePHP Cookbook: Views](https://book.cakephp.org/3.0/en/views.html)
+- [CakePHP Cookbook: Views](https://book.cakephp.org/3.0/en/views.html)
 
 ### 13.3 CakePHP Models
 
