@@ -176,13 +176,13 @@ the MIMS system:
 
 *** Gantt Chart
 
-See [[file:media/MIMS_Project_Plan_FINAL_Gantt.pdf][media/MIMS_Project_Plan_FINAL_Gantt.pdf]] for the Gantt chart PDF
-file.
+See [[file:media/MIMS_Project_Plan_FINAL_Gantt.pdf]] for the Gantt
+chart PDF file.
 
 *** Task Breakdown
 
-See [[file:media/MIMS_Project_Plan_FINAL_Tasks.pdf][media/MIMS_Project_Plan_FINAL_Tasks.pdf]] for the task breakdown PDF
-file.
+See [[file:media/MIMS_Project_Plan_FINAL_Tasks.pdf]] for the task
+breakdown PDF file.
 
 ** Best Standards and Practices
 
