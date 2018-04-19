@@ -359,14 +359,14 @@ The Controller is plural (e.g. `UsersController.php`).
 
 ###### Clone a repo
 
-``` shell
+```shell
 git clone <repo name> [destination]
 
 ```
 
 For example:
 
-``` shell
+```shell
 git clone https://github.com/csi4999-mims/documentation.git
 ```
 
@@ -374,37 +374,37 @@ git clone https://github.com/csi4999-mims/documentation.git
 
 ###### Get the latest from the repo
 
-``` shell
+```shell
 git pull
 ```
 
 ###### Check for unstaged changes
 
-``` shell
+```shell
 git status
 ```
 
 ###### Stage changes
 
-``` shell
+```shell
 git add -A
 ```
 
 OR
 
-``` shell
+```shell
 git add
 ```
 
 ###### Commit changes
 
-``` shell
+```shell
 git commit -m "my commit message"
 ```
 
 ###### Push changes
 
-``` shell
+```shell
 git push
 ```
 
@@ -417,19 +417,19 @@ git push
 To install the Bootstrap Helper for CakePHP you need to run the
 following commands or add the following code:
 
-``` shell
+```shell
 composer require holt59/cakephp3-bootstrap-helpers:dev-master
 ```
 
 Add this line to `config/bootstrap.php`:
 
-``` php
+```php
 Plugin::load('Bootstrap');
 ```
 
 Add these lines to `AppController.php`:
 
-``` php
+```php
 public $helpers = [
     'Form' => [
         'className' => 'Bootstrap.Form'
@@ -497,7 +497,7 @@ can pop up.
 
 ###### Modal using standard HTML Syntax
 
-``` html
+```html
 <!-- Example Button trigger modal -->
 <button type="button" class="btn btn-primary example-button"
 data-toggle="modal" data-target="#exampleModal">
@@ -674,7 +674,7 @@ recent to most recent.
 Run the following command from the root of the project to check on the
 current migration status:
 
-``` shell
+```shell
 bin/cake migrations status
 ```
 
@@ -688,7 +688,7 @@ a migration's status to `down`) by either migrating or rolling back.
 To migrate the database to the most up-to-date schema, run the
 following command from the root of the project:
 
-``` shell
+```shell
 bin/cake migrations migrate
 ```
 
@@ -701,7 +701,7 @@ each one until the schema is current.
 To roll back the changes made by these migration files, use the
 following command:
 
-``` shell
+```shell
 bin/cake migrations rollback
 ```
 
@@ -716,7 +716,7 @@ or roll back to with the following command, substituting
 `YYYYMMDDHHMMSS` with the timestamp of the migration file of your
 choosing:
 
-``` shell
+```shell
 bin/cake migrations migrate -t YYYYMMDDHHMMSS
 ```
 
@@ -727,19 +727,19 @@ bin/cake migrations migrate -t YYYYMMDDHHMMSS
 1. Include the reference to the controller that is associated with the
    model you plan to load
 
-   ``` php
+   ```php
    use App\Controller\ReportsController;
    ```
 
 2. Get the model data
 
-   ``` php
+   ```php
    $user =$this->Users->get($this->Auth->user('id'));
    ```
 
 3. Set the model to be used
 
-   ``` php
+   ```php
    $this->set('user',$user);
    ```
 
@@ -748,25 +748,25 @@ bin/cake migrations migrate -t YYYYMMDDHHMMSS
 1. Include the reference to the controller that is associated with the
    model you plan to load
 
-   ``` php
+   ```php
    use App\Controller\ReportsController;
    ```
 
 2. Load the model
 
-   ``` php
+   ```php
    $this->loadModel('Reports');
    ```
 
 3. Get the model data
 
-   ``` php
+   ```php
    $report = $this->Reports->get('all');
    ```
 
 4. Set the model to be used
 
-   ``` php
+   ```php
    $this->set('report',$report);
    ```
 
@@ -2268,13 +2268,13 @@ matches how you installed PHPUnit.
 
 ##### Using composer installed PHPUnit
 
-``` shell
+```shell
 vendor/bin/phpunit
 ```
 
 ##### Using PHAR file
 
-``` shell
+```shell
 php phpunit.phar
 ```
 
