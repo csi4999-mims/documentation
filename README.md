@@ -543,21 +543,20 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    place the Google Map on: `public $helpers = array('GoogleMap');`
 4. Add the JavaScript files to the associated view:
 
-   ``` html+php
-   <?php $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
+   ```php
+   $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]);
    ```
 
     - Get the API Key from Nicole
 5. In the view add this line:
 
-   ``` html+php
-   <?php $this->GoogleMap->map(); ?>
+   ```php
+   $this->GoogleMap->map();
    ```
 
 6. Modify the map options with the follow code in the specific view:
 
-   ``` html+php
-   <?php
+   ```php
    // Override any of the following default options to customize your map
    $map_options = array(
        'id' => 'map_canvas',
@@ -579,17 +578,14 @@ aria-labbeledby="MyModal1Label" class="modal fade">
        'draggableMarker' => false
    );
    $this->GoogleMap->map($map_options);
-   ?>
    ```
 
 7. Add markers for each report in the database:
 
-   ``` html+php
-   <?php
+   ```php
    foreach ($reports as $report) {
        $this->GoogleMap->addMarker("map_canvas", 1, $report->get('FamilyStreet'));
    }
-   ?>
    ```
 
 #### 2.4.5 Android Studio with Database Integration
