@@ -1,5 +1,5 @@
 #+TITLE: Missing in Michigan System (MIMS)
-#+STARTUP: indent
+#+STARTUP: indent entitiespretty
 
 * Team Members
 
