@@ -454,15 +454,12 @@ public $helpers = [
 
 Add these lines to `Layout/default.ctp`:
 
-``` html+php
-<?php
-echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
-/bootstrap.min.css');
+```php
+echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 echo $this->Html->script([
     'https://code.jquery.com/jquery-1.12.4.min.js',
     'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
 ]);
-?>
 ```
 
 ##### Using the Helpers
@@ -477,7 +474,7 @@ can pop up.
 
 <https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/>
 
-``` html+php
+```php
 <?php
     // Start a modal with a title, default value for 'close' is true
     echo $this->Modal->create("My Modal Form", ['id' => 'MyModal1',
