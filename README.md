@@ -541,11 +541,12 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    location: `src/View/Helper/`
 3. Add this line to the controller associated with the view you will
    place the Google Map on: `public $helpers = array('GoogleMap');`
-4. Add the JavaScript files to the associated view:  
+4. Add the JavaScript files to the associated view:
 ```php
 $this->Html->script('http://maps.google.com/maps/api/js?key=YOUR_API_KEY&sensor=true',
                     [false]);
-```
+```  
+
     - Get the API Key from Nicole
 5. In the view add this line:  
 ```php
