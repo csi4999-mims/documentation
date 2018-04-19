@@ -20,67 +20,67 @@ usage instructions.
 
 - [Team Members](#team-members)
 - [1. Project Vision](#1-project-vision)
-  - [1.1 Background](#11-background)
-  - [1.2 Socioeconomic Impact, Business Objectives, and Gap Analysis](#12-socioeconomic-impact-business-objectives-and-gap-analysis)
-  - [1.3 Security and Ethical Concerns](#13-security-and-ethical-concerns)
-  - [1.4 Glossary of Terms](#14-glossary-of-terms)
+    - [1.1 Background](#11-background)
+    - [1.2 Socioeconomic Impact, Business Objectives, and Gap Analysis](#12-socioeconomic-impact-business-objectives-and-gap-analysis)
+    - [1.3 Security and Ethical Concerns](#13-security-and-ethical-concerns)
+    - [1.4 Glossary of Terms](#14-glossary-of-terms)
 - [2. Project Execution and Planning](#2-project-execution-and-planning)
-  - [2.1 Team Information](#21-team-information)
-  - [2.2 Tools and Technology](#22-tools-and-technology)
-  - [2.3 Project Plan](#23-project-plan)
-  - [2.4 Best Standards and Practices](#24-best-standards-and-practices)
+    - [2.1 Team Information](#21-team-information)
+    - [2.2 Tools and Technology](#22-tools-and-technology)
+    - [2.3 Project Plan](#23-project-plan)
+    - [2.4 Best Standards and Practices](#24-best-standards-and-practices)
 - [3. System Requirements Analysis](#3-system-requirements-analysis)
-  - [3.1 Functional Requirements](#31-functional-requirements)
-  - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
-  - [3.3 On-Screen Appearance of Pages Requirements](#33-on-screen-appearance-of-pages-requirements)
-  - [3.4 Wireframes](#34-wireframes)
+    - [3.1 Functional Requirements](#31-functional-requirements)
+    - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
+    - [3.3 On-Screen Appearance of Pages Requirements](#33-on-screen-appearance-of-pages-requirements)
+    - [3.4 Wireframes](#34-wireframes)
 - [4. Functional Requirements Specification](#4-functional-requirements-specification)
-  - [4.1 – 4.2 Stakeholders, Actors, and Goals](#41--42-stakeholders-actors-and-goals)
-  - [4.3 User Stories, Scenarios, and Use Cases](#43-user-stories-scenarios-and-use-cases)
-  - [4.4 System Sequence Activity Diagrams](#44-system-sequence-activity-diagrams)
+    - [4.1 – 4.2 Stakeholders, Actors, and Goals](#41--42-stakeholders-actors-and-goals)
+    - [4.3 User Stories, Scenarios, and Use Cases](#43-user-stories-scenarios-and-use-cases)
+    - [4.4 System Sequence Activity Diagrams](#44-system-sequence-activity-diagrams)
 - [5. User Interface Specifications](#5-user-interface-specifications)
-  - [5.1 Preliminary Design](#51-preliminary-design)
-  - [5.2 User Efforts Estimation](#52-user-efforts-estimation)
+    - [5.1 Preliminary Design](#51-preliminary-design)
+    - [5.2 User Efforts Estimation](#52-user-efforts-estimation)
 - [6. Static Design](#6-static-design)
-  - [6.1 Class Model](#61-class-model)
-  - [6.2 System Operation Contracts](#62-system-operation-contracts)
-  - [6.3 Mathematical Model](#63-mathematical-model)
-  - [6.4 Entity Relationship Diagram](#64-entity-relationship-diagram)
+    - [6.1 Class Model](#61-class-model)
+    - [6.2 System Operation Contracts](#62-system-operation-contracts)
+    - [6.3 Mathematical Model](#63-mathematical-model)
+    - [6.4 Entity Relationship Diagram](#64-entity-relationship-diagram)
 - [7. Dynamic Design](#7-dynamic-design)
-  - [7.1 Sequence Diagrams](#71-sequence-diagrams)
-  - [7.2 Interface Specification](#72-interface-specification)
-  - [7.3 State Diagrams](#73-state-diagrams)
+    - [7.1 Sequence Diagrams](#71-sequence-diagrams)
+    - [7.2 Interface Specification](#72-interface-specification)
+    - [7.3 State Diagrams](#73-state-diagrams)
 - [8. System Architecture and System Design](#8-system-architecture-and-system-design)
-  - [8.1 Subsystems and Component Design Patterns](#81-subsystems-and-component-design-patterns)
-  - [8.2 Mapping Subsystem to Hardware Deployment](#82-mapping-subsystem-to-hardware-deployment)
-  - [8.3 Persistent Data Storage](#83-persistent-data-storage)
-  - [8.4 Network Protocol](#84-network-protocol)
-  - [8.5 Global Control Flow](#85-global-control-flow)
-  - [8.6 Hardware Requirements](#86-hardware-requirements)
+    - [8.1 Subsystems and Component Design Patterns](#81-subsystems-and-component-design-patterns)
+    - [8.2 Mapping Subsystem to Hardware Deployment](#82-mapping-subsystem-to-hardware-deployment)
+    - [8.3 Persistent Data Storage](#83-persistent-data-storage)
+    - [8.4 Network Protocol](#84-network-protocol)
+    - [8.5 Global Control Flow](#85-global-control-flow)
+    - [8.6 Hardware Requirements](#86-hardware-requirements)
 - [9. Algorithms and Data Structures](#9-algorithms-and-data-structures)
-  - [9.1 Algorithms](#91-algorithms)
-  - [9.2 Data Structures](#92-data-structures)
+    - [9.1 Algorithms](#91-algorithms)
+    - [9.2 Data Structures](#92-data-structures)
 - [10. User Interface Design and Implementation](#10-user-interface-design-and-implementation)
-  - [10.1 User Interface Design](#101-user-interface-design)
-  - [10.2 User Interface Implementation](#102-user-interface-implementation)
+    - [10.1 User Interface Design](#101-user-interface-design)
+    - [10.2 User Interface Implementation](#102-user-interface-implementation)
 - [11. Testing](#11-testing)
-  - [11.1 Unit Test Architecture and Strategy Framework](#111-unit-test-architecture-and-strategy-framework)
-  - [11.2 Unit Test Definition and Data Selection](#112-unit-test-definition-and-data-selection)
-  - [11.3 System Test Specification](#113-system-test-specification)
-  - [11.4 Test Reports Per Sprint](#114-test-reports-per-sprint)
+    - [11.1 Unit Test Architecture and Strategy Framework](#111-unit-test-architecture-and-strategy-framework)
+    - [11.2 Unit Test Definition and Data Selection](#112-unit-test-definition-and-data-selection)
+    - [11.3 System Test Specification](#113-system-test-specification)
+    - [11.4 Test Reports Per Sprint](#114-test-reports-per-sprint)
 - [12. Project Management](#12-project-management)
-  - [12.1 Project Plan](#121-project-plan)
-  - [12.2 Risk Management](#122-risk-management)
+    - [12.1 Project Plan](#121-project-plan)
+    - [12.2 Risk Management](#122-risk-management)
 - [13. References](#13-references)
-  - [13.1 Unit Testing](#131-unit-testing)
-  - [13.2 Creating Views in CakePHP](#132-creating-views-in-cakephp)
-  - [13.3 CakePHP Models](#133-cakephp-models)
-  - [13.4 Login/Register Example](#134-loginregister-example)
-  - [13.5 Installing CakePHP](#135-installing-cakephp)
-  - [13.6 Google Maps Helper](#136-google-maps-helper)
-  - [13.7 Bootstrap Helper](#137-bootstrap-helper)
-  - [13.8 Chart.js](#138-chartjs)
-  - [13.9 Phinx Database Management](#139-phinx-database-management)
+    - [13.1 Unit Testing](#131-unit-testing)
+    - [13.2 Creating Views in CakePHP](#132-creating-views-in-cakephp)
+    - [13.3 CakePHP Models](#133-cakephp-models)
+    - [13.4 Login/Register Example](#134-loginregister-example)
+    - [13.5 Installing CakePHP](#135-installing-cakephp)
+    - [13.6 Google Maps Helper](#136-google-maps-helper)
+    - [13.7 Bootstrap Helper](#137-bootstrap-helper)
+    - [13.8 Chart.js](#138-chartjs)
+    - [13.9 Phinx Database Management](#139-phinx-database-management)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -228,30 +228,30 @@ helping Law Enforcement</dd>
 ### 2.1 Team Information
 
 - Nicole Cox
-  - Project Management
-  - Website UI Development
-  - Website Functionality Development
-  - Documentation
+    - Project Management
+    - Website UI Development
+    - Website Functionality Development
+    - Documentation
 - Bryan Derr
-  - Mobile Application Development and Research
-  - Documentation
+    - Mobile Application Development and Research
+    - Documentation
 - Minqiang Hu
-  - Software Wireframe Design
-  - Creating UML Diagrams
-  - Documentation and Research
+    - Software Wireframe Design
+    - Creating UML Diagrams
+    - Documentation and Research
 - Alex Morey
-  - Database
-  - Website Functionality
-  - Documentation
+    - Database
+    - Website Functionality
+    - Documentation
 - Mitchell Roe
-  - Systems Administration
-  - Database Administration
-  - DevOps
-  - Documentation
+    - Systems Administration
+    - Database Administration
+    - DevOps
+    - Documentation
 - Tyler Watling
-  - Database
-  - Website Functionality
-  - Documentation
+    - Database
+    - Website Functionality
+    - Documentation
 
 ### 2.2 Tools and Technology
 
@@ -303,7 +303,7 @@ for the task breakdown PDF file.
 We are using CakePHP version 3.x, which is significantly different
 from the 2.x version of CakePHP.  As such, please make sure when
 browsing online help that you are looking at help for CakePHP version
-3.
+3.x.
 
 ##### CakePHP File Structure
 
@@ -359,14 +359,14 @@ The Controller is plural (e.g. `UsersController.php`).
 
 ###### Clone a repo
 
-``` shell
+```shell
 git clone <repo name> [destination]
 
 ```
 
 For example:
 
-``` shell
+```shell
 git clone https://github.com/csi4999-mims/documentation.git
 ```
 
@@ -374,37 +374,37 @@ git clone https://github.com/csi4999-mims/documentation.git
 
 ###### Get the latest from the repo
 
-``` shell
+```shell
 git pull
 ```
 
 ###### Check for unstaged changes
 
-``` shell
+```shell
 git status
 ```
 
 ###### Stage changes
 
-``` shell
+```shell
 git add -A
 ```
 
 OR
 
-``` shell
+```shell
 git add
 ```
 
 ###### Commit changes
 
-``` shell
+```shell
 git commit -m "my commit message"
 ```
 
 ###### Push changes
 
-``` shell
+```shell
 git push
 ```
 
@@ -417,19 +417,19 @@ git push
 To install the Bootstrap Helper for CakePHP you need to run the
 following commands or add the following code:
 
-``` shell
+```shell
 composer require holt59/cakephp3-bootstrap-helpers:dev-master
 ```
 
 Add this line to `config/bootstrap.php`:
 
-``` php
+```php
 Plugin::load('Bootstrap');
 ```
 
 Add these lines to `AppController.php`:
 
-``` php
+```php
 public $helpers = [
     'Form' => [
         'className' => 'Bootstrap.Form'
@@ -454,15 +454,12 @@ public $helpers = [
 
 Add these lines to `Layout/default.ctp`:
 
-``` html+php
-<?php
-echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
-/bootstrap.min.css');
+```php
+echo $this->Html->css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 echo $this->Html->script([
     'https://code.jquery.com/jquery-1.12.4.min.js',
     'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
 ]);
-?>
 ```
 
 ##### Using the Helpers
@@ -477,7 +474,7 @@ can pop up.
 
 <https://holt59.github.io/cakephp3-bootstrap-helpers/modal-helper/basics/>
 
-``` html+php
+```php
 <?php
     // Start a modal with a title, default value for 'close' is true
     echo $this->Modal->create("My Modal Form", ['id' => 'MyModal1',
@@ -497,7 +494,7 @@ can pop up.
 
 ###### Modal using standard HTML Syntax
 
-``` html
+```html
 <!-- Example Button trigger modal -->
 <button type="button" class="btn btn-primary example-button"
 data-toggle="modal" data-target="#exampleModal">
@@ -541,49 +538,46 @@ aria-labbeledby="MyModal1Label" class="modal fade">
    location: `src/View/Helper/`
 3. Add this line to the controller associated with the view you will
    place the Google Map on: `public $helpers = array('GoogleMap');`
-4. Add the JavaScript files to the associated view:
-   ``` html+php
-   <?php $this->Html->script('http://maps.google.com/maps/api/js?key= YOUR_API_KEY&sensor=true', [false]); ?>
-   ```
-   - Get the API Key from Nicole
-5. In the view add this line:
-   ``` html+php
-   <?php $this->GoogleMap->map(); ?>
-   ```
-6. Modify the map options with the follow code in the specific view:
-   ``` html+php
-   <?php
-   // Override any of the following default options to customize your map
-   $map_options = array(
-       'id' => 'map_canvas',
-       'width' => '600px',
-       'height' => '600px',
-       'style' => '',
-       'zoom' => 10,
-       'type' => 'ROADMAP',
-       'custom' => null,
-       'localize' => true,
-       'latitude' => 42.6666979,
-       'longitude' => -83.399939,
-       'marker' => true,
-       'markerTitle' => 'This is my position',
-       'markerIcon' => 'http://google-maps-icons.googlecode.com/files/home.png',
-       'markerShadow' => 'http://google-maps-icons.googlecode.com/files/shadow.png',
-       'infoWindow' => true,
-       'windowText' => 'My Position',
-       'draggableMarker' => false
-   );
-   $this->GoogleMap->map($map_options);
-   ?>
-   ```
-7. Add markers for each report in the database:
-   ``` html+php
-   <?php
-   foreach ($reports as $report) {
-       $this->GoogleMap->addMarker("map_canvas", 1, $report->get('FamilyStreet'));
-   }
-   ?>
-   ```
+4. After getting your API key from Google, add the JavaScript files to
+   the associated view:  
+```php
+$this->Html->script('http://maps.google.com/maps/api/js?key=YOUR_API_KEY&sensor=true',
+                    [false]);
+```
+5. In the view add this line:  
+```php
+$this->GoogleMap->map();
+```
+6. Modify the map options with the follow code in the specific view  
+```php
+// Override any of the following default options to customize your map
+$map_options = array(
+    'id' => 'map_canvas',
+    'width' => '600px',
+    'height' => '600px',
+    'style' => '',
+    'zoom' => 10,
+    'type' => 'ROADMAP',
+    'custom' => null,
+    'localize' => true,
+    'latitude' => 42.6666979,
+    'longitude' => -83.399939,
+    'marker' => true,
+    'markerTitle' => 'This is my position',
+    'markerIcon' => 'http://google-maps-icons.googlecode.com/files/home.png',
+    'markerShadow' => 'http://google-maps-icons.googlecode.com/files/shadow.png',
+    'infoWindow' => true,
+    'windowText' => 'My Position',
+    'draggableMarker' => false
+);
+$this->GoogleMap->map($map_options);
+```
+7. Add markers for each report in the database:  
+```php
+foreach ($reports as $report) {
+    $this->GoogleMap->addMarker("map_canvas", 1, $report->get('FamilyStreet'));
+}
+```
 
 #### 2.4.5 Android Studio with Database Integration
 
@@ -677,7 +671,7 @@ recent to most recent.
 Run the following command from the root of the project to check on the
 current migration status:
 
-``` shell
+```shell
 bin/cake migrations status
 ```
 
@@ -691,7 +685,7 @@ a migration's status to `down`) by either migrating or rolling back.
 To migrate the database to the most up-to-date schema, run the
 following command from the root of the project:
 
-``` shell
+```shell
 bin/cake migrations migrate
 ```
 
@@ -704,7 +698,7 @@ each one until the schema is current.
 To roll back the changes made by these migration files, use the
 following command:
 
-``` shell
+```shell
 bin/cake migrations rollback
 ```
 
@@ -719,7 +713,7 @@ or roll back to with the following command, substituting
 `YYYYMMDDHHMMSS` with the timestamp of the migration file of your
 choosing:
 
-``` shell
+```shell
 bin/cake migrations migrate -t YYYYMMDDHHMMSS
 ```
 
@@ -728,50 +722,38 @@ bin/cake migrations migrate -t YYYYMMDDHHMMSS
 ##### Single Model Instance in Matching Controller
 
 1. Include the reference to the controller that is associated with the
-   model you plan to load
-
-   ``` php
-   use App\Controller\ReportsController;
-   ```
-
-2. Get the model data
-
-   ``` php
-   $user =$this->Users->get($this->Auth->user('id'));
-   ```
-
-3. Set the model to be used
-
-   ``` php
-   $this->set('user',$user);
-   ```
+   model you plan to load  
+```php
+use App\Controller\ReportsController;
+```
+2. Get the model data  
+```php
+$user =$this->Users->get($this->Auth->user('id'));
+```
+3. Set the model to be used  
+```php
+$this->set('user',$user);
+```
 
 ##### Single Model Instance in Different Controller
 
 1. Include the reference to the controller that is associated with the
-   model you plan to load
-
-   ``` php
-   use App\Controller\ReportsController;
-   ```
-
-2. Load the model
-
-   ``` php
-   $this->loadModel('Reports');
-   ```
-
-3. Get the model data
-
-   ``` php
-   $report = $this->Reports->get('all');
-   ```
-
-4. Set the model to be used
-
-   ``` php
-   $this->set('report',$report);
-   ```
+   model you plan to load  
+```php
+use App\Controller\ReportsController;
+```
+2. Load the model  
+```php
+$this->loadModel('Reports');
+```
+3. Get the model data  
+```php
+$report = $this->Reports->get('all');
+```
+4. Set the model to be used  
+```php
+$this->set('report',$report);
+```
 
 #### 2.4.8 Local Development Environment
 
@@ -956,26 +938,26 @@ information and create an account.
 #### Actors & Goals
 
 - Concerned Public
-  - Create an account
-  - Login to an account
-  - Update account info
-  - Change Password
-  - Browse missing & found people
-  - Submit new missing person report
+    - Create an account
+    - Login to an account
+    - Update account info
+    - Change Password
+    - Browse missing & found people
+    - Submit new missing person report
 - Law Enforcement
-  - Create an account
-  - Login to an account
-  - Update account info
-  - Change Password
-  - Browse missing & found people
-  - Validate missing person reports
-  - Update missing person report info
+    - Create an account
+    - Login to an account
+    - Update account info
+    - Change Password
+    - Browse missing & found people
+    - Validate missing person reports
+    - Update missing person report info
 - Application Administrator
-  - Restrict user access via role management
+    - Restrict user access via role management
 - Database
-  - Maintain missing person report data
+    - Maintain missing person report data
 - Email Service
-  - Manage email verification service
+    - Manage email verification service
 
 ### 4.3 User Stories, Scenarios, and Use Cases
 
@@ -1670,18 +1652,18 @@ newspapers.  There will also be a form for people to complete is they
 need to report a person missing.
 
 - Everyone Pages
-  - Login—textboxes, submit button
-  - Register—textboxes, submit button
-  - Home—dashboard style landing page
-  - Account Info—fields to display account in
+    - Login—textboxes, submit button
+    - Register—textboxes, submit button
+    - Home—dashboard style landing page
+    - Account Info—fields to display account in
 - Law Enforcement Pages
-  - Missing Person Info—image, table to display information
-  - Charts, tables, graphs to display data
-  - Comments—textboxes, submit buttons
+    - Missing Person Info—image, table to display information
+    - Charts, tables, graphs to display data
+    - Comments—textboxes, submit buttons
 - Public Facing Pages
-  - Report Missing Person—image, fields to display basic info, button
-    to get local police info
-  - Comments—textboxes, submit buttons
+    - Report Missing Person—image, fields to display basic info,
+      button to get local police info
+    - Comments—textboxes, submit buttons
 
 ### 5.2 User Efforts Estimation
 
@@ -2120,10 +2102,10 @@ system are also stored on the server's filesystem.
 Our application uses standard network ports and protocols.
 
 - Ports
-  - 22 (SSH)
-  - 80 (HTTP)
-  - 443 (HTTPS)
-  - 3306 (MariaDB/MySQL)
+    - 22 (SSH)
+    - 80 (HTTP)
+    - 443 (HTTPS)
+    - 3306 (MariaDB/MySQL)
 - Protocols: TCP
 
 ### 8.5 Global Control Flow
@@ -2271,13 +2253,13 @@ matches how you installed PHPUnit.
 
 ##### Using composer installed PHPUnit
 
-``` shell
+```shell
 vendor/bin/phpunit
 ```
 
 ##### Using PHAR file
 
-``` shell
+```shell
 php phpunit.phar
 ```
 
@@ -2365,31 +2347,31 @@ The data that will be used to test the submit report functionality
 will include combinations of the following data fields:
 
 - Missing Person Info
-  - Gender
-  - Name
-  - DOB
-  - Hair Color
-  - Eye Color
-  - Ethnicity
-  - Weight
-  - Height
-  - Marks/Tattoos
-  - Social Media Accounts
-  - Phone Number
-  - Photo(s)
-  - Additional Info
+    - Gender
+    - Name
+    - DOB
+    - Hair Color
+    - Eye Color
+    - Ethnicity
+    - Weight
+    - Height
+    - Marks/Tattoos
+    - Social Media Accounts
+    - Phone Number
+    - Photo(s)
+    - Additional Info
 - Family/Friends of Missing Person
-  - Email
-  - Phone Number
-  - Address
-  - Relation to Missing Person
-  - Gender
+    - Email
+    - Phone Number
+    - Address
+    - Relation to Missing Person
+    - Gender
 - Workplace/Hangouts of Missing Person
-  - Name
-  - City
-  - Address
-  - Zip
-  - State
+    - Name
+    - City
+    - Address
+    - Zip
+    - State
 
 ##### Data
 
@@ -2500,31 +2482,31 @@ The data that will be used to test the submit report functionality
 will include combinations of the following data fields:
 
 - Missing Person Info
-  - Gender
-  - Name
-  - DOB
-  - Hair Color
-  - Eye Color
-  - Ethnicity
-  - Weight
-  - Height
-  - Marks/Tattoos
-  - Social Media Accounts
-  - Phone Number
-  - Photo(s)
-  - Additional Info
+    - Gender
+    - Name
+    - DOB
+    - Hair Color
+    - Eye Color
+    - Ethnicity
+    - Weight
+    - Height
+    - Marks/Tattoos
+    - Social Media Accounts
+    - Phone Number
+    - Photo(s)
+    - Additional Info
 - Family/Friends of Missing Person
-  - Email
-  - Phone Number
-  - Address
-  - Relation to Missing Person
-  - Gender
+    - Email
+    - Phone Number
+    - Address
+    - Relation to Missing Person
+    - Gender
 - Workplace/Hangouts of Missing Person
-  - Name
-  - City
-  - Address
-  - Zip
-  - State
+    - Name
+    - City
+    - Address
+    - Zip
+    - State
 
 ##### Data
 
@@ -4045,15 +4027,15 @@ for the task breakdown PDF file.
 #### Sensitive data being misused
 
 1. Risk Details
-  1. Personal data about missing people will be maintained in the
-     database for Law Enforcement to access
-  2. There will need to be restrictions to what data the Concerned
-     Public can see
-  3. The integrity of the data needs to be retained
+   1. Personal data about missing people will be maintained in the
+      database for Law Enforcement to access
+   2. There will need to be restrictions to what data the Concerned
+      Public can see
+   3. The integrity of the data needs to be retained
 2. Risk Assessment
-  1. Likelihood: 5
-  2. Impact: 10
-  3. Cost: 10
+   1. Likelihood: 5
+   2. Impact: 10
+   3. Cost: 10
 3. Rank: 60
 4. Mitigation Plan: Our mitigation plan for this is to create roles in
    the database and assign them to users (Public or Law Enforcement).
@@ -4063,12 +4045,12 @@ for the task breakdown PDF file.
 #### High volumes of data are not managed
 
 1. Risk Details
-  1. The data needs to be stored in a way that makes sense
-  2. It needs to be easily accessed and analyzed
+   1. The data needs to be stored in a way that makes sense
+   2. It needs to be easily accessed and analyzed
 2. Risk Assessment
-  1. Likelihood: 8
-  2. Impact: 5
-  3. Cost: 2
+   1. Likelihood: 8
+   2. Impact: 5
+   3. Cost: 2
 3. Rank: 36
 4. Mitigation Plan: Our mitigation plan for this is to take extra time
    to plan and map out the database tables.  We plan to do our best to
@@ -4078,14 +4060,14 @@ for the task breakdown PDF file.
 #### Image files are not managed/stored properly
 
 1. Risk Details
-  1. Images need to be stored in a way that they are easily accessed
-     and associated with the correct missing person report
-  2. The images need to be managed so they do not take up enormous
-     amounts of space
+   1. Images need to be stored in a way that they are easily accessed
+      and associated with the correct missing person report
+   2. The images need to be managed so they do not take up enormous
+      amounts of space
 2. Risk Assessment:
-  1. Likelihood: 5
-  2. Impact: 7
-  3. Costs: 8
+   1. Likelihood: 5
+   2. Impact: 7
+   3. Costs: 8
 3. Rank: 192
 4. Mitigation Plan: Our mitigation plan is to look into the best way
    to store large amounts of image files and the best way to maintain
@@ -4105,7 +4087,7 @@ for the task breakdown PDF file.
 
 ### 13.2 Creating Views in CakePHP
 
-[CakePHP Cookbook: Views](https://book.cakephp.org/3.0/en/views.html)
+- [CakePHP Cookbook: Views](https://book.cakephp.org/3.0/en/views.html)
 
 ### 13.3 CakePHP Models
 
