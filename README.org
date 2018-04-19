@@ -4,12 +4,12 @@
 
 * Team Members
 
--  Nicole Cox
--  Bryan Derr
--  Minqiang Hu
--  Alex Morey
--  Mitchell Roe
--  Tyler Watling
+- Nicole Cox
+- Bryan Derr
+- Minqiang Hu
+- Alex Morey
+- Mitchell Roe
+- Tyler Watling
 
 * Project Vision
 
