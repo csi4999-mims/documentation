@@ -3974,93 +3974,48 @@ breakdown PDF file.
    are accessible and reliably associated with that case.
 
 * References
-  :PROPERTIES:
-  :CUSTOM_ID: references
-  :END:
 
-** 13.1 Unit Testing
-   :PROPERTIES:
-   :CUSTOM_ID: unit-testing
-   :END:
+** Unit Testing
 
--  [[https://book.cakephp.org/3.0/en/development/testing.html][CakePHP
-   Cookbook: Testing]]
--  [[https://phpunit.de/][PHPUnit]]
--  [[https://www.linkedin.com/pulse/using-phpunit-cakephp-ken-kitchen][LinkedIn:
-   Using PHPUnit with CakePHP]]
--  [[https://link.springer.com/chapter/10.1007/978-1-4302-4165-2_33][Springer:
-   CakePHP Testing]]
--  [[https://books.google.com/books?id=YZWsK-58eRAC&pg=PA97&lpg=PA97&dq=cakephp+phpunit+tests+update+account+info&source=bl&ots=CUCu0xI1u5&sig=EfGZkNdohVCUxV9qSBT9z9OqAe8&hl=en&sa=X&ved=0ahUKEwj_4MziiYjZAhWB5oMKHZUUBPUQ6AEIUTAH#v=onepage&q=cakephp%20phpunit%20tests%20update%20account%20info&f=false][Google
-   Books: CakePHP Unit Testing]]
+- [[https://book.cakephp.org/3.0/en/development/testing.html][CakePHP Cookbook: Testing]]
+- [[https://phpunit.de/][PHPUnit]]
+- [[https://www.linkedin.com/pulse/using-phpunit-cakephp-ken-kitchen][LinkedIn: Using PHPUnit with CakePHP]]
+- [[https://link.springer.com/chapter/10.1007/978-1-4302-4165-2_33][Springer: CakePHP Testing]]
+- [[https://books.google.com/books?id=YZWsK-58eRAC&pg=PA97&lpg=PA97&dq=cakephp+phpunit+tests+update+account+info&source=bl&ots=CUCu0xI1u5&sig=EfGZkNdohVCUxV9qSBT9z9OqAe8&hl=en&sa=X&ved=0ahUKEwj_4MziiYjZAhWB5oMKHZUUBPUQ6AEIUTAH#v=onepage&q=cakephp%20phpunit%20tests%20update%20account%20info&f=false][Google Books: CakePHP Unit Testing]]
 
-** 13.2 Creating Views in CakePHP
-   :PROPERTIES:
-   :CUSTOM_ID: creating-views-in-cakephp
-   :END:
+** Creating Views in CakePHP
 
--  [[https://book.cakephp.org/3.0/en/views.html][CakePHP Cookbook:
-   Views]]
+- [[https://book.cakephp.org/3.0/en/views.html][CakePHP Cookbook: Views]]
 
-** 13.3 CakePHP Models
-   :PROPERTIES:
-   :CUSTOM_ID: cakephp-models
-   :END:
+** CakePHP Models
 
--  [[https://book.cakephp.org/3.0/en/orm/table-objects.html][CakePHP
-   Cookbook: Table Objects]]
--  [[https://book.cakephp.org/3.0/en/orm/entities.html][CakePHP
-   Cookbook: Entities]]
--  [[https://book.cakephp.org/3.0/en/orm/behaviors.html][CakePHP
-   Cookbook: Behaviors]]
+- [[https://book.cakephp.org/3.0/en/orm/table-objects.html][CakePHP Cookbook: Table Objects]]
+- [[https://book.cakephp.org/3.0/en/orm/entities.html][CakePHP Cookbook: Entities]]
+- [[https://book.cakephp.org/3.0/en/orm/behaviors.html][CakePHP Cookbook: Behaviors]]
 
-** 13.4 Login/Register Example
-   :PROPERTIES:
-   :CUSTOM_ID: loginregister-example
-   :END:
+** Login/Register Example
 
--  [[https://book.cakephp.org/2.0/en/tutorials-and-examples/blog-auth-example/auth.html][CakePHP
-   Cookbook: Simple Authentication and Authorization Application]]
--  [[https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/installation.html][CakePHP
-   Cookbook: Content Management Tutorial]]
+- [[https://book.cakephp.org/2.0/en/tutorials-and-examples/blog-auth-example/auth.html][CakePHP Cookbook: Simple Authentication and Authorization Application]]
+- [[https://book.cakephp.org/3.0/en/tutorials-and-examples/cms/installation.html][CakePHP Cookbook: Content Management Tutorial]]
 
-** 13.5 Installing CakePHP
-   :PROPERTIES:
-   :CUSTOM_ID: installing-cakephp
-   :END:
+** Installing CakePHP
 
--  [[https://book.cakephp.org/3.0/en/installation.html][CakePHP
-   Cookbook: Installation]]
+- [[https://book.cakephp.org/3.0/en/installation.html][CakePHP Cookbook: Installation]]
 
-** 13.6 Google Maps Helper
-   :PROPERTIES:
-   :CUSTOM_ID: google-maps-helper
-   :END:
+** Google Maps Helper
 
--  [[https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3][GitHub:
-   marcferna/CakePHP-GoogleMapHelper]]
+- [[https://github.com/marcferna/CakePHP-GoogleMapHelper/tree/CakePHP3][GitHub: marcferna/CakePHP-GoogleMapHelper]]
 
-** 13.7 Bootstrap Helper
-   :PROPERTIES:
-   :CUSTOM_ID: bootstrap-helper
-   :END:
+** Bootstrap Helper
 
--  [[https://github.com/Holt59/cakephp3-bootstrap-helpers/][GitHub:
-   Holt59/cakephp3-bootstrap-helpers]]
+- [[https://github.com/Holt59/cakephp3-bootstrap-helpers/][GitHub: Holt59/cakephp3-bootstrap-helpers]]
 
-** 13.8 Chart.js
-   :PROPERTIES:
-   :CUSTOM_ID: chart.js
-   :END:
+** Chart.js
 
--  [[https://www.chartjs.org/][Chart.js]]
+- [[https://www.chartjs.org/][Chart.js]]
 
-** 13.9 Phinx Database Management
-   :PROPERTIES:
-   :CUSTOM_ID: phinx-database-management
-   :END:
+** Phinx Database Management
 
--  [[https://book.cakephp.org/3.0/en/phinx.html][CakePHP Cookbook: Phinx
-   Migrations]]
--  [[https://book.cakephp.org/3.0/en/phinx/seeding.html][CakePHP
-   Cookbook: Database Seeding]]
--  [[http://docs.phinx.org/en/latest/][Phinx Documentation]]
+- [[https://book.cakephp.org/3.0/en/phinx.html][CakePHP Cookbook: Phinx Migrations]]
+- [[https://book.cakephp.org/3.0/en/phinx/seeding.html][CakePHP Cookbook: Database Seeding]]
+- [[http://docs.phinx.org/en/latest/][Phinx Documentation]]
