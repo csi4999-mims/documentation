@@ -2595,11 +2595,12 @@ login.
 
 **** Test Case Information
 
-- Test Case ID: TC1
-- Test Data: The data that will be used to test the register
-  functionality will include a variety of First Name, Last Name,
-  Email, Phone, Password, Confirm Password, and Role combinations.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC1
+- Test Data :: The data that will be used to test the register
+               functionality will include a variety of First Name,
+               Last Name, Email, Phone, Password, Confirm Password,
+               and Role combinations.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #2 Login
 
@@ -2618,11 +2619,11 @@ fields.  They then click the Login button.
 
 **** Test Case Information
 
-- Test Case ID: TC2
-- Test Data: The data that will be used to test the login
-  functionality will include a variety of username (emails) and
-  password combinations.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC2
+- Test Data :: The data that will be used to test the login
+               functionality will include a variety of username
+               (emails) and password combinations.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #3 Update Account Info
 
@@ -2646,11 +2647,11 @@ account information will be updated.
 
 **** Test Case Information
 
-- Test Case ID: TC4
-- Test Data: The data that will be used to test the change account
-  info functionality will include a variety of email and phone
-  combinations.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC4
+- Test Data :: The data that will be used to test the change account
+               info functionality will include a variety of email and
+               phone combinations.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #4A Forgot Password
 
@@ -2678,10 +2679,10 @@ fields they can access their account again.
 
 **** Test Case Information
 
-- Test Case ID: TC7
-- Test Data: The data that will be used to test the forgot password
-  will be a set of emails and new passwords.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC7
+- Test Data :: The data that will be used to test the forgot password
+               will be a set of emails and new passwords.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #4B Update Password
 
@@ -2706,11 +2707,11 @@ If the information is valid, the account information will be updated.
 
 **** Test Case Information
 
-- Test Case ID: TC3
-- Test Data: The data that will be used to test the change password
-  functionality will include a variety of old password, new password,
-  and confirm new password combinations.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC3
+- Test Data :: The data that will be used to test the change password
+               functionality will include a variety of old password,
+               new password, and confirm new password combinations.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #5 Verify Email Address
 
@@ -2737,10 +2738,10 @@ email for the Concerned Citizen/Law Enforcement to click.
 
 **** Test Case Information
 
-- Test Case ID: TC6
-- Test Data: The data that will be used to test the email service
-  functionality will be a list of emails.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC6
+- Test Data :: The data that will be used to test the email service
+               functionality will be a list of emails.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #6 View as Citizen
 
@@ -2760,11 +2761,11 @@ directed to the Home Page specific to their user type.
 
 **** Test Case Information
 
-- Test Case ID: TC8
-- Test Data: The data that will be used to test the view as citizen
-  functionality will be a set of emails and passwords for accounts
-  with the role of "Public" in the database.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC8
+- Test Data :: The data that will be used to test the view as citizen
+               functionality will be a set of emails and passwords for
+               accounts with the role of "Public" in the database.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #7 View as Law Enforcement
 
@@ -2784,11 +2785,12 @@ the Home Page specific to their user type.
 
 **** Test Case Information
 
-- Test Case ID: TC9
-- Test Data: The data that will be used to test the view as law
-  enforcement functionality will be a set of emails and passwords for
-  accounts with the role of "Law Enforcement" in the database.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC9
+- Test Data :: The data that will be used to test the view as law
+               enforcement functionality will be a set of emails and
+               passwords for accounts with the role of "Law
+               Enforcement" in the database.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #8 Submit New Report
 
@@ -2811,11 +2813,11 @@ Enforcement to then review.
 
 **** Test Case Information
 
-- Test Case ID: TC5
-- Test Data: The data that will be used to test the submit report
-  functionality will include combinations of data from the following
-  sub-sections.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC5
+- Test Data :: The data that will be used to test the submit report
+               functionality will include combinations of data from
+               the following sub-sections.
+- Test Count :: The test will be performed with 6 sets of data.
 
 ***** Missing Person Info
 
@@ -2870,11 +2872,11 @@ Enforcement to see.
 
 **** Test Case Information
 
-- Test Case ID: TC10
-- Test Data: The data that will be used to test the submit report
-  functionality will include combinations of data from the following
-  sub-sections.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC10
+- Test Data :: The data that will be used to test the submit report
+               functionality will include combinations of data from
+               the following sub-sections.
+- Test Count :: The test will be performed with 6 sets of data.
 
 ***** Missing Person Info
 
@@ -2929,11 +2931,11 @@ changes from "on hold" to "in progress".
 
 **** Test Case Information
 
-- Test Case ID: TC11
-- Test Data: The data that will be used to test the validate/approve
-  report functionality will include reports with the status of "on
-  hold"
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC11
+- Test Data :: The data that will be used to test the validate/approve
+               report functionality will include reports with the
+               status of "on hold"
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #11 Assign Official Report Number
 
@@ -2955,12 +2957,13 @@ official police report number to the in progress case.
 
 **** Test Case Information
 
-- Test Case ID: TC12
-- Test Data: The data that will be used to test the assign official
-  report number functionality will include official report numbers
-  similar to what Law Enforcement uses and sets of missing personx
-  reports who do not have an official report number
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC12
+- Test Data :: The data that will be used to test the assign official
+               report number functionality will include official
+               report numbers similar to what Law Enforcement uses and
+               sets of missing personx reports who do not have an
+               official report number
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #12 Categorize Missing People
 
@@ -2983,11 +2986,12 @@ on set categories.
 
 **** Test Case Information
 
-- Test Case ID: TC13
-- Test Data: The data that will be used to test the categorize missing
-  people functionality will include a set of missing person reports
-  and a set of classifications that can be assigned to missing people.
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC13
+- Test Data :: The data that will be used to test the categorize
+               missing people functionality will include a set of
+               missing person reports and a set of classifications
+               that can be assigned to missing people.
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #13 Update Case Info
 
@@ -3009,11 +3013,12 @@ Enforcement and the Concerned Public to see.
 
 **** Test Case Information
 
-- Test Case ID: TC14
-- Test Data: The data that will be used to test the update case info
-  functionality will include a set of missing person reports and a set
-  of updated data to insert into each missing person report
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC14
+- Test Data :: The data that will be used to test the update case info
+               functionality will include a set of missing person
+               reports and a set of updated data to insert into each
+               missing person report
+- Test Count :: The test will be performed with 6 sets of data.
 
 *** Use Case #14 Mark As Found
 
@@ -3036,11 +3041,11 @@ the system for the Concerned Citizen to see.
 
 **** Test Case Information
 
-- Test Case ID: TC15
-- Test Data: The data that will be used to test the mark as found
-  functionality will include a set of missing person reports with the
-  "Found" status as false
-- Test Count: The test will be performed with 6 sets of data.
+- Test Case ID :: TC15
+- Test Data :: The data that will be used to test the mark as found
+               functionality will include a set of missing person
+               reports with the "Found" status as false
+- Test Count :: The test will be performed with 6 sets of data.
 
 ** Test Reports Per Sprint
 
@@ -3048,103 +3053,97 @@ the system for the Concerned Citizen to see.
 
 **** TC1
 
-- Test Case ID :: TC1
-- Test Case Name :: Register Test
-- Requirements Covered :: REQ 1
-- Test Setup :: The application needs to be open and the register
-                (add) page needs to be active.
+***** Test Case Name
 
-- Test Case Steps
-  - Enter the First Name
-  - Enter the Last Name
-  - Enter the Email
-  - Enter the Phone Number
-  - Enter the Password
-  - Enter the Confirm Password
-  - Select the Role
-  - Press the "Register" button
-  - *Repeat for all 6 sets of test data*
-- Test Data
-  | First Name | Last Name | Email          |      Phone | Password           | Confirm Password   | Role            |
-  |------------+-----------+----------------+------------+--------------------+--------------------+-----------------|
-  | User       | One       | user1@test.com | 1111111111 | =7.m]VQ=           | =7.m]VQ=           | Law Enforcement |
-  | User       | Two       | user2@test.com | 2222222222 | =_2BueD=           | =_2BueD=           | Law Enforcement |
-  | User       | Three     | user3@test.com | 3333333333 | =vjGPs8pP/M5e=     | =vjGPs8pP/M5e=     | Law Enforcement |
-  | User       | Four      | user4@test.com | 4444444444 | =\%T6MypWa'dK=     | =\%T6MypWa'dK=     | Public          |
-  | User       | Five      | user5@test.com | 5555555555 | =ra7)#7#U8%tA!)Zx= | =ra7)#7#U8%tA!)Zx= | Public          |
-  | User       | Six       | user6@test.com | 6666666666 | =s$J}Lbys)(t8<yd5= | =s$J}Lbys)(t8<yd5= | Public          |
-- Expected Results :: A new user should be added to the users table in
-     the database.
-- Actual Results
-  - User 1 :: A new user was successfully added to the users table in
-              the DB
-  - User 2 :: A new user was successfully added to the users table in
-              the DB
-  - User 3 :: A new user was successfully added to the users table in
-              the DB
-  - User 4 :: A new user was successfully added to the users table in
-              the DB
-  - User 5 :: A new user was successfully added to the users table in
-              the DB
-  - User 6 :: A new user was successfully added to the users table in
-              the DB
-- Passed/Failed
-  - User 1 :: PASSED
-  - User 2 :: PASSED
-  - User 3 :: PASSED
-  - User 4 :: PASSED
-  - User 5 :: PASSED
-  - User 6 :: PASSED
+Register Test
 
-**** Date Executed
+***** Requirements Covered
+
+REQ 1
+
+***** Test Setup
+
+The application needs to be open and the register (add) page needs to
+be active.
+
+***** Test Case Steps
+
+1. Enter the First Name
+2. Enter the Last Name
+3. Enter the Email
+4. Enter the Phone Number
+5. Enter the Password
+6. Enter the Confirm Password
+7. Select the Role
+8. Press the "Register" button
+9. *Repeat for all 6 sets of test data*
+
+***** Test Data
+
+| First Name | Last Name | Email          |      Phone | Password           | Confirm Password   | Role            |
+|------------+-----------+----------------+------------+--------------------+--------------------+-----------------|
+| User       | One       | user1@test.com | 1111111111 | =7.m]VQ=           | =7.m]VQ=           | Law Enforcement |
+| User       | Two       | user2@test.com | 2222222222 | =_2BueD=           | =_2BueD=           | Law Enforcement |
+| User       | Three     | user3@test.com | 3333333333 | =vjGPs8pP/M5e=     | =vjGPs8pP/M5e=     | Law Enforcement |
+| User       | Four      | user4@test.com | 4444444444 | =\%T6MypWa'dK=     | =\%T6MypWa'dK=     | Public          |
+| User       | Five      | user5@test.com | 5555555555 | =ra7)#7#U8%tA!)Zx= | =ra7)#7#U8%tA!)Zx= | Public          |
+| User       | Six       | user6@test.com | 6666666666 | =s$J}Lbys)(t8<yd5= | =s$J}Lbys)(t8<yd5= | Public          |
+
+***** Expected Results
+
+A new user should be added to the users table in the database.
+
+***** Actual Results
+
+- User 1 :: A new user was successfully added to the users table in
+            the DB
+- User 2 :: A new user was successfully added to the users table in
+            the DB
+- User 3 :: A new user was successfully added to the users table in
+            the DB
+- User 4 :: A new user was successfully added to the users table in
+            the DB
+- User 5 :: A new user was successfully added to the users table in
+            the DB
+- User 6 :: A new user was successfully added to the users table in
+            the DB
+
+***** Passed/Failed
+
+- User 1 :: PASSED
+- User 2 :: PASSED
+- User 3 :: PASSED
+- User 4 :: PASSED
+- User 5 :: PASSED
+- User 6 :: PASSED
+
+***** Date Executed
 
 2018-02-02
 
---------------
+**** TC2
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-1
-     :END:
-
-TC2
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-1
-     :END:
+***** Test Case Name
 
 Login Test
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-1
-     :END:
+***** Requirements Covered
 
 REQ 2
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-1
-     :END:
+***** Test Setup
 
-The application needs to be open, a user account needs to be register,\\
+The application needs to be open, a user account needs to be register,
 and the login page needs to be active.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-1
-     :END:
+***** Test Case Steps
 
 1. Enter the Email
 2. Enter the Password
 3. Click the "Login" button
 4. *Repeat for all 6 sets of test data*
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-1
-     :END:
+***** Test Data
 
 | Username        | Password           |
 |-----------------+--------------------|
@@ -3155,83 +3154,52 @@ and the login page needs to be active.
 | user5@test.com  | =ra7)#7#U8%tA!)Zx= |
 | user6@gmail.com | =s$J}Lbys)(t8<yd5= |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-1
-     :END:
+***** Expected Results
 
-A user who has a registered account will be able to login and be taken\\
+A user who has a registered account will be able to login and be taken
 to the home page.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-1
-     :END:
+***** Actual Results
 
--  User 1: Login was successful and the home page was displayed.
--  User 2: Login was not successful and an error message was displayed.
--  User 3: Login was successful and the home page was displayed.
--  User 4: Login was successful and the home page was displayed.
--  User 5: Login was successful and the home page was displayed.
--  User 6: Login was successful and the home page was displayed.
+- User 1 :: Login was successful and the home page was displayed.
+- User 2 :: Login was not successful and an error message was
+            displayed.
+- User 3 :: Login was successful and the home page was displayed.
+- User 4 :: Login was successful and the home page was displayed.
+- User 5 :: Login was successful and the home page was displayed.
+- User 6 :: Login was successful and the home page was displayed.
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-1
-     :END:
+***** Passed/Failed
 
--  User 1: PASSED
--  User 2: FAILED
--  User 3: PASSED
--  User 4: PASSED
--  User 5: PASSED
--  User 6: PASSED
+- User 1 :: PASSED
+- User 2 :: FAILED
+- User 3 :: PASSED
+- User 4 :: PASSED
+- User 5 :: PASSED
+- User 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-1
-     :END:
+***** Date Executed
 
 2018-02-02
 
 *** Sprint 2
-    :PROPERTIES:
-    :CUSTOM_ID: sprint-2
-    :END:
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-2
-     :END:
+**** TC3
 
-TC3
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-2
-     :END:
+***** Test Case Name
 
 Change Password Test
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-2
-     :END:
+***** Requirements Covered
 
 REQ 3
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-2
-     :END:
+***** Test Setup
 
-The application needs to be open, a user account needs to be register,\\
+The application needs to be open, a user account needs to be register,
 and the login page needs to be active.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-2
-     :END:
+***** Test Case Steps
 
 1. Enter the Email
 2. Enter the Password
@@ -3242,104 +3210,69 @@ and the login page needs to be active.
 7. Enter in the confirm new password in the corresponding field
 8. Click the update account button
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-2
-     :END:
+***** Test Data
 
-| Old Password         | New Password         | Confirm New Password   |
-|----------------------+----------------------+------------------------|
-| =7.m]VQ=             | =Z4(2m'=             | =Z4(2m'=               |
-| =_2BueD=             | =]aH5s'=             | =]aH5s'=               |
-| =vjGPs8pP/M5e=       | =$szd{{&/T3D#=       | =$szd{{&/T3D#=         |
-| =\%T6MypWa'dK=       | ==aF>B~#E6!p>=       | ==aF>B~#E6!p>=         |
-| =ra7)#7#U8%tA!)Zx=   | =~uv+t.x8\>bQS\xa=   | =~uv+t.x8\>bQS\xa=     |
-| =s$J}Lbys)(t8<yd5=   | =dqK<+c8F9\-m{v><=   | =dqK<+c8F9\-m{v><=     |
+| Old Password       | New Password       | Confirm New Password |
+|--------------------+--------------------+----------------------|
+| =7.m]VQ=           | =Z4(2m'=           | =Z4(2m'=             |
+| =_2BueD=           | =]aH5s'=           | =]aH5s'=             |
+| =vjGPs8pP/M5e=     | =$szd{{&/T3D#=     | =$szd{{&/T3D#=       |
+| =\%T6MypWa'dK=     | ==aF>B~#E6!p>=     | ==aF>B~#E6!p>=       |
+| =ra7)#7#U8%tA!)Zx= | =~uv+t.x8\>bQS\xa= | =~uv+t.x8\>bQS\xa=   |
+| =s$J}Lbys)(t8<yd5= | =dqK<+c8F9\-m{v><= | =dqK<+c8F9\-m{v><=   |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-2
-     :END:
+***** Expected Results
 
-A user who has a registered account, is logged in, and chooses to\\
-change their password will no have a new password recorded in the\\
+A user who has a registered account, is logged in, and chooses to
+change their password will no have a new password recorded in the
 users table in the database.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-2
-     :END:
+***** Actual Results
 
--  User 1: Password change was successful and login with the new\\
-   password was successful
--  User 2: The initial login failed so the password could not be\\
-   changed
--  User 3: Password change was successful and login with the new\\
-   password was successful
--  User 3: The initial login failed so the password could not be\\
-   changed
--  User 5: Password change was successful and login with the new\\
-   password was successful
--  User 6: Password change was successful and login with the new\\
-   password was successful
+- User 1 :: Password change was successful and login with the new
+            password was successful
+- User 2 :: The initial login failed so the password could not be
+            changed
+- User 3 :: Password change was successful and login with the new
+            password was successful
+- User 3 :: The initial login failed so the password could not be
+            changed
+- User 5 :: Password change was successful and login with the new
+            password was successful
+- User 6 :: Password change was successful and login with the new
+            password was successful
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-2
-     :END:
+***** Passed/Failed
 
--  User 1: PASSED
--  User 2: FAILED
--  User 3: PASSED
--  User 4: FAILED
--  User 5: PASSED
--  User 6: PASSED
+- User 1 :: PASSED
+- User 2 :: FAILED
+- User 3 :: PASSED
+- User 4 :: FAILED
+- User 5 :: PASSED
+- User 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-2
-     :END:
+***** Date Executed
 
 2018-02-10
 
 *** Sprint 3
-    :PROPERTIES:
-    :CUSTOM_ID: sprint-3
-    :END:
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-3
-     :END:
+**** TC4
 
-TC4
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-3
-     :END:
+***** Test Case Name
 
 Update Account Info Test
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-3
-     :END:
+***** Requirements Covered
 
 REQ 3
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-3
-     :END:
+***** Test Setup
 
-The application needs to be open, a user account needs to be register,\\
+The application needs to be open, a user account needs to be register,
 user needs to be logged in and the My Account page needs to be active.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-3
-     :END:
+***** Test Case Steps
 
 1. Enter the Email
 2. Enter the Password
@@ -3349,10 +3282,7 @@ user needs to be logged in and the My Account page needs to be active.
 6. Enter the new email in the corresponding field
 7. Click the update account button
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-3
-     :END:
+***** Test Data
 
 | Email             |      Phone |
 |-------------------+------------|
@@ -3363,82 +3293,51 @@ user needs to be logged in and the My Account page needs to be active.
 | newuser5@test.com | 1212121212 |
 | newiser6@test.com | 3434343434 |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-3
-     :END:
+***** Expected Results
 
-A user with a registered account, is logged in, and chooses to change\\
-their email and/or phone number associated with their account will\\
-have a new email and/or phone number recorded in the users table in\\
+A user with a registered account, is logged in, and chooses to change
+their email and/or phone number associated with their account will
+have a new email and/or phone number recorded in the users table in
 the database.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-3
-     :END:
+***** Actual Results
 
--  Test 1: email and phone were updated successfully
--  Test 2: email and phone were updated successfully
--  Test 3: email and phone were updated successfully
--  Test 4: email and phone were updated successfully
--  Test 5: email and phone were updated successfully
--  Test 6: email and phone were updated successfully
+- Test 1 :: email and phone were updated successfully
+- Test 2 :: email and phone were updated successfully
+- Test 3 :: email and phone were updated successfully
+- Test 4 :: email and phone were updated successfully
+- Test 5 :: email and phone were updated successfully
+- Test 6 :: email and phone were updated successfully
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-3
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-3
-     :END:
+***** Date Executed
 
 2018-02-25
 
---------------
+**** TC5
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-4
-     :END:
-
-TC5
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-4
-     :END:
+***** Test Case Name
 
 Submit Report Test
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-4
-     :END:
+***** Requirements Covered
 
 REQ 11, REQ 12
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-4
-     :END:
+***** Test Setup
 
-A user with a registered account, is logged in, and chooses to submit\\
+A user with a registered account, is logged in, and chooses to submit
 a new missing person report.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-4
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
@@ -3447,19 +3346,16 @@ a new missing person report.
 5. Fill in the required and non required fields as needed
 6. Click the submit button
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-4
-     :END:
+***** Test Data
 
-| Gender   | Name         | DOB        | Hair Color   | Eye Color   | Ethnicity         | Weight (lbs)   | Height (inches)   | Marks/Tattoos          | Social Media Accounts   | Phone Number   | Photo(s)   | Additional Info   |
-|----------+--------------+------------+--------------+-------------+-------------------+----------------+-------------------+------------------------+-------------------------+----------------+------------+-------------------|
-| M        | User One     | 1-1-1990   | Blonde       | Blue        | Caucasian         | 175            | 64                | None                   | @user.1                 | 1111111111     | None       | None              |
-| M        | User Two     | 2-2-1990   | Brunette     | Green       | Indian            | 200            | 75                | birthmark on arm       | @user.2                 | 2222222222     | None       | None              |
-| M        | User Three   | 3-3-1990   | Grey         | Hazel       | Asian             | 225            | 72                | tattoo on left wrist   | @user.3                 | 3333333333     | None       | None              |
-| F        | User Four    | 4-4-1990   | Red          | Brown       | Caucasian         | 150            | 82                | None                   | @user.4                 | 4444444444     | None       | None              |
-| F        | User Five    | 5-5-1990   | Blonde       | Hazel       | Native American   | 100            | 78                | tattoo on left leg     | @user.5                 | 5555555555     | None       | None              |
-| F        | User Six     | 6-6-1990   | Black        | Blue        | Caucasian         | 80             | 60                | scar on cheek          | @user.6                 | 6666666666     | None       | None              |
+| Gender | Name       |      DOB | Hair Color | Eye Color | Ethnicity       | Weight (lbs) | Height (inches) | Marks/Tattoos        | Social Media Accounts | Phone Number | Photo(s) | Additional Info |
+|--------+------------+----------+------------+-----------+-----------------+--------------+-----------------+----------------------+-----------------------+--------------+----------+-----------------|
+| M      | User One   | 1-1-1990 | Blonde     | Blue      | Caucasian       |          175 |              64 | None                 | @user.1               |   1111111111 | None     | None            |
+| M      | User Two   | 2-2-1990 | Brunette   | Green     | Indian          |          200 |              75 | birthmark on arm     | @user.2               |   2222222222 | None     | None            |
+| M      | User Three | 3-3-1990 | Grey       | Hazel     | Asian           |          225 |              72 | tattoo on left wrist | @user.3               |   3333333333 | None     | None            |
+| F      | User Four  | 4-4-1990 | Red        | Brown     | Caucasian       |          150 |              82 | None                 | @user.4               |   4444444444 | None     | None            |
+| F      | User Five  | 5-5-1990 | Blonde     | Hazel     | Native American |          100 |              78 | tattoo on left leg   | @user.5               |   5555555555 | None     | None            |
+| F      | User Six   | 6-6-1990 | Black      | Blue      | Caucasian       |           80 |              60 | scar on cheek        | @user.6               |   6666666666 | None     | None            |
 
 | Email            | Phone Number | Address                             | Relation to Missing Person | Gender |
 |------------------+--------------+-------------------------------------+----------------------------+--------|
@@ -3470,97 +3366,63 @@ a new missing person report.
 | friend2@test.com |   2222222222 | 1 test rd, troy, mi 48084           | Friend                     | M      |
 | friend3@test.com |   3333333333 | 1 test rd, troy, mi 48084           | Friend                     | F      |
 
-| Name         | City           | Address       | Zip     | State   |
-|--------------+----------------+---------------+---------+---------|
-| Workplace1   | auburn hills   | 9 test rd     | 48362   | MI      |
-| Workplace2   | auburn hills   | 8 test ln     | 48362   | MI      |
-| Workplace3   | auburn hills   | 7 test blvd   | 48362   | MI      |
-| Hangout1     | troy           | 6 test ln     | 48084   | MI      |
-| Hangout2     | troy           | 5 test ln     | 48084   | MI      |
-| Hangout3     | troy           | 4 test blvd   | 48084   | MI      |
+| Name       | City         | Address     |   Zip | State |
+|------------+--------------+-------------+-------+-------|
+| Workplace1 | auburn hills | 9 test rd   | 48362 | MI    |
+| Workplace2 | auburn hills | 8 test ln   | 48362 | MI    |
+| Workplace3 | auburn hills | 7 test blvd | 48362 | MI    |
+| Hangout1   | troy         | 6 test ln   | 48084 | MI    |
+| Hangout2   | troy         | 5 test ln   | 48084 | MI    |
+| Hangout3   | troy         | 4 test blvd | 48084 | MI    |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-4
-     :END:
+***** Expected Results
 
 A new missing person report will be added to the database.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-4
-     :END:
+***** Actual Results
 
--  Test 1: A new report was submitted successfully
--  Test 2: A new report was submitted successfully
--  Test 3: A new report was submitted successfully
--  Test 4: A new report was submitted successfully
--  Test 5: A new report was submitted successfully
--  Test 6: A new report was submitted successfully
+- Test 1 :: A new report was submitted successfully
+- Test 2 :: A new report was submitted successfully
+- Test 3 :: A new report was submitted successfully
+- Test 4 :: A new report was submitted successfully
+- Test 5 :: A new report was submitted successfully
+- Test 6 :: A new report was submitted successfully
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-4
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-4
-     :END:
+***** Date Executed
 
 2018-02-25
 
---------------
+**** TC8
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-5
-     :END:
-
-TC8
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-5
-     :END:
+***** Test Case Name
 
 View as Citizen
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-5
-     :END:
+***** Requirements Covered
 
 REQ 8
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-5
-     :END:
+***** Test Setup
 
 A Concerned Citizen logs in with their registered account.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-5
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
 3. Click the login button
-4. Verify you were redirected to "home\_concerned\_public"
+4. Verify you were redirected to "home\under{}concerned\under{}public"
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-5
-     :END:
+***** Test Data
 
 | Username         | Password  |
 |------------------+-----------|
@@ -3571,95 +3433,61 @@ A Concerned Citizen logs in with their registered account.
 | user11@test.com  | password5 |
 | user12@gmail.com | password6 |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-5
-     :END:
+***** Expected Results
 
-The Concerned Citizen logs in with their registered account and can\\
+The Concerned Citizen logs in with their registered account and can
 see the home page specific to their user type.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-5
-     :END:
+***** Actual Results
 
--  Test 1: Account login successful and redirected to\\
-   "home\_concerned\_public"
--  Test 2: Account login successful and redirected to\\
-   "home\_concerned\_public"
--  Test 3: Account login successful and redirected to\\
-   "home\_concerned\_public"
--  Test 4: Account login successful and redirected to\\
-   "home\_concerned\_public"
--  Test 5: Account login successful and redirected to\\
-   "home\_concerned\_public"
--  Test 6: Account login successful and redirected to\\
-   "home\_concerned\_public"
+- Test 1 :: Account login successful and redirected to
+            "home\under{}concerned\under{}public"
+- Test 2 :: Account login successful and redirected to
+            "home\under{}concerned\under{}public"
+- Test 3 :: Account login successful and redirected to
+            "home\under{}concerned\under{}public"
+- Test 4 :: Account login successful and redirected to
+            "home\under{}concerned\under{}public"
+- Test 5 :: Account login successful and redirected to
+            "home\under{}concerned\under{}public"
+- Test 6 :: Account login successful and redirected to
+            "home\under{}concerned\under{}public"
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-5
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-5
-     :END:
+***** Date Executed
 
 2018-02-25
 
---------------
+**** TC9
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-6
-     :END:
-
-TC9
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-6
-     :END:
+***** Test Case Name
 
 View as Law Enforcement
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-6
-     :END:
+***** Requirements Covered
 
 REQ 9
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-6
-     :END:
+***** Test Setup
 
 The Law Enforcement logs in with their registered account.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-6
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
 3. Click the login button
-4. Verify you were redirected to "home\_law\_enforcement"
+4. Verify you were redirected to "home\under{}law\under{}enforcement"
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-6
-     :END:
+***** Test Data
 
 | Username         | Password  |
 |------------------+-----------|
@@ -3670,86 +3498,55 @@ The Law Enforcement logs in with their registered account.
 | user17@test.com  | password5 |
 | user18@gmail.com | password6 |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-6
-     :END:
+***** Expected Results
 
-The Law Enforcement logs in with their registered account and can see\\
+The Law Enforcement logs in with their registered account and can see
 the home page specific to their user type.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-6
-     :END:
+***** Actual Results
 
--  Test 1: Account login successful and redirected to\\
-   "home\_law\_enforcement"
--  Test 2: Account login successful and redirected to\\
-   "home\_law\_enforcement"
--  Test 3: Account login successful and redirected to\\
-   "home\_law\_enforcement"
--  Test 4: Account login successful and redirected to\\
-   "home\_law\_enforcement"
--  Test 5: Account login successful and redirected to\\
-   "home\_law\_enforcement"
--  Test 6: Account login successful and redirected to\\
-   "home\_law\_enforcement"
+- Test 1 :: Account login successful and redirected to
+            "home\under{}law\under{}enforcement"
+- Test 2 :: Account login successful and redirected to
+            "home\under{}law\under{}enforcement"
+- Test 3 :: Account login successful and redirected to
+            "home\under{}law\under{}enforcement"
+- Test 4 :: Account login successful and redirected to
+            "home\under{}law\under{}enforcement"
+- Test 5 :: Account login successful and redirected to
+            "home\under{}law\under{}enforcement"
+- Test 6 :: Account login successful and redirected to
+            "home\under{}law\under{}enforcement"
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-6
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-6
-     :END:
+***** Date Executed
 
 2018-02-25
 
---------------
+**** TC10
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-7
-     :END:
-
-TC10
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-7
-     :END:
+***** Test Case Name
 
 Send Report to Law Enforcement
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-7
-     :END:
+***** Requirements Covered
 
 REQ 15
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-7
-     :END:
+***** Test Setup
 
-The Concerned Citizen has submitted a new report and law enforcement\\
+The Concerned Citizen has submitted a new report and law enforcement
 logs into their account.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-7
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
@@ -3757,10 +3554,7 @@ logs into their account.
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-7
-     :END:
+***** Test Data
 
 | Username         | Password  |
 |------------------+-----------|
@@ -3771,179 +3565,113 @@ logs into their account.
 | user17@test.com  | password5 |
 | user18@gmail.com | password6 |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-7
-     :END:
+***** Expected Results
 
-The Law Enforcement logs in with their registered account and can see\\
+The Law Enforcement logs in with their registered account and can see
 all submitted reports in a table format
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-7
-     :END:
+***** Actual Results
 
--  Test 1: Account login successful and can see reports in the table
--  Test 2: Account login successful and can see reports in the table
--  Test 3: Account login successful and can see reports in the table
--  Test 4: Account login successful and can see reports in the table
--  Test 5: Account login successful and can see reports in the table
--  Test 6: Account login successful and can see reports in the table
+- Test 1 :: Account login successful and can see reports in the table
+- Test 2 :: Account login successful and can see reports in the table
+- Test 3 :: Account login successful and can see reports in the table
+- Test 4 :: Account login successful and can see reports in the table
+- Test 5 :: Account login successful and can see reports in the table
+- Test 6 :: Account login successful and can see reports in the table
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-7
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-7
-     :END:
+***** Date Executed
 
 2018-02-25
 
 *** Sprint 4-7
-    :PROPERTIES:
-    :CUSTOM_ID: sprint-4-7
-    :END:
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-8
-     :END:
+**** TC11
 
-TC11
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-8
-     :END:
+***** Test Case Name
 
 Validate/Approve Report
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-8
-     :END:
+***** Requirements Covered
 
 REQ 16, REQ 18, REQ 28
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-8
-     :END:
+***** Test Setup
 
 A report as been submitted and has a status of "On Hold"
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-8
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
 3. Click the login button
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
-6. Click the approve button in the row of the specific case to be\\
+6. Click the approve button in the row of the specific case to be
    approved
 7. Verify the status is changed to "in progress"
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-8
-     :END:
+***** Test Data
 
-| Report ID   | Status    |
-|-------------+-----------|
-| 1           | on hold   |
-| 2           | on hold   |
-| 3           | on hold   |
-| 4           | on hold   |
-| 5           | on hold   |
-| 6           | on hold   |
+| Report ID | Status  |
+|-----------+---------|
+|         1 | on hold |
+|         2 | on hold |
+|         3 | on hold |
+|         4 | on hold |
+|         5 | on hold |
+|         6 | on hold |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-8
-     :END:
+***** Expected Results
 
-The status of the report will be changed to "in progress" and the\\
+The status of the report will be changed to "in progress" and the
 public will be able to see it.
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-8
-     :END:
+***** Actual Results
 
--  Test 1: The status is changed and the public sees the report
--  Test 2: The status is changed and the public sees the report
--  Test 3: The status is changed and the public sees the report
--  Test 4: The status is changed and the public sees the report
--  Test 5: The status is changed and the public sees the report
--  Test 6: The status is changed and the public sees the report
+- Test 1 :: The status is changed and the public sees the report
+- Test 2 :: The status is changed and the public sees the report
+- Test 3 :: The status is changed and the public sees the report
+- Test 4 :: The status is changed and the public sees the report
+- Test 5 :: The status is changed and the public sees the report
+- Test 6 :: The status is changed and the public sees the report
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-8
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-8
-     :END:
+***** Date Executed
 
 2018-04-06
 
---------------
+**** TC12
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-9
-     :END:
-
-TC12
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-9
-     :END:
+***** Test Case Name
 
 Assign Official Report Number
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-9
-     :END:
+***** Requirements Covered
 
 REQ 17
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-9
-     :END:
+***** Test Setup
 
 A report has been submitted and has been approved
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-9
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
@@ -3953,93 +3681,60 @@ A report has been submitted and has been approved
 6. Click on a report to view a more detailed report page
 7. Update the report by assigning it an official police report number
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-9
-     :END:
+***** Test Data
 
-| Report Numbers   |
-|------------------|
-| 111111           |
-| 222222           |
-| 333333           |
-| 444444           |
-| 555555           |
-| 666666           |
+| Report Numbers |
+|----------------|
+|         111111 |
+|         222222 |
+|         333333 |
+|         444444 |
+|         555555 |
+|         666666 |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-9
-     :END:
+***** Expected Results
 
 The report will have an official report number assigned to it
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-9
-     :END:
+***** Actual Results
 
--  Test 1: The report has an official report number
--  Test 2: The report has an official report number
--  Test 3: The report has an official report number
--  Test 4: The report has an official report number
--  Test 5: The report has an official report number
--  Test 6: The report has an official report number
+- Test 1 :: The report has an official report number
+- Test 2 :: The report has an official report number
+- Test 3 :: The report has an official report number
+- Test 4 :: The report has an official report number
+- Test 5 :: The report has an official report number
+- Test 6 :: The report has an official report number
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-9
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-9
-     :END:
+***** Date Executed
 
 2018-04-06
 
---------------
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-10
-     :END:
+**** TC13
 
-TC13
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-10
-     :END:
+***** Test Case Name
 
 Categorize Missing People
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-10
-     :END:
+***** Requirements Covered
 
 REQ 19
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-10
-     :END:
+***** Test Setup
 
-A report has been added to the system and law enforcement is logged\\
+A report has been added to the system and law enforcement is logged
 in.
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-10
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
@@ -4047,96 +3742,62 @@ in.
 4. Verify you are taken to the Law Enforcement home page
 5. View all reports in a table on the home page
 6. Click on a report to view a more detailed report page
-7. Update the report by assigning it a type of missing person based on\\
+7. Update the report by assigning it a type of missing person based on
    set categories
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-10
-     :END:
+***** Test Data
 
-| Report ID   | Category            |
-|-------------+---------------------|
-| 1           | Romeo and Juliet    |
-| 2           | Romeo and Juliet    |
-| 3           | Runaway             |
-| 4           | Runaway             |
-| 5           | Substance Abuser    |
-| 6           | Human Trafficking   |
+| Report ID | Category          |
+|-----------+-------------------|
+|         1 | Romeo and Juliet  |
+|         2 | Romeo and Juliet  |
+|         3 | Runaway           |
+|         4 | Runaway           |
+|         5 | Substance Abuser  |
+|         6 | Human Trafficking |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-10
-     :END:
+***** Expected Results
 
 The report will have a category
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-10
-     :END:
+***** Actual Results
 
--  Test 1: The report has a category
--  Test 2: The report has a category
--  Test 3: The report has a category
--  Test 4: The report has a category
--  Test 5: The report has a category
--  Test 6: The report has a category
+- Test 1 :: The report has a category
+- Test 2 :: The report has a category
+- Test 3 :: The report has a category
+- Test 4 :: The report has a category
+- Test 5 :: The report has a category
+- Test 6 :: The report has a category
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-10
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-10
-     :END:
+***** Date Executed
 
 2018-04-06
 
---------------
+**** TC14
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-11
-     :END:
-
-TC14
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-11
-     :END:
+***** Test Case Name
 
 Update Case Information
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-11
-     :END:
+***** Requirements Covered
 
 REQ 24, REQ 25
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-11
-     :END:
+***** Test Setup
 
-Law enforcement is logged in and is viewing the detailed report view\\
+Law enforcement is logged in and is viewing the detailed report view
 for an individual report
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-11
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
@@ -4146,93 +3807,59 @@ for an individual report
 6. Click on a report to view a more detailed report page
 7. Update any of the editable fields pertaining to the report
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-11
-     :END:
+***** Test Data
 
-| Report ID   | Category            |
-|-------------+---------------------|
-| 1           | Human Trafficking   |
-| 2           | Human Trafficking   |
-| 3           | Romeo and Juliet    |
-| 4           | Human Trafficking   |
-| 5           | Runaway             |
-| 6           | Substance Abuser    |
+| Report ID | Category          |
+|-----------+-------------------|
+|         1 | Human Trafficking |
+|         2 | Human Trafficking |
+|         3 | Romeo and Juliet  |
+|         4 | Human Trafficking |
+|         5 | Runaway           |
+|         6 | Substance Abuser  |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-11
-     :END:
+***** Expected Results
 
 The category for the report will be updated
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-11
-     :END:
+***** Actual Results
 
--  Test 1: The report category is updated
--  Test 2: The report category is updated
--  Test 3: The report category is updated
--  Test 4: The report category is updated
--  Test 5: The report category is updated
--  Test 6: The report category is updated
+- Test 1 :: The report category is updated
+- Test 2 :: The report category is updated
+- Test 3 :: The report category is updated
+- Test 4 :: The report category is updated
+- Test 5 :: The report category is updated
+- Test 6 :: The report category is updated
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-11
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-11
-     :END:
+***** Date Executed
 
 2018-04-06
 
---------------
+**** TC15
 
-**** Test Case ID
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-id-12
-     :END:
-
-TC15
-
-**** Test Case Name
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-name-12
-     :END:
+***** Test Case Name
 
 Mark as Found
 
-**** Requirements Covered
-     :PROPERTIES:
-     :CUSTOM_ID: requirements-covered-12
-     :END:
+***** Requirements Covered
 
 REQ 26, REQ 27
 
-**** Test Setup
-     :PROPERTIES:
-     :CUSTOM_ID: test-setup-12
-     :END:
+***** Test Setup
 
-A report has been submitted, is active, and law enforcement has logged\\
+A report has been submitted, is active, and law enforcement has logged
 in and is viewing the table on their dashboard
 
-**** Test Case Steps
-     :PROPERTIES:
-     :CUSTOM_ID: test-case-steps-12
-     :END:
+***** Test Case Steps
 
 1. Enter the email
 2. Enter the password
@@ -4242,55 +3869,40 @@ in and is viewing the table on their dashboard
 6. Click on a report to view a more detailed report page
 7. Change the report from "Missing" to "Found"
 
-**** Test Data
-     :PROPERTIES:
-     :CUSTOM_ID: test-data-12
-     :END:
+***** Test Data
 
-| Report ID   | Status    |
-|-------------+-----------|
-| 1           | on hold   |
-| 2           | on hold   |
-| 3           | on hold   |
-| 4           | on hold   |
-| 5           | on hold   |
-| 6           | on hold   |
+| Report ID | Status  |
+|-----------+---------|
+|         1 | on hold |
+|         2 | on hold |
+|         3 | on hold |
+|         4 | on hold |
+|         5 | on hold |
+|         6 | on hold |
 
-**** Expected Results
-     :PROPERTIES:
-     :CUSTOM_ID: expected-results-12
-     :END:
+***** Expected Results
 
 The report has a status of "found" and the public can still view it
 
-**** Actual Results
-     :PROPERTIES:
-     :CUSTOM_ID: actual-results-12
-     :END:
+***** Actual Results
 
--  Test 1: The report has a status of "found"
--  Test 2: The report has a status of "found"
--  Test 3: The report has a status of "found"
--  Test 4: The report has a status of "found"
--  Test 5: The report has a status of "found"
--  Test 6: The report has a status of "found"
+- Test 1 :: The report has a status of "found"
+- Test 2 :: The report has a status of "found"
+- Test 3 :: The report has a status of "found"
+- Test 4 :: The report has a status of "found"
+- Test 5 :: The report has a status of "found"
+- Test 6 :: The report has a status of "found"
 
-**** Passed/Failed
-     :PROPERTIES:
-     :CUSTOM_ID: passedfailed-12
-     :END:
+***** Passed/Failed
 
--  Test 1: PASSED
--  Test 2: PASSED
--  Test 3: PASSED
--  Test 4: PASSED
--  Test 5: PASSED
--  Test 6: PASSED
+- Test 1 :: PASSED
+- Test 2 :: PASSED
+- Test 3 :: PASSED
+- Test 4 :: PASSED
+- Test 5 :: PASSED
+- Test 6 :: PASSED
 
-**** Date Executed
-     :PROPERTIES:
-     :CUSTOM_ID: date-executed-12
-     :END:
+***** Date Executed
 
 2018-04-06
 
