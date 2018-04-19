@@ -747,8 +747,8 @@ pages:
 
 *** Register Page
 
-The register page should have fields for people to enter basic
-information and create an account.
+- The register page should have fields for people to enter basic
+  information and create an account.
 
 *** Account Page
 
