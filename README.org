@@ -3907,97 +3907,70 @@ The report has a status of "found" and the public can still view it
 2018-04-06
 
 * Project Management
-  :PROPERTIES:
-  :CUSTOM_ID: project-management
-  :END:
 
-** 12.1 Project Plan
-   :PROPERTIES:
-   :CUSTOM_ID: project-plan-1
-   :END:
+** Project Plan
 
-*** 12.1.1 Gantt Chart
-    :PROPERTIES:
-    :CUSTOM_ID: gantt-chart-1
-    :END:
+*** Gantt Chart
 
-See\\
-[[file:media/MIMS_Project_Plan_FINAL_Gantt.pdf]]\\
-for the Gantt chart PDF file.
+See [[file:media/MIMS_Project_Plan_FINAL_Gantt.pdf]] for the Gantt
+chart PDF file.
 
-*** 12.1.2 Task Breakdown
-    :PROPERTIES:
-    :CUSTOM_ID: task-breakdown-1
-    :END:
+*** Task Breakdown
 
-See\\
-[[file:media/MIMS_Project_Plan_FINAL_Tasks.pdf]]\\
-for the task breakdown PDF file.
+See [[file:media/MIMS_Project_Plan_FINAL_Tasks.pdf]] for the task
+breakdown PDF file.
 
-** 12.2 Risk Management
-   :PROPERTIES:
-   :CUSTOM_ID: risk-management
-   :END:
+** Risk Management
 
 *** Sensitive data being misused
-    :PROPERTIES:
-    :CUSTOM_ID: sensitive-data-being-misused
-    :END:
-
-1.  Risk Details
-2.  Personal data about missing people will be maintained in the\\
-    database for Law Enforcement to access
-3.  There will need to be restrictions to what data the Concerned\\
-    Public can see
-4.  The integrity of the data needs to be retained
-5.  Risk Assessment
-6.  Likelihood: 5
-7.  Impact: 10
-8.  Cost: 10
-9.  Rank: 60
-10. Mitigation Plan: Our mitigation plan for this is to create roles
-    in\\
-    the database and assign them to users (Public or Law Enforcement).\\
-    This assigned role will affect the interface the user will see on\\
-    the home page when they login.
-
-*** High volumes of data are not managed
-    :PROPERTIES:
-    :CUSTOM_ID: high-volumes-of-data-are-not-managed
-    :END:
 
 1. Risk Details
-2. The data needs to be stored in a way that makes sense
-3. It needs to be easily accessed and analyzed
-4. Risk Assessment
-5. Likelihood: 8
-6. Impact: 5
-7. Cost: 2
-8. Rank: 36
-9. Mitigation Plan: Our mitigation plan for this is to take extra time\\
-   to plan and map out the database tables. We plan to do our best to\\
-   organize the tables in a way that relates the data in a meaningful\\
+   1. Personal data about missing people will be maintained in the
+      database for Law Enforcement to access
+   2. There will need to be restrictions to what data the Concerned
+      Public can see
+   3. The integrity of the data needs to be retained
+2. Risk Assessment
+   1. Likelihood: 5
+   2. Impact: 10
+   3. Cost: 10
+3. Rank: 60
+4. Mitigation Plan: Our mitigation plan for this is to create roles in
+   the database and assign them to users (Public or Law Enforcement).
+   This assigned role will affect the interface the user will see on
+   the home page when they login.
+
+*** High volumes of data are not managed
+
+1. Risk Details
+   1. The data needs to be stored in a way that makes sense
+   2. It needs to be easily accessed and analyzed
+2. Risk Assessment
+   1. Likelihood: 8
+   2. Impact: 5
+   3. Cost: 2
+3. Rank: 36
+4. Mitigation Plan: Our mitigation plan for this is to take extra time
+   to plan and map out the database tables. We plan to do our best to
+   organize the tables in a way that relates the data in a meaningful
    way as well as ensures the integrity of the data.
 
 *** Image files are not managed/stored properly
-    :PROPERTIES:
-    :CUSTOM_ID: image-files-are-not-managedstored-properly
-    :END:
 
 1. Risk Details
-2. Images need to be stored in a way that they are easily accessed\\
-   and associated with the correct missing person report
-3. The images need to be managed so they do not take up enormous\\
-   amounts of space
-4. Risk Assessment:
-5. Likelihood: 5
-6. Impact: 7
-7. Costs: 8
-8. Rank: 192
-9. Mitigation Plan: Our mitigation plan is to look into the best way\\
-   to store large amounts of image files and the best way to maintain\\
-   their relationship to a specific entry in the database. This will\\
-   ensure that all photos related to a specific missing person case\\
+   1. Images need to be stored in a way that they are easily accessed
+      and associated with the correct missing person report
+   2. The images need to be managed so they do not take up enormous
+      amounts of space
+2. Risk Assessment
+   1. Likelihood: 5
+   2. Impact: 7
+   3. Costs: 8
+3. Rank: 192
+4. Mitigation Plan: Our mitigation plan is to look into the best way
+   to store large amounts of image files and the best way to maintain
+   their relationship to a specific entry in the database. This will
+   ensure that all photos related to a specific missing person case
    are accessible and reliably associated with that case.
 
 * References
