@@ -1926,34 +1926,42 @@ application.
 
 *** Use Case 7
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase7.png]]
 
 *** Use Case 8
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase8.png]]
 
 *** Use Case 9
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase9.png]]
 
 *** Use Case 10
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase10updated.png]]
 
 *** Use Case 11
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase11.png]]
 
 *** Use Case 12
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase12.png]]
 
 *** Use Case 13
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase13.png]]
 
 *** Use Case 14
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.01.SequenceDiagrams.UseCase14.png]]
 
 ** Interface Specification
@@ -1976,6 +1984,7 @@ Our application utilizes the following Data Structures:
 
 ** State Diagrams
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/07.03.StateDiagrams.png]]
 
 * System Architecture and System Design
@@ -2023,6 +2032,7 @@ Our application uses standard network ports and protocols.
 
 ** Global Control Flow
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/globalcontrolflow.jpg]]
 
 ** Hardware Requirements
@@ -2067,58 +2077,74 @@ their families.
 
 *** Home
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/home.PNG]]
 
 *** Register
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/register.PNG]]
 
 *** Login
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/login.PNG]]
 
 *** Account
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/account.PNG]]
 
 *** Law Enforcement Dashboard
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/le-dash1.PNG]]
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/le-dash2.PNG]]
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/le-dash3.PNG]]
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/le-dash4.PNG]]
 
 *** LE Detailed Report
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/le-report.PNG]]
 
 *** Public Dashboard
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/public-dash1.PNG]]
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/public-dash2.PNG]]
 
 *** Public Detailed Report
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/report-public.PNG]]
 
 *** Submit Report
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/submit.PNG]]
 
 *** Comments
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/comments.PNG]]
 
 *** Approve
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/approve.PNG]]
 
 *** Mark as Found
 
+#+ATTR_HTML: :width 50% :height 50%
 [[file:media/found.PNG]]
 
 * Testing
